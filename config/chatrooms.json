@@ -1,11 +1,11 @@
 [
 {"title":"Lobby","autojoin":true,"desc":"Our main room and a great place to have fun!"},
-{"title":"Staff","isPrivate":true,"staffRoom":true,"staffAutojoin":true,"auth":{"snaquaza":"@"}},
+{"title":"Staff","isPrivate":true,"staffRoom":true,"staffAutojoin":true,"auth":{"snaquaza":"@","realpresent":"@"}},
 {"title":"Mafia","desc":"This Room is the Room to play Mafia, a fun game!"},
-{"title":"Tervari Olympics","auth":{"firehound":"#","snaquaza":"@","adrianmarinbh":"@","asterat":"+","hdow":"+"},"desc":"The Official Room for our OM League named the Tervari Olympics"},
+{"title":"Tervari Olympics","auth":{"firehound":"#","snaquaza":"@","adrianmarinbh":"@","asterat":"+","hdow":"+","snaquille":"@","realpresent":"+"},"desc":"The Official Room for our OM League named the Tervari Olympics"},
 {"title":"Silver","isPrivate":true,"auth":{"umbreonqueen":"#"}},
 {"title":"Spheal Hole","isPrivate":true,"auth":{"aurr":"#"},"isOfficial":true},
 {"title":"Spammer's Paradise","isPrivate":true},
 {"title":"HazaLeague","isPrivate":true,"auth":{"kinghaza":"#"}},
-{"title":"MenceLeague","isPrivate":true,"auth":{"gardreigon982":"#","lightkyoyo":"@"}}
+{"title":"MenceLeague","isPrivate":true,"auth":{"gardreigon982":"#","lightkyoyo":"%","snaquaza":"+","noivernaction":"@","shinyzerox":"+"}}
 ]

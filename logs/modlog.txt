@@ -76,3 +76,35 @@
 [2013-10-27T13:12:07.834Z] (lobby) Zarel was warned by Kilt Skyrim. (Hakurrrr)
 [2013-10-27T13:12:19.808Z] (menceleague) Zarel was muted by Gardreigon982 for 7 minutes.
 [2013-10-27T13:17:28.970Z] (menceleague) Zarel was unmuted by Gardreigon982.
+[2013-10-27T13:25:48.369Z] (lobby) Zarel was warned by Ѕhаdow. (Errmahgerrd, hakuurrrrrr.)
+[2013-10-27T13:26:35.370Z] (lobby) ShinyZeroX was warned by Zarel. (u shutup)
+[2013-10-27T13:33:45.727Z] (menceleague) shadow is a fag was muted by Gardreigon982 for 7 minutes.
+[2013-10-27T13:34:07.881Z] (lobby) shadow is a fag was banned by Ѕhаdow. (2.26.26.33)
+[2013-10-27T13:58:52.310Z] (lobby) Naminé set modchat to +
+[2013-10-27T13:58:52.509Z] (lobby) Ѕhаdow set modchat to +
+[2013-10-27T13:58:55.055Z] (lobby) СοοlAsian was banned by SpartanMalice. (94.229.78.61)
+[2013-10-27T13:59:02.735Z] (lobby) Naminé set modchat to false
+[2013-10-27T14:00:53.552Z] (lobby) Naminé set modchat to +
+[2013-10-27T14:01:01.589Z] (lobby) Guest 68 was banned by SpartanMalice. (198.23.143.147)
+[2013-10-27T14:02:14.553Z] (menceleague) Snaquaza was appointed to Room Moderator by Gardreigon982.
+[2013-10-27T14:03:27.513Z] (lobby) Snaquaza temporarily banned the IP: 198.23.143.147
+[2013-10-27T14:03:39.428Z] (staff) Oiawesome was promoted to Voice by Snaquaza.
+[2013-10-27T14:05:07.262Z] (lobby) Naminé set modchat to false
+[2013-10-27T14:05:52.237Z] (menceleague) ShinyZeroX was appointed to Room Voice by Gardreigon982.
+[2013-10-27T14:08:16.336Z] (lobby) (Ѕhаdow was forcibly renamed to Spider by Snaquaza.)
+[2013-10-27T14:24:04.039Z] (battle-pokebankoubeta-24) Naminé forced a win for realpresent.
+[2013-10-27T14:25:11.552Z] (lobby) Snaquaza declared Tervari Mons are able to be used again
+[2013-10-27T14:30:03.468Z] (menceleague) (ShinyZeroX was appointed to Room a regular user by Gardreigon982.)
+[2013-10-27T14:30:42.691Z] (menceleague) Gardreigon982 declared Tervari OU Tournament
+[2013-10-27T14:34:51.933Z] (menceleague) (Snaquaza was appointed to Room Driver by Gardreigon982.)
+[2013-10-27T14:35:20.196Z] (menceleague) (Snaquaza was appointed to Room Voice by Gardreigon982.)
+[2013-10-27T14:35:44.317Z] (menceleague) (Lightkyoyo was appointed to Room Driver by Gardreigon982.)
+[2013-10-27T14:36:58.031Z] (lobby) Gardreigon982 was warned by Ѕhаdow. (Stretch.)
+[2013-10-27T14:51:19.443Z] (staff) All bans and locks have been lifted by Snaquaza.
+[2013-10-27T15:14:07.194Z] (tervariolympics) Snaquille was appointed to Room Moderator by Snaquille.
+[2013-10-27T15:14:10.977Z] (tervariolympics) RealPresent was appointed to Room Voice by Snaquille.
+[2013-10-27T15:17:58.745Z] (staff) RealPresent was promoted to Administrator by RealPresent.
+[2013-10-27T15:20:04.859Z] (staff) RealPresent was appointed to Room Moderator by RealPresent.
+[2013-10-27T15:25:24.507Z] (menceleague) NoivernAction was appointed to Room Moderator by Gardreigon982.
+[2013-10-27T15:29:23.786Z] (menceleague) ShinyZeroX was appointed to Room Voice by NoivernAction.
+[2013-10-27T15:33:38.104Z] (lobby) Cychaіnix was warned by Ѕhаdow. (Stay dead, fool.)
