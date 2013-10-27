@@ -16,7 +16,7 @@ exports.BattleMovedex = {
 		inherit: true,
 		basePower: 90
 	},
-	feintattack: {
+	faintattack: {
 		inherit: true,
 		basePower: 90
 	},
@@ -521,18 +521,17 @@ exports.BattleMovedex = {
 			duration: 2,
 			onLockMove: 'bide',
 			onStart: function(pokemon) {
-				if (pokemon.removeVolatile('bidestall') || pokemon.hp <= 1) return false;
-				pokemon.addVolatile('bidestall');
+				if (pokemon.hp <= 1 || pokemon.lastMove === 'bide') return false;
 				this.effectData.totalDamage = 0;
 				this.add('-start', pokemon, 'Bide');
 			},
 			onDamagePriority: -11,
-			onDamage: function(damage, target, source, effect) {
-				if (!effect || effect.effectType !== 'Move') return;
-				if (!source || source.side === target.side) return;
+			onDamage: function(damage, target, source, move) {
 				if (effect && effect.effectType === 'Move' && damage >= target.hp) {
 					damage = target.hp-1;
 				}
+				if (!move || move.effectType !== 'Move') return;
+				if (!source || source.side === target.side) return;
 				this.effectData.totalDamage += damage;
 				this.effectData.sourcePosition = source.position;
 				this.effectData.sourceSide = source.side;
@@ -541,7 +540,6 @@ exports.BattleMovedex = {
 			onAfterSetStatus: function(status, pokemon) {
 				if (status.id === 'slp') {
 					pokemon.removeVolatile('bide');
-					pokemon.removeVolatile('bidestall');
 				}
 			},
 			onBeforeMove: function(pokemon) {
@@ -1064,13 +1062,13 @@ exports.BattleMovedex = {
 		}
 	},
 	/******************************************************************
-	High Jump Kick:
+	Hi Jump Kick:
 	- 100 bp
 
 	Justification:
 	- Blaziken nerf
 	******************************************************************/
-	highjumpkick: {
+	hijumpkick: {
 		inherit: true,
 		basePower: 100
 	},

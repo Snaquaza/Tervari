@@ -1,12 +1,15 @@
-/**
- * Gen 3 moves
- */
 function clampIntRange(num, min, max) {
 	num = Math.floor(num);
 	if (num < min) num = min;
 	if (typeof max !== 'undefined' && num > max) num = max;
 	return num;
 }
+/*
+Hidden Power's status as a physical/special move plagued me.  I tested it and it never seemed to work no matter what I did.
+Marty told me the way I did it was correct - testing it on kupo's server failed, however.
+It is possible kupo just forgot to update it.
+-Relados
+*/
 exports.BattleMovedex = {
 	absorb: {
 		inherit: true,
@@ -61,12 +64,49 @@ exports.BattleMovedex = {
 	beatup: {
 		inherit: true,
 		basePower: 10,
-		basePowerCallback: null
+		basePowerCallback: undefined,
+		desc: "Does one hit for the user and each other unfainted non-egg active and non-active Pokemon on the user's side without a status problem."
 	},
 	bide: {
 		inherit: true,
-		accuracy: 100,
-		priority: 0
+		desc: "The user spends two to three turns locked into this move and then, on the second turn after using this move, the user attacks the last Pokemon that hit it, inflicting double the damage in HP it lost during the two turns. If the last Pokemon that hit it is no longer on the field, the user attacks a random foe instead. If the user is prevented from moving during this move's use, the effect ends. This move ignores Accuracy and Evasion modifiers and can hit Ghost-types. Makes contact. Priority +1.",
+		shortDesc: "Waits 2-3 turns; deals double the damage taken.",
+		priority: 0,
+		effect: {
+			duration: 2,	// TODO: Use correct duration.
+			onLockMove: 'bide',
+			onStart: function(pokemon) {
+				this.effectData.totalDamage = 0;
+				this.add('-start', pokemon, 'Bide');
+			},
+			onDamage: function(damage, target, source, move) {
+				if (!move || move.effectType !== 'Move') return;
+				if (!source || source.side === target.side) return;
+				this.effectData.totalDamage += damage;
+				this.effectData.sourcePosition = source.position;
+				this.effectData.sourceSide = source.side;
+			},
+			onAfterSetStatus: function(status, pokemon) {
+				if (status.id === 'slp') {
+					pokemon.removeVolatile('bide');
+				}
+			},
+			onBeforeMove: function(pokemon) {
+				if (this.effectData.duration === 1) {
+					if (!this.effectData.totalDamage) {
+						this.add('-fail', pokemon);
+						return false;
+					}
+					this.add('-end', pokemon, 'Bide');
+					var target = this.effectData.sourceSide.active[this.effectData.sourcePosition];
+					this.moveHit(target, pokemon, 'bide', {damage: this.effectData.totalDamage*2});
+					return false;
+				}
+				this.add('-message', pokemon.name+' is storing energy! (placeholder)');
+				return false;
+			}
+		},
+		type: "???"
 	},
 	bind: {
 		inherit: true,
@@ -82,6 +122,8 @@ exports.BattleMovedex = {
 	},
 	brickbreak: {
 		inherit: true,
+		desc: "Reflect and Light Screen are removed from the target's field even if the attack misses or the target is a Ghost-type.",
+		//shortDesc: "",
 		onTryHit: function(pokemon) {
 			pokemon.side.removeSideCondition('reflect');
 			pokemon.side.removeSideCondition('lightscreen');
@@ -110,7 +152,7 @@ exports.BattleMovedex = {
 			if (pokemon.lastAttackedBy && pokemon.lastAttackedBy.thisTurn && (this.getCategory(pokemon.lastAttackedBy.move) === 'Physical' || this.getMove(pokemon.lastAttackedBy.move).id === 'hiddenpower')) {
 				return 2 * pokemon.lastAttackedBy.damage;
 			}
-			this.add('-fail', pokemon);
+			this.add('-fail',pokemon.id);
 			return false;
 		}
 	},
@@ -148,6 +190,8 @@ exports.BattleMovedex = {
 	disable: {
 		inherit: true,
 		accuracy: 55,
+		desc: "The target cannot choose its last move for 4-7 turns. Disable only works on one move at a time and fails if the target has not yet used a move or if its move has run out of PP. The target does nothing if it is about to use a move that becomes disabled.",
+		//shortDesc: "",
 		isBounceable: false,
 		volatileStatus: 'disable',
 		effect: {
@@ -212,13 +256,15 @@ exports.BattleMovedex = {
 		desc: "Deals damage to one adjacent target, if it is asleep and does not have a Substitute. The user recovers half of the HP lost by the target, rounded up. If Big Root is held by the user, the HP recovered is 1.3x normal, rounded half down.",
 		onTryHit: function(target) {
 			if (target.status !== 'slp' || target.volatiles['substitute']) {
-				this.add('-immune', target, '[msg]');
+				this.add('-immune', target.id, '[msg]');
 				return null;
 			}
 		}
 	},
 	encore: {
 		inherit: true,
+		//desc: "",
+		//shortDesc: "",
 		isBounceable: false,
 		volatileStatus: 'encore',
 		effect: {
@@ -230,7 +276,7 @@ exports.BattleMovedex = {
 				var moveIndex = target.moves.indexOf(target.lastMove);
 				if (!target.lastMove || noEncore[target.lastMove] || (target.moveset[moveIndex] && target.moveset[moveIndex].pp <= 0)) {
 					// it failed
-					this.add('-fail', target);
+					this.add('-fail',target);
 					delete target.volatiles['encore'];
 					return;
 				}
@@ -268,7 +314,8 @@ exports.BattleMovedex = {
 	},
 	explosion: {
 		inherit: true,
-		basePower: 500
+		basePower: 500,
+		//desc: ""
 	},
 	extrasensory: {
 		inherit: true,
@@ -279,14 +326,16 @@ exports.BattleMovedex = {
 	},
 	extremespeed: {
 		inherit: true,
+		shortDesc: "Usually goes first.",
 		priority: 1
 	},
-	feintattack: {
+	faintattack: {
 		inherit: true,
 		isContact: false
 	},
 	fakeout: {
 		inherit: true,
+		shortDesc: "Usually hits first; first turn out only; target flinch.",
 		priority: 1,
 		isContact: false
 	},
@@ -296,7 +345,7 @@ exports.BattleMovedex = {
 		basePower: 15
 	},
 	flail: {
-		inherit: true,
+		num: 175,
 		accuracy: 100,
 		basePower: 0,
 		basePowerCallback: function(pokemon, target) {
@@ -318,7 +367,11 @@ exports.BattleMovedex = {
 			}
 			return 20;
 		},
+		desc: "Deals damage to one adjacent target based on the amount of HP the user has left. X is equal to (user's current HP * 48 / user's maximum HP), rounded down; the base power of this attack is 20 if X is 33 to 48, 40 if X is 17 to 32, 80 if X is 10 to 16, 100 if X is 5 to 9, 150 if X is 2 to 4, and 200 if X is 0 or 1. Makes contact.",
+		shortDesc: "More power the less HP the user has left.",
+		id: "flail",
 		isViable: true,
+		name: "Flail",
 		pp: 15,
 		priority: 0,
 		isContact: true,
@@ -363,6 +416,8 @@ exports.BattleMovedex = {
 	},
 	growth: {
 		inherit: true,
+		desc: "Raises the user's Special Attack by 1 stage.",
+		shortDesc: "Boosts the user's Sp. Atk by 1.",
 		onModifyMove: null,
 		boosts: {
 			spa: 1
@@ -375,6 +430,8 @@ exports.BattleMovedex = {
 		basePowerCallback: function(pokemon) {
 			return pokemon.hpPower || 70;
 		},
+		desc: "Deals damage to one adjacent target. This move's type and power depend on the user's individual values (IVs). Power varies between 30 and 70, and type can be any but Normal.",
+		shortDesc: "Varies in power and type based on the user's IVs.",
 		id: "hiddenpower",
 		isViable: true,
 		name: "Hidden Power",
@@ -387,14 +444,16 @@ exports.BattleMovedex = {
 		target: "normal",
 		type: "Normal"
 	},
-	highjumpkick: {
+	hijumpkick: {
 		inherit: true,
 		basePower: 85,
+		desc: "If this attack misses the target, the user takes half of the damage it would have dealt in recoil damage.",
+		shortDesc: "User takes half damage it would have dealt if miss.",
 		pp: 20,
 		onMoveFail: function(target, source, move) {
-			if (target.runImmunity('Fighting')) {
+			if (target.type !== 'ghost') {
 				var damage = this.getDamage(source, target, move, true);
-				this.damage(clampIntRange(damage/2, 1, Math.floor(target.maxhp/2)), source);
+				this.damage(clampIntRange(damage/8, 1, Math.floor(target.maxhp/2)), source);
 			}
 		}
 	},
@@ -409,12 +468,12 @@ exports.BattleMovedex = {
 	jumpkick: {
 		inherit: true,
 		basePower: 70,
+		desc: "If this attack misses the target, the user takes half of the damage it would have dealt in recoil damage.",
+		shortDesc: "User takes half damage it would have dealt if miss.",
 		pp: 25,
 		onMoveFail: function(target, source, move) {
-			if (target.runImmunity('Fighting')) {
-				var damage = this.getDamage(source, target, move, true);
-				this.damage(clampIntRange(damage/2, 1, Math.floor(target.maxhp/2)), source);
-			}
+			var damage = this.getDamage(source, target, move, true);
+			this.damage(clampIntRange(damage/2, 1, Math.floor(target.maxhp/2)), source);
 		}
 	},
 	leafblade: {
@@ -427,15 +486,21 @@ exports.BattleMovedex = {
 	},
 	minimize: {
 		inherit: true,
+		desc: "Raises the user's evasion by 1 stage. After using this move, Astonish, Extrasensory, Needle Arm, and Stomp will have their power doubled if used against the user while it is active.",
+		shortDesc: "Boosts the user's evasion by 1.",
 		boosts: {
 			evasion: 1
 		}
 	},
 	mirrormove: {
-		inherit: true,
+		num: 119,
 		accuracy: true,
 		basePower: 0,
 		category: "Status",
+		desc: "The user uses the last move used by a selected adjacent target. The copied move is used against that target, if possible. Fails if the target has not yet used a move, or the last move used was Acupressure, After You, Aromatherapy, Chatter, Conversion 2, Counter, Curse, Doom Desire, Feint, Final Gambit, Focus Punch, Future Sight, Gravity, Guard Split, Hail, Haze, Heal Bell, Heal Pulse, Helping Hand, Light Screen, Lucky Chant, Me First, Mimic, Mirror Coat, Mist, Mud Sport, Nature Power, Perish Song, Power Split, Psych Up, Quick Guard, Rain Dance, Reflect, Reflect Type, Role Play, Safeguard, Sandstorm, Sketch, Spikes, Spit Up, Stealth Rock, Struggle, Sunny Day, Tailwind, Toxic Spikes, Transform, Water Sport, Wide Guard, or any move that is self-targeting.",
+		shortDesc: "User uses the target's last used move against it.",
+		id: "mirrormove",
+		name: "Mirror Move",
 		pp: 20,
 		priority: 0,
 		isNotProtectable: true,
@@ -454,7 +519,10 @@ exports.BattleMovedex = {
 	},
 	naturepower: {
 		inherit: true,
-		accuracy: true,
+		accuracy: 95,
+		onModifyMove: function(move) {
+			move.accuracy = true;
+		},
 		onHit: function(target) {
 			this.useMove('swift', target);
 		}
@@ -500,6 +568,7 @@ exports.BattleMovedex = {
 	},
 	protect: {
 		inherit: true,
+		//desc: "",
 		priority: 3
 	},
 	recover: {
@@ -529,20 +598,8 @@ exports.BattleMovedex = {
 	},
 	selfdestruct: {
 		inherit: true,
-		basePower: 400
-	},
-	skillswap: {
-		inherit: true,
-		onHit: function(target, source) {
-			var targetAbility = target.ability;
-			var sourceAbility = source.ability;
-			if (!target.setAbility(sourceAbility) || !source.setAbility(targetAbility)) {
-				target.ability = targetAbility;
-				source.ability = sourceAbility;
-				return false;
-			}
-			this.add('-activate', source, 'move: Skill Swap');
-		}
+		basePower: 400,
+		//desc: ""
 	},
 	spikes: {
 		inherit: true,
@@ -566,9 +623,13 @@ exports.BattleMovedex = {
 		boosts: false
 	},
 	struggle: {
-		inherit: true,
+		num: 165,
 		accuracy: true,
 		basePower: 50,
+		desc: "Deals typeless damage to one adjacent foe at random. If this move was successful, the user loses 1/2 of the damage dealt, rounded half up; the Ability Rock Head does not prevent this. This move can only be used if none of the user's known moves can be selected. Makes contact.",
+		shortDesc: "User loses half of the damage dealt as recoil.",
+		id: "struggle",
+		name: "Struggle",
 		pp: 1,
 		noPPBoosts: true,
 		priority: 0,
@@ -591,6 +652,8 @@ exports.BattleMovedex = {
 	},
 	tailglow: {
 		inherit: true,
+		desc: "Raises the user's Special Attack by 2 stages.",
+		shortDesc: "Boosts the user's Sp. Atk by 2.",
 		boosts: {
 			spa: 2
 		}
@@ -650,6 +713,8 @@ exports.BattleMovedex = {
 	},
 	volttackle: {
 		inherit: true,
+		desc: "Deals damage to one adjacent target. If the target lost HP, the user takes recoil damage equal to 33% that HP, rounded half up, but not less than 1HP. Makes contact.",
+		shortDesc: "Has 1/3 recoil.",
 		recoil: [1,3],
 		secondary: false
 	},
@@ -668,6 +733,8 @@ exports.BattleMovedex = {
 	},
 	wish: {
 		inherit: true,
+		//desc: "",
+		shortDesc: "Next turn, heals 50% of the recipient's max HP.",
 		effect: {
 			duration: 2,
 			onResidualOrder: 2,

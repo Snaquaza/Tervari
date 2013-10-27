@@ -295,426 +295,814 @@ exports.Formats = [
 		ruleset: ['Pokemon', 'HP Percentage Mod']
 	},
 
-	// Other Metagames
-	///////////////////////////////////////////////////////////////////
+////////////////Tervari Tiers
+///////////////////////////////////////////////////////////////////////////////////////////
+        {
+                name: "Tervari Random Battle",
+                section: "Tervari Random Tiers",
 
-	{
-		name: "[Gen 5] Ability Exchange",
-		section: "OM of the Month",
+                mod: 'tervari',
+                canUseRandomTeam: true,
+                team: 'random',
+                ruleset: ['PotD', 'Pokemon', 'Sleep Clause Mod', 'HP Percentage Mod']
+        },
+        {
+                name: "Tervari Challenge Cup",
+                section: "Tervari Random Tiers",
 
-		mod: 'gen5',
-		ruleset: ['Pokemon', 'Ability Exchange Pokemon', 'Sleep Clause Mod', 'Species Clause', 'OHKO Clause', 'Moody Clause', 'Evasion Moves Clause', 'HP Percentage Mod', 'Team Preview'],
-		banlist: ['Unreleased', 'Illegal', 'Ignore Illegal Abilities', 'Drizzle ++ Swift Swim', 'Soul Dew', 'Drought ++ Chlorophyll', 'Sand Stream ++ Sand Rush',
-			'Mewtwo', 'Lugia', 'Ho-Oh', 'Blaziken', 'Kyogre', 'Groudon', 'Rayquaza', 'Deoxys', 'Deoxys-Attack', 'Deoxys-Defense', 'Deoxys-Speed', 'Dialga', 'Palkia', 'Giratina', 'Giratina-Origin', 'Manaphy', 'Darkrai', 'Shaymin-Sky',
-			'Arceus', 'Arceus-Bug', 'Arceus-Dark', 'Arceus-Dragon', 'Arceus-Electric', 'Arceus-Fighting', 'Arceus-Fire', 'Arceus-Flying', 'Arceus-Ghost', 'Arceus-Grass', 'Arceus-Ground', 'Arceus-Ice', 'Arceus-Poison', 'Arceus-Psychic', 'Arceus-Rock', 'Arceus-Steel', 'Arceus-Water',
-			'Excadrill', 'Tornadus-Therian', 'Thundurus', 'Reshiram', 'Zekrom', 'Landorus', 'Kyurem-White', 'Genesect', 'Slaking', 'Regigigas'
+                mod: 'tervari',
+                team: 'randomCC',
+                canUseRandomTeam: true,
+                ruleset: ['PotD', 'Pokemon', 'HP Percentage Mod']
+        },
+        {
+                name: "Tervari Challenge Cup 1-vs-1",
+                section: "Tervari Random Tiers",
+
+                mod: 'tervari',
+                team: 'randomCC',
+                canUseRandomTeam: true,
+                ruleset: ['PotD', 'Pokemon', 'Team Preview 1v1', 'HP Percentage Mod'],
+                onBegin: function() {
+                        this.debug('Cutting down to 1');
+                        this.p1.pokemon = this.p1.pokemon.slice(0, 1);
+                        this.p1.pokemonLeft = this.p1.pokemon.length;
+                        this.p2.pokemon = this.p2.pokemon.slice(0, 1);
+                        this.p2.pokemonLeft = this.p2.pokemon.length;
+                }
+        },
+        {
+                name: "Tervari OU",
+                section: "Tervari Tiers",
+
+                mod: 'tervari',
+                ruleset: ['Standard', 'Evasion Abilities Clause', 'Team Preview'],
+                banlist: ['Uber']        
+        },
+        {
+                name: "Tervari Ubers",
+                section: "Tervari Tiers",
+
+                mod: 'tervari',
+                ruleset: ['Team Preview', 'Sleep Clause Mod', 'Standard Ubers'],
+                banlist: []
+        },
+        {
+                name: "Tervari MU",
+                section: "Tervari Tiers",
+
+                mod: 'tervari',
+                ruleset: ['OU'],
+                banlist: ['OU', 'BL', 'Drought', 'Sand Stream']
+        },
+        {
+                name: "Tervari UU",
+                section: "Tervari Tiers",
+
+                mod: 'tervari',
+                ruleset: ['OU'],
+                banlist: ['MU', 'BL2', 'Drought', 'Sand Stream']
+        },        
+        {
+                name: "Tervari RU",
+                section: "Tervari Tiers",
+
+                mod: 'tervari',
+                ruleset: ['UU'],
+                banlist: ['UU', 'BL3', 'Shell Smash + Baton Pass']
+        },
+        {
+                name: "Tervari NU",
+                section: "Tervari Tiers",
+
+                mod: 'tervari',
+                ruleset: ['RU'],
+                banlist: ['RU','BL4']
+        },
+        {
+                name: "Tervari PU",
+                section: "Tervari Tiers",
+
+                mod: 'tervari',
+                ruleset: ['NU'],
+                banlist: ['NU','BL5']
+        },
+        {
+                name: "Tervari LC",
+                section: "Tervari Tiers",
+
+                mod: 'tervari',
+                maxLevel: 5,
+                ruleset: ['Pokemon', 'Standard', 'Team Preview', 'Little Cup'],
+                banlist: ['Sonicboom', 'Dragon Rage', 'Berry Juice', 'Carvanha', 'Meditite', 'Gligar', 'Scyther', 'Sneasel', 'Tangela', 'Vulpix', 'Yanma', 'Soul Dew']
+        },
+
+        {
+                name: "Tervari Doubles",
+                section: "Tervari Double Tiers",
+
+                mod: 'tervari',
+                gameType: 'doubles',
+                ruleset: ['Pokemon', 'Team Preview', 'Sleep Clause Mod', 'Species Clause', 'OHKO Clause', 'Moody Clause', 'Evasion Moves Clause', 'Evasion Abilities Clause', 'HP Percentage Mod'],
+                banlist: ['Unreleased', 'Illegal', 'Sky Drop', 'Dark Void', 'Soul Dew',
+                        'Mewtwo',
+                        'Lugia',
+                        'Ho-Oh',
+                        'Kyogre',
+                        'Groudon',
+                        'Rayquaza',
+                        'Dialga',
+                        'Palkia',
+                        'Giratina', 'Giratina-Origin',
+                        'Arceus', 'Arceus-Bug', 'Arceus-Dark', 'Arceus-Dragon', 'Arceus-Electric', 'Arceus-Fighting', 'Arceus-Fire', 'Arceus-Flying', 'Arceus-Ghost', 'Arceus-Grass', 'Arceus-Ground', 'Arceus-Ice', 'Arceus', 'Arceus-Poison', 'Arceus-Psychic', 'Arceus-Rock', 'Arceus-Steel', 'Arceus-Water',
+                        'Reshiram',
+                        'Zekrom',
+                        'Kyurem-White'
+                ]
+        },
+        {
+                name: "Tervari Uber Doubles",
+                section: "Tervari Double Tiers",
+
+                mod: 'tervari',
+                gameType: 'doubles',
+                ruleset: ['Pokemon', 'Team Preview', 'Sleep Clause Mod', 'Species Clause', 'OHKO Clause', 'Moody Clause', 'Evasion Moves Clause', 'Evasion Abilities Clause', 'HP Percentage Mod'],
+                banlist: ['Unreleased', 'Illegal', 'Sky Drop']
+        },
+           // Doubles
+        ///////////////////////////////////////////////////////////////////
+
+        {
+		name: "Doubles VGC 2013",
+		section: 'Doubles',
+
+		gameType: 'doubles',
+		onBegin: function() {
+			this.debug('cutting down to 4');
+			this.p1.pokemon = this.p1.pokemon.slice(0,4);
+			this.p1.pokemonLeft = this.p1.pokemon.length;
+			this.p2.pokemon = this.p2.pokemon.slice(0,4);
+			this.p2.pokemonLeft = this.p2.pokemon.length;
+		},
+		maxForcedLevel: 50,
+		ruleset: ['Pokemon', 'Team Preview VGC', 'Species Clause', 'Item Clause'],
+		banlist: ['Unreleased', 'Illegal', 'Sky Drop', 'Dark Void', 'Soul Dew',
+			'Mewtwo',
+			'Mew',
+			'Lugia',
+			'Ho-Oh',
+			'Celebi',
+			'Kyogre',
+			'Groudon',
+			'Rayquaza',
+			'Jirachi',
+			'Deoxys', 'Deoxys-Attack', 'Deoxys-Speed', 'Deoxys-Defense',
+			'Chatot',
+			'Dialga',
+			'Palkia',
+			'Giratina', 'Giratina-Origin',
+			'Phione',
+			'Manaphy',
+			'Darkrai',
+			'Shaymin', 'Shaymin-Sky',
+			'Arceus', 'Arceus-Bug', 'Arceus-Dark', 'Arceus-Dragon', 'Arceus-Electric', 'Arceus-Fighting', 'Arceus-Fire', 'Arceus-Flying', 'Arceus-Ghost', 'Arceus-Grass', 'Arceus-Ground', 'Arceus-Ice', 'Arceus', 'Arceus-Poison', 'Arceus-Psychic', 'Arceus-Rock', 'Arceus-Steel', 'Arceus-Water',
+			'Victini',
+			'Reshiram',
+			'Zekrom',
+			'Kyurem', 'Kyurem-Black', 'Kyurem-White',
+			'Keldeo', 'Keldeo-Resolute',
+			'Meloetta',
+			'Genesect'
 		]
 	},
 	{
-		name: "[Gen 5 Seasonal] Octoberfest",
-		section: "OM of the Month",
+		name: "Smogon Doubles",
+		section: 'Doubles',
 
-		mod: 'gen5',
-		team: 'randomSeasonalOF',
-		ruleset: ['HP Percentage Mod', 'Sleep Clause Mod'],
-		onModifyMove: function(move) {
-			if (move.id === 'trick') {
-				delete move.onHit;
-				switch (this.random(17)) {
-				case 0:
-					move.onTryHit = function() {
-						this.add('-message', 'Trick: Kick on the nuts!');
-					};
-					move.category = 'Physical';
-					move.type = 'Normal';
-					move.basePower = 200;
-					break;
-				case 1:
-					move.onTryHit = function() {
-						this.add('-message', 'Trick: Fireworks at your feet!');
-					};
-					move.category = 'Special';
-					move.type = 'Fire';
-					move.basePower = 200;
-					break;
-				case 2:
-					move.onTryHit = function() {
-						this.add('-message', 'Trick: Doused with water!');
-					};
-					move.category = 'Special';
-					move.type = 'Water';
-					move.basePower = 200;
-					break;
-				case 3:
-					move.onTryHit = function() {
-						this.add('-message', 'Trick: Bombed with rotten eggs!');
-					};
-					move.category = 'Special';
-					move.type = 'Poison';
-					move.basePower = 200;
-					break;
-				case 4:
-					move.onTryHit = function() {
-						this.add('-message', 'Trick: You got scared by a real-looking costume!');
-					};
-					move.category = 'Special';
-					move.type = 'Dark';
-					move.basePower = 200;
-					break;
-				case 5:
-					move.onTryHit = function() {
-						this.add('-message', 'Trick: You got hit in the head!');
-					};
-					move.volatileStatus = 'confusion';
-					break;
-				case 6:
-					move.onTryHit = function() {
-						this.add('-message', 'Trick: Your arms were maimed!');
-					};
-					move.volatileStatus = 'disable';
-					break;
-				case 7:
-					move.onTryHit = function() {
-						this.add('-message', "Trick: You've been taunted by those meddling kids!");
-					};
-					move.volatileStatus = 'taunt';
-					break;
-				case 8:
-					move.onTryHit = function() {
-						this.add('-message', 'Treat: You got some yummy seeds!');
-					};
-					move.volatileStatus = 'leechseed';
-					break;
-				case 9:
-					move.onTryHit = function() {
-						this.add('-message', 'Trick: Your car was stolen!');
-					};
-					move.volatileStatus = 'embargo';
-					break;
-				case 10:
-					move.onTryHit = function() {
-						this.add('-message', "Trick: You're haunted and you're going to die!");
-					};
-					move.volatileStatus = 'perishsong';
-					break;
-				case 11:
-					move.onTryHit = function() {
-						this.add('-message', 'Trick: A ghost cursed you!');
-					};
-					move.volatileStatus = 'curse';
-					break;
-				case 12:
-					move.onTryHit = function() {
-						this.add('-message', "Trick: You're tormented by the constant tricking!");
-					};
-					move.volatileStatus = 'torment';
-					break;
-				case 13:
-					move.onTryHit = function() {
-						this.add('-message', 'Treat: Om nom nom roots!');
-					};
-					move.volatileStatus = 'ingrain';
-					break;
-				case 14:
-					move.onTryHit = function() {
-						this.add('-message', 'Treat: Uhm, these candy taste weird...');
-					};
-					var boosts = {};
-					var possibleBoosts = ['atk','def','spa','spd','spe','accuracy','evasion'].randomize();
-					boosts[possibleBoosts[0]] = 2;
-					boosts[possibleBoosts[1]] = -1;
-					boosts[possibleBoosts[2]] = -1;
-					move.boosts = boosts;
-					break;
-				case 15:
-					move.onTryHit = function() {
-						this.add('-message', "Trick: You're tired of running after teenagers with your baseball bat.");
-					};
-					move.volatileStatus = 'mustrecharge';
-					break;
-				case 16:
-					move.onTryHit = function() {
-						this.add('-message', "Treat: You got candy!");
-					};
-					move.heal = [1,2];
-					break;
-				}
-			} else if (move.id === 'present') {
-				move.accuracy = 100;
-				move.basePower = 0;
-				move.category = 'Status';
-				move.volatileStatus = 'confusion';
-				move.pp = 10;
-				move.priority = 0;
-				move.name = 'Offer Beer';
-				move.boosts = {'atk':-1, 'spa':-1, 'def':1, 'spd':1, 'spe':-1, 'accuracy':-1, 'evasion':1};
-				move.onTryHit = function() {
-					this.add('-message', "Oh, why, thank you! This beer is delicious!");
-				};
-				move.effect = {
-					onBeforeMove: function(pokemon, target, move) {
-						if (this.random(10) < 3) {
-							this.useMove('Sing', target);
-							return;
-						}
-					}
-				};
-			}
-		}
+		gameType: 'doubles',
+		ruleset: ['Pokemon', 'Team Preview', 'Sleep Clause Mod', 'Species Clause', 'OHKO Clause', 'Moody Clause', 'Evasion Moves Clause', 'Evasion Abilities Clause', 'HP Percentage Mod'],
+		banlist: ['Unreleased', 'Illegal', 'Sky Drop', 'Dark Void', 'Soul Dew',
+			'Mewtwo',
+			'Lugia',
+			'Ho-Oh',
+			'Kyogre',
+			'Groudon',
+			'Rayquaza',
+			'Dialga',
+			'Palkia',
+			'Giratina', 'Giratina-Origin',
+			'Arceus', 'Arceus-Bug', 'Arceus-Dark', 'Arceus-Dragon', 'Arceus-Electric', 'Arceus-Fighting', 'Arceus-Fire', 'Arceus-Flying', 'Arceus-Ghost', 'Arceus-Grass', 'Arceus-Ground', 'Arceus-Ice', 'Arceus', 'Arceus-Poison', 'Arceus-Psychic', 'Arceus-Rock', 'Arceus-Steel', 'Arceus-Water',
+			'Reshiram',
+			'Zekrom',
+			'Kyurem-White'
+		]
 	},
 	{
-		name: "[Gen 5] Challenge Cup",
-		section: "Other Metagames",
+		name: "Doubles Random Battle (dev)",
+		section: 'Doubles',
+		
+		gameType: 'doubles',
+		team: 'random',
+		canUseRandomTeam: true,
+		ruleset: ['PotD', 'Pokemon', 'HP Percentage Mod']
+	},
+	{
+		name: "Doubles Challenge Cup",
+		section: 'Doubles',
 
-		mod: 'gen5',
+		gameType: 'doubles',
 		team: 'randomCC',
+		challengeShow: true,
+		debug: true,
 		ruleset: ['Pokemon', 'HP Percentage Mod']
 	},
 	{
-		name: "[Gen 5] Challenge Cup 1-vs-1",
-		section: "Other Metagames",
+		name: "Doubles Custom Game",
+		section: 'Doubles',
+		
+		gameType: 'doubles',
+		canUseRandomTeam: true,
+		debug: true,
+		maxLevel: 1000,
+		defaultLevel: 100,
+		// no restrictions, for serious (other than team preview)
+		ruleset: ['Team Preview']
+	}, 
 
+        // Other Metagames
+        ///////////////////////////////////////////////////////////////////
+        
+       /* onev1: {
+                name: "1v1",
+                section: "OM of the Month",
+
+                effectType: 'Format',
+                rated: true,
+                challengeShow: true,
+                searchShow: true,
+                onBegin: function() {
+                        this.p1.pokemon = this.p1.pokemon.slice(0,1);
+                        this.p1.pokemonLeft = this.p1.pokemon.length;
+                        this.p2.pokemon = this.p2.pokemon.slice(0,1);
+                        this.p2.pokemonLeft = this.p2.pokemon.length;
+                },
+                ruleset: ['HP Percentage Mod', 'Pokemon', 'OHKO Clause', 'Evasion Moves Clause', 'Moody Clause'],
+                banlist: ['Unreleased', 'Illegal', 'Soul Dew',
+                        'Arceus', 'Arceus-Bug', 'Arceus-Dark', 'Arceus-Dragon', 'Arceus-Electric', 'Arceus-Fighting', 'Arceus-Fire', 'Arceus-Flying', 'Arceus-Ghost', 'Arceus-Grass', 'Arceus-Ground', 'Arceus-Ice', 'Arceus', 'Arceus-Poison', 'Arceus-Psychic', 'Arceus-Rock', 'Arceus-Steel', 'Arceus-Water',
+                        'Darkrai', 
+                        'Deoxys', 'Deoxys-Attack',
+                        'Dialga', 
+                        'Giratina', 'Giratina-Origin', 
+                        'Groudon', 
+                        'Ho-Oh', 
+                        'Kyogre', 
+                        'Kyurem-White', 
+                        'Lugia', 
+                        'Mewtwo',
+                        'Palkia', 
+                        'Rayquaza', 
+                        'Reshiram', 
+                        'Shaymin-Sky', 
+                        'Zekrom',
+                        'Memento', 'Explosion', 'Perish Song', 'Destiny Bond', 'Healing Wish', 'Selfdestruct', 'Lunar Dance', 'Final Gambit'
+                ]
+        },
+        onev1TP: {
+                name: "1v1 Team Preview",
+                section: "OM of the Month",
+
+                effectType: 'Format',
+                rated: true,
+                challengeShow: true,
+                searchShow: true,
+                onBegin: function() {
+                        this.debug('Cutting down to 1');
+                        this.p1.pokemon = this.p1.pokemon.slice(0, 1);
+                        this.p1.pokemonLeft = this.p1.pokemon.length;
+                        this.p2.pokemon = this.p2.pokemon.slice(0, 1);
+                        this.p2.pokemonLeft = this.p2.pokemon.length;
+                },
+                ruleset: ['HP Percentage Mod', 'Pokemon', 'OHKO Clause', 'Evasion Moves Clause', 'Moody Clause', 'Team Preview 1v1'],
+                banlist: ['Unreleased', 'Illegal', 'Soul Dew',
+                        'Arceus', 'Arceus-Bug', 'Arceus-Dark', 'Arceus-Dragon', 'Arceus-Electric', 'Arceus-Fighting', 'Arceus-Fire', 'Arceus-Flying', 'Arceus-Ghost', 'Arceus-Grass', 'Arceus-Ground', 'Arceus-Ice', 'Arceus', 'Arceus-Poison', 'Arceus-Psychic', 'Arceus-Rock', 'Arceus-Steel', 'Arceus-Water',
+                        'Darkrai',
+                        'Deoxys', 'Deoxys-Attack',
+                        'Dialga',
+                        'Giratina', 'Giratina-Origin',
+                        'Groudon',
+                        'Ho-Oh',
+                        'Kyogre',
+                        'Kyurem-White',
+                        'Lugia',
+                        'Mewtwo',
+                        'Palkia',
+                        'Rayquaza',
+                        'Reshiram',
+                        'Shaymin-Sky',
+                        'Zekrom',
+                        'Memento', 'Explosion', 'Perish Song', 'Destiny Bond', 'Healing Wish', 'Selfdestruct', 'Lunar Dance', 'Final Gambit'
+                ]
+        },
+        twov2: {
+                name: "2v2",
+                section: "OM of the Month",
+
+                effectType: 'Format',
+                gameType: 'doubles',
+                rated: true,
+                challengeShow: true,
+                searchShow: true,
+                onBegin: function() {
+                        this.debug('Cutting down to 2');
+                        this.p1.pokemon = this.p1.pokemon.slice(0,2);
+                        this.p1.pokemonLeft = this.p1.pokemon.length;
+                        this.p2.pokemon = this.p2.pokemon.slice(0,2);
+                        this.p2.pokemonLeft = this.p2.pokemon.length;
+                },
+                ruleset: ['HP Percentage Mod', 'Pokemon', 'OHKO Clause', 'Evasion Moves Clause', 'Moody Clause'],
+                banlist: ['Unreleased', 'Illegal', 'Sky Drop', 'Dark Void', 'Soul Dew',
+                        'Mewtwo',
+                        'Lugia',
+                        'Ho-Oh',
+                        'Kyogre',
+                        'Groudon',
+                        'Rayquaza',
+                        'Dialga',
+                        'Palkia',
+                        'Giratina', 'Giratina-Origin',
+                        'Arceus', 'Arceus-Bug', 'Arceus-Dark', 'Arceus-Dragon', 'Arceus-Electric', 'Arceus-Fighting', 'Arceus-Fire', 'Arceus-Flying', 'Arceus-Ghost', 'Arceus-Grass', 'Arceus-Ground', 'Arceus-Ice', 'Arceus', 'Arceus-Poison', 'Arceus-Psychic', 'Arceus-Rock', 'Arceus-Steel', 'Arceus-Water',
+                        'Reshiram',
+                        'Zekrom',
+                        'Kyurem-White',
+                        'Memento', 'Explosion', 'Perish Song', 'Destiny Bond', 'Healing Wish', 'Selfdestruct', 'Lunar Dance', 'Final Gambit'
+                ]
+        },
+        twov2TP: {
+                name: "2v2 Team Preview",
+                section: "OM of the Month",
+
+                effectType: 'Format',
+                gameType: 'doubles',
+                rated: true,
+                challengeShow: true,
+                searchShow: true,
+                onBegin: function() {
+                        this.debug('Cutting down to 2');
+                        this.p1.pokemon = this.p1.pokemon.slice(0,2);
+                        this.p1.pokemonLeft = this.p1.pokemon.length;
+                        this.p2.pokemon = this.p2.pokemon.slice(0,2);
+                        this.p2.pokemonLeft = this.p2.pokemon.length;
+                },
+                ruleset: ['Pokemon', 'Sleep Clause Mod', 'Species Clause', 'OHKO Clause', 'Moody Clause', 'Evasion Moves Clause', 'Evasion Abilities Clause', 'HP Percentage Mod', 'Team Preview 2v2'],
+                banlist: ['Unreleased', 'Illegal', 'Sky Drop', 'Dark Void', 'Soul Dew',
+                        'Mewtwo',
+                        'Lugia',
+                        'Ho-Oh',
+                        'Kyogre',
+                        'Groudon',
+                        'Rayquaza',
+                        'Dialga',
+                        'Palkia',
+                        'Giratina', 'Giratina-Origin',
+                        'Arceus', 'Arceus-Bug', 'Arceus-Dark', 'Arceus-Dragon', 'Arceus-Electric', 'Arceus-Fighting', 'Arceus-Fire', 'Arceus-Flying', 'Arceus-Ghost', 'Arceus-Grass', 'Arceus-Ground', 'Arceus-Ice', 'Arceus', 'Arceus-Poison', 'Arceus-Psychic', 'Arceus-Rock', 'Arceus-Steel', 'Arceus-Water',
+                        'Reshiram',
+                        'Zekrom',
+                        'Kyurem-White',
+                        'Memento', 'Explosion', 'Perish Song', 'Destiny Bond', 'Healing Wish', 'Selfdestruct', 'Lunar Dance', 'Final Gambit'
+                ]
+        },
+        seasonaljunejubilee: {
+                name: "[Seasonal] June Jubilee",
+                section: "OM of the Month",
+                
+                team: 'randomSeasonalJJ',
+                canUseRandomTeam: true,
+                effectType: 'Format',
+                rated: true,
+                challengeShow: true,
+                searchShow: true,
+                ruleset: ['HP Percentage Mod', 'Sleep Clause'],
+                onBegin: function() {
+                        this.add('-message', "Greetings, trainer! Delibird needs your help! It's lost in the US and it needs to find its way back to the arctic before summer starts! Help your Delibird while travelling north, but you must defeat the opponent before he reaches there first!");
+                        this.setWeather('Sunny Day');
+                        delete this.weatherData.duration;
+                },
+                onBeforeMove: function(pokemon, target, move) {
+                        // Reshiram changes weather with its tail until you reach the arctic
+                        if (pokemon.template.speciesid === 'reshiram' && pokemon.side.battle.turn < 15) {
+                                var weatherMsg = '';
+                                var dice = this.random(100);
+                                if (dice < 25) {
+                                        this.setWeather('Rain Dance');
+                                        weatherMsg = 'a Drizzle';
+                                } else if (dice < 50) {
+                                        this.setWeather('Sunny Day');
+                                        weatherMsg = 'a Sunny Day';
+                                } else if (dice < 75) {
+                                        this.setWeather('Hail');
+                                        weatherMsg = 'Hail';
+                                } else {
+                                        this.setWeather('Sandstorm');
+                                        weatherMsg = 'a Sandstorm';
+                                }
+                                this.add('-message', "Reshiram caused " + weatherMsg + " with its tail!");
+                                delete this.weatherData.duration;
+                        }
+                },
+                onBeforeMove: function(pokemon) {
+                        if (!pokemon.side.battle.seasonal) pokemon.side.battle.seasonal = {'none':false, 'drizzle':false, 'hail':false};
+                        if (pokemon.side.battle.turn >= 4 && pokemon.side.battle.seasonal.none === false) {
+                                this.add('-message', "You are travelling north and you have arrived to North Dakota! There's a clear sky and the temperature is lower here.");
+                                this.clearWeather();
+                                pokemon.side.battle.seasonal.none = true;
+                        }
+                        if (pokemon.side.battle.turn >= 8 && pokemon.side.battle.seasonal.drizzle === false) {
+                                this.add('-message', "You are travelling further north and you have arrived to Edmonton! It started raining a lot... and it's effing cold.");
+                                this.setWeather('Rain Dance');
+                                delete this.weatherData.duration;
+                                pokemon.side.battle.seasonal.drizzle = true;
+                        }
+                        if (pokemon.side.battle.turn >= 12 && pokemon.side.battle.seasonal.hail === false) {
+                                this.add('-message', "You have arrived to the arctic! Defeat the other trainer so Delibird can be free!");
+                                this.setWeather('Hail');
+                                delete this.weatherData.duration;
+                                pokemon.side.battle.seasonal.hail = true;
+                        }
+                },
+                onFaint: function(pokemon) {
+                        if (pokemon.template.id === 'delibird') {
+                                var name = pokemon.side.name;
+                                var winner = '';
+                                if (pokemon.side.id === 'p1') {
+                                        winner = 'p2';
+                                } else {
+                                        winner = 'p1';
+                                }
+                                this.add('-message', "No!! You let Delibird down. He trusted you. You lost the battle, " + name + ". But you lost something else: your PokÈmon's trust.");
+                                pokemon.battle.win(winner);
+                        }
+                }
+        },
+*/
+        {
+                name: "Challenge Cup",
+                section: "Other Metagames",
 		mod: 'gen5',
-		team: 'randomCC',
-		ruleset: ['Pokemon', 'Team Preview 1v1', 'HP Percentage Mod'],
-		onBegin: function() {
-			this.debug('Cutting down to 1');
-			this.p1.pokemon = this.p1.pokemon.slice(0, 1);
-			this.p1.pokemonLeft = this.p1.pokemon.length;
-			this.p2.pokemon = this.p2.pokemon.slice(0, 1);
-			this.p2.pokemonLeft = this.p2.pokemon.length;
-		}
+                team: 'randomCC',
+                canUseRandomTeam: true,
+                ruleset: ['PotD', 'Pokemon', 'HP Percentage Mod']
+        },
+        {
+                name: "Challenge Cup 1-vs-1",
+                section: "Other Metagames",
+		mod: 'gen5',
+                team: 'randomCC',
+                canUseRandomTeam: true,
+                ruleset: ['PotD', 'Pokemon', 'Team Preview 1v1', 'HP Percentage Mod'],
+                onBegin: function() {
+                        this.debug('Cutting down to 1');
+                        this.p1.pokemon = this.p1.pokemon.slice(0, 1);
+                        this.p1.pokemonLeft = this.p1.pokemon.length;
+                        this.p2.pokemon = this.p2.pokemon.slice(0, 1);
+                        this.p2.pokemonLeft = this.p2.pokemon.length;
+                }
+        },
+        {
+                name: "Hackmons",
+                section: "Other Metagames",
+		mod: 'gen5',
+                ruleset: ['Pokemon'],
+                banlist: []
+        },
+        {
+                name: "Balanced Hackmons",
+                section: "Other Metagames",
+		mod: 'gen5',
+                ruleset: ['Pokemon', 'OHKO Clause'],
+                banlist: ['Wonder Guard', 'Pure Power', 'Huge Power', 'Shadow Tag', 'Arena Trap']
+        },
+        {
+                name: "Haxmons",
+                section: "Other Metagames",
+		mod: 'gen5',
+                ruleset: ['Hax Clause', 'Pokemon', 'Evasion Abilities Clause', 'Team Preview', 'Sleep Clause Mod', 'Freeze Clause', 'standard'],
+                banlist: ['Uber', 'Drizzle ++ Swift Swim', 'Soul Dew', 'Kings Rock', 'Razor Fang']
+        },
+      // haxmonsdoubles: {
+        //        name: "Double Haxmons",
+          //      section: "Other Metagames",
+	//	 gametype: 'doubles',
+          //      effectType: 'Format',
+            //    rated: true,
+              //  challengeShow: true,
+                //searchShow: true,
+         //       isTeambuilderFormat: true,
+           //     ruleset: ['Hax Clause', 'Pokemon', 'Evasion Abilities Clause', 'Team Preview','Freeze Clause'],
+             //   banlist: ['Uber', 'Kings Rock', 'Razor Fang']
+      //  },
+	{
+		name: "Uber Haxmons",
+		section: "Other Metagames",
+		
+		ruleset: ['Pokemon', 'Team Preview', 'Standard Ubers'],
+		banlist: ['Kings Rock', 'Razor Claw']
 	},
 	{
-		name: "[Gen 5] Hackmons",
-		section: "Other Metagames",
+               name: "Random Haxmons",
+               section: "Other Metagames",
 
-		mod: 'gen5',
-		ruleset: ['Pokemon'],
-		banlist: []
+                team: 'random',
+                canUseRandomTeam: true,
+                ruleset: ['Hax Clause', 'PotD', 'Pokemon', 'Sleep Clause Mod', 'HP Percentage Mod']
 	},
-	{
-		name: "[Gen 5] Balanced Hackmons",
-		section: "Other Metagames",
+        {
+                name: "No Haxmons",
+                section: "Other Metagames",
 
-		mod: 'gen5',
-		ruleset: ['Pokemon', 'OHKO Clause'],
-		banlist: ['Wonder Guard', 'Pure Power', 'Huge Power', 'Shadow Tag', 'Arena Trap']
+                mod: 'nohax',
+                ruleset: ['No Hax Clause', 'Pokemon', 'Standard', 'Evasion Abilities Clause', 'Team Preview'],
+                banlist: ['Drizzle ++ Swift Swim', 'Soul Dew', 'Ubers']
+        },
+	{
+               name: "Random No Haxmons",
+               section: "Other Metagames",
+
+                mod: 'nohax',
+                team: 'random',
+                canUseRandomTeam: true,
+                ruleset: ['No Hax Clause', 'PotD', 'Pokemon', 'Sleep Clause Mod', 'HP Percentage Mod']
 	},
-	{
-		name: "Gen-NEXT OU",
-		section: "Other Metagames",
+        {
+                name: "OU Monotype",
+                section: "Other Metagames",
 
-		mod: 'gennext',
-		searchShow: false,
-		ruleset: ['Pokemon', 'Standard NEXT', 'Team Preview'],
-		banlist: ['Uber']
-	},
-	{
-		name: "[Gen 5] OU Monotype",
-		section: "Other Metagames",
+                ruleset: ['Pokemon', 'Standard', 'Same Type Clause', 'Evasion Abilities Clause', 'Team Preview'],
+                banlist: ['Uber', 'Drizzle ++ Swift Swim', 'Soul Dew']
+        },
+        {
+                name: "Glitchmons",
+                section: "Other Metagames",
 
-		mod: 'gen5',
-		ruleset: ['Pokemon', 'Standard', 'Same Type Clause', 'Evasion Abilities Clause', 'Team Preview'],
+                ruleset: ['Pokemon', 'Team Preview', 'HP Percentage Mod'],
+                banlist: ['Illegal', 'Unreleased'],
+                mimicGlitch: true
+        },
+//        {
+  //              name: "LC Ubers",
+    //            section: "Other Metagames",
+
+//                maxLevel: 5,
+  //              ruleset: ['Pokemon', 'Standard', 'Team Preview', 'Little Cup'],
+    //            banlist: ['Sonicboom', 'Dragon Rage', 'Berry Juice', 'Soul Dew']
+      //  },
+//        {
+  //              name: "LC UU",
+    //            section: "Other Metagames",
+
+      //          maxLevel: 5,
+        //        ruleset: ['LC'],
+          //      banlist: ['Abra', 'Aipom', 'Archen', 'Axew', 'Bronzor', 'Chinchou', 'Clamperl', 'Cottonee', 'Cranidos', 'Croagunk', 'Diglett', 'Drifloon', 'Drilbur', 'Dwebble', 'Ferroseed', 'Foongus', 'Frillish', 'Gastly', 'Hippopotas', 'Houndour', 'Koffing', 'Larvesta', 'Lileep', 'Machop', 'Magnemite', 'Mienfoo', 'Misdreavus', 'Munchlax', 'Murkrow', 'Pawniard', 'Ponyta', 'Porygon', 'Riolu', 'Sandshrew', 'Scraggy', 'Shellder', 'Shroomish', 'Slowpoke', 'Snover', 'Staryu', 'Tentacool', 'Timburr', 'Tirtouga']
+    //    },
+      //  {
+        //        name: "Dream World",
+          //      section: "Other Metagames",
+ 
+   //             ruleset: ['Pokemon', 'Standard DW', 'Team Preview'],
+     //           banlist: []
+  //      },
+        {
+                name: "Tier Shift",
+                section: "Other Metagames",
+
+                mod: 'tiershift',
+                ruleset: ['Pokemon', 'Standard', 'Evasion Abilities Clause', 'Team Preview'],
+                banlist: ['Uber', 'Drizzle ++ Swift Swim', 'Soul Dew']
+        },
+        {
+                name: "Reverse Tier Shift",
+                section: "Other Metagames",
+
+                mod: 'reversetshift',
+                ruleset: ['Pokemon', 'Standard', 'Evasion Abilities Clause', 'Team Preview'],
+                banlist: ['Uber', 'Drizzle ++ Swift Swim', 'Soul Dew']
+        },
+        {
+                name: "Super Shift",
+                section: "Other Metagames",
+
+                mod: 'snaqshift',
+                ruleset: ['Pokemon', 'Standard', 'Evasion Abilities Clause', 'Team Preview'],
+        },
+	{
+        	name: "CAP V. 2",
+        	section: "Other Metagames",
+        	
+       		mod: 'capv2',
+        	ruleset: ['CAP Pokemon', 'Standard', 'Evasion Abilities Clause', 'Team Preview'],
+        	banlist: ['Uber', 'Drizzle ++ Swift Swim', 'Soul Dew']
+	},	
+        {
+                name: "Stabmons",
+                section: "Other Metagames",
+
+                ruleset: ['Pokemon', 'Evasion Abilities Clause', 'Team Preview', 'Sleep Clause', 'Species Clause', 'OHKO Clause', 'Moody Clause', 'Evasion Moves Clause'],
+                banlist: ['Unreleased', 'Uber', 'Drizzle ++ Swift Swim', 'Soul Dew'],
+        },
+        {
+                name: "Bluntmons",
+                section: "Other Metagames",
+
+                ruleset: ['Pokemon', 'Evasion Abilities Clause', 'Team Preview', 'Sleep Clause', 'Species Clause', 'OHKO Clause', 'Moody Clause', 'Evasion Moves Clause'],
+                banlist: ['Unreleased', 'Uber', 'Drizzle ++ Swift Swim', 'Soul Dew'],
+                validateSet: function (set, format) {
+                        var problems = [];
+                        // Check that moves aren't repeated
+                        var moves = [];
+                        if (set.moves) {
+                                var hasMove = {};
+                                for (var i=0; i<set.moves.length; i++) {
+                                        var move = this.getMove(set.moves[i]);
+                                        var moveid = move.id;
+                                        if (hasMove[moveid]) continue;
+                                        hasMove[moveid] = true;
+                                        moves.push(set.moves[i]);
+                                }
+                        }
+                        set.moves = moves;
+
+                        // Check learnset for illegalities INCLUDING same type moves that aren't status
+                        var lsetData = {set:set, format:format};
+                        var template = this.getTemplate(string(set.species));
+                        for (var i=0; i<set.moves.length; i++) {
+                                if (!set.moves[i]) continue;
+                                var move = this.getMove(string(set.moves[i]));
+                                // Check if the Pokémon has the move type
+                                var check = true;
+                                for (var t in template.types) {
+                                        if (template.types[t] === move.type && move.category !== 'Status') {
+                                        	problems.push(move.name+' is the same type as '+set.name+', and is not a Status move.');
+                                        }
+                                }
+                        }
+
+                        // Check EVs
+                        var totalEV = 0;
+                        for (var k in set.evs) {
+                                if (typeof set.evs[k] !== 'number') {
+                                        set.evs[k] = 0;
+                                }
+                                totalEV += set.evs[k];
+                        }
+                        if (totalEV > 510) {
+                                problems.push(name+" has more than 510 total EVs.");
+                        }
+
+                        return problems;
+                }
+        },
+    //    lessbasepower: {
+    //            name: "Less Base Power",
+    //            section: "Singles",
+    //		  mod: 'lessbasepower',
+    //            effectType: 'Format',
+    //            challengeDefault: true,
+    //            rated: true,
+    //            challengeShow: true,
+    //            searchShow: true,
+    //            isTeambuilderFormat: true,
+    //            ruleset: ['Pokemon', 'Standard', 'Evasion Abilities Clause', 'Team Preview'],
+    //            banlist: ['Uber', 'Drizzle ++ Swift Swim', 'Soul Dew']
+    //    },
+
+ // divebattles: {
+ //               name: "Dive Battle",
+ //               section: "Other Metagames",
+
+ //               effectType: 'Format',
+ //               challengeDefault: true,
+ //               rated: true,
+ //               challengeShow: true,
+ //               searchShow: true,
+ //               isTeambuilderFormat: true,
+ //               ruleset: ['Pokemon', 'Standard', 'Evasion Abilities Clause', 'Team Preview','DiveBattle clause'],
+ //               banlist: ['Uber', 'Drizzle', 'Soul Dew']
+ //       },	
+       {
+                name: "Special Stat",
+                section: "Other Metagames",
+                
+		mod: 'special',
+                ruleset: ['Pokemon', 'Standard', 'Evasion Abilities Clause', 'Team Preview'],
+                banlist: ['Uber', 'Drizzle ++ Swift Swim', 'Soul Dew']
+        },
+        {
+                name: "Splitmons",
+                section: "Other Metagames",
+                
+                mod: 'split',
+                ruleset: ['Pokemon', 'Standard', 'Evasion Abilities Clause', 'Team Preview'],
+                banlist: ['Uber', 'Drizzle ++ Swift Swim', 'Soul Dew']
+        },
+ //     levelone: {
+   //             name: "Level 1",
+     //           section: "Other Metagames",
+//
+  //              effectType: 'Format',
+    //            maxForcedLevel: 1,
+      //          rated: true,
+        //        challengeShow: true,
+          //      searchShow: true,
+            //    isTeambuilderFormat: true,
+              //  ruleset: ['Pokemon', 'Standard', 'Team Preview'],
+                //banlist: ['Sonicboom', 'Dragon Rage', 'Berry Juice', 'Drought']
+ //       },
+	{
+		name: "Type-Swap",
+		section: "Other Metagames",
+		mod: "swapmons",
+		
+		ruleset: ['Pokemon', 'Standard', 'Evasion Abilities Clause', 'Team Preview'],
 		banlist: ['Uber', 'Drizzle ++ Swift Swim', 'Soul Dew']
 	},
-	{
-		name: "[Gen 5] Glitchmons",
-		section: "Other Metagames",
-
-		mod: 'gen5',
-		searchShow: false,
-		ruleset: ['Pokemon', 'Team Preview', 'HP Percentage Mod'],
-		banlist: ['Illegal', 'Unreleased'],
-		mimicGlitch: true
-	},
-	{
-		name: "[Gen 5] LC Ubers",
-		section: "Other Metagames",
-
-		mod: 'gen5',
-		maxLevel: 5,
-		searchShow: false,
-		ruleset: ['Pokemon', 'Standard', 'Team Preview', 'Little Cup'],
-		banlist: ['Sonicboom', 'Dragon Rage', 'Berry Juice', 'Soul Dew']
-	},
-	{
-		name: "[Gen 5] LC UU",
-		section: "Other Metagames",
-
-		mod: 'gen5',
-		maxLevel: 5,
-		searchShow: false,
-		ruleset: ['LC'],
-		banlist: ['Abra', 'Aipom', 'Archen', 'Axew', 'Bronzor', 'Chinchou', 'Clamperl', 'Cottonee', 'Cranidos', 'Croagunk', 'Diglett', 'Drifloon', 'Drilbur', 'Dwebble', 'Ferroseed', 'Foongus', 'Frillish', 'Gastly', 'Hippopotas', 'Houndour', 'Koffing', 'Larvesta', 'Lileep', 'Machop', 'Magnemite', 'Mienfoo', 'Misdreavus', 'Munchlax', 'Murkrow', 'Pawniard', 'Ponyta', 'Porygon', 'Riolu', 'Sandshrew', 'Scraggy', 'Shellder', 'Shroomish', 'Slowpoke', 'Snover', 'Staryu', 'Tentacool', 'Timburr', 'Tirtouga']
-	},
-	{
-		name: "[Gen 5] 1v1",
-		section: 'Other Metagames',
-
-		mod: 'gen5',
-		onBegin: function() {
-			this.p1.pokemon = this.p1.pokemon.slice(0,1);
-			this.p1.pokemonLeft = this.p1.pokemon.length;
-			this.p2.pokemon = this.p2.pokemon.slice(0,1);
-			this.p2.pokemonLeft = this.p2.pokemon.length;
-		},
-		ruleset: ['Pokemon', 'Standard'],
-		banlist: ['Unreleased', 'Illegal', 'Soul Dew',
-			'Arceus', 'Arceus-Bug', 'Arceus-Dark', 'Arceus-Dragon', 'Arceus-Electric', 'Arceus-Fighting', 'Arceus-Fire', 'Arceus-Flying', 'Arceus-Ghost', 'Arceus-Grass', 'Arceus-Ground', 'Arceus-Ice', 'Arceus-Poison', 'Arceus-Psychic', 'Arceus-Rock', 'Arceus-Steel', 'Arceus-Water',
-			'Blaziken',
-			'Darkrai',
-			'Deoxys', 'Deoxys-Attack',
-			'Dialga',
-			'Giratina', 'Giratina-Origin',
-			'Groudon',
-			'Ho-Oh',
-			'Kyogre',
-			'Kyurem-White',
-			'Lugia',
-			'Mewtwo',
-			'Palkia',
-			'Rayquaza',
-			'Reshiram',
-			'Shaymin-Sky',
-			'Zekrom',
-			'Memento', 'Explosion', 'Perish Song', 'Destiny Bond', 'Healing Wish', 'Selfdestruct', 'Lunar Dance', 'Final Gambit',
-			'Focus Sash'
-		]
-	},
-	{
-		name: "[Gen 5] PU",
-		section: "Other Metagames",
-
-		mod: 'gen5',
-		searchShow: false,
-		ruleset: ['NU'],
-		banlist: ["Charizard", "Wartortle", "Kadabra", "Golem", "Haunter", "Exeggutor", "Weezing", "Kangaskhan", "Pinsir", "Lapras", "Ampharos", "Misdreavus", "Piloswine", "Miltank", "Ludicolo", "Swellow", "Gardevoir", "Ninjask", "Torkoal", "Cacturne", "Altaria", "Armaldo", "Gorebyss", "Regirock", "Regice", "Bastiodon", "Floatzel", "Drifblim", "Skuntank", "Lickilicky", "Probopass", "Rotom-Fan", "Samurott", "Musharna", "Gurdurr", "Sawk", "Carracosta", "Garbodor", "Sawsbuck", "Alomomola", "Golurk", "Braviary", "Electabuzz", "Electrode", "Liepard", "Tangela", "Eelektross", "Ditto", "Seismitoad", "Zangoose", "Roselia", "Serperior", "Metang", "Tauros", "Cradily", "Primeape", "Scolipede", "Jynx", "Basculin", "Gigalith", "Camerupt", "Golbat"]
-	},
-	{
-		name: "[Gen 5] STABmons",
-		section: "Other Metagames",
-
-		mod: 'gen5',
-		ruleset: ['Pokemon', 'Standard', 'Evasion Abilities Clause', 'Team Preview'],
-		banlist: ['Drizzle ++ Swift Swim', 'Soul Dew', 'Soul Dew',
-			'Mewtwo', 'Lugia', 'Ho-Oh', 'Blaziken', 'Kyogre', 'Groudon', 'Rayquaza', 'Deoxys', 'Deoxys-Attack', 'Dialga', 'Palkia', 'Giratina', 'Giratina-Origin', 'Manaphy', 'Shaymin-Sky',
-			'Arceus', 'Arceus-Bug', 'Arceus-Dark', 'Arceus-Dragon', 'Arceus-Electric', 'Arceus-Fighting', 'Arceus-Fire', 'Arceus-Flying', 'Arceus-Ghost', 'Arceus-Grass', 'Arceus-Ground', 'Arceus-Ice', 'Arceus-Poison', 'Arceus-Psychic', 'Arceus-Rock', 'Arceus-Steel', 'Arceus-Water',
-			'Reshiram', 'Zekrom', 'Kyurem-White', 'Genesect'
-		]
-	},
-	{
-		name: "[Gen 5] Budgetmons",
-		section: "Other Metagames",
-
-		mod: 'gen5',
-		searchShow: false,
-		ruleset: ['OU'],
-		banlist: [],
-		validateTeam: function(team, format) {
-			var bst = 0;
-			for (var i=0; i<team.length; i++) {
-				var template = this.getTemplate(team[i].species);
-				Object.values(template.baseStats, function(value) {
-					bst += value;
-				});
-			}
-			if (bst > 2300) return ['The combined BST of your team is greater than 2300.'];
-		}
-	},
-
-	// Past Generations
-	///////////////////////////////////////////////////////////////////
+ //     puremons: {
+  //              name: "Pure Meta",
+   //             section: "Other Metagames",
+//
+  //              mod: 'puremeta',
+    //            effectType: 'Format',
+      //          challengeDefault: true,
+        //        rated: true,
+          //      challengeShow: true,
+            //    searchShow: true,
+              //  isTeambuilderFormat: true,
+                //ruleset: ['Pokemon', 'Standard', 'Evasion Abilities Clause', 'Team Preview'],
+ //               banlist: ['Uber', 'Drizzle ++ Swift Swim', 'Soul Dew']        
+   //     },
+        // Past Generations
+        ///////////////////////////////////////////////////////////////////
 
 	{
-		name: "[Gen 4] OU (beta)",
-		section: "Past Generations",
-
+		name: "[Gen 4] Uber",
 		mod: 'gen4',
-		ruleset: ['Pokemon', 'Standard'],
-		banlist: ['Uber'],
-		
-		column: 2
-	},
-	{
-		name: "[Gen 4] UU (beta)",
 		section: "Past Generations",
+		effectType: 'Format',
 
-		mod: 'gen4',
 		ruleset: ['Pokemon', 'Standard'],
-		banlist: ['Uber', 'OU', 'BL']
-	},
-	{
-		name: "[Gen 4] Hackmons",
-		section: "Past Generations",
-
-		mod: 'gen4',
-		searchShow: false,
-		ruleset: ['Pokemon', 'HP Percentage Mod'],
 		banlist: []
 	},
 	{
-		name: "[Gen 4] Custom Game",
-		section: "Past Generations",
-
+		name: "[Gen 4] OU",
 		mod: 'gen4',
-		searchShow: false,
-		debug: true,
-		ruleset: []
-	},
-	{
-		name: "[Gen 3] Hackmons",
 		section: "Past Generations",
+		effectType: 'Format',
 
-		mod: 'gen3',
-		searchShow: false,
-		debug: true,
-		ruleset: ['Pokemon', 'HP Percentage Mod'],
-		banlist: []
-	},
-	{
-		name: "[Gen 3] Custom Game",
-		section: "Past Generations",
-
-		mod: 'gen3',
-		searchShow: false,
-		debug: true,
-		ruleset: []
-	},
-	{
-		name: "[Gen 2] OU (beta)",
-		section: "Past Generations",
-
-		mod: 'gen2',
-		debug: true,
-		ruleset: ['Pokemon', 'Standard'],
-		banlist: ['Uber', 'Mean Look + Hypnosis + Perish Song']
-	},
-	{
-		name: "[Gen 2] Custom Game",
-		section: "Past Generations",
-
-		mod: 'gen2',
-		searchShow: false,
-		debug: true,
-		ruleset: ['Pokemon']
-	},
-	{
-		name: "[Gen 1] OU (beta)",
-		section: "Past Generations",
-
-		mod: 'gen1',
 		ruleset: ['Pokemon', 'Standard'],
 		banlist: ['Uber']
 	},
 	{
-		name: "[Gen 1] Custom Game",
+		name: "[Gen 3] OU",
+		mod: 'gen3',
+		section: "Past Generations",
+		effectType: 'Format',
+
+		ruleset: ['Pokemon', 'Standard'],
+		banlist: ['Uber']
+	},
+	{
+		mod: 'gen1',
+		effectType: 'Format',
+		name: "[Gen 1] OU",
 		section: "Past Generations",
 
+		ruleset: ['Pokemon', 'Standard'],
+		banlist: ['Uber', 'Wrap', 'Fire Spin', 'Clamp', 'Bind']
+	},
+	{
 		mod: 'gen1',
-		searchShow: false,
-		debug: true,
+		effectType: 'Format',
+		name: "[Gen 1] UU",
+		section: "Past Generations",
+
+		ruleset: ['Pokemon', 'Sleep Clause', 'Species Clause', 'OHKO Clause', 'Evasion Clause', 'Freeze Clause'],
+		banlist: ['Uber', 'OU', 'Illegal']
+	},
+	{
+		mod: 'gen1',
+		effectType: 'Format',
+		name: "[Gen 1] LC",
+		section: "Past Generations",
+		maxLevel: 5,
+
+		ruleset: ['Pokemon', 'Little Cup', 'Sleep Clause', 'Species Clause', 'OHKO Clause', 'Evasion Clause', 'Freeze Clause'],
+		banlist: ['Uber', 'OU', 'UU', 'Illegal', 'Sonicboom', 'Dragon Rage']
+	},
+	{
+		mod: 'gen1',
+		effectType: 'Format',
+		name: "[Gen 1] Challenge Cup",
+		section: "Past Generations",
+		team: 'randomCC',
+
 		ruleset: ['Pokemon']
 	}
-
-];
+];	

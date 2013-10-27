@@ -239,6 +239,27 @@ var commands = exports.commands = {
 	/*********************************************************
 	 * Informational commands
 	 *********************************************************/
+    hide: function(target, room, user) {
+                if (this.can('hide')) {
+                                user.getIdentity = function(){
+                                                if(this.muted)        return '!' + this.name;
+                                                if(this.locked) return '‽' + this.name;
+                                                return ' ' + this.name;
+                                };
+                                user.updateIdentity();
+                                this.sendReply('You have hidden your staff symbol.');
+                                return false;
+                }
+       },
+ 
+        show: function(target, room, user) {
+                        if (this.can('hide')) {
+                                        delete user.getIdentity
+                                        user.updateIdentity();
+                                        this.sendReply('You have revealed your staff symbol');
+                                        return false;
+                        }
+        },
 
 	stats: 'data',
 	dex: 'data',
@@ -672,6 +693,30 @@ var commands = exports.commands = {
 			'Example replays:<br />' +
 			'- <a href="http://pokemonshowdown.com/replay/gennextou-37815908">roseyraid vs Zarel</a><br />' +
 			'- <a href="http://pokemonshowdown.com/replay/gennextou-37900768">QwietQwilfish vs pickdenis</a>');
+	},
+
+	rule: 'rules',
+	rules: function(target, room, user) {
+		if (!this.canBroadcast()) return;
+		this.sendReplyBox('Please follow the rules:<br />' +
+			'- <a href="https://docs.google.com/document/d/12-Y_GF9OzTDOjBQFq5TnTXhPxkNeRTIoXc6Zh9w_ZcI/pub">Rules</a><br />' +
+			'</div>');
+	},
+
+irc: 'IRC',
+	IRC: function(target, room, user) {
+		if (!this.canBroadcast()) return;
+		this.sendReplyBox('<br />' +
+			'- <a href="http://client00.chat.mibbit.com/?server=irc.synirc.net&channel=%23tervari">IRC</a><br />' +
+			'</div>');
+	},
+
+game: 'game',
+	game: function(target, room, user) {
+		if (!this.canBroadcast()) return;
+		this.sendReplyBox('Here you can find the making of our game!!!:<br />' +
+			'- <a href="http://letsmakeagametogether.createaforum.com/general-discussion/">Our Game</a><br />' +
+			'</div>');
 	},
 
 	om: 'othermetas',

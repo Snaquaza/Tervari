@@ -65,44 +65,6 @@ exports.BattleMovedex = {
 		basePowerCallback: undefined,
 		desc: "Does one hit for the user and each other unfainted non-egg active and non-active Pokemon on the user's side without a status problem."
 	},
-	bide: {
-		inherit: true,
-		effect: {
-			duration: 3,
-			onLockMove: 'bide',
-			onStart: function(pokemon) {
-				this.effectData.totalDamage = 0;
-				this.add('-start', pokemon, 'Bide');
-			},
-			onDamage: function(damage, target, source, move) {
-				if (!move || move.effectType !== 'Move') return;
-				if (!source || source.side === target.side) return;
-				this.effectData.totalDamage += damage;
-				this.effectData.sourcePosition = source.position;
-				this.effectData.sourceSide = source.side;
-			},
-			onAfterSetStatus: function(status, pokemon) {
-				if (status.id === 'slp') {
-					pokemon.removeVolatile('bide');
-				}
-			},
-			onBeforeMove: function(pokemon) {
-				if (this.effectData.duration === 1) {
-					if (!this.effectData.totalDamage) {
-						this.add('-end', pokemon, 'Bide');
-						this.add('-fail', pokemon);
-						return false;
-					}
-					this.add('-end', pokemon, 'Bide');
-					var target = this.effectData.sourceSide.active[this.effectData.sourcePosition];
-					this.moveHit(target, pokemon, 'bide', {damage: this.effectData.totalDamage*2});
-					return false;
-				}
-				this.add('-activate', pokemon, 'Bide');
-				return false;
-			}
-		}
-	},
 	bind: {
 		inherit: true,
 		accuracy: 75
@@ -269,7 +231,7 @@ exports.BattleMovedex = {
 		desc: "Deals damage to one adjacent target, if it is asleep and does not have a Substitute. The user recovers half of the HP lost by the target, rounded up. If Big Root is held by the user, the HP recovered is 1.3x normal, rounded half down.",
 		onTryHit: function(target) {
 			if (target.status !== 'slp' || target.volatiles['substitute']) {
-				this.add('-immune', target, '[msg]');
+				this.add('-immune', target.id, '[msg]');
 				return null;
 			}
 		}
@@ -438,80 +400,7 @@ exports.BattleMovedex = {
 		inherit: true,
 		isSnatchable: false
 	},
-	hiddenpower: {
-		inherit: true,
-		basePower: 0,
-		basePowerCallback: function(pokemon) {
-			return pokemon.hpPower || 70;
-		},
-		desc: "Deals damage to one adjacent target. This move's type and power depend on the user's individual values (IVs). Power varies between 30 and 70, and type can be any but Normal.",
-		shortDesc: "Varies in power and type based on the user's IVs."
-	},
-	hiddenpowerbug: {
-		inherit: true,
-		basePower: 70
-	},
-	hiddenpowerdark: {
-		inherit: true,
-		basePower: 70
-	},
-	hiddenpowerdragon: {
-		inherit: true,
-		basePower: 70
-	},
-	hiddenpowerelectric: {
-		inherit: true,
-		basePower: 70
-	},
-	hiddenpowerfighting: {
-		inherit: true,
-		basePower: 70
-	},
-	hiddenpowerfire: {
-		inherit: true,
-		basePower: 70
-	},
-	hiddenpowerflying: {
-		inherit: true,
-		basePower: 70
-	},
-	hiddenpowerghost: {
-		inherit: true,
-		basePower: 70
-	},
-	hiddenpowergrass: {
-		inherit: true,
-		basePower: 70
-	},
-	hiddenpowerground: {
-		inherit: true,
-		basePower: 70
-	},
-	hiddenpowerice: {
-		inherit: true,
-		basePower: 70
-	},
-	hiddenpowerpoison: {
-		inherit: true,
-		basePower: 70
-	},
-	hiddenpowerpsychic: {
-		inherit: true,
-		basePower: 70
-	},
-	hiddenpowerrock: {
-		inherit: true,
-		basePower: 70
-	},
-	hiddenpowersteel: {
-		inherit: true,
-		basePower: 70
-	},
-	hiddenpowerwater: {
-		inherit: true,
-		basePower: 70
-	},
-	highjumpkick: {
+	hijumpkick: {
 		inherit: true,
 		basePower: 100,
 		desc: "If this attack misses the target, the user takes half of the damage it would have dealt in recoil damage.",
@@ -794,19 +683,6 @@ exports.BattleMovedex = {
 			this.add('-message', source.name+' learned '+move.name+'! (placeholder)');
 		}
 	},
-	skillswap: {
-		inherit: true,
-		onHit: function(target, source) {
-			var targetAbility = target.ability;
-			var sourceAbility = source.ability;
-			if (!target.setAbility(sourceAbility) || !source.setAbility(targetAbility)) {
-				target.ability = targetAbility;
-				source.ability = sourceAbility;
-				return false;
-			}
-			this.add('-activate', source, 'move: Skill Swap');
-		}
-	},
 	spikes: {
 		inherit: true,
 		isBounceable: false
@@ -841,31 +717,6 @@ exports.BattleMovedex = {
 			spa: 2
 		}
 	},
-	tailwind: {
-		inherit: true,
-		desc: "For 3 turns, the user and its party members have their Speed doubled. Fails if this move is already in effect for the user's side.",
-		shortDesc: "For 3 turns, allies' Speed is doubled.",
-		effect: {
-			duration: 3,
-			durationCallback: function(target, source, effect) {
-				if (source && source.ability === 'persistent') {
-					return 5;
-				}
-				return 3;
-			},
-			onStart: function(side) {
-				this.add('-sidestart', side, 'move: Tailwind');
-			},
-			onModifySpe: function(spe) {
-				return spe * 2;
-			},
-			onResidualOrder: 21,
-			onResidualSubOrder: 4,
-			onEnd: function(side) {
-				this.add('-sideend', side, 'move: Tailwind');
-			}
-		}
-	},
 	taunt: {
 		inherit: true,
 		isBounceable: false
@@ -885,34 +736,7 @@ exports.BattleMovedex = {
 	},
 	toxicspikes: {
 		inherit: true,
-		isBounceable: false,
-		effect: {
-			// this is a side condition
-			onStart: function(side) {
-				this.add('-sidestart', side, 'move: Toxic Spikes');
-				this.effectData.layers = 1;
-			},
-			onRestart: function(side) {
-				if (this.effectData.layers >= 2) return false;
-				this.add('-sidestart', side, 'move: Toxic Spikes');
-				this.effectData.layers++;
-			},
-			onSwitchIn: function(pokemon) {
-				if (!pokemon.runImmunity('Ground')) return;
-				if (!pokemon.runImmunity('Poison')) return;
-				if (pokemon.hasType('Poison')) {
-					this.add('-sideend', pokemon.side, 'move: Toxic Spikes', '[of] '+pokemon);
-					pokemon.side.removeSideCondition('toxicspikes');
-				}
-				if (pokemon.volatiles['substitute']) {
-					return;
-				} else if (this.effectData.layers >= 2) {
-					pokemon.trySetStatus('tox');
-				} else {
-					pokemon.trySetStatus('psn');
-				}
-			}
-		}
+		isBounceable: false
 	},
 	uproar: {
 		inherit: true,

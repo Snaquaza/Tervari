@@ -264,12 +264,12 @@ exports.BattleMovedex = {
 		affectedByImmunities: false,
 		willCrit: false,
 		damageCallback: function(pokemon) {
-			if (pokemon.lastAttackedBy && pokemon.lastAttackedBy.thisTurn
+			if (pokemon.lastAttackedBy && pokemon.lastAttackedBy.thisTurn 
 			&& ((this.getMove(pokemon.lastAttackedBy.move).type === 'Normal' || this.getMove(pokemon.lastAttackedBy.move).type === 'Fighting'))
 			&& this.getMove(pokemon.lastAttackedBy.move).id !== 'seismictoss') {
 				return 2 * pokemon.lastAttackedBy.damage;
 			}
-			this.add('-fail', pokemon);
+			this.add('-fail',pokemon.id);
 			return false;
 		}
 	},
@@ -370,7 +370,7 @@ exports.BattleMovedex = {
 		desc: "Deals damage to one adjacent target, if it is asleep and does not have a Substitute. The user recovers half of the HP lost by the target, rounded up. If Big Root is held by the user, the HP recovered is 1.3x normal, rounded half down.",
 		onTryHit: function(target) {
 			if (target.status !== 'slp' || target.volatiles['substitute']) {
-				this.add('-immune', target, '[msg]');
+				this.add('-immune', target.id, '[msg]');
 				return null;
 			}
 		}
@@ -536,7 +536,7 @@ exports.BattleMovedex = {
 			volatileStatus: 'flinch'
 		}
 	},
-	highjumpkick: {
+	hijumpkick: {
 		inherit: true,
 		basePower: 85,
 		desc: "If this attack misses the target, the user takes 1 HP of damage.",
@@ -885,12 +885,10 @@ exports.BattleMovedex = {
 	rest: {
 		inherit: true,
 		onHit: function(target) {
-			// Fails if the difference between
-			// max HP and current HP is 0, 255, or 511
-			if (target.hp >= target.maxhp ||
-			target.hp === (target.maxhp - 255) ||
-			target.hp === (target.maxhp - 511)) return false;
+			if (target.hp >= target.maxhp) return false;
 			if (!target.setStatus('slp')) return false;
+			// Fail glitch when hp is 255/511 less than max
+			if (target.hp === (target.maxhp - 255) || target.hp === (target.maxhp - 511)) return false;
 			target.statusData.time = 2;
 			target.statusData.startTime = 2;
 			this.heal(target.maxhp); // Aeshetic only as the healing happens after you fall asleep in-game
@@ -1050,7 +1048,7 @@ exports.BattleMovedex = {
 			onTryHit: function(target, source, move) {
 				if (move.category === 'Status') {
 					// In gen 1 it only blocks:
-					// poison, confusion, the effect of partial trapping moves, secondary effect confusion,
+					// poison, confusion, the effect of partial trapping moves, secondary effect confusion, 
 					// stat reducing moves and Leech Seed.
 					var SubBlocked = {
 						lockon:1, meanlook:1, mindreader:1, nightmare:1
@@ -1145,7 +1143,7 @@ exports.BattleMovedex = {
 		accuracy: 100,
 		onTryHit: function(target) {
 			if (target.hasType('Ground')) {
-				this.add('-immune', target, '[msg]');
+				this.add('-immune', target.id, '[msg]');
 				return null;
 			}
 		}
