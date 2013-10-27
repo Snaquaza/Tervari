@@ -193,6 +193,7 @@ exports.BattlePokedex = {
         chandelure: {
                 inherit: true,
                 abilities: {0:"Flash Fire",1:"Flame Body",H:"Shadow Tag"}
+        },                
 viterb:{num:850,species:"Viterb",types:["Grass"],genderRatio:{M:0.875,F:0.125},baseStats:{hp:53,atk:63,def:41,spa:55,spd:46,spe:51},abilities:{0:"Overgrow",DW:"Leaf Guard"},heightm:2,weightkg:100,color:"Green",evos:["hierbado"],evoLevel:32,eggGroups:["Monster","Plant"]},
 hierbado:{num:851,species:"Hierbado",types:["Grass"],genderRatio:{M:0.875,F:0.125},baseStats:{hp:62,atk:83,def:51,spa:78,spd:56,spe:83},abilities:{0:"Overgrow",DW:"Leaf Guard"},heightm:2,weightkg:100,color:"Green",prevo:"viterb",evoLevel:32,eggGroups:["Monster","Plant"]},
 rapagram:{num:852,species:"Rapagram",types:["Grass","Rock"],genderRatio:{M:0.875,F:0.125},baseStats:{hp:80,atk:112,def:75,spa:81,spd:75,spe:105},abilities:{0:"Overgrow",DW:"Leaf Guard"},heightm:2,weightkg:100,color:"Green",prevo:"hierbado",evoLevel:36,eggGroups:["Monster","Plant"]},
