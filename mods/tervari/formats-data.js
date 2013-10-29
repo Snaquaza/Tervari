@@ -4586,7 +4586,7 @@ tier: "Illegal"
 	rapagram: {
 		viableMoves: {"stoneedge":1,"woodhammer":1,"leafblade":1,"leechseed":1,"earthquake":1,"rockpolish":1,"swordsdance":1},
 		dreamWorldRelease: true,
-		tier: "OU"
+		tier: "UU"
 	},
 	gazceit: {
 		viableMoves: {"substitute":1,"batonpass":1,"swordsdance":1,"return":1,"voidhorn":1,"doublekick":1,"quickattack":1,"wildcharge":1,"hornleech":1,"flamecharge":1,"headsmash":1},
@@ -4625,7 +4625,7 @@ tier: "Illegal"
 		dreamWorldRelease: true,
 		tier: "NU"
 	},
-	hydramo: {viableMoves: {"thunderwave":1,"hydropump":1,"thunderbolt":1,"nastyplot":1},
+	hydramo: {viableMoves: {"thunderwave":1,"hydropump":1,"thunderbolt":1,"nastyplot":1,"icebeam":1},
 		dreamWorldRelease: true,
 		tier: "OU"
 	},
@@ -4637,8 +4637,48 @@ tier: "Illegal"
 		dreamWorldRelease: true,
 		tier: "Uber"
 	},
-	wirier: {viableMoves: {"earthquake":1,"headsmash":1,"swordsdance":1,"uturn":1,"spikes":1},
+	wirbaer: {viableMoves: {"earthquake":1,"headsmash":1,"swordsdance":1,"uturn":1,"spikes":1},
 		dreamWorldRelease: true,
 		tier: "RU"
-	}
+	},
+	pankopaw: {viableMoves: {"fakeout":1,"machpunch":1,"superpower":1,"return":1},
+		dreamWorldRelease: true,
+		tier: "NU"
+	},
+	vinagon: {viableMoves: {"leafstorm":1,"dracometeor":1,"recover":1,"sleeppowder":1,"fireblast":1,"focusblast":1,"substitute":1,"uturn":1},
+		dreamWorldRelease: true,
+		tier: "OU"
+	},
+	waforield: {viableMoves: {"substitute":1,"focuspunch":1,"shadowclaw":1,"bulkup":1,"swordsdance":1,"closecombat":1,"earthquake":1},
+		dreamWorldRelease: true,
+		tier: "OU"
+	},
+	wastrield: {viableMoves: {"substitute":1,"psyshock":1,"calmmind":1,"thunderbolt":1},
+		dreamWorldRelease: true,
+		tier: "OU"
+	},
+	watrirield: {viableMoves: {"rabidfrenzy":1,"suckerpunch":1,"closecombat":1,"":1,"swordsdance":1,"uturn":1,"earthquake":1},
+		dreamWorldRelease: true,
+		tier: "OU"
+	},
+	waherield: {viableMoves: {"substitute":1,"focuspunch":1,"shadowclaw":1,"bulkup":1,"swordsdance":1,"closecombat":1,"shadowsneak":1,"calmmind":1,"thunderbolt":1,"shadowball":1,"uturn":1},
+		dreamWorldRelease: true,
+		tier: "OU"
+	},
+	tohwrym: {viableMoves: {"shiftgear":1,"woodhammer":1,"earthquake":1,"shadowclaw":1},
+		dreamWorldRelease: true,
+		tier: "OU"
+	},
+	nanpavo: {viableMoves: {"fireblast":1,"calmmind":1,"willowisp":1,"uturn":1,"thunderwave":1,"focusblast":1,"flashcannon":1},
+		dreamWorldRelease: true,
+		tier: "OU"
+	},
+	saigris: {viableMoves: {"uturn":1,"thunder":1,"hurricane":1,"raindance":1},
+		dreamWorldRelease: true,
+		tier: "OU"
+	},
+	hochelon: {viableMoves: {"toxic":1,"taunt":1,"rest":1,"scald":1},
+		dreamWorldRelease: true,
+		tier: "OU"
+	},
 };

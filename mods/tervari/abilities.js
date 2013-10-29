@@ -40,6 +40,20 @@ Ratings and how they work:
 */
 
 exports.BattleAbilities = {
+	"adrenaline": {
+		desc: "If this Pokemon is on low health, its attack will be raised by one level",
+		shortDesc: "This Pokemon is stronger when it gets lower on HP",
+		onModifyAtkPriority: 5,
+		onModifyAtk: function(atk, attacker, defender, move) {
+			if (attacker.hp <= attacker.maxhp/4) {
+				this.boost({atk:1}, source);
+			}
+		},
+		id: "adrenaline",
+		name: "Adrenaline",
+		rating: 3,
+		num: 9002
+	},
 	"frisk": {
                 inherit: true,
                 onStart: function(pokemon) {

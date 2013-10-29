@@ -1,0 +1,1056 @@
+
+ReferenceError: source is not defined
+    at Tools.exports.BattleAbilities.adrenaline.onModifyAtk (/Users/clazinasteunenberg/Downloads/Tervari/mods/tervari/abilities.js:49:25)
+    at Tools.Battle.runEvent (/Users/clazinasteunenberg/Downloads/Tervari/battle-engine.js:1954:38)
+    at Tools.Battle.getDamage (/Users/clazinasteunenberg/Downloads/Tervari/battle-engine.js:2778:17)
+    at Tools.exports.BattleScripts.moveHit (/Users/clazinasteunenberg/Downloads/Tervari/data/scripts.js:345:18)
+    at Tools.exports.BattleScripts.tryMoveHit (/Users/clazinasteunenberg/Downloads/Tervari/data/scripts.js:264:18)
+    at Tools.exports.BattleScripts.useMove (/Users/clazinasteunenberg/Downloads/Tervari/data/scripts.js:157:18)
+    at Tools.exports.BattleScripts.runMove (/Users/clazinasteunenberg/Downloads/Tervari/data/scripts.js:45:8)
+    at Tools.Battle.runDecision (/Users/clazinasteunenberg/Downloads/Tervari/battle-engine.js:3105:9)
+    at Tools.Battle.go (/Users/clazinasteunenberg/Downloads/Tervari/battle-engine.js:3270:9)
+    at Tools.Battle.commitDecisions (/Users/clazinasteunenberg/Downloads/Tervari/battle-engine.js:3348:8)
+
+Additional information:
+message = battle-tervarirandombattle-62|choose|p2|move Shadow Sneak|27
+currentRequest = move
+
+Log:
+|player|p1|Anty208|26
+|player|p2|Snaquaza|169
+|gametype|singles
+|tier|Tervari Random Battle
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|HP Percentage Mod: HP is reported as percentages
+|
+|start
+|split
+|switch|p1a: Unown|Unown, L99|255/255
+|switch|p1a: Unown|Unown, L99|100/100
+|switch|p1a: Unown|Unown, L99|100/100
+|switch|p1a: Unown|Unown, L99|255/255
+|split
+|switch|p2a: Krookodile|Krookodile, L78, M|100/100
+|switch|p2a: Krookodile|Krookodile, L78, M|276/276
+|switch|p2a: Krookodile|Krookodile, L78, M|100/100
+|switch|p2a: Krookodile|Krookodile, L78, M|276/276
+|-ability|p2a: Krookodile|Intimidate|[of] p1a: Unown
+|-unboost|p1a: Unown|atk|1
+|turn|1
+|callback|decision
+|chat|Anty208|bl dhf
+|
+|split
+|switch|p1a: Keldeo|Keldeo, L74|257/257
+|switch|p1a: Keldeo|Keldeo, L74|100/100
+|switch|p1a: Keldeo|Keldeo, L74|100/100
+|switch|p1a: Keldeo|Keldeo, L74|257/257
+|move|p2a: Krookodile|Crunch|p1a: Keldeo
+|-resisted|p1a: Keldeo
+|split
+|-damage|p1a: Keldeo|189/257
+|-damage|p1a: Keldeo|74/100
+|-damage|p1a: Keldeo|74/100
+|-damage|p1a: Keldeo|189/257
+|-boost|p1a: Keldeo|atk|1|[from] ability: Justified
+|split
+|-damage|p2a: Krookodile|91/100|[from] item: Life Orb
+|-damage|p2a: Krookodile|249/276|[from] item: Life Orb
+|-damage|p2a: Krookodile|91/100|[from] item: Life Orb
+|-damage|p2a: Krookodile|249/276|[from] item: Life Orb
+|
+|split
+|-heal|p1a: Keldeo|205/257|[from] item: Leftovers
+|-heal|p1a: Keldeo|80/100|[from] item: Leftovers
+|-heal|p1a: Keldeo|80/100|[from] item: Leftovers
+|-heal|p1a: Keldeo|205/257|[from] item: Leftovers
+|turn|2
+|callback|decision
+|chat|Aqua Typhlosion|Anty that's the best Pokémon ever XD
+|chat|Snaquaza|okay anty don't do like eneo and just ignore anything I say
+|chat|Anty208|yes, go on sd keldeo
+|chat|Eneomas|lol
+|
+|move|p1a: Keldeo|Substitute|p1a: Keldeo
+|-start|p1a: Keldeo|Substitute
+|split
+|-damage|p1a: Keldeo|141/257
+|-damage|p1a: Keldeo|55/100
+|-damage|p1a: Keldeo|55/100
+|-damage|p1a: Keldeo|141/257
+|move|p2a: Krookodile|Superpower|p1a: Keldeo
+|-end|p1a: Keldeo|Substitute
+|-unboost|p2a: Krookodile|atk|1
+|-unboost|p2a: Krookodile|def|1
+|split
+|-damage|p2a: Krookodile|81/100|[from] item: Life Orb
+|-damage|p2a: Krookodile|222/276|[from] item: Life Orb
+|-damage|p2a: Krookodile|81/100|[from] item: Life Orb
+|-damage|p2a: Krookodile|222/276|[from] item: Life Orb
+|
+|split
+|-heal|p1a: Keldeo|157/257|[from] item: Leftovers
+|-heal|p1a: Keldeo|62/100|[from] item: Leftovers
+|-heal|p1a: Keldeo|62/100|[from] item: Leftovers
+|-heal|p1a: Keldeo|157/257|[from] item: Leftovers
+|turn|3
+|callback|decision
+|
+|move|p1a: Keldeo|Secret Sword|p2a: Krookodile
+|-crit|p2a: Krookodile
+|-supereffective|p2a: Krookodile
+|split
+|-damage|p2a: Krookodile|0 fnt
+|-damage|p2a: Krookodile|0 fnt
+|-damage|p2a: Krookodile|0 fnt
+|-damage|p2a: Krookodile|0 fnt
+|faint|p2a: Krookodile
+|
+|split
+|-heal|p1a: Keldeo|173/257|[from] item: Leftovers
+|-heal|p1a: Keldeo|68/100|[from] item: Leftovers
+|-heal|p1a: Keldeo|68/100|[from] item: Leftovers
+|-heal|p1a: Keldeo|173/257|[from] item: Leftovers
+|callback|decision
+|chat|Lightkyoyo|Calm mind + sub set
+|
+|split
+|switch|p2a: Whimsicott|Whimsicott, L82, F|100/100
+|switch|p2a: Whimsicott|Whimsicott, L82, F|233/233
+|switch|p2a: Whimsicott|Whimsicott, L82, F|100/100
+|switch|p2a: Whimsicott|Whimsicott, L82, F|233/233
+|turn|4
+|callback|decision
+|chat|Anty208|maybe
+|chat|Lightkyoyo|i just know it
+|chat|Anty208|fak
+|
+|move|p2a: Whimsicott|Leech Seed|p1a: Keldeo
+|-start|p1a: Keldeo|move: Leech Seed
+|move|p1a: Keldeo|Secret Sword|p2a: Whimsicott
+|split
+|-damage|p2a: Whimsicott|59/100
+|-damage|p2a: Whimsicott|137/233
+|-damage|p2a: Whimsicott|59/100
+|-damage|p2a: Whimsicott|137/233
+|
+|split
+|-heal|p2a: Whimsicott|65/100|[from] item: Leftovers
+|-heal|p2a: Whimsicott|151/233|[from] item: Leftovers
+|-heal|p2a: Whimsicott|65/100|[from] item: Leftovers
+|-heal|p2a: Whimsicott|151/233|[from] item: Leftovers
+|split
+|-heal|p1a: Keldeo|189/257|[from] item: Leftovers
+|-heal|p1a: Keldeo|74/100|[from] item: Leftovers
+|-heal|p1a: Keldeo|74/100|[from] item: Leftovers
+|-heal|p1a: Keldeo|189/257|[from] item: Leftovers
+|split
+|-damage|p1a: Keldeo|157/257|[from] Leech Seed|[of] p2a: Whimsicott
+|-damage|p1a: Keldeo|62/100|[from] Leech Seed|[of] p2a: Whimsicott
+|-damage|p1a: Keldeo|62/100|[from] Leech Seed|[of] p2a: Whimsicott
+|-damage|p1a: Keldeo|157/257|[from] Leech Seed|[of] p2a: Whimsicott
+|split
+|-heal|p2a: Whimsicott|79/100|[silent]
+|-heal|p2a: Whimsicott|183/233|[silent]
+|-heal|p2a: Whimsicott|79/100|[silent]
+|-heal|p2a: Whimsicott|183/233|[silent]
+|turn|5
+|callback|decision
+|
+|split
+|switch|p1a: Unown|Unown, L99|255/255
+|switch|p1a: Unown|Unown, L99|100/100
+|switch|p1a: Unown|Unown, L99|100/100
+|switch|p1a: Unown|Unown, L99|255/255
+|move|p2a: Whimsicott|Taunt|p1a: Unown
+|-start|p1a: Unown|move: Taunt
+|
+|split
+|-heal|p2a: Whimsicott|85/100|[from] item: Leftovers
+|-heal|p2a: Whimsicott|197/233|[from] item: Leftovers
+|-heal|p2a: Whimsicott|85/100|[from] item: Leftovers
+|-heal|p2a: Whimsicott|197/233|[from] item: Leftovers
+|turn|6
+|callback|decision
+|
+|split
+|switch|p2a: Waherield|Waherield, L74|100/100
+|switch|p2a: Waherield|Waherield, L74|248/248
+|switch|p2a: Waherield|Waherield, L74|100/100
+|switch|p2a: Waherield|Waherield, L74|248/248
+|move|p1a: Unown|Hidden Power|p2a: Waherield
+|split
+|-damage|p2a: Waherield|48/100
+|-damage|p2a: Waherield|118/248
+|-damage|p2a: Waherield|48/100
+|-damage|p2a: Waherield|118/248
+|
+|turn|7
+|callback|decision
+|chat|Anty208|lol
+|chat|Anty208|too strong
+|chat|Snaquaza|anyway
+|
+|split
+|switch|p2a: Duosion|Duosion, L90, F|100/100
+|switch|p2a: Duosion|Duosion, L90, F|263/263
+|switch|p2a: Duosion|Duosion, L90, F|100/100
+|switch|p2a: Duosion|Duosion, L90, F|263/263
+|move|p1a: Unown|Hidden Power|p2a: Duosion
+|-resisted|p2a: Duosion
+|split
+|-damage|p2a: Duosion|70/100
+|-damage|p2a: Duosion|184/263
+|-damage|p2a: Duosion|70/100
+|-damage|p2a: Duosion|184/263
+|
+|turn|8
+|callback|decision
+|chat|Lightkyoyo|you want to un own that unown, am i right?
+|chat|Snaquaza|make sure you don't kill Waherield
+|chat|Anty208|no you are wrong
+|chat|Anty208|why
+|chat|Snaquaza|but get it in Red Health zone
+|
+|split
+|switch|p1a: Yanma|Yanma, L90, F|263/263
+|switch|p1a: Yanma|Yanma, L90, F|100/100
+|switch|p1a: Yanma|Yanma, L90, F|100/100
+|switch|p1a: Yanma|Yanma, L90, F|263/263
+|move|p2a: Duosion|Trick Room|p2a: Duosion
+|-fieldstart|move: Trick Room|[of] p2a: Duosion
+|
+|turn|9
+|callback|decision
+|chat|Snaquaza|cuz I need to test out if I programmed it correctly
+|
+|move|p2a: Duosion|Psyshock|p1a: Yanma
+|-crit|p1a: Yanma
+|split
+|-damage|p1a: Yanma|0 fnt
+|-damage|p1a: Yanma|0 fnt
+|-damage|p1a: Yanma|0 fnt
+|-damage|p1a: Yanma|0 fnt
+|split
+|-damage|p2a: Duosion|61/100|[from] item: Life Orb
+|-damage|p2a: Duosion|158/263|[from] item: Life Orb
+|-damage|p2a: Duosion|61/100|[from] item: Life Orb
+|-damage|p2a: Duosion|158/263|[from] item: Life Orb
+|faint|p1a: Yanma
+|
+|callback|decision
+|chat|Anty208|oh
+|chat|Anty208|CRIT
+|
+|split
+|switch|p1a: Unown|Unown, L99|255/255
+|switch|p1a: Unown|Unown, L99|100/100
+|switch|p1a: Unown|Unown, L99|100/100
+|switch|p1a: Unown|Unown, L99|255/255
+|turn|10
+|callback|decision
+|chat|Anty208|lol, no magic guard
+|chat|Snaquaza|WOW
+|
+|move|p2a: Duosion|Shadow Ball|p1a: Unown
+|-supereffective|p1a: Unown
+|split
+|-damage|p1a: Unown|0 fnt
+|-damage|p1a: Unown|0 fnt
+|-damage|p1a: Unown|0 fnt
+|-damage|p1a: Unown|0 fnt
+|split
+|-damage|p2a: Duosion|51/100|[from] item: Life Orb
+|-damage|p2a: Duosion|132/263|[from] item: Life Orb
+|-damage|p2a: Duosion|51/100|[from] item: Life Orb
+|-damage|p2a: Duosion|132/263|[from] item: Life Orb
+|faint|p1a: Unown
+|
+|callback|decision
+|chat|Snaquaza|Regenerator
+|chat|Snaquaza|xD
+|
+|split
+|switch|p1a: Bouffalant|Bouffalant, L82, M|290/290
+|switch|p1a: Bouffalant|Bouffalant, L82, M|100/100
+|switch|p1a: Bouffalant|Bouffalant, L82, M|100/100
+|switch|p1a: Bouffalant|Bouffalant, L82, M|290/290
+|turn|11
+|callback|decision
+|
+|move|p2a: Duosion|Hidden Power|p1a: Bouffalant
+|-supereffective|p1a: Bouffalant
+|split
+|-damage|p1a: Bouffalant|126/290
+|-damage|p1a: Bouffalant|44/100
+|-damage|p1a: Bouffalant|44/100
+|-damage|p1a: Bouffalant|126/290
+|split
+|-damage|p2a: Duosion|41/100|[from] item: Life Orb
+|-damage|p2a: Duosion|106/263|[from] item: Life Orb
+|-damage|p2a: Duosion|41/100|[from] item: Life Orb
+|-damage|p2a: Duosion|106/263|[from] item: Life Orb
+|move|p1a: Bouffalant|Head Charge|p2a: Duosion
+|split
+|-damage|p2a: Duosion|0 fnt
+|-damage|p2a: Duosion|0 fnt
+|-damage|p2a: Duosion|0 fnt
+|-damage|p2a: Duosion|0 fnt
+|split
+|-damage|p1a: Bouffalant|99/290|[from] recoil|[of] p2a: Duosion
+|-damage|p1a: Bouffalant|35/100|[from] recoil|[of] p2a: Duosion
+|-damage|p1a: Bouffalant|35/100|[from] recoil|[of] p2a: Duosion
+|-damage|p1a: Bouffalant|99/290|[from] recoil|[of] p2a: Duosion
+|faint|p2a: Duosion
+|
+|callback|decision
+|
+|split
+|switch|p2a: Gloom|Gloom, L90, M|100/100
+|switch|p2a: Gloom|Gloom, L90, M|254/254
+|switch|p2a: Gloom|Gloom, L90, M|100/100
+|switch|p2a: Gloom|Gloom, L90, M|254/254
+|turn|12
+|callback|decision
+|
+|move|p2a: Gloom|Stun Spore|p1a: Bouffalant
+|-boost|p1a: Bouffalant|atk|1|[from] ability: Sap Sipper
+|move|p1a: Bouffalant|Head Charge|p2a: Gloom
+|split
+|-damage|p2a: Gloom|7/100
+|-damage|p2a: Gloom|16/254
+|-damage|p2a: Gloom|7/100
+|-damage|p2a: Gloom|16/254
+|split
+|-damage|p1a: Bouffalant|39/290|[from] recoil|[of] p2a: Gloom
+|-damage|p1a: Bouffalant|14/100|[from] recoil|[of] p2a: Gloom
+|-damage|p1a: Bouffalant|14/100|[from] recoil|[of] p2a: Gloom
+|-damage|p1a: Bouffalant|39/290|[from] recoil|[of] p2a: Gloom
+|
+|split
+|-heal|p2a: Gloom|13/100|[from] item: Black Sludge
+|-heal|p2a: Gloom|31/254|[from] item: Black Sludge
+|-heal|p2a: Gloom|13/100|[from] item: Black Sludge
+|-heal|p2a: Gloom|31/254|[from] item: Black Sludge
+|-fieldend|move: Trick Room
+|turn|13
+|callback|decision
+|chat|Snaquaza|oops
+|chat|Anty208| tanks
+|
+|move|p1a: Bouffalant|Megahorn|p2a: Gloom
+|split
+|-damage|p2a: Gloom|0 fnt
+|-damage|p2a: Gloom|0 fnt
+|-damage|p2a: Gloom|0 fnt
+|-damage|p2a: Gloom|0 fnt
+|faint|p2a: Gloom
+|
+|callback|decision
+|
+|split
+|switch|p2a: Porygon|Porygon, L95|100/100
+|switch|p2a: Porygon|Porygon, L95|277/277
+|switch|p2a: Porygon|Porygon, L95|100/100
+|switch|p2a: Porygon|Porygon, L95|277/277
+|-ability|p2a: Porygon|Sap Sipper|[from] ability: Trace|[of] p1a: Bouffalant
+|turn|14
+|callback|decision
+|
+|move|p2a: Porygon|Ice Beam|p1a: Bouffalant
+|split
+|-damage|p1a: Bouffalant|0 fnt
+|-damage|p1a: Bouffalant|0 fnt
+|-damage|p1a: Bouffalant|0 fnt
+|-damage|p1a: Bouffalant|0 fnt
+|faint|p1a: Bouffalant
+|
+|callback|decision
+|
+|split
+|switch|p1a: Keldeo|Keldeo, L74|157/257
+|switch|p1a: Keldeo|Keldeo, L74|62/100
+|switch|p1a: Keldeo|Keldeo, L74|62/100
+|switch|p1a: Keldeo|Keldeo, L74|157/257
+|turn|15
+|callback|decision
+|chat|Lightkyoyo|i smell a sash
+|
+|split
+|switch|p2a: Whimsicott|Whimsicott, L82, F|85/100
+|switch|p2a: Whimsicott|Whimsicott, L82, F|197/233
+|switch|p2a: Whimsicott|Whimsicott, L82, F|85/100
+|switch|p2a: Whimsicott|Whimsicott, L82, F|197/233
+|move|p1a: Keldeo|Substitute|p1a: Keldeo
+|-start|p1a: Keldeo|Substitute
+|split
+|-damage|p1a: Keldeo|93/257
+|-damage|p1a: Keldeo|37/100
+|-damage|p1a: Keldeo|37/100
+|-damage|p1a: Keldeo|93/257
+|
+|split
+|-heal|p2a: Whimsicott|91/100|[from] item: Leftovers
+|-heal|p2a: Whimsicott|211/233|[from] item: Leftovers
+|-heal|p2a: Whimsicott|91/100|[from] item: Leftovers
+|-heal|p2a: Whimsicott|211/233|[from] item: Leftovers
+|split
+|-heal|p1a: Keldeo|109/257|[from] item: Leftovers
+|-heal|p1a: Keldeo|43/100|[from] item: Leftovers
+|-heal|p1a: Keldeo|43/100|[from] item: Leftovers
+|-heal|p1a: Keldeo|109/257|[from] item: Leftovers
+|turn|16
+|callback|decision
+|
+|move|p2a: Whimsicott|Taunt|p1a: Keldeo
+|-start|p1a: Keldeo|move: Taunt
+|move|p1a: Keldeo|Secret Sword|p2a: Whimsicott
+|split
+|-damage|p2a: Whimsicott|50/100
+|-damage|p2a: Whimsicott|115/233
+|-damage|p2a: Whimsicott|50/100
+|-damage|p2a: Whimsicott|115/233
+|
+|split
+|-heal|p2a: Whimsicott|56/100|[from] item: Leftovers
+|-heal|p2a: Whimsicott|129/233|[from] item: Leftovers
+|-heal|p2a: Whimsicott|56/100|[from] item: Leftovers
+|-heal|p2a: Whimsicott|129/233|[from] item: Leftovers
+|split
+|-heal|p1a: Keldeo|125/257|[from] item: Leftovers
+|-heal|p1a: Keldeo|49/100|[from] item: Leftovers
+|-heal|p1a: Keldeo|49/100|[from] item: Leftovers
+|-heal|p1a: Keldeo|125/257|[from] item: Leftovers
+|turn|17
+|callback|decision
+|
+|split
+|switch|p2a: Waherield|Waherield, L74|48/100
+|switch|p2a: Waherield|Waherield, L74|118/248
+|switch|p2a: Waherield|Waherield, L74|48/100
+|switch|p2a: Waherield|Waherield, L74|118/248
+|move|p1a: Keldeo|Secret Sword|p2a: Waherield
+|-immune|p2a: Waherield|[msg]
+|
+|split
+|-heal|p1a: Keldeo|141/257|[from] item: Leftovers
+|-heal|p1a: Keldeo|55/100|[from] item: Leftovers
+|-heal|p1a: Keldeo|55/100|[from] item: Leftovers
+|-heal|p1a: Keldeo|141/257|[from] item: Leftovers
+|turn|18
+|callback|decision
+|chat|Snaquaza|can you do me a favor and switch out
+|chat|Eneomas|ghost and?
+|chat|Snaquaza|I'll Shadow Sneak
+|chat|Anty208|ok
+|chat|Anty208|i have hp ghost
+|
+|split
+|switch|p1a: Crobat|Crobat, L78, F|261/261
+|switch|p1a: Crobat|Crobat, L78, F|100/100
+|switch|p1a: Crobat|Crobat, L78, F|100/100
+|switch|p1a: Crobat|Crobat, L78, F|261/261
+|move|p2a: Waherield|Shadow Sneak|p1a: Crobat
+|split
+|-damage|p1a: Crobat|205/261
+|-damage|p1a: Crobat|79/100
+|-damage|p1a: Crobat|79/100
+|-damage|p1a: Crobat|205/261
+|split
+|-damage|p2a: Waherield|38/100|[from] item: Life Orb
+|-damage|p2a: Waherield|94/248|[from] item: Life Orb
+|-damage|p2a: Waherield|38/100|[from] item: Life Orb
+|-damage|p2a: Waherield|94/248|[from] item: Life Orb
+|
+|turn|19
+|callback|decision
+|chat|Anty208|ill super fang it
+|chat|Snaquaza|kk, I'll Focus Punch
+|
+|-singleturn|p2a: Waherield|move: Focus Punch
+|move|p1a: Crobat|Super Fang|p2a: Waherield
+|-immune|p2a: Waherield|[msg]
+|move|p2a: Waherield|Focus Punch|p1a: Crobat
+|-resisted|p1a: Crobat
+|split
+|-damage|p1a: Crobat|176/261
+|-damage|p1a: Crobat|68/100
+|-damage|p1a: Crobat|68/100
+|-damage|p1a: Crobat|176/261
+|split
+|-damage|p2a: Waherield|29/100|[from] item: Life Orb
+|-damage|p2a: Waherield|70/248|[from] item: Life Orb
+|-damage|p2a: Waherield|29/100|[from] item: Life Orb
+|-damage|p2a: Waherield|70/248|[from] item: Life Orb
+|
+|turn|20
+|callback|decision
+|chat|Anty208|oh
+|chat|Eneomas|oops
+|chat|Snaquaza|Super Fang again?
+|chat|Anty208|lo recoil
+|chat|Eneomas|uhm
+|chat|Eneomas|lol
+|chat|Aqua Typhlosion|:l that Damage
+|chat|Snaquaza|ya it's most relialble
+|
+|-singleturn|p2a: Waherield|move: Focus Punch
+|move|p1a: Crobat|Super Fang|p2a: Waherield
+|-immune|p2a: Waherield|[msg]
+|move|p2a: Waherield|Focus Punch|p1a: Crobat
+|-resisted|p1a: Crobat
+|split
+|-damage|p1a: Crobat|144/261
+|-damage|p1a: Crobat|56/100
+|-damage|p1a: Crobat|56/100
+|-damage|p1a: Crobat|144/261
+|split
+|-damage|p2a: Waherield|19/100|[from] item: Life Orb
+|-damage|p2a: Waherield|46/248|[from] item: Life Orb
+|-damage|p2a: Waherield|19/100|[from] item: Life Orb
+|-damage|p2a: Waherield|46/248|[from] item: Life Orb
+|
+|turn|21
+|callback|decision
+|chat|Anty208|thatll get it to red
+|chat|Lightkyoyo|oh boy
+|chat|Eneomas|what should happen now?
+|chat|Lightkyoyo|acrobatics!
+|chat|Snaquaza|doesn't work
+|chat|Snaquaza|I think
+|
+|move|p2a: Waherield|Shadow Sneak|p1a: Crobat
+
+ReferenceError: source is not defined
+    at Tools.exports.BattleAbilities.adrenaline.onModifyAtk (/Users/clazinasteunenberg/Downloads/Tervari/mods/tervari/abilities.js:49:25)
+    at Tools.Battle.runEvent (/Users/clazinasteunenberg/Downloads/Tervari/battle-engine.js:1954:38)
+    at Tools.Battle.getDamage (/Users/clazinasteunenberg/Downloads/Tervari/battle-engine.js:2778:17)
+    at Tools.exports.BattleScripts.moveHit (/Users/clazinasteunenberg/Downloads/Tervari/data/scripts.js:345:18)
+    at Tools.exports.BattleScripts.tryMoveHit (/Users/clazinasteunenberg/Downloads/Tervari/data/scripts.js:264:18)
+    at Tools.exports.BattleScripts.useMove (/Users/clazinasteunenberg/Downloads/Tervari/data/scripts.js:157:18)
+    at Tools.exports.BattleScripts.runMove (/Users/clazinasteunenberg/Downloads/Tervari/data/scripts.js:45:8)
+    at Tools.Battle.runDecision (/Users/clazinasteunenberg/Downloads/Tervari/battle-engine.js:3105:9)
+    at Tools.Battle.go (/Users/clazinasteunenberg/Downloads/Tervari/battle-engine.js:3270:9)
+    at Tools.Battle.commitDecisions (/Users/clazinasteunenberg/Downloads/Tervari/battle-engine.js:3348:8)
+
+Additional information:
+message = battle-tervarirandombattle-62|choose|p2|move Shadow Sneak|29
+currentRequest = move
+
+Log:
+|player|p1|Anty208|26
+|player|p2|Snaquaza|169
+|gametype|singles
+|tier|Tervari Random Battle
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|HP Percentage Mod: HP is reported as percentages
+|
+|start
+|split
+|switch|p1a: Unown|Unown, L99|255/255
+|switch|p1a: Unown|Unown, L99|100/100
+|switch|p1a: Unown|Unown, L99|100/100
+|switch|p1a: Unown|Unown, L99|255/255
+|split
+|switch|p2a: Krookodile|Krookodile, L78, M|100/100
+|switch|p2a: Krookodile|Krookodile, L78, M|276/276
+|switch|p2a: Krookodile|Krookodile, L78, M|100/100
+|switch|p2a: Krookodile|Krookodile, L78, M|276/276
+|-ability|p2a: Krookodile|Intimidate|[of] p1a: Unown
+|-unboost|p1a: Unown|atk|1
+|turn|1
+|callback|decision
+|chat|Anty208|bl dhf
+|
+|split
+|switch|p1a: Keldeo|Keldeo, L74|257/257
+|switch|p1a: Keldeo|Keldeo, L74|100/100
+|switch|p1a: Keldeo|Keldeo, L74|100/100
+|switch|p1a: Keldeo|Keldeo, L74|257/257
+|move|p2a: Krookodile|Crunch|p1a: Keldeo
+|-resisted|p1a: Keldeo
+|split
+|-damage|p1a: Keldeo|189/257
+|-damage|p1a: Keldeo|74/100
+|-damage|p1a: Keldeo|74/100
+|-damage|p1a: Keldeo|189/257
+|-boost|p1a: Keldeo|atk|1|[from] ability: Justified
+|split
+|-damage|p2a: Krookodile|91/100|[from] item: Life Orb
+|-damage|p2a: Krookodile|249/276|[from] item: Life Orb
+|-damage|p2a: Krookodile|91/100|[from] item: Life Orb
+|-damage|p2a: Krookodile|249/276|[from] item: Life Orb
+|
+|split
+|-heal|p1a: Keldeo|205/257|[from] item: Leftovers
+|-heal|p1a: Keldeo|80/100|[from] item: Leftovers
+|-heal|p1a: Keldeo|80/100|[from] item: Leftovers
+|-heal|p1a: Keldeo|205/257|[from] item: Leftovers
+|turn|2
+|callback|decision
+|chat|Aqua Typhlosion|Anty that's the best Pokémon ever XD
+|chat|Snaquaza|okay anty don't do like eneo and just ignore anything I say
+|chat|Anty208|yes, go on sd keldeo
+|chat|Eneomas|lol
+|
+|move|p1a: Keldeo|Substitute|p1a: Keldeo
+|-start|p1a: Keldeo|Substitute
+|split
+|-damage|p1a: Keldeo|141/257
+|-damage|p1a: Keldeo|55/100
+|-damage|p1a: Keldeo|55/100
+|-damage|p1a: Keldeo|141/257
+|move|p2a: Krookodile|Superpower|p1a: Keldeo
+|-end|p1a: Keldeo|Substitute
+|-unboost|p2a: Krookodile|atk|1
+|-unboost|p2a: Krookodile|def|1
+|split
+|-damage|p2a: Krookodile|81/100|[from] item: Life Orb
+|-damage|p2a: Krookodile|222/276|[from] item: Life Orb
+|-damage|p2a: Krookodile|81/100|[from] item: Life Orb
+|-damage|p2a: Krookodile|222/276|[from] item: Life Orb
+|
+|split
+|-heal|p1a: Keldeo|157/257|[from] item: Leftovers
+|-heal|p1a: Keldeo|62/100|[from] item: Leftovers
+|-heal|p1a: Keldeo|62/100|[from] item: Leftovers
+|-heal|p1a: Keldeo|157/257|[from] item: Leftovers
+|turn|3
+|callback|decision
+|
+|move|p1a: Keldeo|Secret Sword|p2a: Krookodile
+|-crit|p2a: Krookodile
+|-supereffective|p2a: Krookodile
+|split
+|-damage|p2a: Krookodile|0 fnt
+|-damage|p2a: Krookodile|0 fnt
+|-damage|p2a: Krookodile|0 fnt
+|-damage|p2a: Krookodile|0 fnt
+|faint|p2a: Krookodile
+|
+|split
+|-heal|p1a: Keldeo|173/257|[from] item: Leftovers
+|-heal|p1a: Keldeo|68/100|[from] item: Leftovers
+|-heal|p1a: Keldeo|68/100|[from] item: Leftovers
+|-heal|p1a: Keldeo|173/257|[from] item: Leftovers
+|callback|decision
+|chat|Lightkyoyo|Calm mind + sub set
+|
+|split
+|switch|p2a: Whimsicott|Whimsicott, L82, F|100/100
+|switch|p2a: Whimsicott|Whimsicott, L82, F|233/233
+|switch|p2a: Whimsicott|Whimsicott, L82, F|100/100
+|switch|p2a: Whimsicott|Whimsicott, L82, F|233/233
+|turn|4
+|callback|decision
+|chat|Anty208|maybe
+|chat|Lightkyoyo|i just know it
+|chat|Anty208|fak
+|
+|move|p2a: Whimsicott|Leech Seed|p1a: Keldeo
+|-start|p1a: Keldeo|move: Leech Seed
+|move|p1a: Keldeo|Secret Sword|p2a: Whimsicott
+|split
+|-damage|p2a: Whimsicott|59/100
+|-damage|p2a: Whimsicott|137/233
+|-damage|p2a: Whimsicott|59/100
+|-damage|p2a: Whimsicott|137/233
+|
+|split
+|-heal|p2a: Whimsicott|65/100|[from] item: Leftovers
+|-heal|p2a: Whimsicott|151/233|[from] item: Leftovers
+|-heal|p2a: Whimsicott|65/100|[from] item: Leftovers
+|-heal|p2a: Whimsicott|151/233|[from] item: Leftovers
+|split
+|-heal|p1a: Keldeo|189/257|[from] item: Leftovers
+|-heal|p1a: Keldeo|74/100|[from] item: Leftovers
+|-heal|p1a: Keldeo|74/100|[from] item: Leftovers
+|-heal|p1a: Keldeo|189/257|[from] item: Leftovers
+|split
+|-damage|p1a: Keldeo|157/257|[from] Leech Seed|[of] p2a: Whimsicott
+|-damage|p1a: Keldeo|62/100|[from] Leech Seed|[of] p2a: Whimsicott
+|-damage|p1a: Keldeo|62/100|[from] Leech Seed|[of] p2a: Whimsicott
+|-damage|p1a: Keldeo|157/257|[from] Leech Seed|[of] p2a: Whimsicott
+|split
+|-heal|p2a: Whimsicott|79/100|[silent]
+|-heal|p2a: Whimsicott|183/233|[silent]
+|-heal|p2a: Whimsicott|79/100|[silent]
+|-heal|p2a: Whimsicott|183/233|[silent]
+|turn|5
+|callback|decision
+|
+|split
+|switch|p1a: Unown|Unown, L99|255/255
+|switch|p1a: Unown|Unown, L99|100/100
+|switch|p1a: Unown|Unown, L99|100/100
+|switch|p1a: Unown|Unown, L99|255/255
+|move|p2a: Whimsicott|Taunt|p1a: Unown
+|-start|p1a: Unown|move: Taunt
+|
+|split
+|-heal|p2a: Whimsicott|85/100|[from] item: Leftovers
+|-heal|p2a: Whimsicott|197/233|[from] item: Leftovers
+|-heal|p2a: Whimsicott|85/100|[from] item: Leftovers
+|-heal|p2a: Whimsicott|197/233|[from] item: Leftovers
+|turn|6
+|callback|decision
+|
+|split
+|switch|p2a: Waherield|Waherield, L74|100/100
+|switch|p2a: Waherield|Waherield, L74|248/248
+|switch|p2a: Waherield|Waherield, L74|100/100
+|switch|p2a: Waherield|Waherield, L74|248/248
+|move|p1a: Unown|Hidden Power|p2a: Waherield
+|split
+|-damage|p2a: Waherield|48/100
+|-damage|p2a: Waherield|118/248
+|-damage|p2a: Waherield|48/100
+|-damage|p2a: Waherield|118/248
+|
+|turn|7
+|callback|decision
+|chat|Anty208|lol
+|chat|Anty208|too strong
+|chat|Snaquaza|anyway
+|
+|split
+|switch|p2a: Duosion|Duosion, L90, F|100/100
+|switch|p2a: Duosion|Duosion, L90, F|263/263
+|switch|p2a: Duosion|Duosion, L90, F|100/100
+|switch|p2a: Duosion|Duosion, L90, F|263/263
+|move|p1a: Unown|Hidden Power|p2a: Duosion
+|-resisted|p2a: Duosion
+|split
+|-damage|p2a: Duosion|70/100
+|-damage|p2a: Duosion|184/263
+|-damage|p2a: Duosion|70/100
+|-damage|p2a: Duosion|184/263
+|
+|turn|8
+|callback|decision
+|chat|Lightkyoyo|you want to un own that unown, am i right?
+|chat|Snaquaza|make sure you don't kill Waherield
+|chat|Anty208|no you are wrong
+|chat|Anty208|why
+|chat|Snaquaza|but get it in Red Health zone
+|
+|split
+|switch|p1a: Yanma|Yanma, L90, F|263/263
+|switch|p1a: Yanma|Yanma, L90, F|100/100
+|switch|p1a: Yanma|Yanma, L90, F|100/100
+|switch|p1a: Yanma|Yanma, L90, F|263/263
+|move|p2a: Duosion|Trick Room|p2a: Duosion
+|-fieldstart|move: Trick Room|[of] p2a: Duosion
+|
+|turn|9
+|callback|decision
+|chat|Snaquaza|cuz I need to test out if I programmed it correctly
+|
+|move|p2a: Duosion|Psyshock|p1a: Yanma
+|-crit|p1a: Yanma
+|split
+|-damage|p1a: Yanma|0 fnt
+|-damage|p1a: Yanma|0 fnt
+|-damage|p1a: Yanma|0 fnt
+|-damage|p1a: Yanma|0 fnt
+|split
+|-damage|p2a: Duosion|61/100|[from] item: Life Orb
+|-damage|p2a: Duosion|158/263|[from] item: Life Orb
+|-damage|p2a: Duosion|61/100|[from] item: Life Orb
+|-damage|p2a: Duosion|158/263|[from] item: Life Orb
+|faint|p1a: Yanma
+|
+|callback|decision
+|chat|Anty208|oh
+|chat|Anty208|CRIT
+|
+|split
+|switch|p1a: Unown|Unown, L99|255/255
+|switch|p1a: Unown|Unown, L99|100/100
+|switch|p1a: Unown|Unown, L99|100/100
+|switch|p1a: Unown|Unown, L99|255/255
+|turn|10
+|callback|decision
+|chat|Anty208|lol, no magic guard
+|chat|Snaquaza|WOW
+|
+|move|p2a: Duosion|Shadow Ball|p1a: Unown
+|-supereffective|p1a: Unown
+|split
+|-damage|p1a: Unown|0 fnt
+|-damage|p1a: Unown|0 fnt
+|-damage|p1a: Unown|0 fnt
+|-damage|p1a: Unown|0 fnt
+|split
+|-damage|p2a: Duosion|51/100|[from] item: Life Orb
+|-damage|p2a: Duosion|132/263|[from] item: Life Orb
+|-damage|p2a: Duosion|51/100|[from] item: Life Orb
+|-damage|p2a: Duosion|132/263|[from] item: Life Orb
+|faint|p1a: Unown
+|
+|callback|decision
+|chat|Snaquaza|Regenerator
+|chat|Snaquaza|xD
+|
+|split
+|switch|p1a: Bouffalant|Bouffalant, L82, M|290/290
+|switch|p1a: Bouffalant|Bouffalant, L82, M|100/100
+|switch|p1a: Bouffalant|Bouffalant, L82, M|100/100
+|switch|p1a: Bouffalant|Bouffalant, L82, M|290/290
+|turn|11
+|callback|decision
+|
+|move|p2a: Duosion|Hidden Power|p1a: Bouffalant
+|-supereffective|p1a: Bouffalant
+|split
+|-damage|p1a: Bouffalant|126/290
+|-damage|p1a: Bouffalant|44/100
+|-damage|p1a: Bouffalant|44/100
+|-damage|p1a: Bouffalant|126/290
+|split
+|-damage|p2a: Duosion|41/100|[from] item: Life Orb
+|-damage|p2a: Duosion|106/263|[from] item: Life Orb
+|-damage|p2a: Duosion|41/100|[from] item: Life Orb
+|-damage|p2a: Duosion|106/263|[from] item: Life Orb
+|move|p1a: Bouffalant|Head Charge|p2a: Duosion
+|split
+|-damage|p2a: Duosion|0 fnt
+|-damage|p2a: Duosion|0 fnt
+|-damage|p2a: Duosion|0 fnt
+|-damage|p2a: Duosion|0 fnt
+|split
+|-damage|p1a: Bouffalant|99/290|[from] recoil|[of] p2a: Duosion
+|-damage|p1a: Bouffalant|35/100|[from] recoil|[of] p2a: Duosion
+|-damage|p1a: Bouffalant|35/100|[from] recoil|[of] p2a: Duosion
+|-damage|p1a: Bouffalant|99/290|[from] recoil|[of] p2a: Duosion
+|faint|p2a: Duosion
+|
+|callback|decision
+|
+|split
+|switch|p2a: Gloom|Gloom, L90, M|100/100
+|switch|p2a: Gloom|Gloom, L90, M|254/254
+|switch|p2a: Gloom|Gloom, L90, M|100/100
+|switch|p2a: Gloom|Gloom, L90, M|254/254
+|turn|12
+|callback|decision
+|
+|move|p2a: Gloom|Stun Spore|p1a: Bouffalant
+|-boost|p1a: Bouffalant|atk|1|[from] ability: Sap Sipper
+|move|p1a: Bouffalant|Head Charge|p2a: Gloom
+|split
+|-damage|p2a: Gloom|7/100
+|-damage|p2a: Gloom|16/254
+|-damage|p2a: Gloom|7/100
+|-damage|p2a: Gloom|16/254
+|split
+|-damage|p1a: Bouffalant|39/290|[from] recoil|[of] p2a: Gloom
+|-damage|p1a: Bouffalant|14/100|[from] recoil|[of] p2a: Gloom
+|-damage|p1a: Bouffalant|14/100|[from] recoil|[of] p2a: Gloom
+|-damage|p1a: Bouffalant|39/290|[from] recoil|[of] p2a: Gloom
+|
+|split
+|-heal|p2a: Gloom|13/100|[from] item: Black Sludge
+|-heal|p2a: Gloom|31/254|[from] item: Black Sludge
+|-heal|p2a: Gloom|13/100|[from] item: Black Sludge
+|-heal|p2a: Gloom|31/254|[from] item: Black Sludge
+|-fieldend|move: Trick Room
+|turn|13
+|callback|decision
+|chat|Snaquaza|oops
+|chat|Anty208| tanks
+|
+|move|p1a: Bouffalant|Megahorn|p2a: Gloom
+|split
+|-damage|p2a: Gloom|0 fnt
+|-damage|p2a: Gloom|0 fnt
+|-damage|p2a: Gloom|0 fnt
+|-damage|p2a: Gloom|0 fnt
+|faint|p2a: Gloom
+|
+|callback|decision
+|
+|split
+|switch|p2a: Porygon|Porygon, L95|100/100
+|switch|p2a: Porygon|Porygon, L95|277/277
+|switch|p2a: Porygon|Porygon, L95|100/100
+|switch|p2a: Porygon|Porygon, L95|277/277
+|-ability|p2a: Porygon|Sap Sipper|[from] ability: Trace|[of] p1a: Bouffalant
+|turn|14
+|callback|decision
+|
+|move|p2a: Porygon|Ice Beam|p1a: Bouffalant
+|split
+|-damage|p1a: Bouffalant|0 fnt
+|-damage|p1a: Bouffalant|0 fnt
+|-damage|p1a: Bouffalant|0 fnt
+|-damage|p1a: Bouffalant|0 fnt
+|faint|p1a: Bouffalant
+|
+|callback|decision
+|
+|split
+|switch|p1a: Keldeo|Keldeo, L74|157/257
+|switch|p1a: Keldeo|Keldeo, L74|62/100
+|switch|p1a: Keldeo|Keldeo, L74|62/100
+|switch|p1a: Keldeo|Keldeo, L74|157/257
+|turn|15
+|callback|decision
+|chat|Lightkyoyo|i smell a sash
+|
+|split
+|switch|p2a: Whimsicott|Whimsicott, L82, F|85/100
+|switch|p2a: Whimsicott|Whimsicott, L82, F|197/233
+|switch|p2a: Whimsicott|Whimsicott, L82, F|85/100
+|switch|p2a: Whimsicott|Whimsicott, L82, F|197/233
+|move|p1a: Keldeo|Substitute|p1a: Keldeo
+|-start|p1a: Keldeo|Substitute
+|split
+|-damage|p1a: Keldeo|93/257
+|-damage|p1a: Keldeo|37/100
+|-damage|p1a: Keldeo|37/100
+|-damage|p1a: Keldeo|93/257
+|
+|split
+|-heal|p2a: Whimsicott|91/100|[from] item: Leftovers
+|-heal|p2a: Whimsicott|211/233|[from] item: Leftovers
+|-heal|p2a: Whimsicott|91/100|[from] item: Leftovers
+|-heal|p2a: Whimsicott|211/233|[from] item: Leftovers
+|split
+|-heal|p1a: Keldeo|109/257|[from] item: Leftovers
+|-heal|p1a: Keldeo|43/100|[from] item: Leftovers
+|-heal|p1a: Keldeo|43/100|[from] item: Leftovers
+|-heal|p1a: Keldeo|109/257|[from] item: Leftovers
+|turn|16
+|callback|decision
+|
+|move|p2a: Whimsicott|Taunt|p1a: Keldeo
+|-start|p1a: Keldeo|move: Taunt
+|move|p1a: Keldeo|Secret Sword|p2a: Whimsicott
+|split
+|-damage|p2a: Whimsicott|50/100
+|-damage|p2a: Whimsicott|115/233
+|-damage|p2a: Whimsicott|50/100
+|-damage|p2a: Whimsicott|115/233
+|
+|split
+|-heal|p2a: Whimsicott|56/100|[from] item: Leftovers
+|-heal|p2a: Whimsicott|129/233|[from] item: Leftovers
+|-heal|p2a: Whimsicott|56/100|[from] item: Leftovers
+|-heal|p2a: Whimsicott|129/233|[from] item: Leftovers
+|split
+|-heal|p1a: Keldeo|125/257|[from] item: Leftovers
+|-heal|p1a: Keldeo|49/100|[from] item: Leftovers
+|-heal|p1a: Keldeo|49/100|[from] item: Leftovers
+|-heal|p1a: Keldeo|125/257|[from] item: Leftovers
+|turn|17
+|callback|decision
+|
+|split
+|switch|p2a: Waherield|Waherield, L74|48/100
+|switch|p2a: Waherield|Waherield, L74|118/248
+|switch|p2a: Waherield|Waherield, L74|48/100
+|switch|p2a: Waherield|Waherield, L74|118/248
+|move|p1a: Keldeo|Secret Sword|p2a: Waherield
+|-immune|p2a: Waherield|[msg]
+|
+|split
+|-heal|p1a: Keldeo|141/257|[from] item: Leftovers
+|-heal|p1a: Keldeo|55/100|[from] item: Leftovers
+|-heal|p1a: Keldeo|55/100|[from] item: Leftovers
+|-heal|p1a: Keldeo|141/257|[from] item: Leftovers
+|turn|18
+|callback|decision
+|chat|Snaquaza|can you do me a favor and switch out
+|chat|Eneomas|ghost and?
+|chat|Snaquaza|I'll Shadow Sneak
+|chat|Anty208|ok
+|chat|Anty208|i have hp ghost
+|
+|split
+|switch|p1a: Crobat|Crobat, L78, F|261/261
+|switch|p1a: Crobat|Crobat, L78, F|100/100
+|switch|p1a: Crobat|Crobat, L78, F|100/100
+|switch|p1a: Crobat|Crobat, L78, F|261/261
+|move|p2a: Waherield|Shadow Sneak|p1a: Crobat
+|split
+|-damage|p1a: Crobat|205/261
+|-damage|p1a: Crobat|79/100
+|-damage|p1a: Crobat|79/100
+|-damage|p1a: Crobat|205/261
+|split
+|-damage|p2a: Waherield|38/100|[from] item: Life Orb
+|-damage|p2a: Waherield|94/248|[from] item: Life Orb
+|-damage|p2a: Waherield|38/100|[from] item: Life Orb
+|-damage|p2a: Waherield|94/248|[from] item: Life Orb
+|
+|turn|19
+|callback|decision
+|chat|Anty208|ill super fang it
+|chat|Snaquaza|kk, I'll Focus Punch
+|
+|-singleturn|p2a: Waherield|move: Focus Punch
+|move|p1a: Crobat|Super Fang|p2a: Waherield
+|-immune|p2a: Waherield|[msg]
+|move|p2a: Waherield|Focus Punch|p1a: Crobat
+|-resisted|p1a: Crobat
+|split
+|-damage|p1a: Crobat|176/261
+|-damage|p1a: Crobat|68/100
+|-damage|p1a: Crobat|68/100
+|-damage|p1a: Crobat|176/261
+|split
+|-damage|p2a: Waherield|29/100|[from] item: Life Orb
+|-damage|p2a: Waherield|70/248|[from] item: Life Orb
+|-damage|p2a: Waherield|29/100|[from] item: Life Orb
+|-damage|p2a: Waherield|70/248|[from] item: Life Orb
+|
+|turn|20
+|callback|decision
+|chat|Anty208|oh
+|chat|Eneomas|oops
+|chat|Snaquaza|Super Fang again?
+|chat|Anty208|lo recoil
+|chat|Eneomas|uhm
+|chat|Eneomas|lol
+|chat|Aqua Typhlosion|:l that Damage
+|chat|Snaquaza|ya it's most relialble
+|
+|-singleturn|p2a: Waherield|move: Focus Punch
+|move|p1a: Crobat|Super Fang|p2a: Waherield
+|-immune|p2a: Waherield|[msg]
+|move|p2a: Waherield|Focus Punch|p1a: Crobat
+|-resisted|p1a: Crobat
+|split
+|-damage|p1a: Crobat|144/261
+|-damage|p1a: Crobat|56/100
+|-damage|p1a: Crobat|56/100
+|-damage|p1a: Crobat|144/261
+|split
+|-damage|p2a: Waherield|19/100|[from] item: Life Orb
+|-damage|p2a: Waherield|46/248|[from] item: Life Orb
+|-damage|p2a: Waherield|19/100|[from] item: Life Orb
+|-damage|p2a: Waherield|46/248|[from] item: Life Orb
+|
+|turn|21
+|callback|decision
+|chat|Anty208|thatll get it to red
+|chat|Lightkyoyo|oh boy
+|chat|Eneomas|what should happen now?
+|chat|Lightkyoyo|acrobatics!
+|chat|Snaquaza|doesn't work
+|chat|Snaquaza|I think
+|
+|move|p2a: Waherield|Shadow Sneak|p1a: Crobat
+|html|<div class="broadcast-red"><b>The battle crashed</b><br />You can keep playing but it might crash again.</div>
+|callback|decision
+|chat|Anty208|..
+|
+|move|p1a: Crobat|Super Fang|p2a: Waherield|[from]Adrenaline
+|-immune|p2a: Waherield|[msg]
+|
+|turn|22
+|callback|decision
+|chat|Snaquaza|lel probably not
+|
+|move|p2a: Waherield|Shadow Sneak|p1a: Crobat|[from]Adrenaline
