@@ -558,7 +558,47 @@ exports.BattleItems = {
                 num: -6,
                 gen: 6,
                 desc: "Mega-evolves Venusaur."
-        }
+        },
+        "xernite": {
+                id: "xernite",
+                name: "Xernite",
+                spritenum: 0,
+                onResidualOrder: 5,
+                onResidualSubOrder: 2,
+                onResidual: function(pokemon) {
+                        if (user.baseTemplate.species === 'Xerneas') {
+                        if (user.baseTemplate.species === 'Xerneas-Mega') {                        
+                                this.heal(pokemon.maxhp/16);
+                        } else {
+                                this.damage(pokemon.maxhp/8);
+                        }
+                },                
+                megaStone: "Xerneas-Mega",
+                onTakeItem: false,
+                num: -6,
+                gen: 6,
+                desc: "Mega-evolves Xerneas."
+        },
+        "yvelite": {
+                id: "yvelite",
+                name: "Yvelite",
+                spritenum: 0,
+                onResidualOrder: 5,
+                onResidualSubOrder: 2,
+                onResidual: function(pokemon) {
+                        if (user.baseTemplate.species === 'Yveltal') {
+                        if (user.baseTemplate.species === 'Yveltal-Mega') {                        
+                                this.heal(pokemon.maxhp/16);
+                        } else {
+                                this.damage(pokemon.maxhp/8);
+                        }
+                },                
+                megaStone: "Yveltal-Mega",
+                onTakeItem: false,
+                num: -6,
+                gen: 6,
+                desc: "Mega-evolves Yveltal."
+        }        
 };     
         
         
