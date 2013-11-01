@@ -71,7 +71,7 @@ exports.BattlePokedex = {
                 baseStats: {hp:80,atk:110,def:100,spa:80,spd:95,spe:105}
        },
        xerneas:{num:716,species:"Xerneas",types:["Fairy"],gender:"N",baseStats:{hp:126,atk:131,def:95,spa:131,spd:98,spe:99},abilities:{0:"Fairy Aura"},heightm:3,weightkg:215,color:"",eggGroups:["No Eggs"],otherFormes:["xerneasmega"]},
-yveltal:{num:717,species:"Yveltal",types:["Dark","Flying"],gender:"N",baseStats:{hp:126,atk:131,def:95,spa:131,spd:98,spe:99},abilities:{0:"Dark Aura"},heightm:5.8,weightkg:203,color:"",eggGroups:["No Eggs"],otherFormes:["yveltalmega"]},
+       yveltal:{num:717,species:"Yveltal",types:["Dark","Flying"],gender:"N",baseStats:{hp:126,atk:131,def:95,spa:131,spd:98,spe:99},abilities:{0:"Dark Aura"},heightm:5.8,weightkg:203,color:"",eggGroups:["No Eggs"],otherFormes:["yveltalmega"]},
        xerneasmega:{num:716,species:"Xerneas-Mega",baseSpecies:"Xerneas",forme:"Mega",formeLetter:"M",types:["Fairy","Grass"],gender:"N",baseStats:{hp:165,atk:60,def:135,spa:115,spd:165,spe:105},abilities:{0:"Natural Cure"},heightm:3,weightkg:215,color:"",eggGroups:["No Eggs"]},
        yveltalmega:{num:717,species:"Yveltal-Mega",baseSpecies:"Yveltal",forme:"Mega",formeLetter:"M",types:["Dark","Flying"],gender:"N",baseStats:{hp:105,atk:185,def:90,spa:175,spd:85,spe:115},abilities:{0:"Gale Wings"},heightm:5.8,weightkg:203,color:"",eggGroups:["No Eggs"]},
 };
