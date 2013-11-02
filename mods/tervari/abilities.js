@@ -43,15 +43,15 @@ exports.BattleAbilities = {
 	"adrenaline": {
 		desc: "If this Pokemon is on low health, its attack will be raised by one level",
 		shortDesc: "This Pokemon is stronger when it gets lower on HP",
-		onModifyAtkPriority: 5,
-		onModifyAtk: function(atk, attacker, defender, move) {
-			if (attacker.hp <= attacker.maxhp/4) {
+		onResidual: function(pokemon) {
+			if (pokemon.hp <= pokemon.maxhp/4) {
 				this.boost({atk:1}, source);
+				this.boost({spa:1}, source);
 			}
 		},
 		id: "adrenaline",
 		name: "Adrenaline",
-		rating: 3,
+		rating: 2,
 		num: 9002
 	},
 	"frisk": {

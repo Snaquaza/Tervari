@@ -618,6 +618,8 @@ var commands = exports.commands = {
 		targetUser.ban();
 	},
 
+
+
 	unban: function(target, room, user) {
 		if (!target) return this.parse('/help unban');
 		if (!user.can('ban')) {

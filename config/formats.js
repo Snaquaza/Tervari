@@ -782,6 +782,12 @@ exports.Formats = [
                 banlist: ['Wonder Guard', 'Pure Power', 'Huge Power', 'Shadow Tag', 'Arena Trap']
         },
         {
+                name: "BH XY",
+                section: "Other Metagames",
+                ruleset: ['Pokemon', 'OHKO Clause'],
+                banlist: ['Wonder Guard', 'Pure Power', 'Huge Power', 'Shadow Tag', 'Arena Trap']
+        },
+        {
                 name: "Haxmons",
                 section: "Other Metagames",
 		mod: 'gen5',

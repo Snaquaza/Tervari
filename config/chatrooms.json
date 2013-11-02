@@ -1,13 +1,11 @@
 [
-{"title":"Lobby","autojoin":true,"desc":"Our main room and a great place to have fun!"},
-{"title":"Staff","isPrivate":true,"staffRoom":true,"staffAutojoin":true,"auth":{"snaquaza":"+","realpresent":"+"}},
-{"title":"Mafia","desc":"This Room is the Room to play Mafia, a fun game!"},
-{"title":"Tervari Olympics","auth":{"firehound":"#","snaquaza":"@","adrianmarinbh":"@","asterat":"+","hdow":"+","snaquille":"@","realpresent":"+","namin":"+","eneomas":"+"},"desc":"The Official Room for our OM League named the Tervari Olympics"},
-{"title":"Silver","isPrivate":true,"auth":{"umbreonqueen":"#","hdow":"@","snaquaza":"+"}},
-{"title":"Spheal Hole","isPrivate":true,"auth":{"aurr":"#","flamingfrozengnome":"@","snaquaza":"@","hdow":"+","e4cat":"+","zeppy":"+","coolasian":"%","cwegz":"+"},"isOfficial":true,"desc":"Welcome to my room! This is where I hide from humanity :D "},
-{"title":"Spammer's Paradise","isPrivate":true},
-{"title":"HazaLeague","isPrivate":true,"auth":{"kinghaza":"#"}},
-{"title":"MenceLeague","isPrivate":true,"auth":{"gardreigon982":"#","lightkyoyo":"%","snaquaza":"+","noivernaction":"@","shinyzerox":"+"}},
-{"title":"Snaq's World","isPrivate":true},
-{"title":"Tervari","desc":"The room for discussing our game and it's Pokemon!","auth":{"snaquaza":"#","theburgerking99":"@"}}
+{"title":"Lobby","autojoin":true},
+{"title":"Staff","isPrivate":true,"staffRoom":true,"staffAutojoin":true},
+{"title":"Mafia"},
+{"title":"Tervari Olympics","auth":{"firehound":"#","adrianmarinbh":"@","snaquaza":"@","spartanmalice":"%","eneomas":"+","hdow":"+","namin":"+"}},
+{"title":"Tervari"},
+{"title":"Spam","isPrivate":true},
+{"title":"Silver","isPrivate":true},
+{"title":"Server Ideas"},
+{"title":"Aurora","isPrivate":true,"auth":{"aurr":"#","coolasian":"@","snaquaza":"@","silverkill":"%"}}
 ]

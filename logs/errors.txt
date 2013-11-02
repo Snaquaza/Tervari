@@ -1054,3 +1054,4443 @@ Log:
 |chat|Snaquaza|lel probably not
 |
 |move|p2a: Waherield|Shadow Sneak|p1a: Crobat|[from]Adrenaline
+
+ReferenceError: source is not defined
+    at Tools.exports.BattleAbilities.adrenaline.onModifyAtk (/Users/clazinasteunenberg/Downloads/Tervari/mods/tervari/abilities.js:49:25)
+    at Tools.Battle.runEvent (/Users/clazinasteunenberg/Downloads/Tervari/battle-engine.js:1954:38)
+    at Tools.Battle.getDamage (/Users/clazinasteunenberg/Downloads/Tervari/battle-engine.js:2778:17)
+    at Tools.exports.BattleScripts.moveHit (/Users/clazinasteunenberg/Downloads/Tervari/data/scripts.js:345:18)
+    at Tools.exports.BattleScripts.tryMoveHit (/Users/clazinasteunenberg/Downloads/Tervari/data/scripts.js:264:18)
+    at Tools.exports.BattleScripts.useMove (/Users/clazinasteunenberg/Downloads/Tervari/data/scripts.js:157:18)
+    at Tools.exports.BattleScripts.runMove (/Users/clazinasteunenberg/Downloads/Tervari/data/scripts.js:45:8)
+    at Tools.Battle.runDecision (/Users/clazinasteunenberg/Downloads/Tervari/battle-engine.js:3105:9)
+    at Tools.Battle.go (/Users/clazinasteunenberg/Downloads/Tervari/battle-engine.js:3270:9)
+    at Tools.Battle.commitDecisions (/Users/clazinasteunenberg/Downloads/Tervari/battle-engine.js:3348:8)
+    at Tools.Battle.choose (/Users/clazinasteunenberg/Downloads/Tervari/battle-engine.js:3330:9)
+
+Additional information:
+message = battle-tervarirandombattle-46|choose|p2|move Substitute|24
+currentRequest = move
+
+Log:
+|player|p1|Mx2|92
+|player|p2|Tiesto|261
+|gametype|singles
+|tier|Tervari Random Battle
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|HP Percentage Mod: HP is reported as percentages
+|
+|start
+|split
+|switch|p1a: Swinub|Swinub, L95, M|249/249
+|switch|p1a: Swinub|Swinub, L95, M|100/100
+|switch|p1a: Swinub|Swinub, L95, M|100/100
+|switch|p1a: Swinub|Swinub, L95, M|249/249
+|split
+|switch|p2a: Tynamo|Tynamo, L99, F|100/100
+|switch|p2a: Tynamo|Tynamo, L99, F|229/229
+|switch|p2a: Tynamo|Tynamo, L99, F|100/100
+|switch|p2a: Tynamo|Tynamo, L99, F|229/229
+|turn|1
+|callback|decision
+|
+|split
+|switch|p2a: Darkrai|Darkrai, L70|100/100
+|switch|p2a: Darkrai|Darkrai, L70|214/214
+|switch|p2a: Darkrai|Darkrai, L70|100/100
+|switch|p2a: Darkrai|Darkrai, L70|214/214
+|move|p1a: Swinub|Stealth Rock|p2a: Darkrai
+|-sidestart|p2: Tiesto|move: Stealth Rock
+|
+|turn|2
+|callback|decision
+|chat|Snaquaza|nice start
+|
+|move|p1a: Swinub|Ice Shard|p2a: Darkrai
+|split
+|-damage|p2a: Darkrai|79/100
+|-damage|p2a: Darkrai|169/214
+|-damage|p2a: Darkrai|79/100
+|-damage|p2a: Darkrai|169/214
+|move|p2a: Darkrai|Nasty Plot|p2a: Darkrai
+|-boost|p2a: Darkrai|spa|2
+|
+|split
+|-heal|p2a: Darkrai|86/100|[from] item: Leftovers
+|-heal|p2a: Darkrai|182/214|[from] item: Leftovers
+|-heal|p2a: Darkrai|86/100|[from] item: Leftovers
+|-heal|p2a: Darkrai|182/214|[from] item: Leftovers
+|turn|3
+|callback|decision
+|chat|JeffTheKiller6|Darkrai <3
+|
+|move|p2a: Darkrai|Dark Void|p1a: Swinub
+|-status|p1a: Swinub|slp
+|cant|p1a: Swinub|slp
+|
+|split
+|-heal|p2a: Darkrai|92/100|[from] item: Leftovers
+|-heal|p2a: Darkrai|195/214|[from] item: Leftovers
+|-heal|p2a: Darkrai|92/100|[from] item: Leftovers
+|-heal|p2a: Darkrai|195/214|[from] item: Leftovers
+|split
+|-damage|p1a: Swinub|218/249 slp|[from] ability: Bad Dreams
+|-damage|p1a: Swinub|88/100 slp|[from] ability: Bad Dreams
+|-damage|p1a: Swinub|88/100 slp|[from] ability: Bad Dreams
+|-damage|p1a: Swinub|218/249 slp|[from] ability: Bad Dreams
+|turn|4
+|callback|decision
+|
+|move|p2a: Darkrai|Nasty Plot|p2a: Darkrai
+|-boost|p2a: Darkrai|spa|2
+|cant|p1a: Swinub|slp
+|
+|split
+|-heal|p2a: Darkrai|98/100|[from] item: Leftovers
+|-heal|p2a: Darkrai|208/214|[from] item: Leftovers
+|-heal|p2a: Darkrai|98/100|[from] item: Leftovers
+|-heal|p2a: Darkrai|208/214|[from] item: Leftovers
+|split
+|-damage|p1a: Swinub|187/249 slp|[from] ability: Bad Dreams
+|-damage|p1a: Swinub|76/100 slp|[from] ability: Bad Dreams
+|-damage|p1a: Swinub|76/100 slp|[from] ability: Bad Dreams
+|-damage|p1a: Swinub|187/249 slp|[from] ability: Bad Dreams
+|turn|5
+|callback|decision
+|chat|Tiesto|If this misses..
+|
+|move|p2a: Darkrai|Focus Blast|p1a: Swinub
+|-supereffective|p1a: Swinub
+|split
+|-damage|p1a: Swinub|0 fnt
+|-damage|p1a: Swinub|0 fnt
+|-damage|p1a: Swinub|0 fnt
+|-damage|p1a: Swinub|0 fnt
+|faint|p1a: Swinub
+|
+|split
+|-heal|p2a: Darkrai|100/100|[from] item: Leftovers
+|-heal|p2a: Darkrai|214/214|[from] item: Leftovers
+|-heal|p2a: Darkrai|100/100|[from] item: Leftovers
+|-heal|p2a: Darkrai|214/214|[from] item: Leftovers
+|callback|decision
+|chat|Tiesto|<3
+|
+|split
+|switch|p1a: Aerodactyl|Aerodactyl, L82, M|265/265
+|switch|p1a: Aerodactyl|Aerodactyl, L82, M|100/100
+|switch|p1a: Aerodactyl|Aerodactyl, L82, M|100/100
+|switch|p1a: Aerodactyl|Aerodactyl, L82, M|265/265
+|-ability|p1a: Aerodactyl|Pressure
+|turn|6
+|callback|decision
+|
+|move|p1a: Aerodactyl|Stone Edge|p2a: Darkrai
+|split
+|-damage|p2a: Darkrai|41/100
+|-damage|p2a: Darkrai|87/214
+|-damage|p2a: Darkrai|41/100
+|-damage|p2a: Darkrai|87/214
+|move|p2a: Darkrai|Dark Pulse|p1a: Aerodactyl
+|split
+|-damage|p1a: Aerodactyl|0 fnt
+|-damage|p1a: Aerodactyl|0 fnt
+|-damage|p1a: Aerodactyl|0 fnt
+|-damage|p1a: Aerodactyl|0 fnt
+|faint|p1a: Aerodactyl
+|
+|split
+|-heal|p2a: Darkrai|47/100|[from] item: Leftovers
+|-heal|p2a: Darkrai|100/214|[from] item: Leftovers
+|-heal|p2a: Darkrai|47/100|[from] item: Leftovers
+|-heal|p2a: Darkrai|100/214|[from] item: Leftovers
+|callback|decision
+|chat|JeffTheKiller6|Go Tiesto
+|
+|split
+|switch|p1a: Bisharp|Bisharp, L78, F|229/229
+|switch|p1a: Bisharp|Bisharp, L78, F|100/100
+|switch|p1a: Bisharp|Bisharp, L78, F|100/100
+|switch|p1a: Bisharp|Bisharp, L78, F|229/229
+|-ability|p1a: Bisharp|Pressure
+|turn|7
+|callback|decision
+|
+|move|p2a: Darkrai|Focus Blast|p1a: Bisharp
+|-supereffective|p1a: Bisharp
+|split
+|-damage|p1a: Bisharp|0 fnt
+|-damage|p1a: Bisharp|0 fnt
+|-damage|p1a: Bisharp|0 fnt
+|-damage|p1a: Bisharp|0 fnt
+|faint|p1a: Bisharp
+|
+|split
+|-heal|p2a: Darkrai|53/100|[from] item: Leftovers
+|-heal|p2a: Darkrai|113/214|[from] item: Leftovers
+|-heal|p2a: Darkrai|53/100|[from] item: Leftovers
+|-heal|p2a: Darkrai|113/214|[from] item: Leftovers
+|callback|decision
+|chat|Mx2|aww come on
+|
+|split
+|switch|p1a: Waherield|Waherield, L74|248/248
+|switch|p1a: Waherield|Waherield, L74|100/100
+|switch|p1a: Waherield|Waherield, L74|100/100
+|switch|p1a: Waherield|Waherield, L74|248/248
+|turn|8
+|callback|decision
+|chat|Tiesto|<3
+|chat|Snaquaza|Focus Blast!
+|
+|move|p2a: Darkrai|Focus Blast|p1a: Waherield
+|-immune|p1a: Waherield|[msg]
+|move|p1a: Waherield|Close Combat|p2a: Darkrai
+|-supereffective|p2a: Darkrai
+|split
+|-damage|p2a: Darkrai|0 fnt
+|-damage|p2a: Darkrai|0 fnt
+|-damage|p2a: Darkrai|0 fnt
+|-damage|p2a: Darkrai|0 fnt
+|-unboost|p1a: Waherield|def|1
+|-unboost|p1a: Waherield|spd|1
+|faint|p2a: Darkrai
+|
+|callback|decision
+|chat|Tiesto|</3
+|chat|Snaquaza|LOL
+|
+|split
+|switch|p2a: Waherield|Waherield, L74|100/100
+|switch|p2a: Waherield|Waherield, L74|248/248
+|switch|p2a: Waherield|Waherield, L74|100/100
+|switch|p2a: Waherield|Waherield, L74|248/248
+|split
+|-damage|p2a: Waherield|88/100|[from] Stealth Rock
+|-damage|p2a: Waherield|217/248|[from] Stealth Rock
+|-damage|p2a: Waherield|88/100|[from] Stealth Rock
+|-damage|p2a: Waherield|217/248|[from] Stealth Rock
+|turn|9
+|callback|decision
+|chat|JeffTheKiller6|snaq....
+|chat|anty208|xD
+|chat|Tiesto|I dont know what it is!
+|chat|Mx2|im only i knew he was ghost
+|
+|split
+|switch|p1a: Bronzong|Bronzong, L78|233/233
+|switch|p1a: Bronzong|Bronzong, L78|100/100
+|switch|p1a: Bronzong|Bronzong, L78|100/100
+|switch|p1a: Bronzong|Bronzong, L78|233/233
+|move|p2a: Waherield|Shadow Sneak|p1a: Bronzong
+|split
+|-damage|p1a: Bronzong|194/233
+|-damage|p1a: Bronzong|84/100
+|-damage|p1a: Bronzong|84/100
+|-damage|p1a: Bronzong|194/233
+|split
+|-damage|p2a: Waherield|78/100|[from] item: Life Orb
+|-damage|p2a: Waherield|193/248|[from] item: Life Orb
+|-damage|p2a: Waherield|78/100|[from] item: Life Orb
+|-damage|p2a: Waherield|193/248|[from] item: Life Orb
+|
+|turn|10
+|callback|decision
+|chat|Tiesto|Says type unknown for me </3
+|chat|Mx2|every pokemon on my team had stealth rocks...
+|
+|move|p2a: Waherield|Bulk Up|p2a: Waherield
+|-boost|p2a: Waherield|atk|1
+|-boost|p2a: Waherield|def|1
+|move|p1a: Bronzong|Psychic|p2a: Waherield
+|split
+|-damage|p2a: Waherield|46/100
+|-damage|p2a: Waherield|114/248
+|-damage|p2a: Waherield|46/100
+|-damage|p2a: Waherield|114/248
+|
+|turn|11
+|callback|decision
+|chat|Snaquaza|lol Mx
+|chat|Mx2|its not fighting?
+|chat|Snaquaza|I didn't know Waherield could learn SR
+|chat|Mx2|what type is it?
+|chat|Snaquaza|nah Waherield is pure Ghost
+|
+|move|p2a: Waherield|Close Combat|p1a: Bronzong
+|split
+|-damage|p1a: Bronzong|85/233
+|-damage|p1a: Bronzong|37/100
+|-damage|p1a: Bronzong|37/100
+|-damage|p1a: Bronzong|85/233
+|-unboost|p2a: Waherield|def|1
+|-unboost|p2a: Waherield|spd|1
+|split
+|-damage|p2a: Waherield|37/100|[from] item: Life Orb
+|-damage|p2a: Waherield|90/248|[from] item: Life Orb
+|-damage|p2a: Waherield|37/100|[from] item: Life Orb
+|-damage|p2a: Waherield|90/248|[from] item: Life Orb
+|move|p1a: Bronzong|Psychic|p2a: Waherield
+|-crit|p2a: Waherield
+|split
+|-damage|p2a: Waherield|0 fnt
+|-damage|p2a: Waherield|0 fnt
+|-damage|p2a: Waherield|0 fnt
+|-damage|p2a: Waherield|0 fnt
+|faint|p2a: Waherield
+|
+|callback|decision
+|
+|split
+|switch|p2a: Magmortar|Magmortar, L82, M|100/100
+|switch|p2a: Magmortar|Magmortar, L82, M|257/257
+|switch|p2a: Magmortar|Magmortar, L82, M|100/100
+|switch|p2a: Magmortar|Magmortar, L82, M|257/257
+|split
+|-damage|p2a: Magmortar|76/100|[from] Stealth Rock
+|-damage|p2a: Magmortar|193/257|[from] Stealth Rock
+|-damage|p2a: Magmortar|76/100|[from] Stealth Rock
+|-damage|p2a: Magmortar|193/257|[from] Stealth Rock
+|turn|12
+|callback|decision
+|chat|Mx2|most ghost types dont learn close combat
+|
+|move|p2a: Magmortar|Fire Blast|p1a: Bronzong|[miss]
+|-miss|p2a: Magmortar|p1a: Bronzong
+|move|p1a: Bronzong|Earthquake|p2a: Magmortar
+|-supereffective|p2a: Magmortar
+|split
+|-damage|p2a: Magmortar|22/100
+|-damage|p2a: Magmortar|55/257
+|-damage|p2a: Magmortar|22/100
+|-damage|p2a: Magmortar|55/257
+|
+|split
+|-heal|p2a: Magmortar|28/100|[from] item: Leftovers
+|-heal|p2a: Magmortar|71/257|[from] item: Leftovers
+|-heal|p2a: Magmortar|28/100|[from] item: Leftovers
+|-heal|p2a: Magmortar|71/257|[from] item: Leftovers
+|turn|13
+|callback|decision
+|chat|Tiesto|</3
+|
+|move|p2a: Magmortar|Fire Blast|p1a: Bronzong
+|-supereffective|p1a: Bronzong
+|split
+|-damage|p1a: Bronzong|0 fnt
+|-damage|p1a: Bronzong|0 fnt
+|-damage|p1a: Bronzong|0 fnt
+|-damage|p1a: Bronzong|0 fnt
+|faint|p1a: Bronzong
+|
+|split
+|-heal|p2a: Magmortar|34/100|[from] item: Leftovers
+|-heal|p2a: Magmortar|87/257|[from] item: Leftovers
+|-heal|p2a: Magmortar|34/100|[from] item: Leftovers
+|-heal|p2a: Magmortar|87/257|[from] item: Leftovers
+|callback|decision
+|
+|split
+|switch|p1a: Waherield|Waherield, L74|248/248
+|switch|p1a: Waherield|Waherield, L74|100/100
+|switch|p1a: Waherield|Waherield, L74|100/100
+|switch|p1a: Waherield|Waherield, L74|248/248
+|turn|14
+|callback|decision
+|
+|move|p1a: Waherield|Substitute|p1a: Waherield
+|-start|p1a: Waherield|Substitute
+|split
+|-damage|p1a: Waherield|186/248
+|-damage|p1a: Waherield|75/100
+|-damage|p1a: Waherield|75/100
+|-damage|p1a: Waherield|186/248
+|move|p2a: Magmortar|Fire Blast|p1a: Waherield
+|-end|p1a: Waherield|Substitute
+|
+|split
+|-heal|p1a: Waherield|201/248|[from] item: Leftovers
+|-heal|p1a: Waherield|82/100|[from] item: Leftovers
+|-heal|p1a: Waherield|82/100|[from] item: Leftovers
+|-heal|p1a: Waherield|201/248|[from] item: Leftovers
+|split
+|-heal|p2a: Magmortar|41/100|[from] item: Leftovers
+|-heal|p2a: Magmortar|103/257|[from] item: Leftovers
+|-heal|p2a: Magmortar|41/100|[from] item: Leftovers
+|-heal|p2a: Magmortar|103/257|[from] item: Leftovers
+|turn|15
+|callback|decision
+|chat|Snaquaza|ewll
+|
+|move|p1a: Waherield|Substitute|p1a: Waherield
+|-start|p1a: Waherield|Substitute
+|split
+|-damage|p1a: Waherield|139/248
+|-damage|p1a: Waherield|57/100
+|-damage|p1a: Waherield|57/100
+|-damage|p1a: Waherield|139/248
+|move|p2a: Magmortar|Fire Blast|p1a: Waherield
+|-end|p1a: Waherield|Substitute
+|
+|split
+|-heal|p1a: Waherield|154/248|[from] item: Leftovers
+|-heal|p1a: Waherield|63/100|[from] item: Leftovers
+|-heal|p1a: Waherield|63/100|[from] item: Leftovers
+|-heal|p1a: Waherield|154/248|[from] item: Leftovers
+|split
+|-heal|p2a: Magmortar|47/100|[from] item: Leftovers
+|-heal|p2a: Magmortar|119/257|[from] item: Leftovers
+|-heal|p2a: Magmortar|47/100|[from] item: Leftovers
+|-heal|p2a: Magmortar|119/257|[from] item: Leftovers
+|turn|16
+|callback|decision
+|chat|Snaquaza|it's based on a hero that died in war
+|chat|Tiesto|yolo
+|
+|move|p1a: Waherield|Substitute|p1a: Waherield
+|-start|p1a: Waherield|Substitute
+|split
+|-damage|p1a: Waherield|92/248
+|-damage|p1a: Waherield|38/100
+|-damage|p1a: Waherield|38/100
+|-damage|p1a: Waherield|92/248
+|move|p2a: Magmortar|Thunderbolt|p1a: Waherield
+|-end|p1a: Waherield|Substitute
+|
+|split
+|-heal|p1a: Waherield|107/248|[from] item: Leftovers
+|-heal|p1a: Waherield|44/100|[from] item: Leftovers
+|-heal|p1a: Waherield|44/100|[from] item: Leftovers
+|-heal|p1a: Waherield|107/248|[from] item: Leftovers
+|split
+|-heal|p2a: Magmortar|53/100|[from] item: Leftovers
+|-heal|p2a: Magmortar|135/257|[from] item: Leftovers
+|-heal|p2a: Magmortar|53/100|[from] item: Leftovers
+|-heal|p2a: Magmortar|135/257|[from] item: Leftovers
+|turn|17
+|callback|decision
+|
+|move|p1a: Waherield|Shadow Sneak|p2a: Magmortar
+|split
+|-damage|p2a: Magmortar|37/100
+|-damage|p2a: Magmortar|93/257
+|-damage|p2a: Magmortar|37/100
+|-damage|p2a: Magmortar|93/257
+|-status|p1a: Waherield|brn
+|move|p2a: Magmortar|Thunderbolt|p1a: Waherield
+|split
+|-damage|p1a: Waherield|19/248 brn
+|-damage|p1a: Waherield|8/100 brn
+|-damage|p1a: Waherield|8/100 brn
+|-damage|p1a: Waherield|19/248 brn
+|
+|split
+|-heal|p1a: Waherield|34/248 brn|[from] item: Leftovers
+|-heal|p1a: Waherield|14/100 brn|[from] item: Leftovers
+|-heal|p1a: Waherield|14/100 brn|[from] item: Leftovers
+|-heal|p1a: Waherield|34/248 brn|[from] item: Leftovers
+|split
+|-heal|p2a: Magmortar|43/100|[from] item: Leftovers
+|-heal|p2a: Magmortar|109/257|[from] item: Leftovers
+|-heal|p2a: Magmortar|43/100|[from] item: Leftovers
+|-heal|p2a: Magmortar|109/257|[from] item: Leftovers
+|split
+|-damage|p1a: Waherield|3/248 brn|[from] brn
+|-damage|p1a: Waherield|2/100 brn|[from] brn
+|-damage|p1a: Waherield|2/100 brn|[from] brn
+|-damage|p1a: Waherield|3/248 brn|[from] brn
+|turn|18
+|callback|decision
+|chat|Snaquaza|and the Trio it's from all learn Close Combat at level 100
+|chat|Snaquaza|btw stats were
+|chat|Tiesto|lel
+|
+|move|p1a: Waherield|Close Combat|p2a: Magmortar
+
+ReferenceError: source is not defined
+    at Tools.exports.BattleAbilities.adrenaline.onModifyAtk (/Users/clazinasteunenberg/Downloads/Tervari/mods/tervari/abilities.js:49:25)
+    at Tools.Battle.runEvent (/Users/clazinasteunenberg/Downloads/Tervari/battle-engine.js:1954:38)
+    at Tools.Battle.getDamage (/Users/clazinasteunenberg/Downloads/Tervari/battle-engine.js:2778:17)
+    at Tools.exports.BattleScripts.moveHit (/Users/clazinasteunenberg/Downloads/Tervari/data/scripts.js:345:18)
+    at Tools.exports.BattleScripts.tryMoveHit (/Users/clazinasteunenberg/Downloads/Tervari/data/scripts.js:264:18)
+    at Tools.exports.BattleScripts.useMove (/Users/clazinasteunenberg/Downloads/Tervari/data/scripts.js:157:18)
+    at Tools.exports.BattleScripts.runMove (/Users/clazinasteunenberg/Downloads/Tervari/data/scripts.js:45:8)
+    at Tools.Battle.runDecision (/Users/clazinasteunenberg/Downloads/Tervari/battle-engine.js:3105:9)
+    at Tools.Battle.go (/Users/clazinasteunenberg/Downloads/Tervari/battle-engine.js:3270:9)
+    at Tools.Battle.commitDecisions (/Users/clazinasteunenberg/Downloads/Tervari/battle-engine.js:3348:8)
+
+Additional information:
+message = battle-tervarirandombattle-74|choose|p2|move Bug Buzz|24
+currentRequest = move
+
+Log:
+|player|p1|Mx2|92
+|player|p2|DreаmingSnаquаzа|101
+|gametype|singles
+|tier|Tervari Random Battle
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|HP Percentage Mod: HP is reported as percentages
+|
+|start
+|split
+|switch|p1a: Purrloin|Purrloin, L95, M|232/232
+|switch|p1a: Purrloin|Purrloin, L95, M|100/100
+|switch|p1a: Purrloin|Purrloin, L95, M|100/100
+|switch|p1a: Purrloin|Purrloin, L95, M|232/232
+|split
+|switch|p2a: Drilbur|Drilbur, L95, M|100/100
+|switch|p2a: Drilbur|Drilbur, L95, M|268/268
+|switch|p2a: Drilbur|Drilbur, L95, M|100/100
+|switch|p2a: Drilbur|Drilbur, L95, M|268/268
+|-ability|p2a: Drilbur|Mold Breaker
+|turn|1
+|callback|decision
+|chat|Mx2|if i challenge you at the same time you challenge me, neither challenge goes through...
+|chat|Lightkyoyo|bug report!
+|chat|Lightkyoyo|i think?
+|
+|move|p1a: Purrloin|Substitute|p1a: Purrloin
+|-start|p1a: Purrloin|Substitute
+|split
+|-damage|p1a: Purrloin|174/232
+|-damage|p1a: Purrloin|75/100
+|-damage|p1a: Purrloin|75/100
+|-damage|p1a: Purrloin|174/232
+|move|p2a: Drilbur|X-Scissor|p1a: Purrloin
+|-supereffective|p1a: Purrloin
+|-end|p1a: Purrloin|Substitute
+|split
+|-damage|p2a: Drilbur|91/100|[from] item: Life Orb
+|-damage|p2a: Drilbur|242/268|[from] item: Life Orb
+|-damage|p2a: Drilbur|91/100|[from] item: Life Orb
+|-damage|p2a: Drilbur|242/268|[from] item: Life Orb
+|
+|split
+|-heal|p1a: Purrloin|188/232|[from] item: Leftovers
+|-heal|p1a: Purrloin|82/100|[from] item: Leftovers
+|-heal|p1a: Purrloin|82/100|[from] item: Leftovers
+|-heal|p1a: Purrloin|188/232|[from] item: Leftovers
+|turn|2
+|callback|decision
+|chat|Lightkyoyo|brb
+|
+|split
+|switch|p1a: Staryu|Staryu, L95|211/211
+|switch|p1a: Staryu|Staryu, L95|100/100
+|switch|p1a: Staryu|Staryu, L95|100/100
+|switch|p1a: Staryu|Staryu, L95|211/211
+|move|p2a: Drilbur|X-Scissor|p1a: Staryu
+|-crit|p1a: Staryu
+|split
+|-damage|p1a: Staryu|2/211
+|-damage|p1a: Staryu|1/100
+|-damage|p1a: Staryu|1/100
+|-damage|p1a: Staryu|2/211
+|split
+|-damage|p2a: Drilbur|81/100|[from] item: Life Orb
+|-damage|p2a: Drilbur|216/268|[from] item: Life Orb
+|-damage|p2a: Drilbur|81/100|[from] item: Life Orb
+|-damage|p2a: Drilbur|216/268|[from] item: Life Orb
+|
+|turn|3
+|callback|decision
+|
+|split
+|switch|p2a: Chatot|Chatot, L86, M|100/100
+|switch|p2a: Chatot|Chatot, L86, M|271/271
+|switch|p2a: Chatot|Chatot, L86, M|100/100
+|switch|p2a: Chatot|Chatot, L86, M|271/271
+|move|p1a: Staryu|Surf|p2a: Chatot
+|split
+|-damage|p2a: Chatot|27/100
+|-damage|p2a: Chatot|72/271
+|-damage|p2a: Chatot|27/100
+|-damage|p2a: Chatot|72/271
+|split
+|-damage|p1a: Staryu|0 fnt|[from] item: Life Orb
+|-damage|p1a: Staryu|0 fnt|[from] item: Life Orb
+|-damage|p1a: Staryu|0 fnt|[from] item: Life Orb
+|-damage|p1a: Staryu|0 fnt|[from] item: Life Orb
+|faint|p1a: Staryu
+|
+|split
+|-heal|p2a: Chatot|33/100|[from] item: Leftovers
+|-heal|p2a: Chatot|88/271|[from] item: Leftovers
+|-heal|p2a: Chatot|33/100|[from] item: Leftovers
+|-heal|p2a: Chatot|88/271|[from] item: Leftovers
+|callback|decision
+|
+|split
+|switch|p1a: Chatot|Chatot, L86, F|271/271
+|switch|p1a: Chatot|Chatot, L86, F|100/100
+|switch|p1a: Chatot|Chatot, L86, F|100/100
+|switch|p1a: Chatot|Chatot, L86, F|271/271
+|turn|4
+|callback|decision
+|
+|move|p1a: Chatot|Chatter|p2a: Chatot
+|split
+|-damage|p2a: Chatot|0 fnt
+|-damage|p2a: Chatot|0 fnt
+|-damage|p2a: Chatot|0 fnt
+|-damage|p2a: Chatot|0 fnt
+|faint|p2a: Chatot
+|
+|callback|decision
+|
+|split
+|switch|p2a: Infernape|Infernape, L74, F|100/100
+|switch|p2a: Infernape|Infernape, L74, F|234/234
+|switch|p2a: Infernape|Infernape, L74, F|100/100
+|switch|p2a: Infernape|Infernape, L74, F|234/234
+|turn|5
+|callback|decision
+|
+|move|p1a: Chatot|Chatter|p2a: Infernape
+|-supereffective|p2a: Infernape
+|split
+|-damage|p2a: Infernape|25/100
+|-damage|p2a: Infernape|58/234
+|-damage|p2a: Infernape|25/100
+|-damage|p2a: Infernape|58/234
+|move|p2a: Infernape|Thunder Punch|p1a: Chatot
+|-supereffective|p1a: Chatot
+|split
+|-damage|p1a: Chatot|60/271
+|-damage|p1a: Chatot|23/100
+|-damage|p1a: Chatot|23/100
+|-damage|p1a: Chatot|60/271
+|split
+|-damage|p2a: Infernape|15/100|[from] item: Life Orb
+|-damage|p2a: Infernape|35/234|[from] item: Life Orb
+|-damage|p2a: Infernape|15/100|[from] item: Life Orb
+|-damage|p2a: Infernape|35/234|[from] item: Life Orb
+|
+|split
+|-heal|p1a: Chatot|76/271|[from] item: Leftovers
+|-heal|p1a: Chatot|29/100|[from] item: Leftovers
+|-heal|p1a: Chatot|29/100|[from] item: Leftovers
+|-heal|p1a: Chatot|76/271|[from] item: Leftovers
+|turn|6
+|callback|decision
+|
+|move|p1a: Chatot|Chatter|p2a: Infernape
+|-supereffective|p2a: Infernape
+|split
+|-damage|p2a: Infernape|0 fnt
+|-damage|p2a: Infernape|0 fnt
+|-damage|p2a: Infernape|0 fnt
+|-damage|p2a: Infernape|0 fnt
+|faint|p2a: Infernape
+|
+|split
+|-heal|p1a: Chatot|92/271|[from] item: Leftovers
+|-heal|p1a: Chatot|34/100|[from] item: Leftovers
+|-heal|p1a: Chatot|34/100|[from] item: Leftovers
+|-heal|p1a: Chatot|92/271|[from] item: Leftovers
+|callback|decision
+|
+|split
+|switch|p2a: Cloyster|Cloyster, L74, F|100/100
+|switch|p2a: Cloyster|Cloyster, L74, F|196/196
+|switch|p2a: Cloyster|Cloyster, L74, F|100/100
+|switch|p2a: Cloyster|Cloyster, L74, F|196/196
+|turn|7
+|callback|decision
+|
+|move|p2a: Cloyster|Ice Shard|p1a: Chatot
+|-crit|p1a: Chatot
+|-supereffective|p1a: Chatot
+|split
+|-damage|p1a: Chatot|0 fnt
+|-damage|p1a: Chatot|0 fnt
+|-damage|p1a: Chatot|0 fnt
+|-damage|p1a: Chatot|0 fnt
+|split
+|-damage|p2a: Cloyster|91/100|[from] item: Life Orb
+|-damage|p2a: Cloyster|177/196|[from] item: Life Orb
+|-damage|p2a: Cloyster|91/100|[from] item: Life Orb
+|-damage|p2a: Cloyster|177/196|[from] item: Life Orb
+|faint|p1a: Chatot
+|
+|callback|decision
+|
+|split
+|switch|p1a: Purrloin|Purrloin, L95, M|188/232
+|switch|p1a: Purrloin|Purrloin, L95, M|82/100
+|switch|p1a: Purrloin|Purrloin, L95, M|82/100
+|switch|p1a: Purrloin|Purrloin, L95, M|188/232
+|turn|8
+|callback|decision
+|
+|move|p1a: Purrloin|Thunder Wave|p2a: Cloyster
+|-status|p2a: Cloyster|par
+|move|p2a: Cloyster|Icicle Spear|p1a: Purrloin
+|split
+|-damage|p1a: Purrloin|144/232
+|-damage|p1a: Purrloin|63/100
+|-damage|p1a: Purrloin|63/100
+|-damage|p1a: Purrloin|144/232
+|-crit|p1a: Purrloin
+|split
+|-damage|p1a: Purrloin|53/232
+|-damage|p1a: Purrloin|23/100
+|-damage|p1a: Purrloin|23/100
+|-damage|p1a: Purrloin|53/232
+|split
+|-damage|p1a: Purrloin|6/232
+|-damage|p1a: Purrloin|3/100
+|-damage|p1a: Purrloin|3/100
+|-damage|p1a: Purrloin|6/232
+|split
+|-damage|p1a: Purrloin|0 fnt
+|-damage|p1a: Purrloin|0 fnt
+|-damage|p1a: Purrloin|0 fnt
+|-damage|p1a: Purrloin|0 fnt
+|-hitcount|p1a: Purrloin|4
+|split
+|-damage|p2a: Cloyster|81/100 par|[from] item: Life Orb
+|-damage|p2a: Cloyster|158/196 par|[from] item: Life Orb
+|-damage|p2a: Cloyster|81/100 par|[from] item: Life Orb
+|-damage|p2a: Cloyster|158/196 par|[from] item: Life Orb
+|faint|p1a: Purrloin
+|
+|callback|decision
+|chat|DreаmingSnаquаzа|:D
+|
+|split
+|switch|p1a: Waforield|Waforield, L74|248/248
+|switch|p1a: Waforield|Waforield, L74|100/100
+|switch|p1a: Waforield|Waforield, L74|100/100
+|switch|p1a: Waforield|Waforield, L74|248/248
+|turn|9
+|callback|decision
+|
+|move|p1a: Waforield|Close Combat|p2a: Cloyster
+|-supereffective|p2a: Cloyster
+|split
+|-damage|p2a: Cloyster|0 fnt
+|-damage|p2a: Cloyster|0 fnt
+|-damage|p2a: Cloyster|0 fnt
+|-damage|p2a: Cloyster|0 fnt
+|-unboost|p1a: Waforield|def|1
+|-unboost|p1a: Waforield|spd|1
+|split
+|-damage|p1a: Waforield|224/248|[from] item: Life Orb
+|-damage|p1a: Waforield|91/100|[from] item: Life Orb
+|-damage|p1a: Waforield|91/100|[from] item: Life Orb
+|-damage|p1a: Waforield|224/248|[from] item: Life Orb
+|faint|p2a: Cloyster
+|
+|callback|decision
+|
+|split
+|switch|p2a: Butterfree|Butterfree, L86, F|100/100
+|switch|p2a: Butterfree|Butterfree, L86, F|243/243
+|switch|p2a: Butterfree|Butterfree, L86, F|100/100
+|switch|p2a: Butterfree|Butterfree, L86, F|243/243
+|turn|10
+|callback|decision
+|
+|move|p1a: Waforield|Shadow Claw|p2a: Butterfree
+|split
+|-damage|p2a: Butterfree|62/100
+|-damage|p2a: Butterfree|149/243
+|-damage|p2a: Butterfree|62/100
+|-damage|p2a: Butterfree|149/243
+|split
+|-damage|p1a: Waforield|200/248|[from] item: Life Orb
+|-damage|p1a: Waforield|81/100|[from] item: Life Orb
+|-damage|p1a: Waforield|81/100|[from] item: Life Orb
+|-damage|p1a: Waforield|200/248|[from] item: Life Orb
+|move|p2a: Butterfree|Sleep Powder|p1a: Waforield|[miss]
+|-miss|p2a: Butterfree|p1a: Waforield
+|
+|split
+|-heal|p2a: Butterfree|68/100|[from] item: Leftovers
+|-heal|p2a: Butterfree|164/243|[from] item: Leftovers
+|-heal|p2a: Butterfree|68/100|[from] item: Leftovers
+|-heal|p2a: Butterfree|164/243|[from] item: Leftovers
+|turn|11
+|callback|decision
+|
+|move|p1a: Waforield|Shadow Claw|p2a: Butterfree
+|split
+|-damage|p2a: Butterfree|31/100
+|-damage|p2a: Butterfree|73/243
+|-damage|p2a: Butterfree|31/100
+|-damage|p2a: Butterfree|73/243
+|split
+|-damage|p1a: Waforield|176/248|[from] item: Life Orb
+|-damage|p1a: Waforield|71/100|[from] item: Life Orb
+|-damage|p1a: Waforield|71/100|[from] item: Life Orb
+|-damage|p1a: Waforield|176/248|[from] item: Life Orb
+|move|p2a: Butterfree|Sleep Powder|p1a: Waforield
+|-status|p1a: Waforield|slp
+|
+|split
+|-heal|p2a: Butterfree|37/100|[from] item: Leftovers
+|-heal|p2a: Butterfree|88/243|[from] item: Leftovers
+|-heal|p2a: Butterfree|37/100|[from] item: Leftovers
+|-heal|p2a: Butterfree|88/243|[from] item: Leftovers
+|turn|12
+|callback|decision
+|chat|Lightkyoyo|back
+|
+|cant|p1a: Waforield|slp
+|move|p2a: Butterfree|Quiver Dance|p2a: Butterfree
+|-boost|p2a: Butterfree|spa|1
+|-boost|p2a: Butterfree|spd|1
+|-boost|p2a: Butterfree|spe|1
+|
+|split
+|-heal|p2a: Butterfree|43/100|[from] item: Leftovers
+|-heal|p2a: Butterfree|103/243|[from] item: Leftovers
+|-heal|p2a: Butterfree|43/100|[from] item: Leftovers
+|-heal|p2a: Butterfree|103/243|[from] item: Leftovers
+|turn|13
+|callback|decision
+|
+|move|p2a: Butterfree|Roost|p2a: Butterfree
+|split
+|-heal|p2a: Butterfree|93/100
+|-heal|p2a: Butterfree|225/243
+|-heal|p2a: Butterfree|93/100
+|-heal|p2a: Butterfree|225/243
+|-curestatus|p1a: Waforield|slp
+|move|p1a: Waforield|Shadow Claw|p2a: Butterfree
+|split
+|-damage|p2a: Butterfree|56/100
+|-damage|p2a: Butterfree|134/243
+|-damage|p2a: Butterfree|56/100
+|-damage|p2a: Butterfree|134/243
+|split
+|-damage|p1a: Waforield|152/248|[from] item: Life Orb
+|-damage|p1a: Waforield|62/100|[from] item: Life Orb
+|-damage|p1a: Waforield|62/100|[from] item: Life Orb
+|-damage|p1a: Waforield|152/248|[from] item: Life Orb
+|
+|split
+|-heal|p2a: Butterfree|62/100|[from] item: Leftovers
+|-heal|p2a: Butterfree|149/243|[from] item: Leftovers
+|-heal|p2a: Butterfree|62/100|[from] item: Leftovers
+|-heal|p2a: Butterfree|149/243|[from] item: Leftovers
+|turn|14
+|callback|decision
+|chat|Lightkyoyo|it's hardyt3kyoyo!
+|
+|split
+|switch|p1a: Ariados|Ariados, L86, M|261/261
+|switch|p1a: Ariados|Ariados, L86, M|100/100
+|switch|p1a: Ariados|Ariados, L86, M|100/100
+|switch|p1a: Ariados|Ariados, L86, M|261/261
+|move|p2a: Butterfree|Sleep Powder|p1a: Ariados
+|-fail|p1a: Ariados
+|
+|split
+|-heal|p2a: Butterfree|68/100|[from] item: Leftovers
+|-heal|p2a: Butterfree|164/243|[from] item: Leftovers
+|-heal|p2a: Butterfree|68/100|[from] item: Leftovers
+|-heal|p2a: Butterfree|164/243|[from] item: Leftovers
+|turn|15
+|callback|decision
+|chat|Lightkyoyo|Insomnia...
+|
+|move|p2a: Butterfree|Bug Buzz|p1a: Ariados
+|-resisted|p1a: Ariados
+|split
+|-damage|p1a: Ariados|97/261
+|-damage|p1a: Ariados|38/100
+|-damage|p1a: Ariados|38/100
+|-damage|p1a: Ariados|97/261
+|move|p1a: Ariados|Toxic|p2a: Butterfree
+|-status|p2a: Butterfree|tox
+|
+|split
+|-heal|p2a: Butterfree|74/100 tox|[from] item: Leftovers
+|-heal|p2a: Butterfree|179/243 tox|[from] item: Leftovers
+|-heal|p2a: Butterfree|74/100 tox|[from] item: Leftovers
+|-heal|p2a: Butterfree|179/243 tox|[from] item: Leftovers
+|split
+|-heal|p1a: Ariados|113/261|[from] item: Black Sludge
+|-heal|p1a: Ariados|44/100|[from] item: Black Sludge
+|-heal|p1a: Ariados|44/100|[from] item: Black Sludge
+|-heal|p1a: Ariados|113/261|[from] item: Black Sludge
+|split
+|-damage|p2a: Butterfree|68/100 tox|[from] psn
+|-damage|p2a: Butterfree|164/243 tox|[from] psn
+|-damage|p2a: Butterfree|68/100 tox|[from] psn
+|-damage|p2a: Butterfree|164/243 tox|[from] psn
+|turn|16
+|callback|decision
+|
+|move|p2a: Butterfree|Bug Buzz|p1a: Ariados
+|-resisted|p1a: Ariados
+|split
+|-damage|p1a: Ariados|0 fnt
+|-damage|p1a: Ariados|0 fnt
+|-damage|p1a: Ariados|0 fnt
+|-damage|p1a: Ariados|0 fnt
+|faint|p1a: Ariados
+|
+|split
+|-heal|p2a: Butterfree|74/100 tox|[from] item: Leftovers
+|-heal|p2a: Butterfree|179/243 tox|[from] item: Leftovers
+|-heal|p2a: Butterfree|74/100 tox|[from] item: Leftovers
+|-heal|p2a: Butterfree|179/243 tox|[from] item: Leftovers
+|split
+|-damage|p2a: Butterfree|62/100 tox|[from] psn
+|-damage|p2a: Butterfree|149/243 tox|[from] psn
+|-damage|p2a: Butterfree|62/100 tox|[from] psn
+|-damage|p2a: Butterfree|149/243 tox|[from] psn
+|callback|decision
+|
+|split
+|switch|p1a: Waforield|Waforield, L74|152/248
+|switch|p1a: Waforield|Waforield, L74|62/100
+|switch|p1a: Waforield|Waforield, L74|62/100
+|switch|p1a: Waforield|Waforield, L74|152/248
+|turn|17
+|callback|decision
+|chat|SilverKill|Snaq
+|chat|SilverKill|What's Waforield?
+|
+|move|p2a: Butterfree|Bug Buzz|p1a: Waforield
+|-resisted|p1a: Waforield
+|split
+|-damage|p1a: Waforield|26/248
+|-damage|p1a: Waforield|11/100
+|-damage|p1a: Waforield|11/100
+|-damage|p1a: Waforield|26/248
+|-unboost|p1a: Waforield|spd|1
+|move|p1a: Waforield|Shadow Claw|p2a: Butterfree
+
+ReferenceError: source is not defined
+    at Tools.exports.BattleAbilities.adrenaline.onModifyAtk (/Users/clazinasteunenberg/Downloads/Tervari/mods/tervari/abilities.js:49:25)
+    at Tools.Battle.runEvent (/Users/clazinasteunenberg/Downloads/Tervari/battle-engine.js:1954:38)
+    at Tools.Battle.getDamage (/Users/clazinasteunenberg/Downloads/Tervari/battle-engine.js:2778:17)
+    at Tools.exports.BattleScripts.moveHit (/Users/clazinasteunenberg/Downloads/Tervari/data/scripts.js:345:18)
+    at Tools.exports.BattleScripts.tryMoveHit (/Users/clazinasteunenberg/Downloads/Tervari/data/scripts.js:264:18)
+    at Tools.exports.BattleScripts.useMove (/Users/clazinasteunenberg/Downloads/Tervari/data/scripts.js:141:21)
+    at Tools.exports.BattleScripts.runMove (/Users/clazinasteunenberg/Downloads/Tervari/data/scripts.js:45:8)
+    at Tools.Battle.runDecision (/Users/clazinasteunenberg/Downloads/Tervari/battle-engine.js:3105:9)
+    at Tools.Battle.go (/Users/clazinasteunenberg/Downloads/Tervari/battle-engine.js:3270:9)
+    at Tools.Battle.commitDecisions (/Users/clazinasteunenberg/Downloads/Tervari/battle-engine.js:3348:8)
+
+Additional information:
+message = battle-tervarirandombattle-82|choose|p2|move Earthquake|21
+currentRequest = move
+
+Log:
+|player|p1|RealPresent|267
+|player|p2|Eneomas|149
+|gametype|singles
+|tier|Tervari Random Battle
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|HP Percentage Mod: HP is reported as percentages
+|
+|start
+|split
+|switch|p1a: Galvantula|Galvantula, L82, M|249/249
+|switch|p1a: Galvantula|Galvantula, L82, M|100/100
+|switch|p1a: Galvantula|Galvantula, L82, M|100/100
+|switch|p1a: Galvantula|Galvantula, L82, M|249/249
+|split
+|switch|p2a: Deoxys-Speed|Deoxys-Speed, L74|100/100
+|switch|p2a: Deoxys-Speed|Deoxys-Speed, L74|196/196
+|switch|p2a: Deoxys-Speed|Deoxys-Speed, L74|100/100
+|switch|p2a: Deoxys-Speed|Deoxys-Speed, L74|196/196
+|-ability|p2a: Deoxys-Speed|Pressure
+|turn|1
+|callback|decision
+|chat|RealPresent|I was busy with usermons
+|chat|RealPresent|._.
+|chat|Eneomas|there you are, gl hf
+|chat|Eneomas|sry
+|chat|RealPresent|https://docs.google.com/spreadsheet/ccc?key=0AjMMoj_3Ml-fdHVnWVJqSDJKSWRuT3lHR01uV2N0UlE&usp=drive_web#gid=0
+|
+|move|p2a: Deoxys-Speed|Taunt|p1a: Galvantula
+|-start|p1a: Galvantula|move: Taunt
+|move|p1a: Galvantula|Bug Buzz|p2a: Deoxys-Speed
+|-supereffective|p2a: Deoxys-Speed
+|split
+|-damage|p2a: Deoxys-Speed|0 fnt
+|-damage|p2a: Deoxys-Speed|0 fnt
+|-damage|p2a: Deoxys-Speed|0 fnt
+|-damage|p2a: Deoxys-Speed|0 fnt
+|faint|p2a: Deoxys-Speed
+|
+|callback|decision
+|
+|split
+|switch|p2a: Archeops|Archeops, L82, F, shiny|100/100
+|switch|p2a: Archeops|Archeops, L82, F, shiny|257/257
+|switch|p2a: Archeops|Archeops, L82, F, shiny|100/100
+|switch|p2a: Archeops|Archeops, L82, F, shiny|257/257
+|turn|2
+|callback|decision
+|chat|RealPresent|I did weaknesses, offensive power and redmons
+|
+|move|p2a: Archeops|Acrobatics|p1a: Galvantula
+|-enditem|p2a: Archeops|Flying Gem|[from] gem|[move] Acrobatics
+|split
+|-damage|p1a: Galvantula|0 fnt
+|-damage|p1a: Galvantula|0 fnt
+|-damage|p1a: Galvantula|0 fnt
+|-damage|p1a: Galvantula|0 fnt
+|faint|p1a: Galvantula
+|
+|callback|decision
+|chat|RealPresent|damn
+|chat|RealPresent|you liek ohko my entire team
+|chat|RealPresent|with that thing
+|
+|split
+|switch|p1a: Buneary|Buneary, L95, F|258/258
+|switch|p1a: Buneary|Buneary, L95, F|100/100
+|switch|p1a: Buneary|Buneary, L95, F|100/100
+|switch|p1a: Buneary|Buneary, L95, F|258/258
+|turn|3
+|callback|decision
+|
+|move|p1a: Buneary|Fake Out|p2a: Archeops
+|-resisted|p2a: Archeops
+|split
+|-damage|p2a: Archeops|86/100
+|-damage|p2a: Archeops|221/257
+|-damage|p2a: Archeops|86/100
+|-damage|p2a: Archeops|221/257
+|split
+|-damage|p1a: Buneary|233/258|[from] item: Life Orb
+|-damage|p1a: Buneary|91/100|[from] item: Life Orb
+|-damage|p1a: Buneary|91/100|[from] item: Life Orb
+|-damage|p1a: Buneary|233/258|[from] item: Life Orb
+|cant|p2a: Archeops|flinch
+|
+|turn|4
+|callback|decision
+|
+|move|p2a: Archeops|U-turn|p1a: Buneary
+|-crit|p1a: Buneary
+|split
+|-damage|p1a: Buneary|59/258
+|-damage|p1a: Buneary|23/100
+|-damage|p1a: Buneary|23/100
+|-damage|p1a: Buneary|59/258
+|callback|decision
+|
+|split
+|switch|p2a: Gliscor|Gliscor, L74, M|100/100
+|switch|p2a: Gliscor|Gliscor, L74, M|233/233
+|switch|p2a: Gliscor|Gliscor, L74, M|100/100
+|switch|p2a: Gliscor|Gliscor, L74, M|233/233
+|move|p1a: Buneary|Thunder Punch|p2a: Gliscor
+|-immune|p2a: Gliscor|[msg]
+|
+|turn|5
+|callback|decision
+|chat|Eneomas|wow
+|chat|Eneomas|uhm
+|
+|split
+|switch|p1a: Farfetch'd|Farfetch'd, L95, F|253/253
+|switch|p1a: Farfetch'd|Farfetch'd, L95, F|100/100
+|switch|p1a: Farfetch'd|Farfetch'd, L95, F|100/100
+|switch|p1a: Farfetch'd|Farfetch'd, L95, F|253/253
+|move|p2a: Gliscor|Acrobatics|p1a: Farfetch'd
+|-enditem|p2a: Gliscor|Flying Gem|[from] gem|[move] Acrobatics
+|split
+|-damage|p1a: Farfetch'd|82/253
+|-damage|p1a: Farfetch'd|33/100
+|-damage|p1a: Farfetch'd|33/100
+|-damage|p1a: Farfetch'd|82/253
+|
+|split
+|-heal|p1a: Farfetch'd|97/253|[from] item: Leftovers
+|-heal|p1a: Farfetch'd|39/100|[from] item: Leftovers
+|-heal|p1a: Farfetch'd|39/100|[from] item: Leftovers
+|-heal|p1a: Farfetch'd|97/253|[from] item: Leftovers
+|turn|6
+|callback|decision
+|chat|Eneomas|lucky predict
+|
+|move|p2a: Gliscor|Acrobatics|p1a: Farfetch'd
+|split
+|-damage|p1a: Farfetch'd|0 fnt
+|-damage|p1a: Farfetch'd|0 fnt
+|-damage|p1a: Farfetch'd|0 fnt
+|-damage|p1a: Farfetch'd|0 fnt
+|faint|p1a: Farfetch'd
+|
+|callback|decision
+|chat|RealPresent|yeah
+|chat|RealPresent|best team ever
+|
+|split
+|switch|p1a: Emboar|Emboar, L82, F|315/315
+|switch|p1a: Emboar|Emboar, L82, F|100/100
+|switch|p1a: Emboar|Emboar, L82, F|100/100
+|switch|p1a: Emboar|Emboar, L82, F|315/315
+|turn|7
+|callback|decision
+|chat|RealPresent|yay more flying weak
+|chat|Eneomas|lol
+|
+|move|p2a: Gliscor|Acrobatics|p1a: Emboar
+|-supereffective|p1a: Emboar
+|split
+|-damage|p1a: Emboar|69/315
+|-damage|p1a: Emboar|22/100
+|-damage|p1a: Emboar|22/100
+|-damage|p1a: Emboar|69/315
+|move|p1a: Emboar|Flare Blitz|p2a: Gliscor
+|split
+|-damage|p2a: Gliscor|0 fnt
+|-damage|p2a: Gliscor|0 fnt
+|-damage|p2a: Gliscor|0 fnt
+|-damage|p2a: Gliscor|0 fnt
+|split
+|-damage|p1a: Emboar|0 fnt|[from] recoil|[of] p2a: Gliscor
+|-damage|p1a: Emboar|0 fnt|[from] recoil|[of] p2a: Gliscor
+|-damage|p1a: Emboar|0 fnt|[from] recoil|[of] p2a: Gliscor
+|-damage|p1a: Emboar|0 fnt|[from] recoil|[of] p2a: Gliscor
+|faint|p2a: Gliscor
+|faint|p1a: Emboar
+|
+|callback|decision
+|
+|split
+|switch|p2a: Archeops|Archeops, L82, F, shiny|86/100
+|switch|p2a: Archeops|Archeops, L82, F, shiny|221/257
+|switch|p2a: Archeops|Archeops, L82, F, shiny|86/100
+|switch|p2a: Archeops|Archeops, L82, F, shiny|221/257
+|split
+|switch|p1a: Buneary|Buneary, L95, F|59/258
+|switch|p1a: Buneary|Buneary, L95, F|23/100
+|switch|p1a: Buneary|Buneary, L95, F|23/100
+|switch|p1a: Buneary|Buneary, L95, F|59/258
+|turn|8
+|callback|decision
+|
+|split
+|switch|p2a: Poochyena|Poochyena, L95, F|100/100
+|switch|p2a: Poochyena|Poochyena, L95, F|220/220
+|switch|p2a: Poochyena|Poochyena, L95, F|100/100
+|switch|p2a: Poochyena|Poochyena, L95, F|220/220
+|move|p1a: Buneary|Fake Out|p2a: Poochyena
+|split
+|-damage|p2a: Poochyena|61/100
+|-damage|p2a: Poochyena|134/220
+|-damage|p2a: Poochyena|61/100
+|-damage|p2a: Poochyena|134/220
+|split
+|-damage|p1a: Buneary|34/258|[from] item: Life Orb
+|-damage|p1a: Buneary|14/100|[from] item: Life Orb
+|-damage|p1a: Buneary|14/100|[from] item: Life Orb
+|-damage|p1a: Buneary|34/258|[from] item: Life Orb
+|
+|turn|9
+|callback|decision
+|chat|RealPresent|I got two more flying weak
+|chat|RealPresent|yay me
+|
+|split
+|switch|p1a: Watrirield|Watrirield, L74|248/248
+|switch|p1a: Watrirield|Watrirield, L74|100/100
+|switch|p1a: Watrirield|Watrirield, L74|100/100
+|switch|p1a: Watrirield|Watrirield, L74|248/248
+|move|p2a: Poochyena|Sucker Punch|p1a: Watrirield
+|-fail|p1a: Watrirield
+|
+|turn|10
+|callback|decision
+|chat|Eneomas|what type is that thing?
+|chat|RealPresent|what is rabid frenzy?
+|
+|move|p1a: Watrirield|Swords Dance|p1a: Watrirield
+|-boost|p1a: Watrirield|atk|2
+|move|p2a: Poochyena|Toxic|p1a: Watrirield
+|-status|p1a: Watrirield|tox
+|
+|split
+|-damage|p1a: Watrirield|233/248 tox|[from] psn
+|-damage|p1a: Watrirield|94/100 tox|[from] psn
+|-damage|p1a: Watrirield|94/100 tox|[from] psn
+|-damage|p1a: Watrirield|233/248 tox|[from] psn
+|turn|11
+|callback|decision
+|chat|RealPresent|I dunnoI tought fighting
+|chat|Eneomas|k
+|
+|move|p1a: Watrirield|Rabid Frenzy|p2a: Poochyena
+|-resisted|p2a: Poochyena
+|split
+|-damage|p2a: Poochyena|0 fnt
+|-damage|p2a: Poochyena|0 fnt
+|-damage|p2a: Poochyena|0 fnt
+|-damage|p2a: Poochyena|0 fnt
+|-unboost|p1a: Watrirield|def|1
+|-unboost|p1a: Watrirield|spd|1
+|split
+|-damage|p1a: Watrirield|209/248 tox|[from] item: Life Orb
+|-damage|p1a: Watrirield|85/100 tox|[from] item: Life Orb
+|-damage|p1a: Watrirield|85/100 tox|[from] item: Life Orb
+|-damage|p1a: Watrirield|209/248 tox|[from] item: Life Orb
+|faint|p2a: Poochyena
+|
+|split
+|-damage|p1a: Watrirield|179/248 tox|[from] psn
+|-damage|p1a: Watrirield|73/100 tox|[from] psn
+|-damage|p1a: Watrirield|73/100 tox|[from] psn
+|-damage|p1a: Watrirield|179/248 tox|[from] psn
+|callback|decision
+|
+|split
+|switch|p2a: Watrirield|Watrirield, L74|100/100
+|switch|p2a: Watrirield|Watrirield, L74|248/248
+|switch|p2a: Watrirield|Watrirield, L74|100/100
+|switch|p2a: Watrirield|Watrirield, L74|248/248
+|turn|12
+|callback|decision
+|chat|Eneomas|I don'teven have rabid frenzy
+|
+|move|p2a: Watrirield|Sucker Punch|p1a: Watrirield
+|-resisted|p1a: Watrirield
+|split
+|-damage|p1a: Watrirield|74/248 tox
+|-damage|p1a: Watrirield|30/100 tox
+|-damage|p1a: Watrirield|30/100 tox
+|-damage|p1a: Watrirield|74/248 tox
+|split
+|-damage|p2a: Watrirield|91/100|[from] item: Life Orb
+|-damage|p2a: Watrirield|224/248|[from] item: Life Orb
+|-damage|p2a: Watrirield|91/100|[from] item: Life Orb
+|-damage|p2a: Watrirield|224/248|[from] item: Life Orb
+|move|p1a: Watrirield|Rabid Frenzy|p2a: Watrirield
+|-resisted|p2a: Watrirield
+|split
+|-damage|p2a: Watrirield|4/100
+|-damage|p2a: Watrirield|8/248
+|-damage|p2a: Watrirield|4/100
+|-damage|p2a: Watrirield|8/248
+|-unboost|p1a: Watrirield|def|1
+|-unboost|p1a: Watrirield|spd|1
+|split
+|-damage|p1a: Watrirield|50/248 tox|[from] item: Life Orb
+|-damage|p1a: Watrirield|21/100 tox|[from] item: Life Orb
+|-damage|p1a: Watrirield|21/100 tox|[from] item: Life Orb
+|-damage|p1a: Watrirield|50/248 tox|[from] item: Life Orb
+|
+|split
+|-damage|p1a: Watrirield|5/248 tox|[from] psn
+|-damage|p1a: Watrirield|3/100 tox|[from] psn
+|-damage|p1a: Watrirield|3/100 tox|[from] psn
+|-damage|p1a: Watrirield|5/248 tox|[from] psn
+|turn|13
+|callback|decision
+|chat|Eneomas|yup fighting
+|
+|split
+|switch|p1a: Grotle|Grotle, L90, M|281/281
+|switch|p1a: Grotle|Grotle, L90, M|100/100
+|switch|p1a: Grotle|Grotle, L90, M|100/100
+|switch|p1a: Grotle|Grotle, L90, M|281/281
+|move|p2a: Watrirield|Sucker Punch|p1a: Grotle
+|-fail|p1a: Grotle
+|
+|turn|14
+|callback|decision
+|chat|Lightkyoyo|rabid frenzy?
+|
+|move|p2a: Watrirield|Sucker Punch|p1a: Grotle
+|-fail|p1a: Grotle
+|move|p1a: Grotle|Stealth Rock|p2a: Watrirield
+|-sidestart|p2: Eneomas|move: Stealth Rock
+|
+|turn|15
+|callback|decision
+|
+|move|p2a: Watrirield|Earthquake|p1a: Grotle
+
+ReferenceError: source is not defined
+    at Tools.exports.BattleAbilities.adrenaline.onModifyAtk (/Users/clazinasteunenberg/Downloads/Tervari/mods/tervari/abilities.js:49:25)
+    at Tools.Battle.runEvent (/Users/clazinasteunenberg/Downloads/Tervari/battle-engine.js:1954:38)
+    at Tools.Battle.getDamage (/Users/clazinasteunenberg/Downloads/Tervari/battle-engine.js:2778:17)
+    at Tools.exports.BattleMovedex.substitute.effect.onTryPrimaryHit (/Users/clazinasteunenberg/Downloads/Tervari/data/moves.js:12846:23)
+    at Tools.Battle.runEvent (/Users/clazinasteunenberg/Downloads/Tervari/battle-engine.js:1954:38)
+    at Tools.exports.BattleScripts.moveHit (/Users/clazinasteunenberg/Downloads/Tervari/data/scripts.js:328:21)
+    at Tools.exports.BattleScripts.tryMoveHit (/Users/clazinasteunenberg/Downloads/Tervari/data/scripts.js:264:18)
+    at Tools.exports.BattleScripts.useMove (/Users/clazinasteunenberg/Downloads/Tervari/data/scripts.js:141:21)
+    at Tools.exports.BattleScripts.runMove (/Users/clazinasteunenberg/Downloads/Tervari/data/scripts.js:45:8)
+    at Tools.Battle.runDecision (/Users/clazinasteunenberg/Downloads/Tervari/battle-engine.js:3105:9)
+
+Additional information:
+message = battle-tervarirandombattle-82|choose|p2|move Earthquake|23
+currentRequest = move
+
+Log:
+|player|p1|RealPresent|267
+|player|p2|Eneomas|149
+|gametype|singles
+|tier|Tervari Random Battle
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|HP Percentage Mod: HP is reported as percentages
+|
+|start
+|split
+|switch|p1a: Galvantula|Galvantula, L82, M|249/249
+|switch|p1a: Galvantula|Galvantula, L82, M|100/100
+|switch|p1a: Galvantula|Galvantula, L82, M|100/100
+|switch|p1a: Galvantula|Galvantula, L82, M|249/249
+|split
+|switch|p2a: Deoxys-Speed|Deoxys-Speed, L74|100/100
+|switch|p2a: Deoxys-Speed|Deoxys-Speed, L74|196/196
+|switch|p2a: Deoxys-Speed|Deoxys-Speed, L74|100/100
+|switch|p2a: Deoxys-Speed|Deoxys-Speed, L74|196/196
+|-ability|p2a: Deoxys-Speed|Pressure
+|turn|1
+|callback|decision
+|chat|RealPresent|I was busy with usermons
+|chat|RealPresent|._.
+|chat|Eneomas|there you are, gl hf
+|chat|Eneomas|sry
+|chat|RealPresent|https://docs.google.com/spreadsheet/ccc?key=0AjMMoj_3Ml-fdHVnWVJqSDJKSWRuT3lHR01uV2N0UlE&usp=drive_web#gid=0
+|
+|move|p2a: Deoxys-Speed|Taunt|p1a: Galvantula
+|-start|p1a: Galvantula|move: Taunt
+|move|p1a: Galvantula|Bug Buzz|p2a: Deoxys-Speed
+|-supereffective|p2a: Deoxys-Speed
+|split
+|-damage|p2a: Deoxys-Speed|0 fnt
+|-damage|p2a: Deoxys-Speed|0 fnt
+|-damage|p2a: Deoxys-Speed|0 fnt
+|-damage|p2a: Deoxys-Speed|0 fnt
+|faint|p2a: Deoxys-Speed
+|
+|callback|decision
+|
+|split
+|switch|p2a: Archeops|Archeops, L82, F, shiny|100/100
+|switch|p2a: Archeops|Archeops, L82, F, shiny|257/257
+|switch|p2a: Archeops|Archeops, L82, F, shiny|100/100
+|switch|p2a: Archeops|Archeops, L82, F, shiny|257/257
+|turn|2
+|callback|decision
+|chat|RealPresent|I did weaknesses, offensive power and redmons
+|
+|move|p2a: Archeops|Acrobatics|p1a: Galvantula
+|-enditem|p2a: Archeops|Flying Gem|[from] gem|[move] Acrobatics
+|split
+|-damage|p1a: Galvantula|0 fnt
+|-damage|p1a: Galvantula|0 fnt
+|-damage|p1a: Galvantula|0 fnt
+|-damage|p1a: Galvantula|0 fnt
+|faint|p1a: Galvantula
+|
+|callback|decision
+|chat|RealPresent|damn
+|chat|RealPresent|you liek ohko my entire team
+|chat|RealPresent|with that thing
+|
+|split
+|switch|p1a: Buneary|Buneary, L95, F|258/258
+|switch|p1a: Buneary|Buneary, L95, F|100/100
+|switch|p1a: Buneary|Buneary, L95, F|100/100
+|switch|p1a: Buneary|Buneary, L95, F|258/258
+|turn|3
+|callback|decision
+|
+|move|p1a: Buneary|Fake Out|p2a: Archeops
+|-resisted|p2a: Archeops
+|split
+|-damage|p2a: Archeops|86/100
+|-damage|p2a: Archeops|221/257
+|-damage|p2a: Archeops|86/100
+|-damage|p2a: Archeops|221/257
+|split
+|-damage|p1a: Buneary|233/258|[from] item: Life Orb
+|-damage|p1a: Buneary|91/100|[from] item: Life Orb
+|-damage|p1a: Buneary|91/100|[from] item: Life Orb
+|-damage|p1a: Buneary|233/258|[from] item: Life Orb
+|cant|p2a: Archeops|flinch
+|
+|turn|4
+|callback|decision
+|
+|move|p2a: Archeops|U-turn|p1a: Buneary
+|-crit|p1a: Buneary
+|split
+|-damage|p1a: Buneary|59/258
+|-damage|p1a: Buneary|23/100
+|-damage|p1a: Buneary|23/100
+|-damage|p1a: Buneary|59/258
+|callback|decision
+|
+|split
+|switch|p2a: Gliscor|Gliscor, L74, M|100/100
+|switch|p2a: Gliscor|Gliscor, L74, M|233/233
+|switch|p2a: Gliscor|Gliscor, L74, M|100/100
+|switch|p2a: Gliscor|Gliscor, L74, M|233/233
+|move|p1a: Buneary|Thunder Punch|p2a: Gliscor
+|-immune|p2a: Gliscor|[msg]
+|
+|turn|5
+|callback|decision
+|chat|Eneomas|wow
+|chat|Eneomas|uhm
+|
+|split
+|switch|p1a: Farfetch'd|Farfetch'd, L95, F|253/253
+|switch|p1a: Farfetch'd|Farfetch'd, L95, F|100/100
+|switch|p1a: Farfetch'd|Farfetch'd, L95, F|100/100
+|switch|p1a: Farfetch'd|Farfetch'd, L95, F|253/253
+|move|p2a: Gliscor|Acrobatics|p1a: Farfetch'd
+|-enditem|p2a: Gliscor|Flying Gem|[from] gem|[move] Acrobatics
+|split
+|-damage|p1a: Farfetch'd|82/253
+|-damage|p1a: Farfetch'd|33/100
+|-damage|p1a: Farfetch'd|33/100
+|-damage|p1a: Farfetch'd|82/253
+|
+|split
+|-heal|p1a: Farfetch'd|97/253|[from] item: Leftovers
+|-heal|p1a: Farfetch'd|39/100|[from] item: Leftovers
+|-heal|p1a: Farfetch'd|39/100|[from] item: Leftovers
+|-heal|p1a: Farfetch'd|97/253|[from] item: Leftovers
+|turn|6
+|callback|decision
+|chat|Eneomas|lucky predict
+|
+|move|p2a: Gliscor|Acrobatics|p1a: Farfetch'd
+|split
+|-damage|p1a: Farfetch'd|0 fnt
+|-damage|p1a: Farfetch'd|0 fnt
+|-damage|p1a: Farfetch'd|0 fnt
+|-damage|p1a: Farfetch'd|0 fnt
+|faint|p1a: Farfetch'd
+|
+|callback|decision
+|chat|RealPresent|yeah
+|chat|RealPresent|best team ever
+|
+|split
+|switch|p1a: Emboar|Emboar, L82, F|315/315
+|switch|p1a: Emboar|Emboar, L82, F|100/100
+|switch|p1a: Emboar|Emboar, L82, F|100/100
+|switch|p1a: Emboar|Emboar, L82, F|315/315
+|turn|7
+|callback|decision
+|chat|RealPresent|yay more flying weak
+|chat|Eneomas|lol
+|
+|move|p2a: Gliscor|Acrobatics|p1a: Emboar
+|-supereffective|p1a: Emboar
+|split
+|-damage|p1a: Emboar|69/315
+|-damage|p1a: Emboar|22/100
+|-damage|p1a: Emboar|22/100
+|-damage|p1a: Emboar|69/315
+|move|p1a: Emboar|Flare Blitz|p2a: Gliscor
+|split
+|-damage|p2a: Gliscor|0 fnt
+|-damage|p2a: Gliscor|0 fnt
+|-damage|p2a: Gliscor|0 fnt
+|-damage|p2a: Gliscor|0 fnt
+|split
+|-damage|p1a: Emboar|0 fnt|[from] recoil|[of] p2a: Gliscor
+|-damage|p1a: Emboar|0 fnt|[from] recoil|[of] p2a: Gliscor
+|-damage|p1a: Emboar|0 fnt|[from] recoil|[of] p2a: Gliscor
+|-damage|p1a: Emboar|0 fnt|[from] recoil|[of] p2a: Gliscor
+|faint|p2a: Gliscor
+|faint|p1a: Emboar
+|
+|callback|decision
+|
+|split
+|switch|p2a: Archeops|Archeops, L82, F, shiny|86/100
+|switch|p2a: Archeops|Archeops, L82, F, shiny|221/257
+|switch|p2a: Archeops|Archeops, L82, F, shiny|86/100
+|switch|p2a: Archeops|Archeops, L82, F, shiny|221/257
+|split
+|switch|p1a: Buneary|Buneary, L95, F|59/258
+|switch|p1a: Buneary|Buneary, L95, F|23/100
+|switch|p1a: Buneary|Buneary, L95, F|23/100
+|switch|p1a: Buneary|Buneary, L95, F|59/258
+|turn|8
+|callback|decision
+|
+|split
+|switch|p2a: Poochyena|Poochyena, L95, F|100/100
+|switch|p2a: Poochyena|Poochyena, L95, F|220/220
+|switch|p2a: Poochyena|Poochyena, L95, F|100/100
+|switch|p2a: Poochyena|Poochyena, L95, F|220/220
+|move|p1a: Buneary|Fake Out|p2a: Poochyena
+|split
+|-damage|p2a: Poochyena|61/100
+|-damage|p2a: Poochyena|134/220
+|-damage|p2a: Poochyena|61/100
+|-damage|p2a: Poochyena|134/220
+|split
+|-damage|p1a: Buneary|34/258|[from] item: Life Orb
+|-damage|p1a: Buneary|14/100|[from] item: Life Orb
+|-damage|p1a: Buneary|14/100|[from] item: Life Orb
+|-damage|p1a: Buneary|34/258|[from] item: Life Orb
+|
+|turn|9
+|callback|decision
+|chat|RealPresent|I got two more flying weak
+|chat|RealPresent|yay me
+|
+|split
+|switch|p1a: Watrirield|Watrirield, L74|248/248
+|switch|p1a: Watrirield|Watrirield, L74|100/100
+|switch|p1a: Watrirield|Watrirield, L74|100/100
+|switch|p1a: Watrirield|Watrirield, L74|248/248
+|move|p2a: Poochyena|Sucker Punch|p1a: Watrirield
+|-fail|p1a: Watrirield
+|
+|turn|10
+|callback|decision
+|chat|Eneomas|what type is that thing?
+|chat|RealPresent|what is rabid frenzy?
+|
+|move|p1a: Watrirield|Swords Dance|p1a: Watrirield
+|-boost|p1a: Watrirield|atk|2
+|move|p2a: Poochyena|Toxic|p1a: Watrirield
+|-status|p1a: Watrirield|tox
+|
+|split
+|-damage|p1a: Watrirield|233/248 tox|[from] psn
+|-damage|p1a: Watrirield|94/100 tox|[from] psn
+|-damage|p1a: Watrirield|94/100 tox|[from] psn
+|-damage|p1a: Watrirield|233/248 tox|[from] psn
+|turn|11
+|callback|decision
+|chat|RealPresent|I dunnoI tought fighting
+|chat|Eneomas|k
+|
+|move|p1a: Watrirield|Rabid Frenzy|p2a: Poochyena
+|-resisted|p2a: Poochyena
+|split
+|-damage|p2a: Poochyena|0 fnt
+|-damage|p2a: Poochyena|0 fnt
+|-damage|p2a: Poochyena|0 fnt
+|-damage|p2a: Poochyena|0 fnt
+|-unboost|p1a: Watrirield|def|1
+|-unboost|p1a: Watrirield|spd|1
+|split
+|-damage|p1a: Watrirield|209/248 tox|[from] item: Life Orb
+|-damage|p1a: Watrirield|85/100 tox|[from] item: Life Orb
+|-damage|p1a: Watrirield|85/100 tox|[from] item: Life Orb
+|-damage|p1a: Watrirield|209/248 tox|[from] item: Life Orb
+|faint|p2a: Poochyena
+|
+|split
+|-damage|p1a: Watrirield|179/248 tox|[from] psn
+|-damage|p1a: Watrirield|73/100 tox|[from] psn
+|-damage|p1a: Watrirield|73/100 tox|[from] psn
+|-damage|p1a: Watrirield|179/248 tox|[from] psn
+|callback|decision
+|
+|split
+|switch|p2a: Watrirield|Watrirield, L74|100/100
+|switch|p2a: Watrirield|Watrirield, L74|248/248
+|switch|p2a: Watrirield|Watrirield, L74|100/100
+|switch|p2a: Watrirield|Watrirield, L74|248/248
+|turn|12
+|callback|decision
+|chat|Eneomas|I don'teven have rabid frenzy
+|
+|move|p2a: Watrirield|Sucker Punch|p1a: Watrirield
+|-resisted|p1a: Watrirield
+|split
+|-damage|p1a: Watrirield|74/248 tox
+|-damage|p1a: Watrirield|30/100 tox
+|-damage|p1a: Watrirield|30/100 tox
+|-damage|p1a: Watrirield|74/248 tox
+|split
+|-damage|p2a: Watrirield|91/100|[from] item: Life Orb
+|-damage|p2a: Watrirield|224/248|[from] item: Life Orb
+|-damage|p2a: Watrirield|91/100|[from] item: Life Orb
+|-damage|p2a: Watrirield|224/248|[from] item: Life Orb
+|move|p1a: Watrirield|Rabid Frenzy|p2a: Watrirield
+|-resisted|p2a: Watrirield
+|split
+|-damage|p2a: Watrirield|4/100
+|-damage|p2a: Watrirield|8/248
+|-damage|p2a: Watrirield|4/100
+|-damage|p2a: Watrirield|8/248
+|-unboost|p1a: Watrirield|def|1
+|-unboost|p1a: Watrirield|spd|1
+|split
+|-damage|p1a: Watrirield|50/248 tox|[from] item: Life Orb
+|-damage|p1a: Watrirield|21/100 tox|[from] item: Life Orb
+|-damage|p1a: Watrirield|21/100 tox|[from] item: Life Orb
+|-damage|p1a: Watrirield|50/248 tox|[from] item: Life Orb
+|
+|split
+|-damage|p1a: Watrirield|5/248 tox|[from] psn
+|-damage|p1a: Watrirield|3/100 tox|[from] psn
+|-damage|p1a: Watrirield|3/100 tox|[from] psn
+|-damage|p1a: Watrirield|5/248 tox|[from] psn
+|turn|13
+|callback|decision
+|chat|Eneomas|yup fighting
+|
+|split
+|switch|p1a: Grotle|Grotle, L90, M|281/281
+|switch|p1a: Grotle|Grotle, L90, M|100/100
+|switch|p1a: Grotle|Grotle, L90, M|100/100
+|switch|p1a: Grotle|Grotle, L90, M|281/281
+|move|p2a: Watrirield|Sucker Punch|p1a: Grotle
+|-fail|p1a: Grotle
+|
+|turn|14
+|callback|decision
+|chat|Lightkyoyo|rabid frenzy?
+|
+|move|p2a: Watrirield|Sucker Punch|p1a: Grotle
+|-fail|p1a: Grotle
+|move|p1a: Grotle|Stealth Rock|p2a: Watrirield
+|-sidestart|p2: Eneomas|move: Stealth Rock
+|
+|turn|15
+|callback|decision
+|
+|move|p2a: Watrirield|Earthquake|p1a: Grotle
+|html|<div class="broadcast-red"><b>The battle crashed</b><br />You can keep playing but it might crash again.</div>
+|callback|decision
+|chat|Eneomas|come on
+|chat|RealPresent|what did you click
+|chat|RealPresent|lol
+|
+|move|p1a: Grotle|Substitute|p1a: Grotle|[from]Adrenaline
+|-start|p1a: Grotle|Substitute
+|split
+|-damage|p1a: Grotle|211/281
+|-damage|p1a: Grotle|76/100
+|-damage|p1a: Grotle|76/100
+|-damage|p1a: Grotle|211/281
+|
+|turn|16
+|callback|decision
+|chat|Lightkyoyo|dont crash 
+|chat|Lightkyoyo|pls
+|chat|RealPresent|eneo
+|chat|RealPresent|what did you click
+|chat|Eneomas|please let that thing of yours die
+|chat|RealPresent|o.O
+|chat|Eneomas|I clicked EQ
+|chat|Eneomas|it's the ability
+|chat|RealPresent|lol
+|chat|RealPresent|that would have done nothing?
+|chat|Eneomas|it crashes when it's activated
+|chat|RealPresent|yeah the ability
+|chat|RealPresent|is not yet programmed
+|chat|RealPresent|snaq says
+|chat|Eneomas|please put in wherield next turn
+|chat|RealPresent|why?
+|chat|RealPresent|what would EQ have done
+|chat|RealPresent|as far as I know
+|chat|Eneomas|so that they both die, and we can continue the battle safely
+|
+|move|p2a: Watrirield|Earthquake|p1a: Grotle|[from]Adrenaline
+
+ReferenceError: source is not defined
+    at Tools.exports.BattleAbilities.adrenaline.onModifyAtk (/Users/clazinasteunenberg/Downloads/Tervari/mods/tervari/abilities.js:49:25)
+    at Tools.Battle.runEvent (/Users/clazinasteunenberg/Downloads/Tervari/battle-engine.js:1954:38)
+    at Tools.Battle.getDamage (/Users/clazinasteunenberg/Downloads/Tervari/battle-engine.js:2778:17)
+    at Tools.exports.BattleMovedex.substitute.effect.onTryPrimaryHit (/Users/clazinasteunenberg/Downloads/Tervari/data/moves.js:12846:23)
+    at Tools.Battle.runEvent (/Users/clazinasteunenberg/Downloads/Tervari/battle-engine.js:1954:38)
+    at Tools.exports.BattleScripts.moveHit (/Users/clazinasteunenberg/Downloads/Tervari/data/scripts.js:328:21)
+    at Tools.exports.BattleScripts.tryMoveHit (/Users/clazinasteunenberg/Downloads/Tervari/data/scripts.js:264:18)
+    at Tools.exports.BattleScripts.useMove (/Users/clazinasteunenberg/Downloads/Tervari/data/scripts.js:141:21)
+    at Tools.exports.BattleScripts.runMove (/Users/clazinasteunenberg/Downloads/Tervari/data/scripts.js:45:8)
+    at Tools.Battle.runDecision (/Users/clazinasteunenberg/Downloads/Tervari/battle-engine.js:3105:9)
+
+Additional information:
+message = battle-tervarirandombattle-82|choose|p1|move Seed Bomb|25
+currentRequest = move
+
+Log:
+|player|p1|RealPresent|267
+|player|p2|Eneomas|149
+|gametype|singles
+|tier|Tervari Random Battle
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|HP Percentage Mod: HP is reported as percentages
+|
+|start
+|split
+|switch|p1a: Galvantula|Galvantula, L82, M|249/249
+|switch|p1a: Galvantula|Galvantula, L82, M|100/100
+|switch|p1a: Galvantula|Galvantula, L82, M|100/100
+|switch|p1a: Galvantula|Galvantula, L82, M|249/249
+|split
+|switch|p2a: Deoxys-Speed|Deoxys-Speed, L74|100/100
+|switch|p2a: Deoxys-Speed|Deoxys-Speed, L74|196/196
+|switch|p2a: Deoxys-Speed|Deoxys-Speed, L74|100/100
+|switch|p2a: Deoxys-Speed|Deoxys-Speed, L74|196/196
+|-ability|p2a: Deoxys-Speed|Pressure
+|turn|1
+|callback|decision
+|chat|RealPresent|I was busy with usermons
+|chat|RealPresent|._.
+|chat|Eneomas|there you are, gl hf
+|chat|Eneomas|sry
+|chat|RealPresent|https://docs.google.com/spreadsheet/ccc?key=0AjMMoj_3Ml-fdHVnWVJqSDJKSWRuT3lHR01uV2N0UlE&usp=drive_web#gid=0
+|
+|move|p2a: Deoxys-Speed|Taunt|p1a: Galvantula
+|-start|p1a: Galvantula|move: Taunt
+|move|p1a: Galvantula|Bug Buzz|p2a: Deoxys-Speed
+|-supereffective|p2a: Deoxys-Speed
+|split
+|-damage|p2a: Deoxys-Speed|0 fnt
+|-damage|p2a: Deoxys-Speed|0 fnt
+|-damage|p2a: Deoxys-Speed|0 fnt
+|-damage|p2a: Deoxys-Speed|0 fnt
+|faint|p2a: Deoxys-Speed
+|
+|callback|decision
+|
+|split
+|switch|p2a: Archeops|Archeops, L82, F, shiny|100/100
+|switch|p2a: Archeops|Archeops, L82, F, shiny|257/257
+|switch|p2a: Archeops|Archeops, L82, F, shiny|100/100
+|switch|p2a: Archeops|Archeops, L82, F, shiny|257/257
+|turn|2
+|callback|decision
+|chat|RealPresent|I did weaknesses, offensive power and redmons
+|
+|move|p2a: Archeops|Acrobatics|p1a: Galvantula
+|-enditem|p2a: Archeops|Flying Gem|[from] gem|[move] Acrobatics
+|split
+|-damage|p1a: Galvantula|0 fnt
+|-damage|p1a: Galvantula|0 fnt
+|-damage|p1a: Galvantula|0 fnt
+|-damage|p1a: Galvantula|0 fnt
+|faint|p1a: Galvantula
+|
+|callback|decision
+|chat|RealPresent|damn
+|chat|RealPresent|you liek ohko my entire team
+|chat|RealPresent|with that thing
+|
+|split
+|switch|p1a: Buneary|Buneary, L95, F|258/258
+|switch|p1a: Buneary|Buneary, L95, F|100/100
+|switch|p1a: Buneary|Buneary, L95, F|100/100
+|switch|p1a: Buneary|Buneary, L95, F|258/258
+|turn|3
+|callback|decision
+|
+|move|p1a: Buneary|Fake Out|p2a: Archeops
+|-resisted|p2a: Archeops
+|split
+|-damage|p2a: Archeops|86/100
+|-damage|p2a: Archeops|221/257
+|-damage|p2a: Archeops|86/100
+|-damage|p2a: Archeops|221/257
+|split
+|-damage|p1a: Buneary|233/258|[from] item: Life Orb
+|-damage|p1a: Buneary|91/100|[from] item: Life Orb
+|-damage|p1a: Buneary|91/100|[from] item: Life Orb
+|-damage|p1a: Buneary|233/258|[from] item: Life Orb
+|cant|p2a: Archeops|flinch
+|
+|turn|4
+|callback|decision
+|
+|move|p2a: Archeops|U-turn|p1a: Buneary
+|-crit|p1a: Buneary
+|split
+|-damage|p1a: Buneary|59/258
+|-damage|p1a: Buneary|23/100
+|-damage|p1a: Buneary|23/100
+|-damage|p1a: Buneary|59/258
+|callback|decision
+|
+|split
+|switch|p2a: Gliscor|Gliscor, L74, M|100/100
+|switch|p2a: Gliscor|Gliscor, L74, M|233/233
+|switch|p2a: Gliscor|Gliscor, L74, M|100/100
+|switch|p2a: Gliscor|Gliscor, L74, M|233/233
+|move|p1a: Buneary|Thunder Punch|p2a: Gliscor
+|-immune|p2a: Gliscor|[msg]
+|
+|turn|5
+|callback|decision
+|chat|Eneomas|wow
+|chat|Eneomas|uhm
+|
+|split
+|switch|p1a: Farfetch'd|Farfetch'd, L95, F|253/253
+|switch|p1a: Farfetch'd|Farfetch'd, L95, F|100/100
+|switch|p1a: Farfetch'd|Farfetch'd, L95, F|100/100
+|switch|p1a: Farfetch'd|Farfetch'd, L95, F|253/253
+|move|p2a: Gliscor|Acrobatics|p1a: Farfetch'd
+|-enditem|p2a: Gliscor|Flying Gem|[from] gem|[move] Acrobatics
+|split
+|-damage|p1a: Farfetch'd|82/253
+|-damage|p1a: Farfetch'd|33/100
+|-damage|p1a: Farfetch'd|33/100
+|-damage|p1a: Farfetch'd|82/253
+|
+|split
+|-heal|p1a: Farfetch'd|97/253|[from] item: Leftovers
+|-heal|p1a: Farfetch'd|39/100|[from] item: Leftovers
+|-heal|p1a: Farfetch'd|39/100|[from] item: Leftovers
+|-heal|p1a: Farfetch'd|97/253|[from] item: Leftovers
+|turn|6
+|callback|decision
+|chat|Eneomas|lucky predict
+|
+|move|p2a: Gliscor|Acrobatics|p1a: Farfetch'd
+|split
+|-damage|p1a: Farfetch'd|0 fnt
+|-damage|p1a: Farfetch'd|0 fnt
+|-damage|p1a: Farfetch'd|0 fnt
+|-damage|p1a: Farfetch'd|0 fnt
+|faint|p1a: Farfetch'd
+|
+|callback|decision
+|chat|RealPresent|yeah
+|chat|RealPresent|best team ever
+|
+|split
+|switch|p1a: Emboar|Emboar, L82, F|315/315
+|switch|p1a: Emboar|Emboar, L82, F|100/100
+|switch|p1a: Emboar|Emboar, L82, F|100/100
+|switch|p1a: Emboar|Emboar, L82, F|315/315
+|turn|7
+|callback|decision
+|chat|RealPresent|yay more flying weak
+|chat|Eneomas|lol
+|
+|move|p2a: Gliscor|Acrobatics|p1a: Emboar
+|-supereffective|p1a: Emboar
+|split
+|-damage|p1a: Emboar|69/315
+|-damage|p1a: Emboar|22/100
+|-damage|p1a: Emboar|22/100
+|-damage|p1a: Emboar|69/315
+|move|p1a: Emboar|Flare Blitz|p2a: Gliscor
+|split
+|-damage|p2a: Gliscor|0 fnt
+|-damage|p2a: Gliscor|0 fnt
+|-damage|p2a: Gliscor|0 fnt
+|-damage|p2a: Gliscor|0 fnt
+|split
+|-damage|p1a: Emboar|0 fnt|[from] recoil|[of] p2a: Gliscor
+|-damage|p1a: Emboar|0 fnt|[from] recoil|[of] p2a: Gliscor
+|-damage|p1a: Emboar|0 fnt|[from] recoil|[of] p2a: Gliscor
+|-damage|p1a: Emboar|0 fnt|[from] recoil|[of] p2a: Gliscor
+|faint|p2a: Gliscor
+|faint|p1a: Emboar
+|
+|callback|decision
+|
+|split
+|switch|p2a: Archeops|Archeops, L82, F, shiny|86/100
+|switch|p2a: Archeops|Archeops, L82, F, shiny|221/257
+|switch|p2a: Archeops|Archeops, L82, F, shiny|86/100
+|switch|p2a: Archeops|Archeops, L82, F, shiny|221/257
+|split
+|switch|p1a: Buneary|Buneary, L95, F|59/258
+|switch|p1a: Buneary|Buneary, L95, F|23/100
+|switch|p1a: Buneary|Buneary, L95, F|23/100
+|switch|p1a: Buneary|Buneary, L95, F|59/258
+|turn|8
+|callback|decision
+|
+|split
+|switch|p2a: Poochyena|Poochyena, L95, F|100/100
+|switch|p2a: Poochyena|Poochyena, L95, F|220/220
+|switch|p2a: Poochyena|Poochyena, L95, F|100/100
+|switch|p2a: Poochyena|Poochyena, L95, F|220/220
+|move|p1a: Buneary|Fake Out|p2a: Poochyena
+|split
+|-damage|p2a: Poochyena|61/100
+|-damage|p2a: Poochyena|134/220
+|-damage|p2a: Poochyena|61/100
+|-damage|p2a: Poochyena|134/220
+|split
+|-damage|p1a: Buneary|34/258|[from] item: Life Orb
+|-damage|p1a: Buneary|14/100|[from] item: Life Orb
+|-damage|p1a: Buneary|14/100|[from] item: Life Orb
+|-damage|p1a: Buneary|34/258|[from] item: Life Orb
+|
+|turn|9
+|callback|decision
+|chat|RealPresent|I got two more flying weak
+|chat|RealPresent|yay me
+|
+|split
+|switch|p1a: Watrirield|Watrirield, L74|248/248
+|switch|p1a: Watrirield|Watrirield, L74|100/100
+|switch|p1a: Watrirield|Watrirield, L74|100/100
+|switch|p1a: Watrirield|Watrirield, L74|248/248
+|move|p2a: Poochyena|Sucker Punch|p1a: Watrirield
+|-fail|p1a: Watrirield
+|
+|turn|10
+|callback|decision
+|chat|Eneomas|what type is that thing?
+|chat|RealPresent|what is rabid frenzy?
+|
+|move|p1a: Watrirield|Swords Dance|p1a: Watrirield
+|-boost|p1a: Watrirield|atk|2
+|move|p2a: Poochyena|Toxic|p1a: Watrirield
+|-status|p1a: Watrirield|tox
+|
+|split
+|-damage|p1a: Watrirield|233/248 tox|[from] psn
+|-damage|p1a: Watrirield|94/100 tox|[from] psn
+|-damage|p1a: Watrirield|94/100 tox|[from] psn
+|-damage|p1a: Watrirield|233/248 tox|[from] psn
+|turn|11
+|callback|decision
+|chat|RealPresent|I dunnoI tought fighting
+|chat|Eneomas|k
+|
+|move|p1a: Watrirield|Rabid Frenzy|p2a: Poochyena
+|-resisted|p2a: Poochyena
+|split
+|-damage|p2a: Poochyena|0 fnt
+|-damage|p2a: Poochyena|0 fnt
+|-damage|p2a: Poochyena|0 fnt
+|-damage|p2a: Poochyena|0 fnt
+|-unboost|p1a: Watrirield|def|1
+|-unboost|p1a: Watrirield|spd|1
+|split
+|-damage|p1a: Watrirield|209/248 tox|[from] item: Life Orb
+|-damage|p1a: Watrirield|85/100 tox|[from] item: Life Orb
+|-damage|p1a: Watrirield|85/100 tox|[from] item: Life Orb
+|-damage|p1a: Watrirield|209/248 tox|[from] item: Life Orb
+|faint|p2a: Poochyena
+|
+|split
+|-damage|p1a: Watrirield|179/248 tox|[from] psn
+|-damage|p1a: Watrirield|73/100 tox|[from] psn
+|-damage|p1a: Watrirield|73/100 tox|[from] psn
+|-damage|p1a: Watrirield|179/248 tox|[from] psn
+|callback|decision
+|
+|split
+|switch|p2a: Watrirield|Watrirield, L74|100/100
+|switch|p2a: Watrirield|Watrirield, L74|248/248
+|switch|p2a: Watrirield|Watrirield, L74|100/100
+|switch|p2a: Watrirield|Watrirield, L74|248/248
+|turn|12
+|callback|decision
+|chat|Eneomas|I don'teven have rabid frenzy
+|
+|move|p2a: Watrirield|Sucker Punch|p1a: Watrirield
+|-resisted|p1a: Watrirield
+|split
+|-damage|p1a: Watrirield|74/248 tox
+|-damage|p1a: Watrirield|30/100 tox
+|-damage|p1a: Watrirield|30/100 tox
+|-damage|p1a: Watrirield|74/248 tox
+|split
+|-damage|p2a: Watrirield|91/100|[from] item: Life Orb
+|-damage|p2a: Watrirield|224/248|[from] item: Life Orb
+|-damage|p2a: Watrirield|91/100|[from] item: Life Orb
+|-damage|p2a: Watrirield|224/248|[from] item: Life Orb
+|move|p1a: Watrirield|Rabid Frenzy|p2a: Watrirield
+|-resisted|p2a: Watrirield
+|split
+|-damage|p2a: Watrirield|4/100
+|-damage|p2a: Watrirield|8/248
+|-damage|p2a: Watrirield|4/100
+|-damage|p2a: Watrirield|8/248
+|-unboost|p1a: Watrirield|def|1
+|-unboost|p1a: Watrirield|spd|1
+|split
+|-damage|p1a: Watrirield|50/248 tox|[from] item: Life Orb
+|-damage|p1a: Watrirield|21/100 tox|[from] item: Life Orb
+|-damage|p1a: Watrirield|21/100 tox|[from] item: Life Orb
+|-damage|p1a: Watrirield|50/248 tox|[from] item: Life Orb
+|
+|split
+|-damage|p1a: Watrirield|5/248 tox|[from] psn
+|-damage|p1a: Watrirield|3/100 tox|[from] psn
+|-damage|p1a: Watrirield|3/100 tox|[from] psn
+|-damage|p1a: Watrirield|5/248 tox|[from] psn
+|turn|13
+|callback|decision
+|chat|Eneomas|yup fighting
+|
+|split
+|switch|p1a: Grotle|Grotle, L90, M|281/281
+|switch|p1a: Grotle|Grotle, L90, M|100/100
+|switch|p1a: Grotle|Grotle, L90, M|100/100
+|switch|p1a: Grotle|Grotle, L90, M|281/281
+|move|p2a: Watrirield|Sucker Punch|p1a: Grotle
+|-fail|p1a: Grotle
+|
+|turn|14
+|callback|decision
+|chat|Lightkyoyo|rabid frenzy?
+|
+|move|p2a: Watrirield|Sucker Punch|p1a: Grotle
+|-fail|p1a: Grotle
+|move|p1a: Grotle|Stealth Rock|p2a: Watrirield
+|-sidestart|p2: Eneomas|move: Stealth Rock
+|
+|turn|15
+|callback|decision
+|
+|move|p2a: Watrirield|Earthquake|p1a: Grotle
+|html|<div class="broadcast-red"><b>The battle crashed</b><br />You can keep playing but it might crash again.</div>
+|callback|decision
+|chat|Eneomas|come on
+|chat|RealPresent|what did you click
+|chat|RealPresent|lol
+|
+|move|p1a: Grotle|Substitute|p1a: Grotle|[from]Adrenaline
+|-start|p1a: Grotle|Substitute
+|split
+|-damage|p1a: Grotle|211/281
+|-damage|p1a: Grotle|76/100
+|-damage|p1a: Grotle|76/100
+|-damage|p1a: Grotle|211/281
+|
+|turn|16
+|callback|decision
+|chat|Lightkyoyo|dont crash 
+|chat|Lightkyoyo|pls
+|chat|RealPresent|eneo
+|chat|RealPresent|what did you click
+|chat|Eneomas|please let that thing of yours die
+|chat|RealPresent|o.O
+|chat|Eneomas|I clicked EQ
+|chat|Eneomas|it's the ability
+|chat|RealPresent|lol
+|chat|RealPresent|that would have done nothing?
+|chat|Eneomas|it crashes when it's activated
+|chat|RealPresent|yeah the ability
+|chat|RealPresent|is not yet programmed
+|chat|RealPresent|snaq says
+|chat|Eneomas|please put in wherield next turn
+|chat|RealPresent|why?
+|chat|RealPresent|what would EQ have done
+|chat|RealPresent|as far as I know
+|chat|Eneomas|so that they both die, and we can continue the battle safely
+|
+|move|p2a: Watrirield|Earthquake|p1a: Grotle|[from]Adrenaline
+|html|<div class="broadcast-red"><b>The battle crashed</b><br />You can keep playing but it might crash again.</div>
+|callback|decision
+|chat|RealPresent|EQ vs Grotle = weak
+|chat|Eneomas|ikr
+|chat|RealPresent|I need watrirield
+|chat|RealPresent|I got healing wish
+|chat|RealPresent|on buneary
+|chat|RealPresent|...
+|chat|Eneomas|k
+|chat|Eneomas|lol
+|chat|Eneomas|then please kill mine
+|chat|RealPresent|so I was waiting
+|chat|Eneomas|now
+|chat|Eneomas|!
+|chat|RealPresent|for a good moment
+|chat|RealPresent|to send it in
+|chat|Lightkyoyo|pls make a move
+|
+|move|p1a: Grotle|Reflect|p1a: Grotle|[from]Adrenaline
+|-sidestart|p1: RealPresent|Reflect
+|
+|turn|17
+|callback|decision
+|chat|RealPresent|wait
+|chat|RealPresent|uhm
+|chat|RealPresent|can you choose a move?
+|chat|Eneomas|just do it
+|
+|move|p2a: Watrirield|Earthquake|p1a: Grotle|[from]Adrenaline
+
+ReferenceError: source is not defined
+    at Tools.exports.BattleAbilities.adrenaline.onModifyAtk (/Users/clazinasteunenberg/Downloads/Tervari/mods/tervari/abilities.js:49:25)
+    at Tools.Battle.runEvent (/Users/clazinasteunenberg/Downloads/Tervari/battle-engine.js:1954:38)
+    at Tools.Battle.getDamage (/Users/clazinasteunenberg/Downloads/Tervari/battle-engine.js:2778:17)
+    at Tools.exports.BattleScripts.moveHit (/Users/clazinasteunenberg/Downloads/Tervari/data/scripts.js:345:18)
+    at Tools.exports.BattleScripts.tryMoveHit (/Users/clazinasteunenberg/Downloads/Tervari/data/scripts.js:264:18)
+    at Tools.exports.BattleScripts.useMove (/Users/clazinasteunenberg/Downloads/Tervari/data/scripts.js:157:18)
+    at Tools.exports.BattleScripts.runMove (/Users/clazinasteunenberg/Downloads/Tervari/data/scripts.js:45:8)
+    at Tools.Battle.runDecision (/Users/clazinasteunenberg/Downloads/Tervari/battle-engine.js:3105:9)
+    at Tools.Battle.go (/Users/clazinasteunenberg/Downloads/Tervari/battle-engine.js:3270:9)
+    at Tools.Battle.commitDecisions (/Users/clazinasteunenberg/Downloads/Tervari/battle-engine.js:3348:8)
+
+Additional information:
+message = battle-tervarirandombattle-82|choose|p2|move U-turn|37
+currentRequest = move
+
+Log:
+|player|p1|RealPresent|267
+|player|p2|Eneomas|149
+|gametype|singles
+|tier|Tervari Random Battle
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|HP Percentage Mod: HP is reported as percentages
+|
+|start
+|split
+|switch|p1a: Galvantula|Galvantula, L82, M|249/249
+|switch|p1a: Galvantula|Galvantula, L82, M|100/100
+|switch|p1a: Galvantula|Galvantula, L82, M|100/100
+|switch|p1a: Galvantula|Galvantula, L82, M|249/249
+|split
+|switch|p2a: Deoxys-Speed|Deoxys-Speed, L74|100/100
+|switch|p2a: Deoxys-Speed|Deoxys-Speed, L74|196/196
+|switch|p2a: Deoxys-Speed|Deoxys-Speed, L74|100/100
+|switch|p2a: Deoxys-Speed|Deoxys-Speed, L74|196/196
+|-ability|p2a: Deoxys-Speed|Pressure
+|turn|1
+|callback|decision
+|chat|RealPresent|I was busy with usermons
+|chat|RealPresent|._.
+|chat|Eneomas|there you are, gl hf
+|chat|Eneomas|sry
+|chat|RealPresent|https://docs.google.com/spreadsheet/ccc?key=0AjMMoj_3Ml-fdHVnWVJqSDJKSWRuT3lHR01uV2N0UlE&usp=drive_web#gid=0
+|
+|move|p2a: Deoxys-Speed|Taunt|p1a: Galvantula
+|-start|p1a: Galvantula|move: Taunt
+|move|p1a: Galvantula|Bug Buzz|p2a: Deoxys-Speed
+|-supereffective|p2a: Deoxys-Speed
+|split
+|-damage|p2a: Deoxys-Speed|0 fnt
+|-damage|p2a: Deoxys-Speed|0 fnt
+|-damage|p2a: Deoxys-Speed|0 fnt
+|-damage|p2a: Deoxys-Speed|0 fnt
+|faint|p2a: Deoxys-Speed
+|
+|callback|decision
+|
+|split
+|switch|p2a: Archeops|Archeops, L82, F, shiny|100/100
+|switch|p2a: Archeops|Archeops, L82, F, shiny|257/257
+|switch|p2a: Archeops|Archeops, L82, F, shiny|100/100
+|switch|p2a: Archeops|Archeops, L82, F, shiny|257/257
+|turn|2
+|callback|decision
+|chat|RealPresent|I did weaknesses, offensive power and redmons
+|
+|move|p2a: Archeops|Acrobatics|p1a: Galvantula
+|-enditem|p2a: Archeops|Flying Gem|[from] gem|[move] Acrobatics
+|split
+|-damage|p1a: Galvantula|0 fnt
+|-damage|p1a: Galvantula|0 fnt
+|-damage|p1a: Galvantula|0 fnt
+|-damage|p1a: Galvantula|0 fnt
+|faint|p1a: Galvantula
+|
+|callback|decision
+|chat|RealPresent|damn
+|chat|RealPresent|you liek ohko my entire team
+|chat|RealPresent|with that thing
+|
+|split
+|switch|p1a: Buneary|Buneary, L95, F|258/258
+|switch|p1a: Buneary|Buneary, L95, F|100/100
+|switch|p1a: Buneary|Buneary, L95, F|100/100
+|switch|p1a: Buneary|Buneary, L95, F|258/258
+|turn|3
+|callback|decision
+|
+|move|p1a: Buneary|Fake Out|p2a: Archeops
+|-resisted|p2a: Archeops
+|split
+|-damage|p2a: Archeops|86/100
+|-damage|p2a: Archeops|221/257
+|-damage|p2a: Archeops|86/100
+|-damage|p2a: Archeops|221/257
+|split
+|-damage|p1a: Buneary|233/258|[from] item: Life Orb
+|-damage|p1a: Buneary|91/100|[from] item: Life Orb
+|-damage|p1a: Buneary|91/100|[from] item: Life Orb
+|-damage|p1a: Buneary|233/258|[from] item: Life Orb
+|cant|p2a: Archeops|flinch
+|
+|turn|4
+|callback|decision
+|
+|move|p2a: Archeops|U-turn|p1a: Buneary
+|-crit|p1a: Buneary
+|split
+|-damage|p1a: Buneary|59/258
+|-damage|p1a: Buneary|23/100
+|-damage|p1a: Buneary|23/100
+|-damage|p1a: Buneary|59/258
+|callback|decision
+|
+|split
+|switch|p2a: Gliscor|Gliscor, L74, M|100/100
+|switch|p2a: Gliscor|Gliscor, L74, M|233/233
+|switch|p2a: Gliscor|Gliscor, L74, M|100/100
+|switch|p2a: Gliscor|Gliscor, L74, M|233/233
+|move|p1a: Buneary|Thunder Punch|p2a: Gliscor
+|-immune|p2a: Gliscor|[msg]
+|
+|turn|5
+|callback|decision
+|chat|Eneomas|wow
+|chat|Eneomas|uhm
+|
+|split
+|switch|p1a: Farfetch'd|Farfetch'd, L95, F|253/253
+|switch|p1a: Farfetch'd|Farfetch'd, L95, F|100/100
+|switch|p1a: Farfetch'd|Farfetch'd, L95, F|100/100
+|switch|p1a: Farfetch'd|Farfetch'd, L95, F|253/253
+|move|p2a: Gliscor|Acrobatics|p1a: Farfetch'd
+|-enditem|p2a: Gliscor|Flying Gem|[from] gem|[move] Acrobatics
+|split
+|-damage|p1a: Farfetch'd|82/253
+|-damage|p1a: Farfetch'd|33/100
+|-damage|p1a: Farfetch'd|33/100
+|-damage|p1a: Farfetch'd|82/253
+|
+|split
+|-heal|p1a: Farfetch'd|97/253|[from] item: Leftovers
+|-heal|p1a: Farfetch'd|39/100|[from] item: Leftovers
+|-heal|p1a: Farfetch'd|39/100|[from] item: Leftovers
+|-heal|p1a: Farfetch'd|97/253|[from] item: Leftovers
+|turn|6
+|callback|decision
+|chat|Eneomas|lucky predict
+|
+|move|p2a: Gliscor|Acrobatics|p1a: Farfetch'd
+|split
+|-damage|p1a: Farfetch'd|0 fnt
+|-damage|p1a: Farfetch'd|0 fnt
+|-damage|p1a: Farfetch'd|0 fnt
+|-damage|p1a: Farfetch'd|0 fnt
+|faint|p1a: Farfetch'd
+|
+|callback|decision
+|chat|RealPresent|yeah
+|chat|RealPresent|best team ever
+|
+|split
+|switch|p1a: Emboar|Emboar, L82, F|315/315
+|switch|p1a: Emboar|Emboar, L82, F|100/100
+|switch|p1a: Emboar|Emboar, L82, F|100/100
+|switch|p1a: Emboar|Emboar, L82, F|315/315
+|turn|7
+|callback|decision
+|chat|RealPresent|yay more flying weak
+|chat|Eneomas|lol
+|
+|move|p2a: Gliscor|Acrobatics|p1a: Emboar
+|-supereffective|p1a: Emboar
+|split
+|-damage|p1a: Emboar|69/315
+|-damage|p1a: Emboar|22/100
+|-damage|p1a: Emboar|22/100
+|-damage|p1a: Emboar|69/315
+|move|p1a: Emboar|Flare Blitz|p2a: Gliscor
+|split
+|-damage|p2a: Gliscor|0 fnt
+|-damage|p2a: Gliscor|0 fnt
+|-damage|p2a: Gliscor|0 fnt
+|-damage|p2a: Gliscor|0 fnt
+|split
+|-damage|p1a: Emboar|0 fnt|[from] recoil|[of] p2a: Gliscor
+|-damage|p1a: Emboar|0 fnt|[from] recoil|[of] p2a: Gliscor
+|-damage|p1a: Emboar|0 fnt|[from] recoil|[of] p2a: Gliscor
+|-damage|p1a: Emboar|0 fnt|[from] recoil|[of] p2a: Gliscor
+|faint|p2a: Gliscor
+|faint|p1a: Emboar
+|
+|callback|decision
+|
+|split
+|switch|p2a: Archeops|Archeops, L82, F, shiny|86/100
+|switch|p2a: Archeops|Archeops, L82, F, shiny|221/257
+|switch|p2a: Archeops|Archeops, L82, F, shiny|86/100
+|switch|p2a: Archeops|Archeops, L82, F, shiny|221/257
+|split
+|switch|p1a: Buneary|Buneary, L95, F|59/258
+|switch|p1a: Buneary|Buneary, L95, F|23/100
+|switch|p1a: Buneary|Buneary, L95, F|23/100
+|switch|p1a: Buneary|Buneary, L95, F|59/258
+|turn|8
+|callback|decision
+|
+|split
+|switch|p2a: Poochyena|Poochyena, L95, F|100/100
+|switch|p2a: Poochyena|Poochyena, L95, F|220/220
+|switch|p2a: Poochyena|Poochyena, L95, F|100/100
+|switch|p2a: Poochyena|Poochyena, L95, F|220/220
+|move|p1a: Buneary|Fake Out|p2a: Poochyena
+|split
+|-damage|p2a: Poochyena|61/100
+|-damage|p2a: Poochyena|134/220
+|-damage|p2a: Poochyena|61/100
+|-damage|p2a: Poochyena|134/220
+|split
+|-damage|p1a: Buneary|34/258|[from] item: Life Orb
+|-damage|p1a: Buneary|14/100|[from] item: Life Orb
+|-damage|p1a: Buneary|14/100|[from] item: Life Orb
+|-damage|p1a: Buneary|34/258|[from] item: Life Orb
+|
+|turn|9
+|callback|decision
+|chat|RealPresent|I got two more flying weak
+|chat|RealPresent|yay me
+|
+|split
+|switch|p1a: Watrirield|Watrirield, L74|248/248
+|switch|p1a: Watrirield|Watrirield, L74|100/100
+|switch|p1a: Watrirield|Watrirield, L74|100/100
+|switch|p1a: Watrirield|Watrirield, L74|248/248
+|move|p2a: Poochyena|Sucker Punch|p1a: Watrirield
+|-fail|p1a: Watrirield
+|
+|turn|10
+|callback|decision
+|chat|Eneomas|what type is that thing?
+|chat|RealPresent|what is rabid frenzy?
+|
+|move|p1a: Watrirield|Swords Dance|p1a: Watrirield
+|-boost|p1a: Watrirield|atk|2
+|move|p2a: Poochyena|Toxic|p1a: Watrirield
+|-status|p1a: Watrirield|tox
+|
+|split
+|-damage|p1a: Watrirield|233/248 tox|[from] psn
+|-damage|p1a: Watrirield|94/100 tox|[from] psn
+|-damage|p1a: Watrirield|94/100 tox|[from] psn
+|-damage|p1a: Watrirield|233/248 tox|[from] psn
+|turn|11
+|callback|decision
+|chat|RealPresent|I dunnoI tought fighting
+|chat|Eneomas|k
+|
+|move|p1a: Watrirield|Rabid Frenzy|p2a: Poochyena
+|-resisted|p2a: Poochyena
+|split
+|-damage|p2a: Poochyena|0 fnt
+|-damage|p2a: Poochyena|0 fnt
+|-damage|p2a: Poochyena|0 fnt
+|-damage|p2a: Poochyena|0 fnt
+|-unboost|p1a: Watrirield|def|1
+|-unboost|p1a: Watrirield|spd|1
+|split
+|-damage|p1a: Watrirield|209/248 tox|[from] item: Life Orb
+|-damage|p1a: Watrirield|85/100 tox|[from] item: Life Orb
+|-damage|p1a: Watrirield|85/100 tox|[from] item: Life Orb
+|-damage|p1a: Watrirield|209/248 tox|[from] item: Life Orb
+|faint|p2a: Poochyena
+|
+|split
+|-damage|p1a: Watrirield|179/248 tox|[from] psn
+|-damage|p1a: Watrirield|73/100 tox|[from] psn
+|-damage|p1a: Watrirield|73/100 tox|[from] psn
+|-damage|p1a: Watrirield|179/248 tox|[from] psn
+|callback|decision
+|
+|split
+|switch|p2a: Watrirield|Watrirield, L74|100/100
+|switch|p2a: Watrirield|Watrirield, L74|248/248
+|switch|p2a: Watrirield|Watrirield, L74|100/100
+|switch|p2a: Watrirield|Watrirield, L74|248/248
+|turn|12
+|callback|decision
+|chat|Eneomas|I don'teven have rabid frenzy
+|
+|move|p2a: Watrirield|Sucker Punch|p1a: Watrirield
+|-resisted|p1a: Watrirield
+|split
+|-damage|p1a: Watrirield|74/248 tox
+|-damage|p1a: Watrirield|30/100 tox
+|-damage|p1a: Watrirield|30/100 tox
+|-damage|p1a: Watrirield|74/248 tox
+|split
+|-damage|p2a: Watrirield|91/100|[from] item: Life Orb
+|-damage|p2a: Watrirield|224/248|[from] item: Life Orb
+|-damage|p2a: Watrirield|91/100|[from] item: Life Orb
+|-damage|p2a: Watrirield|224/248|[from] item: Life Orb
+|move|p1a: Watrirield|Rabid Frenzy|p2a: Watrirield
+|-resisted|p2a: Watrirield
+|split
+|-damage|p2a: Watrirield|4/100
+|-damage|p2a: Watrirield|8/248
+|-damage|p2a: Watrirield|4/100
+|-damage|p2a: Watrirield|8/248
+|-unboost|p1a: Watrirield|def|1
+|-unboost|p1a: Watrirield|spd|1
+|split
+|-damage|p1a: Watrirield|50/248 tox|[from] item: Life Orb
+|-damage|p1a: Watrirield|21/100 tox|[from] item: Life Orb
+|-damage|p1a: Watrirield|21/100 tox|[from] item: Life Orb
+|-damage|p1a: Watrirield|50/248 tox|[from] item: Life Orb
+|
+|split
+|-damage|p1a: Watrirield|5/248 tox|[from] psn
+|-damage|p1a: Watrirield|3/100 tox|[from] psn
+|-damage|p1a: Watrirield|3/100 tox|[from] psn
+|-damage|p1a: Watrirield|5/248 tox|[from] psn
+|turn|13
+|callback|decision
+|chat|Eneomas|yup fighting
+|
+|split
+|switch|p1a: Grotle|Grotle, L90, M|281/281
+|switch|p1a: Grotle|Grotle, L90, M|100/100
+|switch|p1a: Grotle|Grotle, L90, M|100/100
+|switch|p1a: Grotle|Grotle, L90, M|281/281
+|move|p2a: Watrirield|Sucker Punch|p1a: Grotle
+|-fail|p1a: Grotle
+|
+|turn|14
+|callback|decision
+|chat|Lightkyoyo|rabid frenzy?
+|
+|move|p2a: Watrirield|Sucker Punch|p1a: Grotle
+|-fail|p1a: Grotle
+|move|p1a: Grotle|Stealth Rock|p2a: Watrirield
+|-sidestart|p2: Eneomas|move: Stealth Rock
+|
+|turn|15
+|callback|decision
+|
+|move|p2a: Watrirield|Earthquake|p1a: Grotle
+|html|<div class="broadcast-red"><b>The battle crashed</b><br />You can keep playing but it might crash again.</div>
+|callback|decision
+|chat|Eneomas|come on
+|chat|RealPresent|what did you click
+|chat|RealPresent|lol
+|
+|move|p1a: Grotle|Substitute|p1a: Grotle|[from]Adrenaline
+|-start|p1a: Grotle|Substitute
+|split
+|-damage|p1a: Grotle|211/281
+|-damage|p1a: Grotle|76/100
+|-damage|p1a: Grotle|76/100
+|-damage|p1a: Grotle|211/281
+|
+|turn|16
+|callback|decision
+|chat|Lightkyoyo|dont crash 
+|chat|Lightkyoyo|pls
+|chat|RealPresent|eneo
+|chat|RealPresent|what did you click
+|chat|Eneomas|please let that thing of yours die
+|chat|RealPresent|o.O
+|chat|Eneomas|I clicked EQ
+|chat|Eneomas|it's the ability
+|chat|RealPresent|lol
+|chat|RealPresent|that would have done nothing?
+|chat|Eneomas|it crashes when it's activated
+|chat|RealPresent|yeah the ability
+|chat|RealPresent|is not yet programmed
+|chat|RealPresent|snaq says
+|chat|Eneomas|please put in wherield next turn
+|chat|RealPresent|why?
+|chat|RealPresent|what would EQ have done
+|chat|RealPresent|as far as I know
+|chat|Eneomas|so that they both die, and we can continue the battle safely
+|
+|move|p2a: Watrirield|Earthquake|p1a: Grotle|[from]Adrenaline
+|html|<div class="broadcast-red"><b>The battle crashed</b><br />You can keep playing but it might crash again.</div>
+|callback|decision
+|chat|RealPresent|EQ vs Grotle = weak
+|chat|Eneomas|ikr
+|chat|RealPresent|I need watrirield
+|chat|RealPresent|I got healing wish
+|chat|RealPresent|on buneary
+|chat|RealPresent|...
+|chat|Eneomas|k
+|chat|Eneomas|lol
+|chat|Eneomas|then please kill mine
+|chat|RealPresent|so I was waiting
+|chat|Eneomas|now
+|chat|Eneomas|!
+|chat|RealPresent|for a good moment
+|chat|RealPresent|to send it in
+|chat|Lightkyoyo|pls make a move
+|
+|move|p1a: Grotle|Reflect|p1a: Grotle|[from]Adrenaline
+|-sidestart|p1: RealPresent|Reflect
+|
+|turn|17
+|callback|decision
+|chat|RealPresent|wait
+|chat|RealPresent|uhm
+|chat|RealPresent|can you choose a move?
+|chat|Eneomas|just do it
+|
+|move|p2a: Watrirield|Earthquake|p1a: Grotle|[from]Adrenaline
+|html|<div class="broadcast-red"><b>The battle crashed</b><br />You can keep playing but it might crash again.</div>
+|callback|decision
+|chat|Eneomas|this isn't fair
+|chat|Eneomas|I can't move
+|chat|RealPresent|I am trying
+|chat|Eneomas|;-;
+|chat|RealPresent|o.o
+|
+|move|p1a: Grotle|Seed Bomb|p2a: Watrirield|[from]Adrenaline
+|split
+|-damage|p2a: Watrirield|0 fnt
+|-damage|p2a: Watrirield|0 fnt
+|-damage|p2a: Watrirield|0 fnt
+|-damage|p2a: Watrirield|0 fnt
+|faint|p2a: Watrirield
+|
+|callback|decision
+|chat|Eneomas|thank you
+|chat|RealPresent|finally it worked
+|
+|split
+|switch|p2a: Minun|Minun, L86, M|100/100
+|switch|p2a: Minun|Minun, L86, M|243/243
+|switch|p2a: Minun|Minun, L86, M|100/100
+|switch|p2a: Minun|Minun, L86, M|243/243
+|split
+|-damage|p2a: Minun|88/100|[from] Stealth Rock
+|-damage|p2a: Minun|213/243|[from] Stealth Rock
+|-damage|p2a: Minun|88/100|[from] Stealth Rock
+|-damage|p2a: Minun|213/243|[from] Stealth Rock
+|turn|18
+|callback|decision
+|
+|move|p2a: Minun|Hidden Power|p1a: Grotle|[from]Adrenaline
+|-supereffective|p1a: Grotle
+|-end|p1a: Grotle|Substitute
+|move|p1a: Grotle|Seed Bomb|p2a: Minun|[from]Adrenaline
+|split
+|-damage|p2a: Minun|31/100
+|-damage|p2a: Minun|75/243
+|-damage|p2a: Minun|31/100
+|-damage|p2a: Minun|75/243
+|
+|split
+|-heal|p2a: Minun|38/100|[from] item: Leftovers
+|-heal|p2a: Minun|90/243|[from] item: Leftovers
+|-heal|p2a: Minun|38/100|[from] item: Leftovers
+|-heal|p2a: Minun|90/243|[from] item: Leftovers
+|turn|19
+|callback|decision
+|chat|Eneomas|:D
+|chat|Eneomas|HP ice
+|chat|Lightkyoyo|ofc
+|chat|Lightkyoyo|everything has ice
+|chat|Lightkyoyo|:P
+|
+|move|p2a: Minun|Hidden Power|p1a: Grotle|[from]Adrenaline
+|-supereffective|p1a: Grotle
+|split
+|-damage|p1a: Grotle|115/281
+|-damage|p1a: Grotle|41/100
+|-damage|p1a: Grotle|41/100
+|-damage|p1a: Grotle|115/281
+|move|p1a: Grotle|Substitute|p1a: Grotle|[from]Adrenaline
+|-start|p1a: Grotle|Substitute
+|split
+|-damage|p1a: Grotle|45/281
+|-damage|p1a: Grotle|17/100
+|-damage|p1a: Grotle|17/100
+|-damage|p1a: Grotle|45/281
+|
+|split
+|-heal|p2a: Minun|44/100|[from] item: Leftovers
+|-heal|p2a: Minun|105/243|[from] item: Leftovers
+|-heal|p2a: Minun|44/100|[from] item: Leftovers
+|-heal|p2a: Minun|105/243|[from] item: Leftovers
+|turn|20
+|callback|decision
+|chat|Eneomas|wow, it lived
+|chat|Eneomas|:O
+|
+|move|p2a: Minun|Hidden Power|p1a: Grotle|[from]Adrenaline
+|-supereffective|p1a: Grotle
+|-end|p1a: Grotle|Substitute
+|move|p1a: Grotle|Seed Bomb|p2a: Minun|[from]Adrenaline
+|split
+|-damage|p2a: Minun|0 fnt
+|-damage|p2a: Minun|0 fnt
+|-damage|p2a: Minun|0 fnt
+|-damage|p2a: Minun|0 fnt
+|faint|p2a: Minun
+|
+|callback|decision
+|chat|Eneomas|didn't xpect that tbh
+|chat|RealPresent|ugh
+|
+|split
+|switch|p2a: Archeops|Archeops, L82, F, shiny|86/100
+|switch|p2a: Archeops|Archeops, L82, F, shiny|221/257
+|switch|p2a: Archeops|Archeops, L82, F, shiny|86/100
+|switch|p2a: Archeops|Archeops, L82, F, shiny|221/257
+|split
+|-damage|p2a: Archeops|62/100|[from] Stealth Rock
+|-damage|p2a: Archeops|157/257|[from] Stealth Rock
+|-damage|p2a: Archeops|62/100|[from] Stealth Rock
+|-damage|p2a: Archeops|157/257|[from] Stealth Rock
+|turn|21
+|callback|decision
+|chat|RealPresent|it should have died
+|chat|RealPresent|now I lose
+|chat|RealPresent|:(
+|chat|Lightkyoyo|is that a shiny?
+|chat|RealPresent|welcome to the crashing battle snaq
+|chat|Snaquaza|nah
+|chat|Snaquaza|every battle got that
+|
+|move|p2a: Archeops|Acrobatics|p1a: Grotle|[from]Adrenaline
+|-supereffective|p1a: Grotle
+|split
+|-damage|p1a: Grotle|0 fnt
+|-damage|p1a: Grotle|0 fnt
+|-damage|p1a: Grotle|0 fnt
+|-damage|p1a: Grotle|0 fnt
+|faint|p1a: Grotle
+|
+|callback|decision
+|
+|split
+|switch|p1a: Buneary|Buneary, L95, F|34/258
+|switch|p1a: Buneary|Buneary, L95, F|14/100
+|switch|p1a: Buneary|Buneary, L95, F|14/100
+|switch|p1a: Buneary|Buneary, L95, F|34/258
+|turn|22
+|callback|decision
+|chat|Lightkyoyo|That's a shiny archeops!
+|chat|Snaquaza|just use Watrirield to revenge
+|
+|move|p1a: Buneary|Fake Out|p2a: Archeops|[from]Adrenaline
+|-resisted|p2a: Archeops
+|split
+|-damage|p2a: Archeops|48/100
+|-damage|p2a: Archeops|122/257
+|-damage|p2a: Archeops|48/100
+|-damage|p2a: Archeops|122/257
+|split
+|-damage|p1a: Buneary|9/258|[from] item: Life Orb
+|-damage|p1a: Buneary|4/100|[from] item: Life Orb
+|-damage|p1a: Buneary|4/100|[from] item: Life Orb
+|-damage|p1a: Buneary|9/258|[from] item: Life Orb
+|cant|p2a: Archeops|flinch
+|
+|turn|23
+|callback|decision
+|chat|Snaquaza|lel
+|
+|move|p2a: Archeops|Acrobatics|p1a: Buneary|[from]Adrenaline
+|split
+|-damage|p1a: Buneary|0 fnt
+|-damage|p1a: Buneary|0 fnt
+|-damage|p1a: Buneary|0 fnt
+|-damage|p1a: Buneary|0 fnt
+|faint|p1a: Buneary
+|
+|-sideend|p1: RealPresent|Reflect
+|callback|decision
+|chat|Snaquaza|or some at least
+|
+|split
+|switch|p1a: Watrirield|Watrirield, L74|5/248 tox
+|switch|p1a: Watrirield|Watrirield, L74|3/100 tox
+|switch|p1a: Watrirield|Watrirield, L74|3/100 tox
+|switch|p1a: Watrirield|Watrirield, L74|5/248 tox
+|turn|24
+|callback|decision
+|chat|Snaquaza|it happened in the first already
+|
+|move|p1a: Watrirield|Sucker Punch|p2a: Archeops|[from]Adrenaline
+
+ReferenceError: source is not defined
+    at Tools.exports.BattleAbilities.adrenaline.onModifyAtk (/Users/clazinasteunenberg/Downloads/Tervari/mods/tervari/abilities.js:49:25)
+    at Tools.Battle.runEvent (/Users/clazinasteunenberg/Downloads/Tervari/battle-engine.js:1954:38)
+    at Tools.Battle.getDamage (/Users/clazinasteunenberg/Downloads/Tervari/battle-engine.js:2778:17)
+    at Tools.exports.BattleScripts.moveHit (/Users/clazinasteunenberg/Downloads/Tervari/data/scripts.js:345:18)
+    at Tools.exports.BattleScripts.tryMoveHit (/Users/clazinasteunenberg/Downloads/Tervari/data/scripts.js:264:18)
+    at Tools.exports.BattleScripts.useMove (/Users/clazinasteunenberg/Downloads/Tervari/data/scripts.js:157:18)
+    at Tools.exports.BattleScripts.runMove (/Users/clazinasteunenberg/Downloads/Tervari/data/scripts.js:45:8)
+    at Tools.Battle.runDecision (/Users/clazinasteunenberg/Downloads/Tervari/battle-engine.js:3105:9)
+    at Tools.Battle.go (/Users/clazinasteunenberg/Downloads/Tervari/battle-engine.js:3270:9)
+    at Tools.Battle.commitDecisions (/Users/clazinasteunenberg/Downloads/Tervari/battle-engine.js:3348:8)
+
+Additional information:
+message = battle-tervarirandombattle-84|choose|p2|move Close Combat|10
+currentRequest = move
+
+Log:
+|player|p1|Eneomas|149
+|player|p2|pancakez|99
+|gametype|singles
+|tier|Tervari Random Battle
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|HP Percentage Mod: HP is reported as percentages
+|
+|start
+|split
+|switch|p1a: Marill|Marill, L95, F|287/287
+|switch|p1a: Marill|Marill, L95, F|100/100
+|switch|p1a: Marill|Marill, L95, F|100/100
+|switch|p1a: Marill|Marill, L95, F|287/287
+|split
+|switch|p2a: Smeargle|Smeargle, L82, F|100/100
+|switch|p2a: Smeargle|Smeargle, L82, F|224/224
+|switch|p2a: Smeargle|Smeargle, L82, F|100/100
+|switch|p2a: Smeargle|Smeargle, L82, F|224/224
+|turn|1
+|callback|decision
+|chat|pancakez|gl.
+|chat|Eneomas|gl hf
+|
+|move|p2a: Smeargle|Spore|p1a: Marill
+|-status|p1a: Marill|slp
+|cant|p1a: Marill|slp
+|
+|turn|2
+|callback|decision
+|chat|Eneomas|oh come on
+|
+|move|p2a: Smeargle|Stealth Rock|p1a: Marill
+|-sidestart|p1: Eneomas|move: Stealth Rock
+|-curestatus|p1a: Marill|slp
+|move|p1a: Marill|Superpower|p2a: Smeargle
+|-supereffective|p2a: Smeargle
+|-enditem|p2a: Smeargle|Focus Sash
+|split
+|-damage|p2a: Smeargle|1/100
+|-damage|p2a: Smeargle|1/224
+|-damage|p2a: Smeargle|1/100
+|-damage|p2a: Smeargle|1/224
+|-unboost|p1a: Marill|atk|1
+|-unboost|p1a: Marill|def|1
+|
+|turn|3
+|callback|decision
+|
+|move|p2a: Smeargle|Spore|p1a: Marill
+|-status|p1a: Marill|slp
+|cant|p1a: Marill|slp
+|
+|turn|4
+|callback|decision
+|chat|Eneomas|HP CB
+|chat|Eneomas|:O
+|
+|move|p2a: Smeargle|Spikes|p1a: Marill
+|-sidestart|p1: Eneomas|Spikes
+|cant|p1a: Marill|slp
+|
+|turn|5
+|callback|decision
+|
+|move|p2a: Smeargle|Spikes|p1a: Marill
+|-sidestart|p1: Eneomas|Spikes
+|-curestatus|p1a: Marill|slp
+|move|p1a: Marill|Superpower|p2a: Smeargle
+|-supereffective|p2a: Smeargle
+|split
+|-damage|p2a: Smeargle|0 fnt
+|-damage|p2a: Smeargle|0 fnt
+|-damage|p2a: Smeargle|0 fnt
+|-damage|p2a: Smeargle|0 fnt
+|-unboost|p1a: Marill|atk|1
+|-unboost|p1a: Marill|def|1
+|faint|p2a: Smeargle
+|
+|callback|decision
+|chat|pancakez|'c'
+|chat|Snaquaza|I feel Eneo is gonna lose
+|
+|split
+|switch|p2a: Watrirield|Watrirield, L74|100/100
+|switch|p2a: Watrirield|Watrirield, L74|248/248
+|switch|p2a: Watrirield|Watrirield, L74|100/100
+|switch|p2a: Watrirield|Watrirield, L74|248/248
+|turn|6
+|callback|decision
+|
+|move|p2a: Watrirield|Swords Dance|p2a: Watrirield
+|-boost|p2a: Watrirield|atk|2
+|move|p1a: Marill|Superpower|p2a: Watrirield
+|-supereffective|p2a: Watrirield
+|split
+|-damage|p2a: Watrirield|28/100
+|-damage|p2a: Watrirield|68/248
+|-damage|p2a: Watrirield|28/100
+|-damage|p2a: Watrirield|68/248
+|-unboost|p1a: Marill|atk|1
+|-unboost|p1a: Marill|def|1
+|
+|turn|7
+|callback|decision
+|chat|Eneomas|me too
+|chat|Eneomas|wow
+|chat|Snaquaza|those hazards are just too much
+|chat|Snaquaza|and that survive
+|chat|Eneomas|powerfull marill is powerfull
+|chat|pancakez|what type is watrirield :o?
+|chat|Snaquaza|85/60/95 Defenses -.-'
+|chat|Snaquaza|Dark
+|chat|pancakez|mk
+|chat|Eneomas|@ -3
+|
+|move|p2a: Watrirield|Rabid Frenzy|p1a: Marill
+|split
+|-damage|p1a: Marill|0 fnt
+|-damage|p1a: Marill|0 fnt
+|-damage|p1a: Marill|0 fnt
+|-damage|p1a: Marill|0 fnt
+|-unboost|p2a: Watrirield|def|1
+|-unboost|p2a: Watrirield|spd|1
+|split
+|-damage|p2a: Watrirield|18/100|[from] item: Life Orb
+|-damage|p2a: Watrirield|44/248|[from] item: Life Orb
+|-damage|p2a: Watrirield|18/100|[from] item: Life Orb
+|-damage|p2a: Watrirield|44/248|[from] item: Life Orb
+|faint|p1a: Marill
+|
+|callback|decision
+|chat|Snaquaza|wanna know full stat spread?
+|chat|pancakez|sure
+|chat|Snaquaza|oh that was a dark move btw
+|
+|split
+|switch|p1a: Zweilous|Zweilous, L86, F|264/264
+|switch|p1a: Zweilous|Zweilous, L86, F|100/100
+|switch|p1a: Zweilous|Zweilous, L86, F|100/100
+|switch|p1a: Zweilous|Zweilous, L86, F|264/264
+|split
+|-damage|p1a: Zweilous|231/264|[from] Stealth Rock
+|-damage|p1a: Zweilous|88/100|[from] Stealth Rock
+|-damage|p1a: Zweilous|88/100|[from] Stealth Rock
+|-damage|p1a: Zweilous|231/264|[from] Stealth Rock
+|split
+|-damage|p1a: Zweilous|187/264|[from] Spikes
+|-damage|p1a: Zweilous|71/100|[from] Spikes
+|-damage|p1a: Zweilous|71/100|[from] Spikes
+|-damage|p1a: Zweilous|187/264|[from] Spikes
+|turn|8
+|callback|decision
+|chat|Snaquaza|85/105/60/103/95/132
+|chat|Snaquaza|BST: 580
+|chat|pancakez|damn :o
+|
+|move|p2a: Watrirield|Close Combat|p1a: Zweilous
+
+ReferenceError: source is not defined
+    at Tools.exports.BattleAbilities.adrenaline.onModifyAtk (/Users/clazinasteunenberg/Downloads/Tervari/mods/tervari/abilities.js:49:25)
+    at Tools.Battle.runEvent (/Users/clazinasteunenberg/Downloads/Tervari/battle-engine.js:1954:38)
+    at Tools.Battle.getDamage (/Users/clazinasteunenberg/Downloads/Tervari/battle-engine.js:2778:17)
+    at Tools.exports.BattleScripts.moveHit (/Users/clazinasteunenberg/Downloads/Tervari/data/scripts.js:345:18)
+    at Tools.exports.BattleScripts.tryMoveHit (/Users/clazinasteunenberg/Downloads/Tervari/data/scripts.js:264:18)
+    at Tools.exports.BattleScripts.useMove (/Users/clazinasteunenberg/Downloads/Tervari/data/scripts.js:157:18)
+    at Tools.exports.BattleScripts.runMove (/Users/clazinasteunenberg/Downloads/Tervari/data/scripts.js:45:8)
+    at Tools.Battle.runDecision (/Users/clazinasteunenberg/Downloads/Tervari/battle-engine.js:3105:9)
+    at Tools.Battle.go (/Users/clazinasteunenberg/Downloads/Tervari/battle-engine.js:3270:9)
+    at Tools.Battle.commitDecisions (/Users/clazinasteunenberg/Downloads/Tervari/battle-engine.js:3348:8)
+
+Additional information:
+message = battle-tervarirandombattle-84|choose|p2|move Close Combat|12
+currentRequest = move
+
+Log:
+|player|p1|Eneomas|149
+|player|p2|pancakez|99
+|gametype|singles
+|tier|Tervari Random Battle
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|HP Percentage Mod: HP is reported as percentages
+|
+|start
+|split
+|switch|p1a: Marill|Marill, L95, F|287/287
+|switch|p1a: Marill|Marill, L95, F|100/100
+|switch|p1a: Marill|Marill, L95, F|100/100
+|switch|p1a: Marill|Marill, L95, F|287/287
+|split
+|switch|p2a: Smeargle|Smeargle, L82, F|100/100
+|switch|p2a: Smeargle|Smeargle, L82, F|224/224
+|switch|p2a: Smeargle|Smeargle, L82, F|100/100
+|switch|p2a: Smeargle|Smeargle, L82, F|224/224
+|turn|1
+|callback|decision
+|chat|pancakez|gl.
+|chat|Eneomas|gl hf
+|
+|move|p2a: Smeargle|Spore|p1a: Marill
+|-status|p1a: Marill|slp
+|cant|p1a: Marill|slp
+|
+|turn|2
+|callback|decision
+|chat|Eneomas|oh come on
+|
+|move|p2a: Smeargle|Stealth Rock|p1a: Marill
+|-sidestart|p1: Eneomas|move: Stealth Rock
+|-curestatus|p1a: Marill|slp
+|move|p1a: Marill|Superpower|p2a: Smeargle
+|-supereffective|p2a: Smeargle
+|-enditem|p2a: Smeargle|Focus Sash
+|split
+|-damage|p2a: Smeargle|1/100
+|-damage|p2a: Smeargle|1/224
+|-damage|p2a: Smeargle|1/100
+|-damage|p2a: Smeargle|1/224
+|-unboost|p1a: Marill|atk|1
+|-unboost|p1a: Marill|def|1
+|
+|turn|3
+|callback|decision
+|
+|move|p2a: Smeargle|Spore|p1a: Marill
+|-status|p1a: Marill|slp
+|cant|p1a: Marill|slp
+|
+|turn|4
+|callback|decision
+|chat|Eneomas|HP CB
+|chat|Eneomas|:O
+|
+|move|p2a: Smeargle|Spikes|p1a: Marill
+|-sidestart|p1: Eneomas|Spikes
+|cant|p1a: Marill|slp
+|
+|turn|5
+|callback|decision
+|
+|move|p2a: Smeargle|Spikes|p1a: Marill
+|-sidestart|p1: Eneomas|Spikes
+|-curestatus|p1a: Marill|slp
+|move|p1a: Marill|Superpower|p2a: Smeargle
+|-supereffective|p2a: Smeargle
+|split
+|-damage|p2a: Smeargle|0 fnt
+|-damage|p2a: Smeargle|0 fnt
+|-damage|p2a: Smeargle|0 fnt
+|-damage|p2a: Smeargle|0 fnt
+|-unboost|p1a: Marill|atk|1
+|-unboost|p1a: Marill|def|1
+|faint|p2a: Smeargle
+|
+|callback|decision
+|chat|pancakez|'c'
+|chat|Snaquaza|I feel Eneo is gonna lose
+|
+|split
+|switch|p2a: Watrirield|Watrirield, L74|100/100
+|switch|p2a: Watrirield|Watrirield, L74|248/248
+|switch|p2a: Watrirield|Watrirield, L74|100/100
+|switch|p2a: Watrirield|Watrirield, L74|248/248
+|turn|6
+|callback|decision
+|
+|move|p2a: Watrirield|Swords Dance|p2a: Watrirield
+|-boost|p2a: Watrirield|atk|2
+|move|p1a: Marill|Superpower|p2a: Watrirield
+|-supereffective|p2a: Watrirield
+|split
+|-damage|p2a: Watrirield|28/100
+|-damage|p2a: Watrirield|68/248
+|-damage|p2a: Watrirield|28/100
+|-damage|p2a: Watrirield|68/248
+|-unboost|p1a: Marill|atk|1
+|-unboost|p1a: Marill|def|1
+|
+|turn|7
+|callback|decision
+|chat|Eneomas|me too
+|chat|Eneomas|wow
+|chat|Snaquaza|those hazards are just too much
+|chat|Snaquaza|and that survive
+|chat|Eneomas|powerfull marill is powerfull
+|chat|pancakez|what type is watrirield :o?
+|chat|Snaquaza|85/60/95 Defenses -.-'
+|chat|Snaquaza|Dark
+|chat|pancakez|mk
+|chat|Eneomas|@ -3
+|
+|move|p2a: Watrirield|Rabid Frenzy|p1a: Marill
+|split
+|-damage|p1a: Marill|0 fnt
+|-damage|p1a: Marill|0 fnt
+|-damage|p1a: Marill|0 fnt
+|-damage|p1a: Marill|0 fnt
+|-unboost|p2a: Watrirield|def|1
+|-unboost|p2a: Watrirield|spd|1
+|split
+|-damage|p2a: Watrirield|18/100|[from] item: Life Orb
+|-damage|p2a: Watrirield|44/248|[from] item: Life Orb
+|-damage|p2a: Watrirield|18/100|[from] item: Life Orb
+|-damage|p2a: Watrirield|44/248|[from] item: Life Orb
+|faint|p1a: Marill
+|
+|callback|decision
+|chat|Snaquaza|wanna know full stat spread?
+|chat|pancakez|sure
+|chat|Snaquaza|oh that was a dark move btw
+|
+|split
+|switch|p1a: Zweilous|Zweilous, L86, F|264/264
+|switch|p1a: Zweilous|Zweilous, L86, F|100/100
+|switch|p1a: Zweilous|Zweilous, L86, F|100/100
+|switch|p1a: Zweilous|Zweilous, L86, F|264/264
+|split
+|-damage|p1a: Zweilous|231/264|[from] Stealth Rock
+|-damage|p1a: Zweilous|88/100|[from] Stealth Rock
+|-damage|p1a: Zweilous|88/100|[from] Stealth Rock
+|-damage|p1a: Zweilous|231/264|[from] Stealth Rock
+|split
+|-damage|p1a: Zweilous|187/264|[from] Spikes
+|-damage|p1a: Zweilous|71/100|[from] Spikes
+|-damage|p1a: Zweilous|71/100|[from] Spikes
+|-damage|p1a: Zweilous|187/264|[from] Spikes
+|turn|8
+|callback|decision
+|chat|Snaquaza|85/105/60/103/95/132
+|chat|Snaquaza|BST: 580
+|chat|pancakez|damn :o
+|
+|move|p2a: Watrirield|Close Combat|p1a: Zweilous
+|html|<div class="broadcast-red"><b>The battle crashed</b><br />You can keep playing but it might crash again.</div>
+|callback|decision
+|chat|Eneomas|those hazards will ruin me in the long run
+|
+|move|p1a: Zweilous|Thunder Wave|p2a: Watrirield|[from]Adrenaline
+|-status|p2a: Watrirield|par
+|
+|turn|9
+|callback|decision
+|chat|Eneomas|:O
+|chat|Eneomas|the battle crashed
+|chat|pancakez|wat
+|chat|Eneomas|again
+|chat|pancakez|:x
+|chat|Eneomas|:D
+|
+|move|p2a: Watrirield|Close Combat|p1a: Zweilous|[from]Adrenaline
+
+ReferenceError: source is not defined
+    at Tools.exports.BattleAbilities.adrenaline.onModifyAtk (/Users/clazinasteunenberg/Downloads/Tervari/mods/tervari/abilities.js:49:25)
+    at Tools.Battle.runEvent (/Users/clazinasteunenberg/Downloads/Tervari/battle-engine.js:1954:38)
+    at Tools.Battle.getDamage (/Users/clazinasteunenberg/Downloads/Tervari/battle-engine.js:2778:17)
+    at Tools.exports.BattleScripts.moveHit (/Users/clazinasteunenberg/Downloads/Tervari/data/scripts.js:345:18)
+    at Tools.exports.BattleScripts.tryMoveHit (/Users/clazinasteunenberg/Downloads/Tervari/data/scripts.js:264:18)
+    at Tools.exports.BattleScripts.useMove (/Users/clazinasteunenberg/Downloads/Tervari/data/scripts.js:157:18)
+    at Tools.exports.BattleScripts.runMove (/Users/clazinasteunenberg/Downloads/Tervari/data/scripts.js:45:8)
+    at Tools.Battle.runDecision (/Users/clazinasteunenberg/Downloads/Tervari/battle-engine.js:3105:9)
+    at Tools.Battle.go (/Users/clazinasteunenberg/Downloads/Tervari/battle-engine.js:3270:9)
+    at Tools.Battle.commitDecisions (/Users/clazinasteunenberg/Downloads/Tervari/battle-engine.js:3348:8)
+
+Additional information:
+message = battle-tervarirandombattle-85|choose|p1|move Earthquake|35
+currentRequest = move
+
+Log:
+|player|p1|Lightkyoyo|101
+|player|p2|RealPresent|267
+|gametype|singles
+|tier|Tervari Random Battle
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|HP Percentage Mod: HP is reported as percentages
+|
+|start
+|split
+|switch|p1a: Heracross|Heracross, L78, M|253/253
+|switch|p1a: Heracross|Heracross, L78, M|100/100
+|switch|p1a: Heracross|Heracross, L78, M|100/100
+|switch|p1a: Heracross|Heracross, L78, M|253/253
+|split
+|switch|p2a: Ducklett|Ducklett, L95, M|100/100
+|switch|p2a: Ducklett|Ducklett, L95, M|272/272
+|switch|p2a: Ducklett|Ducklett, L95, M|100/100
+|switch|p2a: Ducklett|Ducklett, L95, M|272/272
+|turn|1
+|callback|decision
+|
+|split
+|switch|p1a: Magneton|Magneton, L82|216/216
+|switch|p1a: Magneton|Magneton, L82|100/100
+|switch|p1a: Magneton|Magneton, L82|100/100
+|switch|p1a: Magneton|Magneton, L82|216/216
+|move|p2a: Ducklett|Brave Bird|p1a: Magneton
+|-resisted|p1a: Magneton
+|split
+|-damage|p1a: Magneton|192/216
+|-damage|p1a: Magneton|89/100
+|-damage|p1a: Magneton|89/100
+|-damage|p1a: Magneton|192/216
+|split
+|-damage|p2a: Ducklett|98/100|[from] recoil|[of] p1a: Magneton
+|-damage|p2a: Ducklett|264/272|[from] recoil|[of] p1a: Magneton
+|-damage|p2a: Ducklett|98/100|[from] recoil|[of] p1a: Magneton
+|-damage|p2a: Ducklett|264/272|[from] recoil|[of] p1a: Magneton
+|
+|split
+|-heal|p1a: Magneton|205/216|[from] item: Leftovers
+|-heal|p1a: Magneton|95/100|[from] item: Leftovers
+|-heal|p1a: Magneton|95/100|[from] item: Leftovers
+|-heal|p1a: Magneton|205/216|[from] item: Leftovers
+|split
+|-heal|p2a: Ducklett|100/100|[from] item: Leftovers
+|-heal|p2a: Ducklett|272/272|[from] item: Leftovers
+|-heal|p2a: Ducklett|100/100|[from] item: Leftovers
+|-heal|p2a: Ducklett|272/272|[from] item: Leftovers
+|turn|2
+|callback|decision
+|chat|Lightkyoyo|not a rain dance set?
+|chat|Lightkyoyo|odd
+|
+|split
+|switch|p2a: Excadrill|Excadrill, L78, F|100/100
+|switch|p2a: Excadrill|Excadrill, L78, F|300/300
+|switch|p2a: Excadrill|Excadrill, L78, F|100/100
+|switch|p2a: Excadrill|Excadrill, L78, F|300/300
+|-ability|p2a: Excadrill|Mold Breaker
+|move|p1a: Magneton|Thunder Wave|p2a: Excadrill
+|-immune|p2a: Excadrill|[msg]
+|
+|split
+|-heal|p1a: Magneton|216/216|[from] item: Leftovers
+|-heal|p1a: Magneton|100/100|[from] item: Leftovers
+|-heal|p1a: Magneton|100/100|[from] item: Leftovers
+|-heal|p1a: Magneton|216/216|[from] item: Leftovers
+|turn|3
+|callback|decision
+|
+|split
+|switch|p1a: Cascoon|Cascoon, L99, F|259/259
+|switch|p1a: Cascoon|Cascoon, L99, F|100/100
+|switch|p1a: Cascoon|Cascoon, L99, F|100/100
+|switch|p1a: Cascoon|Cascoon, L99, F|259/259
+|move|p2a: Excadrill|Swords Dance|p2a: Excadrill
+|-boost|p2a: Excadrill|atk|2
+|
+|turn|4
+|callback|decision
+|chat|Lightkyoyo|why didnt you EQ XD
+|
+|move|p2a: Excadrill|Iron Head|p1a: Cascoon
+|split
+|-damage|p1a: Cascoon|0 fnt
+|-damage|p1a: Cascoon|0 fnt
+|-damage|p1a: Cascoon|0 fnt
+|-damage|p1a: Cascoon|0 fnt
+|split
+|-damage|p2a: Excadrill|90/100|[from] item: Life Orb
+|-damage|p2a: Excadrill|270/300|[from] item: Life Orb
+|-damage|p2a: Excadrill|90/100|[from] item: Life Orb
+|-damage|p2a: Excadrill|270/300|[from] item: Life Orb
+|faint|p1a: Cascoon
+|
+|callback|decision
+|chat|RealPresent|hue
+|chat|RealPresent|you could not hurt me
+|
+|split
+|switch|p1a: Watrirield|Watrirield, L74|248/248
+|switch|p1a: Watrirield|Watrirield, L74|100/100
+|switch|p1a: Watrirield|Watrirield, L74|100/100
+|switch|p1a: Watrirield|Watrirield, L74|248/248
+|turn|5
+|callback|decision
+|chat|RealPresent|SD it is
+|chat|RealPresent|snaq
+|chat|RealPresent|how fast is that thing
+|chat|RealPresent|?
+|
+|split
+|switch|p2a: Sableye|Sableye, L78, F|100/100
+|switch|p2a: Sableye|Sableye, L78, F|206/206
+|switch|p2a: Sableye|Sableye, L78, F|100/100
+|switch|p2a: Sableye|Sableye, L78, F|206/206
+|move|p1a: Watrirield|Earthquake|p2a: Sableye
+|split
+|-damage|p2a: Sableye|50/100
+|-damage|p2a: Sableye|101/206
+|-damage|p2a: Sableye|50/100
+|-damage|p2a: Sableye|101/206
+|
+|turn|6
+|callback|decision
+|chat|Lightkyoyo|Excadrill is quite fast.
+|
+|split
+|switch|p1a: Nidoking|Nidoking, L78, M|254/254
+|switch|p1a: Nidoking|Nidoking, L78, M|100/100
+|switch|p1a: Nidoking|Nidoking, L78, M|100/100
+|switch|p1a: Nidoking|Nidoking, L78, M|254/254
+|move|p2a: Sableye|Will-O-Wisp|p1a: Nidoking
+|-status|p1a: Nidoking|brn
+|
+|split
+|-damage|p1a: Nidoking|223/254 brn|[from] brn
+|-damage|p1a: Nidoking|88/100 brn|[from] brn
+|-damage|p1a: Nidoking|88/100 brn|[from] brn
+|-damage|p1a: Nidoking|223/254 brn|[from] brn
+|turn|7
+|callback|decision
+|chat|RealPresent|only 78
+|
+|split
+|switch|p2a: Ducklett|Ducklett, L95, M|100/100
+|switch|p2a: Ducklett|Ducklett, L95, M|272/272
+|switch|p2a: Ducklett|Ducklett, L95, M|100/100
+|switch|p2a: Ducklett|Ducklett, L95, M|272/272
+|move|p1a: Nidoking|Earth Power|p2a: Ducklett
+|-immune|p2a: Ducklett|[msg]
+|
+|split
+|-damage|p1a: Nidoking|192/254 brn|[from] brn
+|-damage|p1a: Nidoking|76/100 brn|[from] brn
+|-damage|p1a: Nidoking|76/100 brn|[from] brn
+|-damage|p1a: Nidoking|192/254 brn|[from] brn
+|turn|8
+|callback|decision
+|chat|Lightkyoyo|still faster then nido
+|chat|Lightkyoyo|XD
+|
+|split
+|switch|p1a: Abomasnow|Abomasnow, L78, M|268/268
+|switch|p1a: Abomasnow|Abomasnow, L78, M|100/100
+|switch|p1a: Abomasnow|Abomasnow, L78, M|100/100
+|switch|p1a: Abomasnow|Abomasnow, L78, M|268/268
+|-weather|Hail|[from] ability: Snow Warning|[of] p1a: Abomasnow
+|move|p2a: Ducklett|Scald|p1a: Abomasnow
+|-resisted|p1a: Abomasnow
+|split
+|-damage|p1a: Abomasnow|235/268
+|-damage|p1a: Abomasnow|88/100
+|-damage|p1a: Abomasnow|88/100
+|-damage|p1a: Abomasnow|235/268
+|-status|p1a: Abomasnow|brn
+|
+|-weather|Hail|[upkeep]
+|split
+|-damage|p2a: Ducklett|94/100|[from] hail
+|-damage|p2a: Ducklett|255/272|[from] hail
+|-damage|p2a: Ducklett|94/100|[from] hail
+|-damage|p2a: Ducklett|255/272|[from] hail
+|split
+|-heal|p2a: Ducklett|100/100|[from] item: Leftovers
+|-heal|p2a: Ducklett|272/272|[from] item: Leftovers
+|-heal|p2a: Ducklett|100/100|[from] item: Leftovers
+|-heal|p2a: Ducklett|272/272|[from] item: Leftovers
+|split
+|-damage|p1a: Abomasnow|202/268 brn|[from] brn
+|-damage|p1a: Abomasnow|76/100 brn|[from] brn
+|-damage|p1a: Abomasnow|76/100 brn|[from] brn
+|-damage|p1a: Abomasnow|202/268 brn|[from] brn
+|turn|9
+|callback|decision
+|
+|move|p2a: Ducklett|Hurricane|p1a: Abomasnow
+|-supereffective|p1a: Abomasnow
+|split
+|-damage|p1a: Abomasnow|0 fnt
+|-damage|p1a: Abomasnow|0 fnt
+|-damage|p1a: Abomasnow|0 fnt
+|-damage|p1a: Abomasnow|0 fnt
+|faint|p1a: Abomasnow
+|
+|-weather|Hail|[upkeep]
+|split
+|-damage|p2a: Ducklett|94/100|[from] hail
+|-damage|p2a: Ducklett|255/272|[from] hail
+|-damage|p2a: Ducklett|94/100|[from] hail
+|-damage|p2a: Ducklett|255/272|[from] hail
+|split
+|-heal|p2a: Ducklett|100/100|[from] item: Leftovers
+|-heal|p2a: Ducklett|272/272|[from] item: Leftovers
+|-heal|p2a: Ducklett|100/100|[from] item: Leftovers
+|-heal|p2a: Ducklett|272/272|[from] item: Leftovers
+|callback|decision
+|chat|RealPresent|go duck
+|chat|RealPresent|"D
+|
+|split
+|switch|p1a: Magneton|Magneton, L82|216/216
+|switch|p1a: Magneton|Magneton, L82|100/100
+|switch|p1a: Magneton|Magneton, L82|100/100
+|switch|p1a: Magneton|Magneton, L82|216/216
+|turn|10
+|callback|decision
+|chat|Lightkyoyo|no
+|
+|split
+|switch|p2a: Excadrill|Excadrill, L78, F|90/100
+|switch|p2a: Excadrill|Excadrill, L78, F|270/300
+|switch|p2a: Excadrill|Excadrill, L78, F|90/100
+|switch|p2a: Excadrill|Excadrill, L78, F|270/300
+|-ability|p2a: Excadrill|Mold Breaker
+|move|p1a: Magneton|Magnet Rise|p1a: Magneton
+|-start|p1a: Magneton|Magnet Rise
+|
+|-weather|Hail|[upkeep]
+|split
+|-damage|p2a: Excadrill|84/100|[from] hail
+|-damage|p2a: Excadrill|252/300|[from] hail
+|-damage|p2a: Excadrill|84/100|[from] hail
+|-damage|p2a: Excadrill|252/300|[from] hail
+|split
+|-damage|p1a: Magneton|203/216|[from] hail
+|-damage|p1a: Magneton|94/100|[from] hail
+|-damage|p1a: Magneton|94/100|[from] hail
+|-damage|p1a: Magneton|203/216|[from] hail
+|split
+|-heal|p1a: Magneton|216/216|[from] item: Leftovers
+|-heal|p1a: Magneton|100/100|[from] item: Leftovers
+|-heal|p1a: Magneton|100/100|[from] item: Leftovers
+|-heal|p1a: Magneton|216/216|[from] item: Leftovers
+|turn|11
+|callback|decision
+|chat|Lightkyoyo|dont go duck
+|chat|Lightkyoyo|:P
+|
+|split
+|switch|p1a: Watrirield|Watrirield, L74|248/248
+|switch|p1a: Watrirield|Watrirield, L74|100/100
+|switch|p1a: Watrirield|Watrirield, L74|100/100
+|switch|p1a: Watrirield|Watrirield, L74|248/248
+|move|p2a: Excadrill|Swords Dance|p2a: Excadrill
+|-boost|p2a: Excadrill|atk|2
+|
+|-weather|Hail|[upkeep]
+|split
+|-damage|p1a: Watrirield|233/248|[from] hail
+|-damage|p1a: Watrirield|94/100|[from] hail
+|-damage|p1a: Watrirield|94/100|[from] hail
+|-damage|p1a: Watrirield|233/248|[from] hail
+|split
+|-damage|p2a: Excadrill|78/100|[from] hail
+|-damage|p2a: Excadrill|234/300|[from] hail
+|-damage|p2a: Excadrill|78/100|[from] hail
+|-damage|p2a: Excadrill|234/300|[from] hail
+|turn|12
+|callback|decision
+|
+|move|p1a: Watrirield|Close Combat|p2a: Excadrill
+|-supereffective|p2a: Excadrill
+|split
+|-damage|p2a: Excadrill|0 fnt
+|-damage|p2a: Excadrill|0 fnt
+|-damage|p2a: Excadrill|0 fnt
+|-damage|p2a: Excadrill|0 fnt
+|-unboost|p1a: Watrirield|def|1
+|-unboost|p1a: Watrirield|spd|1
+|faint|p2a: Excadrill
+|
+|-weather|Hail|[upkeep]
+|split
+|-damage|p1a: Watrirield|218/248|[from] hail
+|-damage|p1a: Watrirield|88/100|[from] hail
+|-damage|p1a: Watrirield|88/100|[from] hail
+|-damage|p1a: Watrirield|218/248|[from] hail
+|callback|decision
+|chat|Lightkyoyo|bye
+|chat|Lightkyoyo|excadrill
+|
+|split
+|switch|p2a: Sableye|Sableye, L78, F|50/100
+|switch|p2a: Sableye|Sableye, L78, F|101/206
+|switch|p2a: Sableye|Sableye, L78, F|50/100
+|switch|p2a: Sableye|Sableye, L78, F|101/206
+|turn|13
+|callback|decision
+|chat|Lightkyoyo|:P
+|
+|split
+|switch|p1a: Nidoking|Nidoking, L78, M|192/254 brn
+|switch|p1a: Nidoking|Nidoking, L78, M|76/100 brn
+|switch|p1a: Nidoking|Nidoking, L78, M|76/100 brn
+|switch|p1a: Nidoking|Nidoking, L78, M|192/254 brn
+|move|p2a: Sableye|Trick|p1a: Nidoking
+|-activate|p2a: Sableye|move: Trick|[of] p1a: Nidoking
+|-item|p1a: Nidoking|Choice Scarf|[from] move: Trick
+|-item|p2a: Sableye|Life Orb|[from] move: Trick
+|
+|-weather|Hail|[upkeep]
+|split
+|-damage|p1a: Nidoking|177/254 brn|[from] hail
+|-damage|p1a: Nidoking|70/100 brn|[from] hail
+|-damage|p1a: Nidoking|70/100 brn|[from] hail
+|-damage|p1a: Nidoking|177/254 brn|[from] hail
+|split
+|-damage|p2a: Sableye|44/100|[from] hail
+|-damage|p2a: Sableye|89/206|[from] hail
+|-damage|p2a: Sableye|44/100|[from] hail
+|-damage|p2a: Sableye|89/206|[from] hail
+|split
+|-damage|p1a: Nidoking|146/254 brn|[from] brn
+|-damage|p1a: Nidoking|58/100 brn|[from] brn
+|-damage|p1a: Nidoking|58/100 brn|[from] brn
+|-damage|p1a: Nidoking|146/254 brn|[from] brn
+|turn|14
+|callback|decision
+|chat|Lightkyoyo|scarf nido
+|chat|Lightkyoyo|oh boy
+|chat|Lightkyoyo|XD
+|
+|split
+|switch|p1a: Magneton|Magneton, L82|216/216
+|switch|p1a: Magneton|Magneton, L82|100/100
+|switch|p1a: Magneton|Magneton, L82|100/100
+|switch|p1a: Magneton|Magneton, L82|216/216
+|move|p2a: Sableye|Recover|p2a: Sableye
+|split
+|-heal|p2a: Sableye|94/100
+|-heal|p2a: Sableye|192/206
+|-heal|p2a: Sableye|94/100
+|-heal|p2a: Sableye|192/206
+|
+|-weather|Hail|[upkeep]
+|split
+|-damage|p1a: Magneton|203/216|[from] hail
+|-damage|p1a: Magneton|94/100|[from] hail
+|-damage|p1a: Magneton|94/100|[from] hail
+|-damage|p1a: Magneton|203/216|[from] hail
+|split
+|-damage|p2a: Sableye|88/100|[from] hail
+|-damage|p2a: Sableye|180/206|[from] hail
+|-damage|p2a: Sableye|88/100|[from] hail
+|-damage|p2a: Sableye|180/206|[from] hail
+|split
+|-heal|p1a: Magneton|216/216|[from] item: Leftovers
+|-heal|p1a: Magneton|100/100|[from] item: Leftovers
+|-heal|p1a: Magneton|100/100|[from] item: Leftovers
+|-heal|p1a: Magneton|216/216|[from] item: Leftovers
+|turn|15
+|callback|decision
+|
+|move|p2a: Sableye|Will-O-Wisp|p1a: Magneton
+|-status|p1a: Magneton|brn
+|move|p1a: Magneton|Thunderbolt|p2a: Sableye
+|split
+|-damage|p2a: Sableye|21/100
+|-damage|p2a: Sableye|42/206
+|-damage|p2a: Sableye|21/100
+|-damage|p2a: Sableye|42/206
+|
+|-weather|Hail|[upkeep]
+|split
+|-damage|p1a: Magneton|203/216 brn|[from] hail
+|-damage|p1a: Magneton|94/100 brn|[from] hail
+|-damage|p1a: Magneton|94/100 brn|[from] hail
+|-damage|p1a: Magneton|203/216 brn|[from] hail
+|split
+|-damage|p2a: Sableye|15/100|[from] hail
+|-damage|p2a: Sableye|30/206|[from] hail
+|-damage|p2a: Sableye|15/100|[from] hail
+|-damage|p2a: Sableye|30/206|[from] hail
+|split
+|-heal|p1a: Magneton|216/216 brn|[from] item: Leftovers
+|-heal|p1a: Magneton|100/100 brn|[from] item: Leftovers
+|-heal|p1a: Magneton|100/100 brn|[from] item: Leftovers
+|-heal|p1a: Magneton|216/216 brn|[from] item: Leftovers
+|split
+|-damage|p1a: Magneton|189/216 brn|[from] brn
+|-damage|p1a: Magneton|88/100 brn|[from] brn
+|-damage|p1a: Magneton|88/100 brn|[from] brn
+|-damage|p1a: Magneton|189/216 brn|[from] brn
+|turn|16
+|callback|decision
+|chat|Lightkyoyo|This sableye is getting a bit annoying.
+|
+|split
+|switch|p2a: Pupitar|Pupitar, L90, M|100/100
+|switch|p2a: Pupitar|Pupitar, L90, M|272/272
+|switch|p2a: Pupitar|Pupitar, L90, M|100/100
+|switch|p2a: Pupitar|Pupitar, L90, M|272/272
+|-item|p2a: Pupitar|Air Balloon
+|move|p1a: Magneton|Thunderbolt|p2a: Pupitar
+|-immune|p2a: Pupitar|[msg]
+|
+|-weather|Hail|[upkeep]
+|split
+|-damage|p1a: Magneton|176/216 brn|[from] hail
+|-damage|p1a: Magneton|82/100 brn|[from] hail
+|-damage|p1a: Magneton|82/100 brn|[from] hail
+|-damage|p1a: Magneton|176/216 brn|[from] hail
+|split
+|-damage|p2a: Pupitar|94/100|[from] hail
+|-damage|p2a: Pupitar|255/272|[from] hail
+|-damage|p2a: Pupitar|94/100|[from] hail
+|-damage|p2a: Pupitar|255/272|[from] hail
+|split
+|-heal|p1a: Magneton|189/216 brn|[from] item: Leftovers
+|-heal|p1a: Magneton|88/100 brn|[from] item: Leftovers
+|-heal|p1a: Magneton|88/100 brn|[from] item: Leftovers
+|-heal|p1a: Magneton|189/216 brn|[from] item: Leftovers
+|split
+|-damage|p1a: Magneton|162/216 brn|[from] brn
+|-damage|p1a: Magneton|75/100 brn|[from] brn
+|-damage|p1a: Magneton|75/100 brn|[from] brn
+|-damage|p1a: Magneton|162/216 brn|[from] brn
+|turn|17
+|callback|decision
+|chat|Lightkyoyo|aw
+|chat|Lightkyoyo|it's pupitar
+|
+|move|p1a: Magneton|Flash Cannon|p2a: Pupitar
+|-supereffective|p2a: Pupitar
+|split
+|-damage|p2a: Pupitar|10/100
+|-damage|p2a: Pupitar|27/272
+|-damage|p2a: Pupitar|10/100
+|-damage|p2a: Pupitar|27/272
+|-enditem|p2a: Pupitar|Air Balloon
+|move|p2a: Pupitar|Rock Polish|p2a: Pupitar
+|-boost|p2a: Pupitar|spe|2
+|
+|-weather|Hail|[upkeep]
+|split
+|-damage|p2a: Pupitar|4/100|[from] hail
+|-damage|p2a: Pupitar|10/272|[from] hail
+|-damage|p2a: Pupitar|4/100|[from] hail
+|-damage|p2a: Pupitar|10/272|[from] hail
+|split
+|-damage|p1a: Magneton|149/216 brn|[from] hail
+|-damage|p1a: Magneton|69/100 brn|[from] hail
+|-damage|p1a: Magneton|69/100 brn|[from] hail
+|-damage|p1a: Magneton|149/216 brn|[from] hail
+|split
+|-heal|p1a: Magneton|162/216 brn|[from] item: Leftovers
+|-heal|p1a: Magneton|75/100 brn|[from] item: Leftovers
+|-heal|p1a: Magneton|75/100 brn|[from] item: Leftovers
+|-heal|p1a: Magneton|162/216 brn|[from] item: Leftovers
+|split
+|-damage|p1a: Magneton|135/216 brn|[from] brn
+|-damage|p1a: Magneton|63/100 brn|[from] brn
+|-damage|p1a: Magneton|63/100 brn|[from] brn
+|-damage|p1a: Magneton|135/216 brn|[from] brn
+|turn|18
+|callback|decision
+|chat|Lightkyoyo|...
+|
+|split
+|switch|p1a: Heracross|Heracross, L78, M|253/253
+|switch|p1a: Heracross|Heracross, L78, M|100/100
+|switch|p1a: Heracross|Heracross, L78, M|100/100
+|switch|p1a: Heracross|Heracross, L78, M|253/253
+|move|p2a: Pupitar|Earthquake|p1a: Heracross
+|-resisted|p1a: Heracross
+|split
+|-damage|p1a: Heracross|192/253
+|-damage|p1a: Heracross|76/100
+|-damage|p1a: Heracross|76/100
+|-damage|p1a: Heracross|192/253
+|
+|-weather|Hail|[upkeep]
+|split
+|-damage|p2a: Pupitar|0 fnt|[from] hail
+|-damage|p2a: Pupitar|0 fnt|[from] hail
+|-damage|p2a: Pupitar|0 fnt|[from] hail
+|-damage|p2a: Pupitar|0 fnt|[from] hail
+|split
+|-damage|p1a: Heracross|177/253|[from] hail
+|-damage|p1a: Heracross|70/100|[from] hail
+|-damage|p1a: Heracross|70/100|[from] hail
+|-damage|p1a: Heracross|177/253|[from] hail
+|-activate|p1a: Heracross|item: Toxic Orb
+|-status|p1a: Heracross|tox
+|faint|p2a: Pupitar
+|callback|decision
+|
+|split
+|switch|p2a: Volcarona|Volcarona, L74, M|100/100
+|switch|p2a: Volcarona|Volcarona, L74, M|248/248
+|switch|p2a: Volcarona|Volcarona, L74, M|100/100
+|switch|p2a: Volcarona|Volcarona, L74, M|248/248
+|turn|19
+|callback|decision
+|player|p2
+|chat|Lightkyoyo|:P
+|chat|RealPresent|.
+|player|p2|RealPresent|267
+|callback|decision
+|
+|move|p2a: Volcarona|Fire Blast|p1a: Heracross|[miss]
+|-miss|p2a: Volcarona|p1a: Heracross
+|move|p1a: Heracross|Stone Edge|p2a: Volcarona
+|-supereffective|p2a: Volcarona
+|split
+|-damage|p2a: Volcarona|0 fnt
+|-damage|p2a: Volcarona|0 fnt
+|-damage|p2a: Volcarona|0 fnt
+|-damage|p2a: Volcarona|0 fnt
+|faint|p2a: Volcarona
+|
+|-weather|Hail|[upkeep]
+|split
+|-damage|p1a: Heracross|162/253 tox|[from] hail
+|-damage|p1a: Heracross|65/100 tox|[from] hail
+|-damage|p1a: Heracross|65/100 tox|[from] hail
+|-damage|p1a: Heracross|162/253 tox|[from] hail
+|split
+|-damage|p1a: Heracross|147/253 tox|[from] psn
+|-damage|p1a: Heracross|59/100 tox|[from] psn
+|-damage|p1a: Heracross|59/100 tox|[from] psn
+|-damage|p1a: Heracross|147/253 tox|[from] psn
+|callback|decision
+|chat|Lightkyoyo|.
+|chat|RealPresent|........................
+|chat|Lightkyoyo|hell yea!
+|chat|Lightkyoyo|i dodged
+|
+|split
+|switch|p2a: Sableye|Sableye, L78, F|15/100
+|switch|p2a: Sableye|Sableye, L78, F|30/206
+|switch|p2a: Sableye|Sableye, L78, F|15/100
+|switch|p2a: Sableye|Sableye, L78, F|30/206
+|turn|20
+|callback|decision
+|chat|Lightkyoyo|dodge ftw
+|
+|move|p2a: Sableye|Recover|p2a: Sableye
+|split
+|-heal|p2a: Sableye|65/100
+|-heal|p2a: Sableye|133/206
+|-heal|p2a: Sableye|65/100
+|-heal|p2a: Sableye|133/206
+|move|p1a: Heracross|Stone Edge|p2a: Sableye
+|split
+|-damage|p2a: Sableye|0 fnt
+|-damage|p2a: Sableye|0 fnt
+|-damage|p2a: Sableye|0 fnt
+|-damage|p2a: Sableye|0 fnt
+|faint|p2a: Sableye
+|
+|-weather|Hail|[upkeep]
+|split
+|-damage|p1a: Heracross|132/253 tox|[from] hail
+|-damage|p1a: Heracross|53/100 tox|[from] hail
+|-damage|p1a: Heracross|53/100 tox|[from] hail
+|-damage|p1a: Heracross|132/253 tox|[from] hail
+|split
+|-damage|p1a: Heracross|102/253 tox|[from] psn
+|-damage|p1a: Heracross|41/100 tox|[from] psn
+|-damage|p1a: Heracross|41/100 tox|[from] psn
+|-damage|p1a: Heracross|102/253 tox|[from] psn
+|callback|decision
+|
+|split
+|switch|p2a: Ducklett|Ducklett, L95, M|100/100
+|switch|p2a: Ducklett|Ducklett, L95, M|272/272
+|switch|p2a: Ducklett|Ducklett, L95, M|100/100
+|switch|p2a: Ducklett|Ducklett, L95, M|272/272
+|turn|21
+|callback|decision
+|
+|split
+|switch|p1a: Magneton|Magneton, L82|135/216 brn
+|switch|p1a: Magneton|Magneton, L82|63/100 brn
+|switch|p1a: Magneton|Magneton, L82|63/100 brn
+|switch|p1a: Magneton|Magneton, L82|135/216 brn
+|move|p2a: Ducklett|Brave Bird|p1a: Magneton
+|-resisted|p1a: Magneton
+|split
+|-damage|p1a: Magneton|111/216 brn
+|-damage|p1a: Magneton|52/100 brn
+|-damage|p1a: Magneton|52/100 brn
+|-damage|p1a: Magneton|111/216 brn
+|split
+|-damage|p2a: Ducklett|98/100|[from] recoil|[of] p1a: Magneton
+|-damage|p2a: Ducklett|264/272|[from] recoil|[of] p1a: Magneton
+|-damage|p2a: Ducklett|98/100|[from] recoil|[of] p1a: Magneton
+|-damage|p2a: Ducklett|264/272|[from] recoil|[of] p1a: Magneton
+|
+|-weather|Hail|[upkeep]
+|split
+|-damage|p1a: Magneton|98/216 brn|[from] hail
+|-damage|p1a: Magneton|46/100 brn|[from] hail
+|-damage|p1a: Magneton|46/100 brn|[from] hail
+|-damage|p1a: Magneton|98/216 brn|[from] hail
+|split
+|-damage|p2a: Ducklett|91/100|[from] hail
+|-damage|p2a: Ducklett|247/272|[from] hail
+|-damage|p2a: Ducklett|91/100|[from] hail
+|-damage|p2a: Ducklett|247/272|[from] hail
+|split
+|-heal|p1a: Magneton|111/216 brn|[from] item: Leftovers
+|-heal|p1a: Magneton|52/100 brn|[from] item: Leftovers
+|-heal|p1a: Magneton|52/100 brn|[from] item: Leftovers
+|-heal|p1a: Magneton|111/216 brn|[from] item: Leftovers
+|split
+|-heal|p2a: Ducklett|98/100|[from] item: Leftovers
+|-heal|p2a: Ducklett|264/272|[from] item: Leftovers
+|-heal|p2a: Ducklett|98/100|[from] item: Leftovers
+|-heal|p2a: Ducklett|264/272|[from] item: Leftovers
+|split
+|-damage|p1a: Magneton|84/216 brn|[from] brn
+|-damage|p1a: Magneton|39/100 brn|[from] brn
+|-damage|p1a: Magneton|39/100 brn|[from] brn
+|-damage|p1a: Magneton|84/216 brn|[from] brn
+|turn|22
+|callback|decision
+|chat|Lightkyoyo|Now that is what you call predictable.
+|
+|move|p1a: Magneton|Thunderbolt|p2a: Ducklett
+|-supereffective|p2a: Ducklett
+|split
+|-damage|p2a: Ducklett|0 fnt
+|-damage|p2a: Ducklett|0 fnt
+|-damage|p2a: Ducklett|0 fnt
+|-damage|p2a: Ducklett|0 fnt
+|faint|p2a: Ducklett
+|
+|-weather|Hail|[upkeep]
+|split
+|-damage|p1a: Magneton|71/216 brn|[from] hail
+|-damage|p1a: Magneton|33/100 brn|[from] hail
+|-damage|p1a: Magneton|33/100 brn|[from] hail
+|-damage|p1a: Magneton|71/216 brn|[from] hail
+|split
+|-heal|p1a: Magneton|84/216 brn|[from] item: Leftovers
+|-heal|p1a: Magneton|39/100 brn|[from] item: Leftovers
+|-heal|p1a: Magneton|39/100 brn|[from] item: Leftovers
+|-heal|p1a: Magneton|84/216 brn|[from] item: Leftovers
+|split
+|-damage|p1a: Magneton|57/216 brn|[from] brn
+|-damage|p1a: Magneton|27/100 brn|[from] brn
+|-damage|p1a: Magneton|27/100 brn|[from] brn
+|-damage|p1a: Magneton|57/216 brn|[from] brn
+|callback|decision
+|chat|RealPresent|or just plain luck
+|chat|RealPresent|don't you think?
+|
+|split
+|switch|p2a: Watrirield|Watrirield, L74|100/100
+|switch|p2a: Watrirield|Watrirield, L74|248/248
+|switch|p2a: Watrirield|Watrirield, L74|100/100
+|switch|p2a: Watrirield|Watrirield, L74|248/248
+|turn|23
+|callback|decision
+|chat|Lightkyoyo|nah
+|
+|move|p2a: Watrirield|Swords Dance|p2a: Watrirield
+|-boost|p2a: Watrirield|atk|2
+|move|p1a: Magneton|Flash Cannon|p2a: Watrirield
+|split
+|-damage|p2a: Watrirield|58/100
+|-damage|p2a: Watrirield|143/248
+|-damage|p2a: Watrirield|58/100
+|-damage|p2a: Watrirield|143/248
+|
+|-weather|Hail|[upkeep]
+|split
+|-damage|p2a: Watrirield|52/100|[from] hail
+|-damage|p2a: Watrirield|128/248|[from] hail
+|-damage|p2a: Watrirield|52/100|[from] hail
+|-damage|p2a: Watrirield|128/248|[from] hail
+|split
+|-damage|p1a: Magneton|44/216 brn|[from] hail
+|-damage|p1a: Magneton|21/100 brn|[from] hail
+|-damage|p1a: Magneton|21/100 brn|[from] hail
+|-damage|p1a: Magneton|44/216 brn|[from] hail
+|split
+|-heal|p1a: Magneton|57/216 brn|[from] item: Leftovers
+|-heal|p1a: Magneton|27/100 brn|[from] item: Leftovers
+|-heal|p1a: Magneton|27/100 brn|[from] item: Leftovers
+|-heal|p1a: Magneton|57/216 brn|[from] item: Leftovers
+|split
+|-damage|p1a: Magneton|30/216 brn|[from] brn
+|-damage|p1a: Magneton|14/100 brn|[from] brn
+|-damage|p1a: Magneton|14/100 brn|[from] brn
+|-damage|p1a: Magneton|30/216 brn|[from] brn
+|turn|24
+|callback|decision
+|chat|RealPresent|@volc
+|chat|Lightkyoyo|ok, that i do admit that i was lucky with the dodge.
+|
+|move|p2a: Watrirield|Close Combat|p1a: Magneton
+|-supereffective|p1a: Magneton
+|split
+|-damage|p1a: Magneton|0 fnt
+|-damage|p1a: Magneton|0 fnt
+|-damage|p1a: Magneton|0 fnt
+|-damage|p1a: Magneton|0 fnt
+|-unboost|p2a: Watrirield|def|1
+|-unboost|p2a: Watrirield|spd|1
+|split
+|-damage|p2a: Watrirield|42/100|[from] item: Life Orb
+|-damage|p2a: Watrirield|104/248|[from] item: Life Orb
+|-damage|p2a: Watrirield|42/100|[from] item: Life Orb
+|-damage|p2a: Watrirield|104/248|[from] item: Life Orb
+|faint|p1a: Magneton
+|
+|-weather|Hail|[upkeep]
+|split
+|-damage|p2a: Watrirield|36/100|[from] hail
+|-damage|p2a: Watrirield|89/248|[from] hail
+|-damage|p2a: Watrirield|36/100|[from] hail
+|-damage|p2a: Watrirield|89/248|[from] hail
+|callback|decision
+|
+|split
+|switch|p1a: Heracross|Heracross, L78, M|102/253 tox
+|switch|p1a: Heracross|Heracross, L78, M|41/100 tox
+|switch|p1a: Heracross|Heracross, L78, M|41/100 tox
+|switch|p1a: Heracross|Heracross, L78, M|102/253 tox
+|turn|25
+|callback|decision
+|chat|RealPresent|yay for recoil
+|
+|move|p2a: Watrirield|Close Combat|p1a: Heracross
+|-resisted|p1a: Heracross
+|split
+|-damage|p1a: Heracross|0 fnt
+|-damage|p1a: Heracross|0 fnt
+|-damage|p1a: Heracross|0 fnt
+|-damage|p1a: Heracross|0 fnt
+|-unboost|p2a: Watrirield|def|1
+|-unboost|p2a: Watrirield|spd|1
+|split
+|-damage|p2a: Watrirield|27/100|[from] item: Life Orb
+|-damage|p2a: Watrirield|65/248|[from] item: Life Orb
+|-damage|p2a: Watrirield|27/100|[from] item: Life Orb
+|-damage|p2a: Watrirield|65/248|[from] item: Life Orb
+|faint|p1a: Heracross
+|
+|-weather|Hail|[upkeep]
+|split
+|-damage|p2a: Watrirield|21/100|[from] hail
+|-damage|p2a: Watrirield|50/248|[from] hail
+|-damage|p2a: Watrirield|21/100|[from] hail
+|-damage|p2a: Watrirield|50/248|[from] hail
+|callback|decision
+|
+|split
+|switch|p1a: Watrirield|Watrirield, L74|218/248
+|switch|p1a: Watrirield|Watrirield, L74|88/100
+|switch|p1a: Watrirield|Watrirield, L74|88/100
+|switch|p1a: Watrirield|Watrirield, L74|218/248
+|turn|26
+|callback|decision
+|
+|move|p2a: Watrirield|Sucker Punch|p1a: Watrirield
+
+ReferenceError: source is not defined
+    at Tools.exports.BattleAbilities.adrenaline.onResidual (/Users/clazinasteunenberg/Downloads/Tervari/mods/tervari/abilities.js:48:25)
+    at Tools.Battle.singleEvent (/Users/clazinasteunenberg/Downloads/Tervari/battle-engine.js:1750:37)
+    at Tools.Battle.residualEvent (/Users/clazinasteunenberg/Downloads/Tervari/battle-engine.js:1702:9)
+    at Tools.Battle.runDecision (/Users/clazinasteunenberg/Downloads/Tervari/battle-engine.js:3197:9)
+    at Tools.Battle.go (/Users/clazinasteunenberg/Downloads/Tervari/battle-engine.js:3270:9)
+    at Tools.Battle.commitDecisions (/Users/clazinasteunenberg/Downloads/Tervari/battle-engine.js:3348:8)
+    at Tools.Battle.choose (/Users/clazinasteunenberg/Downloads/Tervari/battle-engine.js:3330:9)
+    at Tools.Battle.receive (/Users/clazinasteunenberg/Downloads/Tervari/battle-engine.js:3673:9)
+    at process.BattlePokemon.side (/Users/clazinasteunenberg/Downloads/Tervari/battle-engine.js:144:12)
+    at process.EventEmitter.emit (events.js:98:17)
+
+Additional information:
+message = battle-tervarirandombattle-62|choose|p2|move Rabid Frenzy|13
+currentRequest = move
+
+Log:
+|player|p1|Eneomas|149
+|player|p2|Snaquaza|101
+|gametype|singles
+|tier|Tervari Random Battle
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|HP Percentage Mod: HP is reported as percentages
+|
+|start
+|split
+|switch|p1a: Garchomp|Garchomp, L74, F|282/282
+|switch|p1a: Garchomp|Garchomp, L74, F|100/100
+|switch|p1a: Garchomp|Garchomp, L74, F|100/100
+|switch|p1a: Garchomp|Garchomp, L74, F|282/282
+|split
+|switch|p2a: Omastar|Omastar, L82, M|100/100
+|switch|p2a: Omastar|Omastar, L82, M|249/249
+|switch|p2a: Omastar|Omastar, L82, M|100/100
+|switch|p2a: Omastar|Omastar, L82, M|249/249
+|turn|1
+|callback|decision
+|chat|Eneomas|gl hf
+|chat|Eneomas|yup, got it
+|chat|Eneomas|just 3 moves though
+|chat|Snaquaza|ya idk what to do 'bout that
+|chat|Snaquaza|tbh
+|
+|move|p1a: Garchomp|Earthquake|p2a: Omastar
+|-supereffective|p2a: Omastar
+|-enditem|p2a: Omastar|Focus Sash
+|split
+|-damage|p2a: Omastar|1/100
+|-damage|p2a: Omastar|1/249
+|-damage|p2a: Omastar|1/100
+|-damage|p2a: Omastar|1/249
+|move|p2a: Omastar|Ice Beam|p1a: Garchomp
+|-supereffective|p1a: Garchomp
+|split
+|-damage|p1a: Garchomp|0 fnt
+|-damage|p1a: Garchomp|0 fnt
+|-damage|p1a: Garchomp|0 fnt
+|-damage|p1a: Garchomp|0 fnt
+|faint|p1a: Garchomp
+|
+|callback|decision
+|chat|Eneomas|sash?
+|chat|Snaquaza|bye Garchomp!
+|chat|Eneomas|srsly?
+|chat|Lightkyoyo|No yache ):
+|chat|Eneomas|this isn't haxmons
+|
+|split
+|switch|p1a: Ninetales|Ninetales, L78, M|222/222
+|switch|p1a: Ninetales|Ninetales, L78, M|100/100
+|switch|p1a: Ninetales|Ninetales, L78, M|100/100
+|switch|p1a: Ninetales|Ninetales, L78, M|222/222
+|turn|2
+|callback|decision
+|
+|move|p1a: Ninetales|U-turn|p2a: Omastar
+|split
+|-damage|p2a: Omastar|0 fnt
+|-damage|p2a: Omastar|0 fnt
+|-damage|p2a: Omastar|0 fnt
+|-damage|p2a: Omastar|0 fnt
+|faint|p2a: Omastar
+|callback|decision
+|
+|split
+|switch|p1a: Watrirield|Watrirield, L74|248/248
+|switch|p1a: Watrirield|Watrirield, L74|100/100
+|switch|p1a: Watrirield|Watrirield, L74|100/100
+|switch|p1a: Watrirield|Watrirield, L74|248/248
+|
+|callback|decision
+|chat|Snaquaza|hi Zoru/oa(rk)
+|
+|split
+|switch|p2a: Swellow|Swellow, L86, M|100/100
+|switch|p2a: Swellow|Swellow, L86, M|243/243
+|switch|p2a: Swellow|Swellow, L86, M|100/100
+|switch|p2a: Swellow|Swellow, L86, M|243/243
+|turn|3
+|callback|decision
+|
+|split
+|switch|p1a: Tyranitar|Tyranitar, L74, F|270/270
+|switch|p1a: Tyranitar|Tyranitar, L74, F|100/100
+|switch|p1a: Tyranitar|Tyranitar, L74, F|100/100
+|switch|p1a: Tyranitar|Tyranitar, L74, F|270/270
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Tyranitar
+|move|p2a: Swellow|U-turn|p1a: Tyranitar
+|-supereffective|p1a: Tyranitar
+|split
+|-damage|p1a: Tyranitar|172/270
+|-damage|p1a: Tyranitar|64/100
+|-damage|p1a: Tyranitar|64/100
+|-damage|p1a: Tyranitar|172/270
+|callback|decision
+|
+|split
+|switch|p2a: Watrirield|Watrirield, L74|100/100
+|switch|p2a: Watrirield|Watrirield, L74|248/248
+|switch|p2a: Watrirield|Watrirield, L74|100/100
+|switch|p2a: Watrirield|Watrirield, L74|248/248
+|
+|-weather|Sandstorm|[upkeep]
+|split
+|-damage|p2a: Watrirield|94/100|[from] sandstorm
+|-damage|p2a: Watrirield|233/248|[from] sandstorm
+|-damage|p2a: Watrirield|94/100|[from] sandstorm
+|-damage|p2a: Watrirield|233/248|[from] sandstorm
+|split
+|-heal|p1a: Tyranitar|188/270|[from] item: Leftovers
+|-heal|p1a: Tyranitar|70/100|[from] item: Leftovers
+|-heal|p1a: Tyranitar|70/100|[from] item: Leftovers
+|-heal|p1a: Tyranitar|188/270|[from] item: Leftovers
+|turn|4
+|callback|decision
+|chat|Snaquaza|ok let's wear this down, stay in but dont' attack
+|chat|Snaquaza|got it?
+|chat|Eneomas|k
+|
+|move|p2a: Watrirield|Rabid Frenzy|p1a: Tyranitar
+|-resisted|p1a: Tyranitar
+|split
+|-damage|p1a: Tyranitar|119/270
+|-damage|p1a: Tyranitar|45/100
+|-damage|p1a: Tyranitar|45/100
+|-damage|p1a: Tyranitar|119/270
+|-unboost|p2a: Watrirield|def|1
+|-unboost|p2a: Watrirield|spd|1
+|split
+|-damage|p2a: Watrirield|85/100|[from] item: Life Orb
+|-damage|p2a: Watrirield|209/248|[from] item: Life Orb
+|-damage|p2a: Watrirield|85/100|[from] item: Life Orb
+|-damage|p2a: Watrirield|209/248|[from] item: Life Orb
+|move|p1a: Tyranitar|Stealth Rock|p2a: Watrirield
+|-sidestart|p2: Snaquaza|move: Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|split
+|-damage|p2a: Watrirield|79/100|[from] sandstorm
+|-damage|p2a: Watrirield|194/248|[from] sandstorm
+|-damage|p2a: Watrirield|79/100|[from] sandstorm
+|-damage|p2a: Watrirield|194/248|[from] sandstorm
+|split
+|-heal|p1a: Tyranitar|135/270|[from] item: Leftovers
+|-heal|p1a: Tyranitar|50/100|[from] item: Leftovers
+|-heal|p1a: Tyranitar|50/100|[from] item: Leftovers
+|-heal|p1a: Tyranitar|135/270|[from] item: Leftovers
+|turn|5
+|callback|decision
+|chat|Eneomas|K i'll try
+|chat|Snaquaza|stay using SR
+|chat|Eneomas|wait, can one pursuit kill?
+|chat|Snaquaza|idk it might
+|
+|move|p2a: Watrirield|Rabid Frenzy|p1a: Tyranitar
+|-resisted|p1a: Tyranitar
+|split
+|-damage|p1a: Tyranitar|66/270
+|-damage|p1a: Tyranitar|25/100
+|-damage|p1a: Tyranitar|25/100
+|-damage|p1a: Tyranitar|66/270
+|-unboost|p2a: Watrirield|def|1
+|-unboost|p2a: Watrirield|spd|1
+|split
+|-damage|p2a: Watrirield|69/100|[from] item: Life Orb
+|-damage|p2a: Watrirield|170/248|[from] item: Life Orb
+|-damage|p2a: Watrirield|69/100|[from] item: Life Orb
+|-damage|p2a: Watrirield|170/248|[from] item: Life Orb
+|move|p1a: Tyranitar|Stealth Rock|p2a: Watrirield
+|-fail|p2a: Watrirield
+|
+|-weather|Sandstorm|[upkeep]
+|split
+|-damage|p2a: Watrirield|63/100|[from] sandstorm
+|-damage|p2a: Watrirield|155/248|[from] sandstorm
+|-damage|p2a: Watrirield|63/100|[from] sandstorm
+|-damage|p2a: Watrirield|155/248|[from] sandstorm
+|split
+|-heal|p1a: Tyranitar|82/270|[from] item: Leftovers
+|-heal|p1a: Tyranitar|31/100|[from] item: Leftovers
+|-heal|p1a: Tyranitar|31/100|[from] item: Leftovers
+|-heal|p1a: Tyranitar|82/270|[from] item: Leftovers
+|turn|6
+|callback|decision
+|chat|Snaquaza|as it is at -2 already
+|
+|move|p2a: Watrirield|Rabid Frenzy|p1a: Tyranitar
+|-resisted|p1a: Tyranitar
+|split
+|-damage|p1a: Tyranitar|13/270
+|-damage|p1a: Tyranitar|5/100
+|-damage|p1a: Tyranitar|5/100
+|-damage|p1a: Tyranitar|13/270
+|-unboost|p2a: Watrirield|def|1
+|-unboost|p2a: Watrirield|spd|1
+|split
+|-damage|p2a: Watrirield|53/100|[from] item: Life Orb
+|-damage|p2a: Watrirield|131/248|[from] item: Life Orb
+|-damage|p2a: Watrirield|53/100|[from] item: Life Orb
+|-damage|p2a: Watrirield|131/248|[from] item: Life Orb
+|move|p1a: Tyranitar|Stealth Rock|p2a: Watrirield
+|-fail|p2a: Watrirield
+|
+|-weather|Sandstorm|[upkeep]
+|split
+|-damage|p2a: Watrirield|47/100|[from] sandstorm
+|-damage|p2a: Watrirield|116/248|[from] sandstorm
+|-damage|p2a: Watrirield|47/100|[from] sandstorm
+|-damage|p2a: Watrirield|116/248|[from] sandstorm
+|split
+|-heal|p1a: Tyranitar|29/270|[from] item: Leftovers
+|-heal|p1a: Tyranitar|11/100|[from] item: Leftovers
+|-heal|p1a: Tyranitar|11/100|[from] item: Leftovers
+|-heal|p1a: Tyranitar|29/270|[from] item: Leftovers
+|turn|7
+|callback|decision
+|
+|move|p2a: Watrirield|Earthquake|p1a: Tyranitar
+|-crit|p1a: Tyranitar
+|-supereffective|p1a: Tyranitar
+|split
+|-damage|p1a: Tyranitar|0 fnt
+|-damage|p1a: Tyranitar|0 fnt
+|-damage|p1a: Tyranitar|0 fnt
+|-damage|p1a: Tyranitar|0 fnt
+|split
+|-damage|p2a: Watrirield|38/100|[from] item: Life Orb
+|-damage|p2a: Watrirield|92/248|[from] item: Life Orb
+|-damage|p2a: Watrirield|38/100|[from] item: Life Orb
+|-damage|p2a: Watrirield|92/248|[from] item: Life Orb
+|faint|p1a: Tyranitar
+|
+|-weather|Sandstorm|[upkeep]
+|split
+|-damage|p2a: Watrirield|32/100|[from] sandstorm
+|-damage|p2a: Watrirield|77/248|[from] sandstorm
+|-damage|p2a: Watrirield|32/100|[from] sandstorm
+|-damage|p2a: Watrirield|77/248|[from] sandstorm
+|callback|decision
+|chat|Snaquaza|ok gotta hit one more thing
+|
+|split
+|switch|p1a: Swinub|Swinub, L95, M|249/249
+|switch|p1a: Swinub|Swinub, L95, M|100/100
+|switch|p1a: Swinub|Swinub, L95, M|100/100
+|switch|p1a: Swinub|Swinub, L95, M|249/249
+|turn|8
+|callback|decision
+|chat|Snaquaza|still dont' kill me
+|chat|Snaquaza|k?
+|chat|Eneomas|I won't
+|
+|move|p2a: Watrirield|Rabid Frenzy|p1a: Swinub
+|split
+|-damage|p1a: Swinub|46/249
+|-damage|p1a: Swinub|19/100
+|-damage|p1a: Swinub|19/100
+|-damage|p1a: Swinub|46/249
+|-unboost|p2a: Watrirield|def|1
+|-unboost|p2a: Watrirield|spd|1
+|split
+|-damage|p2a: Watrirield|22/100|[from] item: Life Orb
+|-damage|p2a: Watrirield|53/248|[from] item: Life Orb
+|-damage|p2a: Watrirield|22/100|[from] item: Life Orb
+|-damage|p2a: Watrirield|53/248|[from] item: Life Orb
+|move|p1a: Swinub|Endeavor|p2a: Watrirield
+|split
+|-damage|p2a: Watrirield|19/100
+|-damage|p2a: Watrirield|46/248
+|-damage|p2a: Watrirield|19/100
+|-damage|p2a: Watrirield|46/248
+|
+
+ReferenceError: source is not defined
+    at Tools.exports.BattleAbilities.adrenaline.onResidual (/Users/clazinasteunenberg/Downloads/Tervari/mods/tervari/abilities.js:48:25)
+    at Tools.Battle.singleEvent (/Users/clazinasteunenberg/Downloads/Tervari/battle-engine.js:1750:37)
+    at Tools.Battle.residualEvent (/Users/clazinasteunenberg/Downloads/Tervari/battle-engine.js:1702:9)
+    at Tools.Battle.runDecision (/Users/clazinasteunenberg/Downloads/Tervari/battle-engine.js:3197:9)
+    at Tools.Battle.go (/Users/clazinasteunenberg/Downloads/Tervari/battle-engine.js:3270:9)
+    at Tools.Battle.commitDecisions (/Users/clazinasteunenberg/Downloads/Tervari/battle-engine.js:3348:8)
+    at Tools.Battle.choose (/Users/clazinasteunenberg/Downloads/Tervari/battle-engine.js:3330:9)
+    at Tools.Battle.receive (/Users/clazinasteunenberg/Downloads/Tervari/battle-engine.js:3673:9)
+    at process.BattlePokemon.side (/Users/clazinasteunenberg/Downloads/Tervari/battle-engine.js:144:12)
+    at process.EventEmitter.emit (events.js:98:17)
+
+Additional information:
+message = battle-tervarirandombattle-62|choose|p2|move Rabid Frenzy|15
+currentRequest = move
+
+Log:
+|player|p1|Eneomas|149
+|player|p2|Snaquaza|101
+|gametype|singles
+|tier|Tervari Random Battle
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|HP Percentage Mod: HP is reported as percentages
+|
+|start
+|split
+|switch|p1a: Garchomp|Garchomp, L74, F|282/282
+|switch|p1a: Garchomp|Garchomp, L74, F|100/100
+|switch|p1a: Garchomp|Garchomp, L74, F|100/100
+|switch|p1a: Garchomp|Garchomp, L74, F|282/282
+|split
+|switch|p2a: Omastar|Omastar, L82, M|100/100
+|switch|p2a: Omastar|Omastar, L82, M|249/249
+|switch|p2a: Omastar|Omastar, L82, M|100/100
+|switch|p2a: Omastar|Omastar, L82, M|249/249
+|turn|1
+|callback|decision
+|chat|Eneomas|gl hf
+|chat|Eneomas|yup, got it
+|chat|Eneomas|just 3 moves though
+|chat|Snaquaza|ya idk what to do 'bout that
+|chat|Snaquaza|tbh
+|
+|move|p1a: Garchomp|Earthquake|p2a: Omastar
+|-supereffective|p2a: Omastar
+|-enditem|p2a: Omastar|Focus Sash
+|split
+|-damage|p2a: Omastar|1/100
+|-damage|p2a: Omastar|1/249
+|-damage|p2a: Omastar|1/100
+|-damage|p2a: Omastar|1/249
+|move|p2a: Omastar|Ice Beam|p1a: Garchomp
+|-supereffective|p1a: Garchomp
+|split
+|-damage|p1a: Garchomp|0 fnt
+|-damage|p1a: Garchomp|0 fnt
+|-damage|p1a: Garchomp|0 fnt
+|-damage|p1a: Garchomp|0 fnt
+|faint|p1a: Garchomp
+|
+|callback|decision
+|chat|Eneomas|sash?
+|chat|Snaquaza|bye Garchomp!
+|chat|Eneomas|srsly?
+|chat|Lightkyoyo|No yache ):
+|chat|Eneomas|this isn't haxmons
+|
+|split
+|switch|p1a: Ninetales|Ninetales, L78, M|222/222
+|switch|p1a: Ninetales|Ninetales, L78, M|100/100
+|switch|p1a: Ninetales|Ninetales, L78, M|100/100
+|switch|p1a: Ninetales|Ninetales, L78, M|222/222
+|turn|2
+|callback|decision
+|
+|move|p1a: Ninetales|U-turn|p2a: Omastar
+|split
+|-damage|p2a: Omastar|0 fnt
+|-damage|p2a: Omastar|0 fnt
+|-damage|p2a: Omastar|0 fnt
+|-damage|p2a: Omastar|0 fnt
+|faint|p2a: Omastar
+|callback|decision
+|
+|split
+|switch|p1a: Watrirield|Watrirield, L74|248/248
+|switch|p1a: Watrirield|Watrirield, L74|100/100
+|switch|p1a: Watrirield|Watrirield, L74|100/100
+|switch|p1a: Watrirield|Watrirield, L74|248/248
+|
+|callback|decision
+|chat|Snaquaza|hi Zoru/oa(rk)
+|
+|split
+|switch|p2a: Swellow|Swellow, L86, M|100/100
+|switch|p2a: Swellow|Swellow, L86, M|243/243
+|switch|p2a: Swellow|Swellow, L86, M|100/100
+|switch|p2a: Swellow|Swellow, L86, M|243/243
+|turn|3
+|callback|decision
+|
+|split
+|switch|p1a: Tyranitar|Tyranitar, L74, F|270/270
+|switch|p1a: Tyranitar|Tyranitar, L74, F|100/100
+|switch|p1a: Tyranitar|Tyranitar, L74, F|100/100
+|switch|p1a: Tyranitar|Tyranitar, L74, F|270/270
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Tyranitar
+|move|p2a: Swellow|U-turn|p1a: Tyranitar
+|-supereffective|p1a: Tyranitar
+|split
+|-damage|p1a: Tyranitar|172/270
+|-damage|p1a: Tyranitar|64/100
+|-damage|p1a: Tyranitar|64/100
+|-damage|p1a: Tyranitar|172/270
+|callback|decision
+|
+|split
+|switch|p2a: Watrirield|Watrirield, L74|100/100
+|switch|p2a: Watrirield|Watrirield, L74|248/248
+|switch|p2a: Watrirield|Watrirield, L74|100/100
+|switch|p2a: Watrirield|Watrirield, L74|248/248
+|
+|-weather|Sandstorm|[upkeep]
+|split
+|-damage|p2a: Watrirield|94/100|[from] sandstorm
+|-damage|p2a: Watrirield|233/248|[from] sandstorm
+|-damage|p2a: Watrirield|94/100|[from] sandstorm
+|-damage|p2a: Watrirield|233/248|[from] sandstorm
+|split
+|-heal|p1a: Tyranitar|188/270|[from] item: Leftovers
+|-heal|p1a: Tyranitar|70/100|[from] item: Leftovers
+|-heal|p1a: Tyranitar|70/100|[from] item: Leftovers
+|-heal|p1a: Tyranitar|188/270|[from] item: Leftovers
+|turn|4
+|callback|decision
+|chat|Snaquaza|ok let's wear this down, stay in but dont' attack
+|chat|Snaquaza|got it?
+|chat|Eneomas|k
+|
+|move|p2a: Watrirield|Rabid Frenzy|p1a: Tyranitar
+|-resisted|p1a: Tyranitar
+|split
+|-damage|p1a: Tyranitar|119/270
+|-damage|p1a: Tyranitar|45/100
+|-damage|p1a: Tyranitar|45/100
+|-damage|p1a: Tyranitar|119/270
+|-unboost|p2a: Watrirield|def|1
+|-unboost|p2a: Watrirield|spd|1
+|split
+|-damage|p2a: Watrirield|85/100|[from] item: Life Orb
+|-damage|p2a: Watrirield|209/248|[from] item: Life Orb
+|-damage|p2a: Watrirield|85/100|[from] item: Life Orb
+|-damage|p2a: Watrirield|209/248|[from] item: Life Orb
+|move|p1a: Tyranitar|Stealth Rock|p2a: Watrirield
+|-sidestart|p2: Snaquaza|move: Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|split
+|-damage|p2a: Watrirield|79/100|[from] sandstorm
+|-damage|p2a: Watrirield|194/248|[from] sandstorm
+|-damage|p2a: Watrirield|79/100|[from] sandstorm
+|-damage|p2a: Watrirield|194/248|[from] sandstorm
+|split
+|-heal|p1a: Tyranitar|135/270|[from] item: Leftovers
+|-heal|p1a: Tyranitar|50/100|[from] item: Leftovers
+|-heal|p1a: Tyranitar|50/100|[from] item: Leftovers
+|-heal|p1a: Tyranitar|135/270|[from] item: Leftovers
+|turn|5
+|callback|decision
+|chat|Eneomas|K i'll try
+|chat|Snaquaza|stay using SR
+|chat|Eneomas|wait, can one pursuit kill?
+|chat|Snaquaza|idk it might
+|
+|move|p2a: Watrirield|Rabid Frenzy|p1a: Tyranitar
+|-resisted|p1a: Tyranitar
+|split
+|-damage|p1a: Tyranitar|66/270
+|-damage|p1a: Tyranitar|25/100
+|-damage|p1a: Tyranitar|25/100
+|-damage|p1a: Tyranitar|66/270
+|-unboost|p2a: Watrirield|def|1
+|-unboost|p2a: Watrirield|spd|1
+|split
+|-damage|p2a: Watrirield|69/100|[from] item: Life Orb
+|-damage|p2a: Watrirield|170/248|[from] item: Life Orb
+|-damage|p2a: Watrirield|69/100|[from] item: Life Orb
+|-damage|p2a: Watrirield|170/248|[from] item: Life Orb
+|move|p1a: Tyranitar|Stealth Rock|p2a: Watrirield
+|-fail|p2a: Watrirield
+|
+|-weather|Sandstorm|[upkeep]
+|split
+|-damage|p2a: Watrirield|63/100|[from] sandstorm
+|-damage|p2a: Watrirield|155/248|[from] sandstorm
+|-damage|p2a: Watrirield|63/100|[from] sandstorm
+|-damage|p2a: Watrirield|155/248|[from] sandstorm
+|split
+|-heal|p1a: Tyranitar|82/270|[from] item: Leftovers
+|-heal|p1a: Tyranitar|31/100|[from] item: Leftovers
+|-heal|p1a: Tyranitar|31/100|[from] item: Leftovers
+|-heal|p1a: Tyranitar|82/270|[from] item: Leftovers
+|turn|6
+|callback|decision
+|chat|Snaquaza|as it is at -2 already
+|
+|move|p2a: Watrirield|Rabid Frenzy|p1a: Tyranitar
+|-resisted|p1a: Tyranitar
+|split
+|-damage|p1a: Tyranitar|13/270
+|-damage|p1a: Tyranitar|5/100
+|-damage|p1a: Tyranitar|5/100
+|-damage|p1a: Tyranitar|13/270
+|-unboost|p2a: Watrirield|def|1
+|-unboost|p2a: Watrirield|spd|1
+|split
+|-damage|p2a: Watrirield|53/100|[from] item: Life Orb
+|-damage|p2a: Watrirield|131/248|[from] item: Life Orb
+|-damage|p2a: Watrirield|53/100|[from] item: Life Orb
+|-damage|p2a: Watrirield|131/248|[from] item: Life Orb
+|move|p1a: Tyranitar|Stealth Rock|p2a: Watrirield
+|-fail|p2a: Watrirield
+|
+|-weather|Sandstorm|[upkeep]
+|split
+|-damage|p2a: Watrirield|47/100|[from] sandstorm
+|-damage|p2a: Watrirield|116/248|[from] sandstorm
+|-damage|p2a: Watrirield|47/100|[from] sandstorm
+|-damage|p2a: Watrirield|116/248|[from] sandstorm
+|split
+|-heal|p1a: Tyranitar|29/270|[from] item: Leftovers
+|-heal|p1a: Tyranitar|11/100|[from] item: Leftovers
+|-heal|p1a: Tyranitar|11/100|[from] item: Leftovers
+|-heal|p1a: Tyranitar|29/270|[from] item: Leftovers
+|turn|7
+|callback|decision
+|
+|move|p2a: Watrirield|Earthquake|p1a: Tyranitar
+|-crit|p1a: Tyranitar
+|-supereffective|p1a: Tyranitar
+|split
+|-damage|p1a: Tyranitar|0 fnt
+|-damage|p1a: Tyranitar|0 fnt
+|-damage|p1a: Tyranitar|0 fnt
+|-damage|p1a: Tyranitar|0 fnt
+|split
+|-damage|p2a: Watrirield|38/100|[from] item: Life Orb
+|-damage|p2a: Watrirield|92/248|[from] item: Life Orb
+|-damage|p2a: Watrirield|38/100|[from] item: Life Orb
+|-damage|p2a: Watrirield|92/248|[from] item: Life Orb
+|faint|p1a: Tyranitar
+|
+|-weather|Sandstorm|[upkeep]
+|split
+|-damage|p2a: Watrirield|32/100|[from] sandstorm
+|-damage|p2a: Watrirield|77/248|[from] sandstorm
+|-damage|p2a: Watrirield|32/100|[from] sandstorm
+|-damage|p2a: Watrirield|77/248|[from] sandstorm
+|callback|decision
+|chat|Snaquaza|ok gotta hit one more thing
+|
+|split
+|switch|p1a: Swinub|Swinub, L95, M|249/249
+|switch|p1a: Swinub|Swinub, L95, M|100/100
+|switch|p1a: Swinub|Swinub, L95, M|100/100
+|switch|p1a: Swinub|Swinub, L95, M|249/249
+|turn|8
+|callback|decision
+|chat|Snaquaza|still dont' kill me
+|chat|Snaquaza|k?
+|chat|Eneomas|I won't
+|
+|move|p2a: Watrirield|Rabid Frenzy|p1a: Swinub
+|split
+|-damage|p1a: Swinub|46/249
+|-damage|p1a: Swinub|19/100
+|-damage|p1a: Swinub|19/100
+|-damage|p1a: Swinub|46/249
+|-unboost|p2a: Watrirield|def|1
+|-unboost|p2a: Watrirield|spd|1
+|split
+|-damage|p2a: Watrirield|22/100|[from] item: Life Orb
+|-damage|p2a: Watrirield|53/248|[from] item: Life Orb
+|-damage|p2a: Watrirield|22/100|[from] item: Life Orb
+|-damage|p2a: Watrirield|53/248|[from] item: Life Orb
+|move|p1a: Swinub|Endeavor|p2a: Watrirield
+|split
+|-damage|p2a: Watrirield|19/100
+|-damage|p2a: Watrirield|46/248
+|-damage|p2a: Watrirield|19/100
+|-damage|p2a: Watrirield|46/248
+|
+|html|<div class="broadcast-red"><b>The battle crashed</b><br />You can keep playing but it might crash again.</div>
+|callback|decision
+|chat|Eneomas|though you wreck my team
+|chat|Eneomas|;-;
+|chat|Eneomas|wait
+|chat|Eneomas|wut?
+|
+|turn|9
+|callback|decision
+|chat|Snaquaza|lol
+|
+|move|p2a: Watrirield|Rabid Frenzy|p1a: Swinub|[from]Adrenaline
+|split
+|-damage|p1a: Swinub|0 fnt
+|-damage|p1a: Swinub|0 fnt
+|-damage|p1a: Swinub|0 fnt
+|-damage|p1a: Swinub|0 fnt
+|-unboost|p2a: Watrirield|def|1
+|-unboost|p2a: Watrirield|spd|1
+|split
+|-damage|p2a: Watrirield|9/100|[from] item: Life Orb
+|-damage|p2a: Watrirield|22/248|[from] item: Life Orb
+|-damage|p2a: Watrirield|9/100|[from] item: Life Orb
+|-damage|p2a: Watrirield|22/248|[from] item: Life Orb
+|faint|p1a: Swinub
+|
+
+TypeError: Cannot read property 'name' of undefined
+    at Object.tourStuff.nextRound (/Users/clazinasteunenberg/Downloads/Tervari/tour.js:305:295)
+    at Object.cmds.dq (/Users/clazinasteunenberg/Downloads/Tervari/tour.js:828:28)
+    at Object.exports.parse (/Users/clazinasteunenberg/Downloads/Tervari/command-parser.js:200:31)
+    at ChatRoom.chat (/Users/clazinasteunenberg/Downloads/Tervari/rooms.js:1499:27)
+    at User.chat (/Users/clazinasteunenberg/Downloads/Tervari/users.js:1132:9)
+    at SockJSConnection.<anonymous> (/Users/clazinasteunenberg/Downloads/Tervari/app.js:598:14)
+    at SockJSConnection.EventEmitter.emit (events.js:95:17)
+    at Session.didMessage (/Users/clazinasteunenberg/Downloads/Tervari/node_modules/sockjs/lib/transport.js:220:25)
+    at WebSocketReceiver.didMessage (/Users/clazinasteunenberg/Downloads/Tervari/node_modules/sockjs/lib/trans-websocket.js:102:40)
+    at /Users/clazinasteunenberg/Downloads/Tervari/node_modules/sockjs/lib/trans-websocket.js:75:22
+
+Additional information:
+user = snaquaza
+ip = 84.85.13.2
+roomid = 
+message = |/dq Eneomas
