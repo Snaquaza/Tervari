@@ -45,8 +45,8 @@ exports.BattleAbilities = {
 		shortDesc: "This Pokemon is stronger when it gets lower on HP",
 		onResidual: function(pokemon) {
 			if (pokemon.hp <= pokemon.maxhp/4) {
-				this.boost({atk:1}, source);
-				this.boost({spa:1}, source);
+                                this.boost({atk:1});
+                                this.boost({spa:1});
 			}
 		},
 		id: "adrenaline",
