@@ -1,11 +1,12 @@
 [
-{"title":"Lobby","autojoin":true},
-{"title":"Staff","isPrivate":true,"staffRoom":true,"staffAutojoin":true},
-{"title":"Mafia"},
-{"title":"Tervari Olympics","auth":{"firehound":"#","adrianmarinbh":"@","snaquaza":"@","spartanmalice":"%","eneomas":"+","hdow":"+","namin":"+"}},
-{"title":"Tervari"},
+{"title":"Lobby","autojoin":true,"desc":"Our official room, come here to have fun, battle, or ask questions!"},
+{"title":"Staff","isPrivate":true,"staffRoom":true,"staffAutojoin":true,"desc":"The Room for Staff Discussion and other boring stuff!"},
+{"title":"Mafia","desc":"This room is made for an amazing game in Mafia, that you can play here!"},
+{"title":"Tervari Olympics","auth":{"firehound":"#","adrianmarinbh":"@","snaquaza":"@","spartanmalice":"%","eneomas":"+","hdow":"+","namin":"+","asterat":"+"},"desc":"The Official Room for our amazing Other Metas Competition, the Tervari Olympics!"},
+{"title":"Tervari","desc":"This room is for discussion on the Game that we at the Tervari are making!"},
 {"title":"Spam","isPrivate":true},
-{"title":"Silver","isPrivate":true},
-{"title":"Server Ideas"},
-{"title":"Aurora","isPrivate":true,"auth":{"aurr":"#","coolasian":"@","snaquaza":"@","silverkill":"%"}}
+{"title":"Silver","isPrivate":true,"auth":{"umbreonqueen":"#","hdow":"@","aquatyphlosion":"@","omegakiba":"@","pokemonnerd2000":"+","teamninjaleader":"%","haxoursking":"+","eneomas":"+"},"isOfficial":true},
+{"title":"Server Ideas","desc":"http://piratepad.net/Tervari-Server-Improvement"},
+{"title":"Aurora","isPrivate":true,"auth":{"aurr":"#","coolasian":"@","snaquaza":"@","silverkill":"%","darkbassexe":"+","kllerktsunoh":"@"}},
+{"title":"Spheal Asshole","isPrivate":true}
 ]

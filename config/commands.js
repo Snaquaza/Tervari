@@ -718,6 +718,13 @@ game: 'game',
 			'- <a href="http://letsmakeagametogether.createaforum.com/general-discussion/">Our Game</a><br />' +
 			'</div>');
 	},
+hpb: 'holypastebin',
+	hpb: function(target, room, user) {
+		if (!this.canBroadcast()) return;
+		this.sendReplyBox('Here you can find the holy day of Tervari!!!:<br />' +
+			'- <a href="http://pastebin.com/NwzWRdDZ/">Best Moment Ever!</a><br />' +
+			'</div>');
+	},
 
 	om: 'othermetas',
 	othermetas: function(target, room, user) {

@@ -16,6 +16,10 @@ exports.BattleFormats = {
 		ruleset: ['Sleep Clause Mod', 'Species Clause', 'Moody Clause', 'OHKO Clause', 'Evasion Moves Clause', 'HP Percentage Mod'],
 		banlist: ['Illegal']
 	},
+	nobanlist: {
+		effectType: 'Banlist',
+		banlist: ["Illegal"]
+	},
 	standardnext: {
 		effectType: 'Banlist',
 		ruleset: ['Sleep Clause Mod', 'Species Clause', 'OHKO Clause', 'HP Percentage Mod'],
@@ -397,6 +401,24 @@ exports.BattleFormats = {
                                 move.accuracy = 0;
                         }
                         move.willCrit = true;
+                }
+        },
+      nohaxclause: {
+                effectType: 'Rule',
+                onStart: function() {
+                        this.add('rule', 'No Hax Clause');
+                },
+                onModifyMovePriority: -100,
+                onModifyMove: function(move) {
+                        if (move.secondaries) {
+                                for (var s = 0; s < move.secondaries.length; ++s) {
+                                        move.secondaries[s].chance = 0;
+                                }
+                        }
+                        if (move.accuracy !== true && move.accuracy <= 99) {
+                                move.accuracy = 100;
+                        }
+                        move.willCrit = false;
                 }
         },
 	sametypeclause: {

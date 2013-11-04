@@ -4158,7 +4158,6 @@ exports.BattleFormatsData = {
 	},
 	kyurem: {
 		viableMoves: {"substitute":1,"icebeam":1,"dracometeor":1,"dragonpulse":1,"focusblast":1,"outrage":1,"earthpower":1,"roost":1},
-		isUnreleased: true,
 		tier: "OU"
 	},
 	kyuremblack: {

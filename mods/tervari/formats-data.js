@@ -4681,4 +4681,12 @@ tier: "Illegal"
 		dreamWorldRelease: true,
 		tier: "OU"
 	},
+    noximot: {
+                viableMoves: {"tackle":1,"growl":1,"quickattack":1,"bite":1,"toxic":1,"poison fang":1,"acid spray":1,"poisontail":1,"crunch":1,"takedown":1,"venoshock":1,"gastroacid":1,"sludge":1,"poisonjab":1,"gunkshot":1,"dig":1,"earthquake":1,"tailslap":1,"glare":1,"slash":1,"poisonsting":1,"hyperfang":1,"superfang":1,"meanlook":1,"tailwhip":1,"sludgewave":1},
+                tier: "NU"
+        },
+ vaerke: {
+                viableMoves: {"spikes":1,"earthquake":1,"swordsdance":1,"uturn":1,"headsmash":1},
+                tier: "LC"
+        },
 };

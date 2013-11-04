@@ -5494,3 +5494,78 @@ user = snaquaza
 ip = 84.85.13.2
 roomid = 
 message = |/dq Eneomas
+
+ReferenceError: source is not defined
+    at Tools.exports.BattleAbilities.adrenaline.onResidual (/Users/clazinasteunenberg/Downloads/Tervari/mods/tervari/abilities.js:48:25)
+    at Tools.Battle.singleEvent (/Users/clazinasteunenberg/Downloads/Tervari/battle-engine.js:1750:37)
+    at Tools.Battle.residualEvent (/Users/clazinasteunenberg/Downloads/Tervari/battle-engine.js:1702:9)
+    at Tools.Battle.runDecision (/Users/clazinasteunenberg/Downloads/Tervari/battle-engine.js:3197:9)
+    at Tools.Battle.go (/Users/clazinasteunenberg/Downloads/Tervari/battle-engine.js:3270:9)
+    at Tools.Battle.commitDecisions (/Users/clazinasteunenberg/Downloads/Tervari/battle-engine.js:3348:8)
+    at Tools.Battle.choose (/Users/clazinasteunenberg/Downloads/Tervari/battle-engine.js:3330:9)
+    at Tools.Battle.receive (/Users/clazinasteunenberg/Downloads/Tervari/battle-engine.js:3673:9)
+    at process.BattlePokemon.side (/Users/clazinasteunenberg/Downloads/Tervari/battle-engine.js:144:12)
+    at process.EventEmitter.emit (events.js:98:17)
+
+Additional information:
+message = battle-tervarirandombattle-148|choose|p2|switch 5|3
+currentRequest = switch
+
+Log:
+|player|p1|Oiawesome the Kyogre|36
+|player|p2|Snaquille|101
+|gametype|singles
+|tier|Tervari Random Battle
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|HP Percentage Mod: HP is reported as percentages
+|
+|start
+|split
+|switch|p1a: Patrat|Patrat, L95, M|239/239
+|switch|p1a: Patrat|Patrat, L95, M|100/100
+|switch|p1a: Patrat|Patrat, L95, M|100/100
+|switch|p1a: Patrat|Patrat, L95, M|239/239
+|split
+|switch|p2a: Tornadus-Therian|Tornadus-Therian, L74, M|100/100
+|switch|p2a: Tornadus-Therian|Tornadus-Therian, L74, M|239/239
+|switch|p2a: Tornadus-Therian|Tornadus-Therian, L74, M|100/100
+|switch|p2a: Tornadus-Therian|Tornadus-Therian, L74, M|239/239
+|turn|1
+|callback|decision
+|
+|split
+|switch|p1a: Watrirield|Watrirield, L74|248/248
+|switch|p1a: Watrirield|Watrirield, L74|100/100
+|switch|p1a: Watrirield|Watrirield, L74|100/100
+|switch|p1a: Watrirield|Watrirield, L74|248/248
+|move|p2a: Tornadus-Therian|Focus Blast|p1a: Watrirield|[miss]
+|-miss|p2a: Tornadus-Therian|p1a: Watrirield
+|
+|turn|2
+|callback|decision
+|
+|move|p1a: Watrirield|Rabid Frenzy|p2a: Tornadus-Therian
+|split
+|-damage|p2a: Tornadus-Therian|17/100
+|-damage|p2a: Tornadus-Therian|40/239
+|-damage|p2a: Tornadus-Therian|17/100
+|-damage|p2a: Tornadus-Therian|40/239
+|-unboost|p1a: Watrirield|def|1
+|-unboost|p1a: Watrirield|spd|1
+|move|p2a: Tornadus-Therian|U-turn|p1a: Watrirield
+|-supereffective|p1a: Watrirield
+|split
+|-damage|p1a: Watrirield|49/248
+|-damage|p1a: Watrirield|20/100
+|-damage|p1a: Watrirield|20/100
+|-damage|p1a: Watrirield|49/248
+|callback|decision
+|chat|Snaquille|wow you were lucky with that miss
+|
+|split
+|switch|p2a: Snover|Snover, L95, M|100/100
+|switch|p2a: Snover|Snover, L95, M|268/268
+|switch|p2a: Snover|Snover, L95, M|100/100
+|switch|p2a: Snover|Snover, L95, M|268/268
+|-weather|Hail|[from] ability: Snow Warning|[of] p2a: Snover
+|

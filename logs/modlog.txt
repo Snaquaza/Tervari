@@ -498,3 +498,240 @@
 [2013-11-02T19:08:15.371Z] (aurora) CoolAsian was appointed to Room Driver by Aurοrа.
 [2013-11-02T19:08:54.314Z] (aurora) CoolAsian was appointed to Room Moderator by Aurοrа.
 [2013-11-02T19:13:53.247Z] (aurora) SilverKill was appointed to Room Driver by Aurοrа.
+[2013-11-02T21:16:49.109Z] (lobby) Guest 3 was warned by Snaquaza.
+[2013-11-02T22:20:41.580Z] (lobby) Anty208 was warned by Ѕhаdow. (Caps, Rawr.)
+[2013-11-02T22:20:58.305Z] (lobby) Ѕhаdow was warned by Snaquaza. (unneeded warning)
+[2013-11-02T22:28:47.515Z] (aurora) Kіller Kіtsunoh was appointed to Room Moderator by Aurοrа.
+[2013-11-02T22:32:03.307Z] (lobby) Aurοrа was banned by Ѕhаdow. (Banhammer'd.) (68.45.160.162)
+[2013-11-02T22:32:03.307Z] (lobby) Aurοrа's alts were also banned: Kіller Kіtsunoh
+[2013-11-02T22:33:30.251Z] (lobby) Meloettа was warned by Anty208. (ew)
+[2013-11-02T22:34:17.477Z] (lobby) (Aurοrа was demoted to a regular user by Snaquaza.)
+[2013-11-02T22:38:38.553Z] (lobby) Aurοrа was banned by Ѕhаdow. (Banhammer'd.) (68.45.160.162)
+[2013-11-02T22:38:38.554Z] (lobby) Aurοrа's alts were also banned: Kіller Kіtsunoh
+[2013-11-02T22:47:32.638Z] (lobby) Snaquaza temporarily banned the IP: 68.45.160.162
+[2013-11-02T22:47:52.231Z] (lobby) (Aurοrа would be banned by Ѕhаdow but was already banned.)
+[2013-11-02T22:52:43.014Z] (lobby) Brunoo was promoted to Voice by Snaquaza.
+[2013-11-02T22:52:46.518Z] (lobby) Snaquaza was promoted to Administrator by Snaquaza.
+[2013-11-02T22:59:42.988Z] (spam) Snaquaza declared AURPIATOIRAJAA IS A DAEAD SPEHAAALA
+[2013-11-02T23:06:05.779Z] (lobby) (Aurοrа would be banned by Ѕhаdow but was already banned.)
+[2013-11-02T23:12:36.845Z] (lobby) Meloettа was banned by Snaquaza. (hue hue) (77.172.198.231)
+[2013-11-02T23:12:39.269Z] (lobby) Meloettа was banned by Snaquaza. (hue hue) (77.172.198.231)
+[2013-11-02T23:12:39.770Z] (lobby) MEloett was unbanned by Snaquaza.
+[2013-11-02T23:13:10.676Z] (lobby) Meloettа was unlocked by Ѕhаdow.
+[2013-11-02T23:23:51.724Z] (lobby) Snaquaza declared stop the /me's
+[2013-11-02T23:27:21.439Z] (lobby) Cychainix was warned by Snaquaza. (make an account)
+[2013-11-02T23:27:53.289Z] (lobby) Cychainix was warned by Ѕhаdow. (Errmahgerrsh, make an account, you ass.)
+[2013-11-02T23:29:12.803Z] (lobby) Cychainix was warned by Ѕhаdow. (Caps.)
+[2013-11-02T23:31:18.773Z] (lobby) Snaquaza declared <img src="http://userserve-ak.last.fm/serve/_/75680108/Cast+of+So+Random+SoRandom.jpg"/>
+[2013-11-02T23:34:27.225Z] (lobby) (SilverKill was forcibly renamed to I'm so Raven by Snaquaza.)
+[2013-11-02T23:34:48.765Z] (lobby) I'm so Raven was warned by Ѕhаdow. (Caps.)
+[2013-11-02T23:38:49.339Z] (lobby) (I'm so Raven was forcibly renamed to Kill Silver by Snaquaza.)
+[2013-11-02T23:39:13.977Z] (staff) (Ѕhаdow was forcibly renamed to I'm a little Teapot! by Snaquaza.)
+[2013-11-02T23:39:50.245Z] (lobby) SF Gordon was banned by I'm a little Teapot!. (TEAHAMMER'D.) (76.28.91.54)
+[2013-11-02T23:40:02.214Z] (lobby) Snaquaza declared <img src="http://thumbs.dreamstime.com/z/hammer-breaking-teapot-3975716.jpg"/>
+[2013-11-02T23:40:05.703Z] (lobby) SF Gordon was unbanned by Snaquaza.
+[2013-11-02T23:40:19.017Z] (lobby) (hdow was demoted to Driver by Snaquaza.)
+[2013-11-02T23:40:38.849Z] (lobby) SF Gordon was unlocked by Snaquaza.
+[2013-11-02T23:40:45.574Z] (lobby) (I'm a little Teapot! was forced to choose a new name by Snaquaza)
+[2013-11-03T00:30:11.157Z] (lobby) (Guest 110 was forcibly renamed to Brunoo by Snaquaza.)
+[2013-11-03T00:57:52.231Z] (lobby) Umbreon Queen was warned by Snaquaza. (now you gotta stay nice)
+[2013-11-03T01:00:22.925Z] (lobby) Ѕhаdow was warned by Snaquaza. (she was being mean)
+[2013-11-03T01:20:32.138Z] (silver) Umbreon Queen was appointed Room Owner by Snaquaza.
+[2013-11-03T01:21:13.314Z] (silver) Ѕhаdow was appointed to Room Moderator by Umbreon Queen.
+[2013-11-03T01:30:56.096Z] (lobby) SilverKill was warned by Ѕhаdow. (Caps.)
+[2013-11-03T01:31:01.222Z] (lobby) team ninja leader was warned by Ѕhаdow. (Caps.)
+[2013-11-03T01:31:39.023Z] (silver) Aqua Typhlosion was appointed to Room Driver by Umbreon Queen.
+[2013-11-03T01:31:50.513Z] (silver) Omega-Kiba was appointed to Room Driver by Umbreon Queen.
+[2013-11-03T01:37:38.513Z] (lobby) Pоkemon was redirected to a private room by Ѕhаdow.
+[2013-11-03T02:26:16.864Z] (tervariolympics) asterat was appointed to Room Voice by Snaquaza.
+[2013-11-03T02:29:50.093Z] (lobby) Xearneyltal was warned by Ѕhаdow. (Caps.)
+[2013-11-03T02:52:30.866Z] (lobby) cofag was warned by Snaquaza.
+[2013-11-03T03:44:41.147Z] (silver) Brunoo was redirected to a private room by Ѕhаdow.
+[2013-11-03T03:53:43.982Z] (silver) Brunoo was banned from room silver by Ѕhаdow. (Don't say I didn't warn you.)
+[2013-11-03T04:06:37.671Z] (silver) Umbreon Queen declared message IM A BIRD!
+[2013-11-03T04:06:53.767Z] (silver) Brunoo was unbanned from room silver by Ѕhаdow.
+[2013-11-03T04:07:49.516Z] (silver) Umbreon Queen declared message THIS IS A HAPPY PLACE NOT A SAD PLACE! DON'T MAKE THIS PLACE SAD OK ^_^
+[2013-11-03T04:48:19.974Z] (silver) Aqua Typhlosion was appointed to Room Moderator by Umbreon Queen.
+[2013-11-03T04:48:36.330Z] (silver) Omega-Kiba was appointed to Room Moderator by Umbreon Queen.
+[2013-11-03T05:23:32.003Z] (silver) Aqua Typhlosion set modchat to +
+[2013-11-03T10:30:03.448Z] (battle-nohaxmons-141) (anty208 was forcibly renamed to anthue208 by Snaquaza.)
+[2013-11-03T10:59:38.342Z] (lobby) Snaquaza declared <img src="http://img.thesun.co.uk/aidemitlum/archive/01583/SNF1424A--620_1583764a.jpg"/> Anty208
+[2013-11-03T11:00:54.997Z] (silver) Ѕhаdow set modchat to false
+[2013-11-03T11:11:49.103Z] (lobby) The Pokemon of the Day was changed to Wirbaer by Snaquaza.
+[2013-11-03T11:50:25.469Z] (lobby) Meloettа was warned by Anty208. (NO)
+[2013-11-03T11:52:03.217Z] (lobby) (namin was demoted to Moderator by Snaquaza.)
+[2013-11-03T11:52:08.361Z] (lobby) namin was promoted to Leader by Snaquaza.
+[2013-11-03T11:53:44.243Z] (lobby) Snaquaza declared <img src="http://i.imgur.com/vIwuVFY.png"/>
+[2013-11-03T11:55:10.326Z] (lobby) Snaquaza declared <img src="http://i.imgur.com/yNwQ7rD.png"/> Just no 20, but it was a record again so we were happy
+[2013-11-03T11:56:19.359Z] (lobby) Snaquaza declared <img src="http://i.imgur.com/rn7xEmH.png"/> We broke 20 :')
+[2013-11-03T11:57:59.623Z] (lobby) Snaquaza declared <img src="http://i.imgur.com/U2qmSYm.png"/> Our currently unbroken highest user total
+[2013-11-03T11:59:22.649Z] (lobby) Snaquaza declared <img src="http://i.imgur.com/uixCqJi.png"/> 
+[2013-11-03T12:00:03.884Z] (lobby) Snaquaza declared <img src="http://i.imgur.com/z20E3nO.png"/>Woohoo I got mod on joims
+[2013-11-03T12:01:14.273Z] (lobby) Snaquaza declared <img src="http://i.imgur.com/2mwhfMs.png"/> random guy on main that got banned here, grr I hate those ppl
+[2013-11-03T12:02:30.785Z] (lobby) Snaquaza declared <img src="http://i.imgur.com/Mo5eY7F.jpg"/> WOW how old is this
+[2013-11-03T12:05:02.403Z] (lobby) Snaquaza declared <img src="http://i.imgur.com/hOSZ3oX.jpg"/> Melo's screenshot that isnt' that old, just after the mass demote
+[2013-11-03T12:06:55.732Z] (lobby) Snaquaza declared <img src="http://i.imgur.com/dkFbthM.png?1"/>
+[2013-11-03T12:11:49.505Z] (lobby) Meloettа was promoted to Leader by Snaquaza.
+[2013-11-03T12:11:53.877Z] (lobby) Anty208 was banned by Meloettа. (86.166.120.161)
+[2013-11-03T12:11:55.704Z] (lobby) (Meloettа was demoted to Moderator by Snaquaza.)
+[2013-11-03T12:11:59.053Z] (lobby) anty208 was unbanned by Snaquaza.
+[2013-11-03T12:12:03.177Z] (lobby) (Meloettа was demoted to a regular user by Snaquaza.)
+[2013-11-03T12:12:07.367Z] (lobby) Anty208 was unlocked by Snaquaza.
+[2013-11-03T12:12:24.290Z] (lobby) Meloettа was warned by Anty208.
+[2013-11-03T12:12:30.434Z] (lobby) Meloettа was warned by Anty208.
+[2013-11-03T12:12:31.663Z] (lobby) Meloettа was warned by Anty208.
+[2013-11-03T12:12:45.309Z] (lobby) Meloettа was warned by Anty208.
+[2013-11-03T12:19:32.841Z] (lobby) Anty208 was warned by Naminé. (minimodding)
+[2013-11-03T12:19:36.718Z] (lobby) Anty208 was banned by Snaquaza. (imo) (86.166.120.161)
+[2013-11-03T12:19:43.746Z] (lobby) anty208 was unbanned by Snaquaza.
+[2013-11-03T12:19:57.081Z] (lobby) Anty208 was unlocked by Snaquaza.
+[2013-11-03T12:20:14.619Z] (lobby) Anty208 was warned by Naminé. (language and caps)
+[2013-11-03T12:21:28.040Z] (lobby) Anty208 was banned by Naminé. (you wished it) (86.166.120.161)
+[2013-11-03T12:21:32.632Z] (lobby) anty208 was unbanned by Naminé.
+[2013-11-03T12:21:43.709Z] (lobby) Anty208 was unlocked by Naminé.
+[2013-11-03T12:22:08.740Z] (lobby) (Anty208 was demoted to Voice by Snaquaza.)
+[2013-11-03T12:22:19.653Z] (lobby) Anty208 was promoted to Driver by Snaquaza.
+[2013-11-03T12:30:49.366Z] (lobby) Megaschool Girl was locked from talking by Anty208.
+[2013-11-03T12:34:57.269Z] (silver) (Eneomas was forcibly renamed to Eneomate by Snaquaza.)
+[2013-11-03T12:36:06.474Z] (sphealasshole) Snaquaza made this room private.
+[2013-11-03T12:37:44.326Z] (staff) Meloettа was banned from room staff by Snaquille.
+[2013-11-03T12:38:48.232Z] (lobby) (Anty is hoe was forced to choose a new name by Anty208)
+[2013-11-03T12:38:59.292Z] (lobby) (Nicki Minajs Lover was forced to choose a new name by Anty208)
+[2013-11-03T12:39:05.001Z] (lobby) mega sex girl was banned by Snaquille. (79.216.58.98)
+[2013-11-03T12:39:05.001Z] (lobby) mega sex girl's alts were also banned: Megaschool Girl, Guest 235
+[2013-11-03T12:40:38.876Z] (staff) (Anty208 was forcibly renamed to Suspicious Girl by Snaquille.)
+[2013-11-03T12:40:53.234Z] (staff) (Brunoo was forcibly renamed to Aurοrа by Snaquille.)
+[2013-11-03T12:43:01.978Z] (staff) (Aurοrа was forcibly renamed to Brunoo by Snaquille.)
+[2013-11-03T14:17:47.472Z] (lobby) Meloettа was warned by ⤲⥷A⦿❂N✾T❆Y2⩕⩐0⩄⨸8. (caps)
+[2013-11-03T14:18:48.069Z] (lobby) (⤲⥷A⦿❂N✾T❆Y2⩕⩐0⩄⨸8 was forcibly renamed to Anty208 by RealPresent.)
+[2013-11-03T14:30:57.994Z] (lobby) (Meloettа was forced to choose a new name by Anty208)
+[2013-11-03T14:31:13.322Z] (lobby) (anty sucks sadold was forcibly renamed to Meloetta by Snaquille.)
+[2013-11-03T14:32:55.654Z] (lobby) Meloetta was warned by Anty208. (/k meloett?)
+[2013-11-03T14:35:31.378Z] (lobby) Meloetta was warned by Anty208. (pm ew)
+[2013-11-03T14:43:02.838Z] (lobby) (Brunoo was forced to choose a new name by Naminé)
+[2013-11-03T14:47:42.982Z] (staff) (Oiawesome was forcibly renamed to Oiawesome the Kyogre by Snaquille.)
+[2013-11-03T14:51:24.605Z] (lobby) The Pokemon of the Day was changed to vinagon by Naminé.
+[2013-11-03T15:01:30.306Z] (battle-tervarirandombattle-147) Naminé forced a win for realpresent.
+[2013-11-03T15:09:52.891Z] (lobby) Brunoo was warned by Naminé. (language o.o)
+[2013-11-03T15:10:32.779Z] (lobby) Oiawesome the Kyogre was warned by Naminé. (language?)
+[2013-11-03T15:11:26.283Z] (staff) (Neptoona was forcibly renamed to Mr. Titty by Snaquille.)
+[2013-11-03T15:15:29.278Z] (lobby) Snaquille declared Let's stop the pools now
+[2013-11-03T15:16:56.499Z] (lobby) Naminé was warned by Snaquille. (don't go)
+[2013-11-03T15:17:49.730Z] (lobby) The Pokemon of the Day was changed to Watrirield by Snaquille.
+[2013-11-03T15:30:28.655Z] (lobby) (Spammy McSpam was forced to choose a new name by Snaquille)
+[2013-11-03T15:30:36.687Z] (lobby) Guest 259 was warned by Snaquille. (stop leaving)
+[2013-11-03T15:30:43.119Z] (lobby) Umbreon Queen was warned by Snaquille. (stop leaving)
+[2013-11-03T15:40:39.717Z] (lobby) Umbreon Queen was muted by Snaquille for 7 minutes.
+[2013-11-03T15:43:51.837Z] (lobby) Ѕhаdow was muted by Snaquille for 7 minutes.
+[2013-11-03T15:44:34.821Z] (lobby) Cychainix was warned by Ѕhаdow. (Caps.)
+[2013-11-03T15:55:43.698Z] (silver) Umbreon Queen declared starting to hate tha lobby :/ that is  were i all ways gets sad or mad :/
+[2013-11-03T16:35:06.746Z] (silver) pokemon nerd 2000 was appointed to Room Voice by Umbreon Queen.
+[2013-11-03T17:40:15.774Z] (silver) Umbreon Queen declared Silver <3 Shado!
+[2013-11-03T17:40:48.402Z] (silver) Umbreon Queen declared Silver <3 Ѕhаdow
+[2013-11-03T17:41:35.237Z] (silver) Umbreon Queen declared Silver<3Hdow! ^_^
+[2013-11-03T17:43:54.811Z] (silver) Umbreon Queen declared Silver loves Shadow! ^_^
+[2013-11-03T17:45:00.570Z] (silver) Umbreon Queen declared Shadow Loves Silver! ^_^
+[2013-11-03T17:53:08.436Z] (silver) pokemon nerd 2000 was muted by Umbreon Queen for 60 minutes. (sorry pokenerd just a test)
+[2013-11-03T17:53:45.256Z] (silver) pokemon nerd 2000 was unmuted by Umbreon Queen.
+[2013-11-03T18:20:25.418Z] (lobby) (Eneomate was forced to choose a new name by Snaquaza)
+[2013-11-03T18:20:31.189Z] (staff) (Eneomas was forcibly renamed to Eneomate by Snaquaza.)
+[2013-11-03T18:38:47.727Z] (silver) team ninja leader was appointed to Room Driver by Umbreon Queen.
+[2013-11-03T18:48:38.610Z] (silver) haxours King was appointed to Room Driver by Umbreon Queen.
+[2013-11-03T18:53:51.506Z] (silver) (haxours King was appointed to Room Voice by Umbreon Queen.)
+[2013-11-03T18:53:59.510Z] (silver) (haxours King was appointed to Room a regular user by Ѕhаdow.)
+[2013-11-03T18:55:19.863Z] (silver) haxours King was appointed to Room Voice by Ѕhаdow.
+[2013-11-03T18:59:11.319Z] (silver) Eneomas was appointed to Room Voice by Ѕhаdow.
+[2013-11-03T19:00:50.520Z] (silver) Snaquaza made this chat room official.
+[2013-11-03T19:01:08.921Z] (silver) Snaquaza made this room private.
+[2013-11-03T19:13:58.830Z] (silver) haxours King was muted by team ninja leader for 7 minutes.
+[2013-11-03T19:13:58.831Z] (silver) haxours King's alts were also muted: team ninja leader
+[2013-11-03T19:14:47.933Z] (silver) team ninja leader was unmuted by Ѕhаdow.
+[2013-11-03T19:15:23.716Z] (silver) haxours King was unmuted by team ninja leader.
+[2013-11-03T19:24:42.395Z] (lobby) The Pokemon of the Day was changed to Gazceit by Snaquaza.
+[2013-11-03T19:41:17.654Z] (silver) haxours King was muted by Ѕhаdow for 7 minutes. (Spam.)
+[2013-11-03T19:41:17.654Z] (silver) haxours King's alts were also muted: team ninja leader
+[2013-11-03T19:41:23.906Z] (silver) team ninja leader was unmuted by Ѕhаdow.
+[2013-11-03T19:42:14.902Z] (lobby) (Sоnic was forced to choose a new name by Ѕhаdow)
+[2013-11-03T19:48:37.985Z] (lobby) (Melοetta was forced to choose a new name by Ѕhаdow: Impersonation.)
+[2013-11-03T19:48:39.523Z] (lobby) Guest 18 was warned by anty208. (impersinating)
+[2013-11-03T19:49:14.849Z] (lobby) he stole it was muted by Eneomas for 7 minutes.
+[2013-11-03T19:52:25.921Z] (lobby) (Melοetta was forced to choose a new name by Ѕhаdow)
+[2013-11-03T19:52:50.846Z] (lobby) (Meloettta was forced to choose a new name by Ѕhаdow)
+[2013-11-03T19:53:18.702Z] (lobby) Meloetttta was muted by Snaquaza for 60 minutes.
+[2013-11-03T19:53:59.295Z] (lobby) Meloettttta was banned by Snaquaza. (67.213.218.72)
+[2013-11-03T19:54:06.548Z] (lobby) Meloetttta was banned by Snaquaza. (129.97.125.48)
+[2013-11-03T19:54:28.753Z] (lobby) (Meloettttta would be locked by Ѕhаdow but was already locked.)
+[2013-11-03T19:54:36.836Z] (lobby) meloetttttta was banned by Snaquaza. (159.253.145.150)
+[2013-11-03T19:54:37.414Z] (lobby) (meloetttttta would be locked by Ѕhаdow but was already locked.)
+[2013-11-03T19:54:55.157Z] (lobby) Snaquaza temporarily banned the IP: 159.253.145.150
+[2013-11-03T19:55:58.764Z] (lobby) myname is meloetta was locked from talking by Ѕhаdow.
+[2013-11-03T20:00:13.178Z] (lobby) unlock me was locked from talking by Ѕhаdow.
+[2013-11-03T20:02:20.369Z] (lobby) free unlock me was locked from talking by Ѕhаdow.
+[2013-11-03T20:02:25.591Z] (lobby) (free unlock me would be locked by Anty208 but was already locked.)
+[2013-11-03T20:04:00.109Z] (lobby) Snaquaza set modchat to autoconfirmed
+[2013-11-03T20:04:55.596Z] (lobby) hollymon was warned by Ѕhаdow. (Caps.)
+[2013-11-03T20:06:44.169Z] (lobby) Snaquaza set modchat to false
+[2013-11-03T20:34:08.673Z] (lobby) SilverKill was warned by Snaquaza.
+[2013-11-03T21:15:32.152Z] (lobby) SF Gordon was warned by Ѕhаdow. (Be nice.)
+[2013-11-03T21:16:33.573Z] (lobby) SF Gordon was warned by Ѕhаdow. (Last warning, be nice.)
+[2013-11-03T21:18:29.717Z] (lobby) SF Gordon was muted by Ѕhаdow for 7 minutes. (You had your chances.)
+[2013-11-03T21:22:13.851Z] (lobby) I Will not Bow 78 was warned by Snaquaza. (then you have to be nice too)
+[2013-11-03T23:00:34.522Z] (silver) Ѕhаdow was muted by Umbreon Queen for 60 minutes. (trollolol)
+[2013-11-03T23:01:11.513Z] (silver) Ѕhаdow was unmuted by Umbreon Queen.
+[2013-11-03T23:02:13.565Z] (silver) Ѕhаdow was muted by Umbreon QUeen for 7 minutes.
+[2013-11-03T23:04:08.151Z] (silver) Guest 2 was unmuted by Umbreon QUeen.
+[2013-11-04T08:29:36.761Z] (silver) Ѕhаdow was muted by Umbreon Queen for 60 minutes.
+[2013-11-04T08:30:20.385Z] (silver) Ѕhаdow was unmuted by Umbreon Queen.
+[2013-11-04T08:31:29.198Z] (silver) Ѕhаdow set modchat to autoconfirmed
+[2013-11-04T08:32:08.554Z] (silver) Umbreon Queen declared Can't Be Tamed
+[2013-11-04T12:47:24.842Z] (lobby) (Funt Cucker was forced to choose a new name by SpartanMalice)
+[2013-11-04T16:23:21.878Z] (lobby) The Pokemon of the Day was changed to Noximot by Snaquaza.
+[2013-11-04T16:24:10.151Z] (lobby) The Pokemon of the Day was changed to Vinagon by Naminé.
+[2013-11-04T17:37:31.974Z] (lobby) (RealPresent was forcibly renamed to BUSY(._.)PRESENT by RealPresent.)
+[2013-11-04T17:43:57.161Z] (lobby) The Pokemon of the Day was changed to Vaerke by Snaquaza.
+[2013-11-04T17:59:10.054Z] (serverideas) (SpartanMalice was forcibly renamed to SpartanStudy by Snaquaza.)
+[2013-11-04T18:00:54.234Z] (lobby) TO_Melo was warned by anty208.
+[2013-11-04T18:01:08.690Z] (silver) Ѕhаdow set modchat to false
+[2013-11-04T18:02:40.415Z] (lobby) anty208 was warned by Snaquaza.
+[2013-11-04T18:03:54.874Z] (lobby) anty208 was warned by Snaquaza. (fuk off yaself or be nice)
+[2013-11-04T18:07:25.953Z] (lobby) TO_Melo was warned by anty208. (ewww)
+[2013-11-04T18:07:33.599Z] (lobby) TO_Melo was warned by anty208. (ewww)
+[2013-11-04T18:08:10.270Z] (spam) anty208 was warned by Snaquaza. (once isn't enough)
+[2013-11-04T18:08:11.758Z] (spam) anty208 was warned by Snaquaza. (once isn't enough)
+[2013-11-04T18:08:12.752Z] (spam) anty208 was warned by Snaquaza. (once isn't enough)
+[2013-11-04T18:08:13.254Z] (spam) anty208 was warned by Snaquaza. (once isn't enough)
+[2013-11-04T18:08:13.754Z] (spam) anty208 was warned by Snaquaza. (once isn't enough)
+[2013-11-04T18:08:14.255Z] (spam) anty208 was warned by Snaquaza. (once isn't enough)
+[2013-11-04T18:08:14.756Z] (spam) anty208 was warned by Snaquaza. (once isn't enough)
+[2013-11-04T18:08:15.256Z] (spam) anty208 was warned by Snaquaza. (once isn't enough)
+[2013-11-04T18:08:15.757Z] (spam) anty208 was warned by Snaquaza. (once isn't enough)
+[2013-11-04T18:08:16.257Z] (spam) anty208 was warned by Snaquaza. (once isn't enough)
+[2013-11-04T18:08:16.757Z] (spam) anty208 was warned by Snaquaza. (once isn't enough)
+[2013-11-04T18:08:17.257Z] (spam) anty208 was warned by Snaquaza. (once isn't enough)
+[2013-11-04T18:08:17.757Z] (spam) anty208 was warned by Snaquaza. (once isn't enough)
+[2013-11-04T18:08:18.258Z] (spam) anty208 was warned by Snaquaza. (once isn't enough)
+[2013-11-04T18:08:18.759Z] (spam) anty208 was warned by Snaquaza. (once isn't enough)
+[2013-11-04T18:08:19.262Z] (spam) anty208 was warned by Snaquaza. (once isn't enough)
+[2013-11-04T18:08:19.763Z] (spam) anty208 was warned by Snaquaza. (once isn't enough)
+[2013-11-04T18:08:20.263Z] (spam) anty208 was warned by Snaquaza. (once isn't enough)
+[2013-11-04T18:08:20.763Z] (spam) anty208 was warned by Snaquaza. (once isn't enough)
+[2013-11-04T18:13:44.164Z] (lobby) (/meHidesFromAnty was forced to choose a new name by anty208)
+[2013-11-04T18:14:57.648Z] (lobby) Snaquaza declared Let's try to get 20
+[2013-11-04T18:15:09.246Z] (lobby) anty208 was warned by Snaquaza. (insulting staff)
+[2013-11-04T18:16:38.882Z] (lobby) (Snaquaza was forcibly renamed to SnaquaStudy by Snaquaza.)
+[2013-11-04T18:19:31.227Z] (spam) TO_Melo was warned by anty208. (no)
+[2013-11-04T18:19:32.455Z] (spam) TO_Melo was warned by anty208. (no)
+[2013-11-04T18:19:33.070Z] (spam) TO_Melo was warned by anty208. (no)
+[2013-11-04T18:19:34.024Z] (spam) TO_Melo was warned by anty208. (no)
+[2013-11-04T18:19:34.170Z] (spam) TO_Melo was warned by anty208. (no)
+[2013-11-04T18:19:34.913Z] (spam) TO_Melo was warned by anty208. (no)
+[2013-11-04T18:19:35.527Z] (spam) TO_Melo was warned by anty208. (no)
+[2013-11-04T18:19:36.221Z] (spam) TO_Melo was warned by anty208. (no)
+[2013-11-04T18:19:36.225Z] (spam) TO_Melo was warned by anty208. (no)
+[2013-11-04T18:19:36.759Z] (spam) TO_Melo was warned by anty208. (no)
+[2013-11-04T18:19:37.370Z] (spam) TO_Melo was warned by anty208. (no)
+[2013-11-04T18:19:38.005Z] (spam) TO_Melo was warned by anty208. (no)
+[2013-11-04T18:19:38.115Z] (spam) TO_Melo was warned by anty208. (no)
+[2013-11-04T18:24:55.090Z] (lobby) SnaquaStudy declared Anty<3Wingg
+[2013-11-04T18:25:01.079Z] (lobby) SnaquaStudy declared Anty loves Wingg
+[2013-11-04T18:28:54.945Z] (lobby) TBO_Melo was muted by anty208 for 7 minutes.

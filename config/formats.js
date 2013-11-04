@@ -785,7 +785,7 @@ exports.Formats = [
                 name: "BH XY",
                 section: "Other Metagames",
                 ruleset: ['Pokemon', 'OHKO Clause'],
-                banlist: ['Wonder Guard', 'Pure Power', 'Huge Power', 'Shadow Tag', 'Arena Trap']
+                banlist: ['Pure Power','Huge Power','Wonder Guard','Shadow Tag', 'Arena Trap']
         },
         {
                 name: "Haxmons",
@@ -824,10 +824,9 @@ exports.Formats = [
         {
                 name: "No Haxmons",
                 section: "Other Metagames",
-
                 mod: 'nohax',
-                ruleset: ['No Hax Clause', 'Pokemon', 'Standard', 'Evasion Abilities Clause', 'Team Preview'],
-                banlist: ['Drizzle ++ Swift Swim', 'Soul Dew', 'Ubers']
+                ruleset: ['No Hax Clause', 'Pokemon', 'Standard', 'Evasion Abilities Clause', 'Team Preview', 'Standard Pokebank'],
+                banlist: ['Drizzle ++ Swift Swim', 'Soul Dew', 'Ubers',]
         },
 	{
                name: "Random No Haxmons",
