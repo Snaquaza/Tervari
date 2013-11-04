@@ -4689,4 +4689,9 @@ tier: "Illegal"
                 viableMoves: {"spikes":1,"earthquake":1,"swordsdance":1,"uturn":1,"headsmash":1},
                 tier: "LC"
         },
+        
+        psylergiest: {
+viableMoves: {"shadowball":1,"destinybond":1,"psychic":1,"flamethrower":1,"fireblast":1,"trickroom":1},
+tier: "NU"
+},
 };
