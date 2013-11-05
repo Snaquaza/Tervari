@@ -4689,9 +4689,7 @@ tier: "Illegal"
                 viableMoves: {"spikes":1,"earthquake":1,"swordsdance":1,"uturn":1,"headsmash":1},
                 tier: "LC"
         },
-<<<<<<< HEAD
-=======
-        
+      
         psylergiest: {
 viableMoves: {"shadowball":1,"destinybond":1,"psychic":1,"flamethrower":1,"fireblast":1,"trickroom":1},
 tier: "NU"
@@ -4708,5 +4706,4 @@ spidium: {
 viableMoves: {"radinject":1,"sludgewave":1,"xscissor":1,"bugbuzz":1,"uturn":1,"energyball":1,"gigadrain":1,"psychic":1,"shadowball":1},
 tier: "NU"
 },
->>>>>>> 8c149ef56bccf21a19f30a9c106840f916b659e2
 };
