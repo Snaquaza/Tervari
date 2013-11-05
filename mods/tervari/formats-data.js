@@ -4718,5 +4718,14 @@ viableMoves:
 {"waterspout":1,"gunkshot":1,"hydropump":1,"sludgewave":1},
 tier: "NU"
 },
->>>>>>> 8c149ef56bccf21a19f30a9c106840f916b659e2
+platorrent:{
+viableMoves:
+{"waterspout":1,"bite":1,"hydropump":1,"scald":1},
+tier: "NU"
+},
+plataqua:{
+viableMoves:
+{"scald":1,"muddywater":1,"dualchop":1,"crunch":1}
+tier: "LC"
+},
 };
