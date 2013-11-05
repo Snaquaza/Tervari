@@ -4706,4 +4706,18 @@ spidium: {
 viableMoves: {"radinject":1,"sludgewave":1,"xscissor":1,"bugbuzz":1,"uturn":1,"energyball":1,"gigadrain":1,"psychic":1,"shadowball":1},
 tier: "NU"
 },
+<<<<<<< HEAD
+=======
+expium:{
+viableMoves:
+{"psychic":1,"psyshock":1,"calmmind":1,"bugbuzz":1,"uturn":1},
+tier: "NU"
+},
+toxipus:{
+viableMoves:
+{"waterspout":1,"gunkshot":1,"hydropump":1,"sludgewave":1},
+tier: "NU"
+},
+>>>>>>> 8c149ef56bccf21a19f30a9c106840f916b659e2
+>>>>>>> 2957e7e47ae9e0d1506d6fb086fd4b4045ca441b
 };
