@@ -4694,4 +4694,8 @@ tier: "Illegal"
 viableMoves: {"shadowball":1,"destinybond":1,"psychic":1,"flamethrower":1,"fireblast":1,"trickroom":1},
 tier: "NU"
 },
+psylterchi: {
+viableMoves: {"shadowball":1,"destinybond":1,"psychic":1,"flamethrower":1,"fireblast":1,"trickroom":1},
+tier: "LC"
+},
 };
