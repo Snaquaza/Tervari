@@ -231,4 +231,11 @@ saigris:{num:883,species:"Saigris",types:["Electric","Steel"],gender:"N",baseSta
 hochelon:{num:881,species:"Hochelon",types:["Water","Steel"],gender:"N",baseStats:{hp:130,atk:75,def:115,spa:90,spd:100,spe:70},abilities:{0:"Levitate"},heightm:4,weightkg:300,color:"Black",eggGroups:["No Eggs"]},
 noximot:{num:882,species:"Noximot",types:["Normal","Poison"],baseStats:{hp:50,atk:80,def:60,spa:70,spd:60,spe:60},abilities:{0:"Poison Touch",1:"Run Away",H:"Hustle"},heightm:4.0,weightkg:98,color:"Poison",prevo:"Ratox",evoLevel:30,eggGroups:["Field"]},
 vaerke:{num:883,species:"Vaerke",types:["Ground"],baseStats:{hp:65,atk:80,def:85,spa:30,spd:30,spe:90},abilities:{0:"Intimidate",1:"",H:""},heightm:0.2,weightkg:2,color:"Ground",prevo:"",evoLevel:36,eggGroups:["Dragon","Monster"]}
+<<<<<<< HEAD
+=======
+psylergiest:{num:884,species:"Psylergiest",types:["Ghost","Psychic"],baseStats:{hp:100,atk:50,def:50,spa:85,spd:100,spe:50},abilities:{0:"Flame Body",1:"",H:"Cursed Body"},heightm:1,weightkg:1,color:"Ghost",prevo:"Psylterchi",evoLevel:20,eggGroups:["Amorphous"]},
+psylterchi:{num:885,species:"Psylterchi",types:["Psychic"],baseStats:{hp:60,atk:30,def:30,spa:50,spd:60,spe:30},abilities:{0:"Flame Body",1:"",H:"Cursed Body"},heightm:0.2,weightkg:2,color:"Psychic",prevo:"",evoLevel:20,eggGroups:["Amorphous"]},
+ratox:{num:886,species:"Ratox",types:["Normal","Poison"],baseStats:{hp:30,atk:60,def:40,spa:50,spd:40,spe:40},abilities:{0:"Poison Touch",1:"Run Away",H:"Hustle"},heightm:1,weightkg:1,color:"Brown",prevo:"",evoLevel:25,eggGroups:["Field"]},
+spidium:{num:888,species:"Spidium",types:["Psychic","Poison"],baseStats:{hp:70,atk:92,def:50,spa:102,spd:140,spe:70},abilities:{0:"Unnerve",1:"Radioactivity",H:"Levitate"},heightm:2,weightkg:10,color:"Bug",prevo:"Expium",evoLevel:36,eggGroups:["Bug","Monster"]},
+>>>>>>> 8c149ef56bccf21a19f30a9c106840f916b659e2
 };
