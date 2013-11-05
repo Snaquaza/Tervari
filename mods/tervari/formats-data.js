@@ -4702,4 +4702,8 @@ ratox: {
 viableMoves: {"dig":1,"bite":1,"toxic":1,"crunch":1},
 tier: "LC"
 },
+spidium: {
+viableMoves: {"radinject":1,"sludgewave":1,"xscissor":1,"bugbuzz":1,"uturn":1,"energyball":1,"gigadrain":1,"psychic":1,"shadowball":1},
+tier: "NU"
+},
 };
