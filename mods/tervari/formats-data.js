@@ -4713,6 +4713,10 @@ viableMoves:
 {"psychic":1,"psyshock":1,"calmmind":1,"bugbuzz":1,"uturn":1},
 tier: "NU"
 },
-
+toxipus:{
+viableMoves:
+{"waterspout":1,"gunkshot":1,"hydropump":1,"sludgewave":1},
+tier: "NU"
+},
 >>>>>>> 8c149ef56bccf21a19f30a9c106840f916b659e2
 };
