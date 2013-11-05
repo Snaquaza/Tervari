@@ -4698,4 +4698,8 @@ psylterchi: {
 viableMoves: {"shadowball":1,"destinybond":1,"psychic":1,"flamethrower":1,"fireblast":1,"trickroom":1},
 tier: "LC"
 },
+ratox: {
+viableMoves: {"dig":1,"bite":1,"toxic":1,"crunch":1},
+tier: "LC"
+},
 };
