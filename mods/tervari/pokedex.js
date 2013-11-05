@@ -239,4 +239,5 @@ ratox:{num:886,species:"Ratox",types:["Normal","Poison"],baseStats:{hp:30,atk:60
 spidium:{num:888,species:"Spidium",types:["Psychic","Poison"],baseStats:{hp:70,atk:92,def:50,spa:102,spd:140,spe:70},abilities:{0:"Unnerve",1:"Radioactivity",H:"Levitate"},heightm:2,weightkg:10,color:"Bug",prevo:"Expium",evoLevel:36,eggGroups:["Bug","Monster"]},
 expium:{num:889,species:"Expium",types:["Bug","Psychic"],baseStats:{hp:70,atk:75,def:50,spa:80,spd:80,spe:75},abilities:{0:"Unnerve",1:"Skill Link",H:"Levitate"},heightm:1,weightkg:25,color:"Bug",prevo:"Buglum",evoLevel:36,eggGroups:["Bug","Monster"]},
 >>>>>>> 8c149ef56bccf21a19f30a9c106840f916b659e2
+toxipus:{num:890,species:"Toxipus",types:["Water","Poison"],baseStats:{hp:70,atk:80,def:70,spa:110,spd:80,spe:90},abilities:{0:"Adaptability",1:"Swift Swim",H:"Poison Touch"},heightm:7,weightkg:153,color:"Brown",prevo:"Platorrent",evoLevel:30,eggGroups:["Field","Water1"]},
 };
