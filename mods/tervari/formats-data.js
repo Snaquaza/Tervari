@@ -4708,5 +4708,11 @@ spidium: {
 viableMoves: {"radinject":1,"sludgewave":1,"xscissor":1,"bugbuzz":1,"uturn":1,"energyball":1,"gigadrain":1,"psychic":1,"shadowball":1},
 tier: "NU"
 },
+expium:{
+viableMoves:
+{"psychic":1,"psyshock":1,"calmmind":1,"bugbuzz":1,"uturn":1},
+tier: "NU"
+},
+
 >>>>>>> 8c149ef56bccf21a19f30a9c106840f916b659e2
 };
