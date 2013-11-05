@@ -239,4 +239,5 @@ expium:{num:889,species:"Expium",types:["Bug","Psychic"],baseStats:{hp:70,atk:75
 toxipus:{num:890,species:"Toxipus",types:["Water","Poison"],baseStats:{hp:70,atk:80,def:70,spa:110,spd:80,spe:90},abilities:{0:"Adaptability",1:"Swift Swim",H:"Poison Touch"},heightm:7,weightkg:153,color:"Brown",prevo:"Platorrent",evoLevel:30,eggGroups:["Field","Water1"]},
 platorrent:{num:891,species:"Platorrent",types:["Water"],baseStats:{hp:60,atk:60,def:50,spa:90,spd:70,spe:80},abilities:{0:"Adaptability",1:"Swift Swim",H:"Poison Touch"},heightm:4,weightkg:94,color:"Brown",prevo:"Plataqua",evoLevel:15,eggGroups:["Field","Water1"]},
 plataqua:{num:892,species:"Plataqua",types:["Water"],baseStats:{hp:60,atk:20,def:40,spa:50,spd:70,spe:20},abilities:{0:"Adaptability",1:"Swift Swim",H:"Poison Touch"},heightm:1,weightkg:4.1,colour:"Brown",prevo:"",evoLevel:15,eggGroups:["Field","Water1"]}
+raddin:{num:892,species:"Raddin",types:["Psychic"],baseStats:{hp:70,atk:40,def:70,spa:105,spd:70,spe:100},abilities:{0:"Synchronize",1:"",H:"Magic Guard"},heightm:4,weightkg:94,color:"Pink",prevo:"",evoLevel:,eggGroups:["Amorphous"]},
 };
