@@ -232,4 +232,5 @@ hochelon:{num:881,species:"Hochelon",types:["Water","Steel"],gender:"N",baseStat
 noximot:{num:882,species:"Noximot",types:["Normal","Poison"],baseStats:{hp:50,atk:80,def:60,spa:70,spd:60,spe:60},abilities:{0:"Poison Touch",1:"Run Away",H:"Hustle"},heightm:4.0,weightkg:98,color:"Poison",prevo:"Ratox",evoLevel:30,eggGroups:["Field"]},
 vaerke:{num:883,species:"Vaerke",types:["Ground"],baseStats:{hp:65,atk:80,def:85,spa:30,spd:30,spe:90},abilities:{0:"Intimidate",1:"",H:""},heightm:0.2,weightkg:2,color:"Ground",prevo:"",evoLevel:36,eggGroups:["Dragon","Monster"]}
 psylergiest:{num:3,species:"Psylergiest",types:["Ghost","Psychic"],baseStats:{hp:100,atk:50,def:50,spa:85,spd:100,spe:50},abilities:{0:"Flame Body",1:"",H:"Cursed Body"},heightm:1,weightkg:1,color:"Ghost",prevo:"Psylterchi",evoLevel:20,eggGroups:["Amorphous"]},
+psylterchi:{num:885,species:"Psylterchi",types:["Psychic"],baseStats:{hp:60,atk:30,def:30,spa:50,spd:60,spe:30},abilities:{0:"Flame Body",1:"",H:"Cursed Body"},heightm:0.2,weightkg:2,color:"Psychic",prevo:"",evoLevel:20,eggGroups:["Amorphous"]},
 };
