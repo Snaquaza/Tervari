@@ -4728,4 +4728,9 @@ viableMoves:
 {"scald":1,"muddywater":1,"dualchop":1,"crunch":1}
 tier: "LC"
 },
+raddin:{
+viableMoves:
+{"darkpulse":1,"gigadrain":1,"recover":1,"psychic":1}
+tier: "NU"
+},
 };
