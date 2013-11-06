@@ -240,4 +240,9 @@ toxipus:{num:890,species:"Toxipus",types:["Water","Poison"],baseStats:{hp:70,atk
 platorrent:{num:891,species:"Platorrent",types:["Water"],baseStats:{hp:60,atk:60,def:50,spa:90,spd:70,spe:80},abilities:{0:"Adaptability",1:"Swift Swim",H:"Poison Touch"},heightm:4,weightkg:94,color:"Brown",prevo:"Plataqua",evoLevel:15,eggGroups:["Field","Water1"]},
 plataqua:{num:892,species:"Plataqua",types:["Water"],baseStats:{hp:60,atk:20,def:40,spa:50,spd:70,spe:20},abilities:{0:"Adaptability",1:"Swift Swim",H:"Poison Touch"},heightm:1,weightkg:4.1,colour:"Brown",prevo:"",evoLevel:15,eggGroups:["Field","Water1"]}
 raddin:{num:892,species:"Raddin",types:["Psychic"],baseStats:{hp:70,atk:40,def:70,spa:105,spd:70,spe:100},abilities:{0:"Synchronize",1:"",H:"Magic Guard"},heightm:4,weightkg:94,color:"Pink",prevo:"",evoLevel:,eggGroups:["Amorphous"]},
+aurrex:{num:893,species:"Aurrex",types:["Steel"],baseStats:{hp:100,atk:130,def:100,spa:90,spd:70,spe:60},abilities:{0:"Volt Absorb",1:"Motor Drive",H:"Sheer Force"},heightm:9,weightkg:1023,color:"Yellow",prevo:"Argentusaur",evoLevel:,eggGroups:["Monster","Mineral"]},
+argentusaur:{num:895,species:"Argentusaur",types:["Ground"],baseStats:{hp:90,atk:110,def:90,spa:80,spd:50,spe:50},abilities:{0:"Lightningrod",1:"Battle Armor",H:"Sheer Force"},heightm:7,weightkg:617,color:"Gray",prevo:"Curuptile",evoLevel:36,eggGroups:["Monster","Mineral"]},
+curuptile:{num:894,species:"Curuptile",types:["Ground"],baseStats:{hp:70,atk:80,def:70,spa:60,spd:30,spe:40},abilities:{0:"Lightningrod",1:"Battle Armor",H:"Sheer Force"},heightm:2,weightkg:221,color:"Brown",prevo:"",evoLevel:16,eggGroups:["Monster","Mineral"]},
+
+
 };
