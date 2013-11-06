@@ -4733,4 +4733,19 @@ viableMoves:
 {"darkpulse":1,"gigadrain":1,"recover":1,"psychic":1}
 tier: "NU"
 },
+aurrex:{
+viableMoves:
+{"headsmash":1,"ironhead":1,"wildcharge":1,"rockslide":1,"crunch":1,"earthquake":1,}
+tier: "NU"
+},
+argentusaur:{
+viableMoves:
+{"rockslide":1,"crunch:1","ironhead":1,"earthquake":1,"headsmash":1,"wildcharge":1}
+tier: "NU"
+},
+curuptile:{
+viableMoves:
+{"earthquake":1,"ironhead":1,"crunch":1,"rockslide":1,"wildcharge":1,"headsmash":1}
+tier: "LC"
+},
 };
