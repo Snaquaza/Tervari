@@ -4748,4 +4748,10 @@ viableMoves:
 {"earthquake":1,"ironhead":1,"crunch":1,"rockslide":1,"wildcharge":1,"headsmash":1}
 tier: "LC"
 },
+contyphlos:{
+viableMoves:
+{"psychocut":1,"uturn":1,"shadowclaw":1,"x-scissor":1,"icepunch":1,"thunderpunch":1,"firepunch":1,"drainpunch":1,
+"nightslash":1,"poisonjab":1}
+tier: "NU"
+},
 };
