@@ -193,8 +193,7 @@ exports.BattlePokedex = {
         chandelure: {
                 inherit: true,
                 abilities: {0:"Flash Fire",1:"Flame Body",H:"Shadow Tag"}
-        },                
-<<<<<<< HEAD
+        },           
 viterb:{num:650,species:"Viterb",types:["Grass"],genderRatio:{M:0.875,F:0.125},baseStats:{hp:53,atk:63,def:41,spa:55,spd:46,spe:51},abilities:{0:"Overgrow",H:"Leaf Guard"},heightm:2,weightkg:100,color:"Green",evos:["hierbado"],evoLevel:32,eggGroups:["Monster","Plant"]},
 hierbado:{num:651,species:"Hierbado",types:["Grass"],genderRatio:{M:0.875,F:0.125},baseStats:{hp:62,atk:83,def:51,spa:78,spd:56,spe:83},abilities:{0:"Overgrow",H:"Leaf Guard"},heightm:2,weightkg:100,color:"Green",prevo:"viterb",evoLevel:32,eggGroups:["Monster","Plant"]},
 rapagram:{num:652,species:"Rapagram",types:["Grass","Rock"],genderRatio:{M:0.875,F:0.125},baseStats:{hp:80,atk:112,def:75,spa:81,spd:75,spe:105},abilities:{0:"Overgrow",H:"Leaf Guard"},heightm:2,weightkg:100,color:"Green",prevo:"hierbado",evoLevel:36,eggGroups:["Monster","Plant"]},
@@ -237,8 +236,7 @@ psylterchi:{num:685,species:"Psylterchi",types:["Psychic"],baseStats:{hp:60,atk:
 ratox:{num:686,species:"Ratox",types:["Normal","Poison"],baseStats:{hp:30,atk:60,def:40,spa:50,spd:40,spe:40},abilities:{0:"Poison Touch",1:"Run Away",H:"Hustle"},heightm:1,weightkg:1,color:"Brown",prevo:"",evoLevel:25,eggGroups:["Field"]},
 spidium:{num:688,species:"Spidium",types:["Psychic","Poison"],baseStats:{hp:70,atk:92,def:50,spa:102,spd:140,spe:70},abilities:{0:"Unnerve",1:"Radioactivity",H:"Levitate"},heightm:2,weightkg:10,color:"Bug",prevo:"Expium",evoLevel:36,eggGroups:["Bug","Monster"]},
 expium:{num:689,species:"Expium",types:["Bug","Psychic"],baseStats:{hp:70,atk:75,def:50,spa:80,spd:80,spe:75},abilities:{0:"Unnerve",1:"Skill Link",H:"Levitate"},heightm:1,weightkg:25,color:"Bug",prevo:"Buglum",evoLevel:36,eggGroups:["Bug","Monster"]},
-toxipus:{num:690,species:"Toxipus",types:["Water","Poison"],baseStats:{hp:70,atk:80,def:70,spa:110,spd:80,spe:90},abilities:{0:"Adaptability",1:"Swift Swim",H:"Poison Touch"},heightm:7,weightkg:153,color:"Brown",prevo:"Platorrent",evoLevel:30,eggGroups:["Field","Water1"]}
-=======
+toxipus:{num:690,species:"Toxipus",types:["Water","Poison"],baseStats:{hp:70,atk:80,def:70,spa:110,spd:80,spe:90},abilities:{0:"Adaptability",1:"Swift Swim",H:"Poison Touch"},heightm:7,weightkg:153,color:"Brown",prevo:"Platorrent",evoLevel:30,eggGroups:["Field","Water1"]},
 viterb:{num:850,species:"Viterb",types:["Grass"],genderRatio:{M:0.875,F:0.125},baseStats:{hp:53,atk:63,def:41,spa:55,spd:46,spe:51},abilities:{0:"Overgrow",H:"Leaf Guard"},heightm:2,weightkg:100,color:"Green",evos:["hierbado"],evoLevel:32,eggGroups:["Monster","Plant"]},
 hierbado:{num:851,species:"Hierbado",types:["Grass"],genderRatio:{M:0.875,F:0.125},baseStats:{hp:62,atk:83,def:51,spa:78,spd:56,spe:83},abilities:{0:"Overgrow",H:"Leaf Guard"},heightm:2,weightkg:100,color:"Green",prevo:"viterb",evoLevel:32,eggGroups:["Monster","Plant"]},
 rapagram:{num:852,species:"Rapagram",types:["Grass","Rock"],genderRatio:{M:0.875,F:0.125},baseStats:{hp:80,atk:112,def:75,spa:81,spd:75,spe:105},abilities:{0:"Overgrow",H:"Leaf Guard"},heightm:2,weightkg:100,color:"Green",prevo:"hierbado",evoLevel:36,eggGroups:["Monster","Plant"]},
@@ -275,7 +273,7 @@ nanpavo:{num:882,species:"Nanpavo",types:["Fire","Steel"],gender:"N",baseStats:{
 saigris:{num:883,species:"Saigris",types:["Electric","Steel"],gender:"N",baseStats:{hp:70,atk:115,def:90,spa:100,spd:75,spe:130},abilities:{0:"Levitate"},heightm:4,weightkg:300,color:"Black",eggGroups:["No Eggs"]},
 hochelon:{num:881,species:"Hochelon",types:["Water","Steel"],gender:"N",baseStats:{hp:130,atk:75,def:115,spa:90,spd:100,spe:70},abilities:{0:"Levitate"},heightm:4,weightkg:300,color:"Black",eggGroups:["No Eggs"]},
 noximot:{num:882,species:"Noximot",types:["Normal","Poison"],baseStats:{hp:50,atk:80,def:60,spa:70,spd:60,spe:60},abilities:{0:"Poison Touch",1:"Run Away",H:"Hustle"},heightm:4.0,weightkg:98,color:"Poison",prevo:"Ratox",evoLevel:30,eggGroups:["Field"]},
-vaerke:{num:883,species:"Vaerke",types:["Ground"],baseStats:{hp:65,atk:80,def:85,spa:30,spd:30,spe:90},abilities:{0:"Intimidate",1:"",H:""},heightm:0.2,weightkg:2,color:"Ground",prevo:"",evoLevel:36,eggGroups:["Dragon","Monster"]}
+vaerke:{num:883,species:"Vaerke",types:["Ground"],baseStats:{hp:65,atk:80,def:85,spa:30,spd:30,spe:90},abilities:{0:"Intimidate",1:"",H:""},heightm:0.2,weightkg:2,color:"Ground",prevo:"",evoLevel:36,eggGroups:["Dragon","Monster"]},
 psylergiest:{num:884,species:"Psylergiest",types:["Ghost","Psychic"],baseStats:{hp:100,atk:50,def:50,spa:85,spd:100,spe:50},abilities:{0:"Flame Body",1:"",H:"Cursed Body"},heightm:1,weightkg:1,color:"Ghost",prevo:"Psylterchi",evoLevel:20,eggGroups:["Amorphous"]},
 psylterchi:{num:885,species:"Psylterchi",types:["Psychic"],baseStats:{hp:60,atk:30,def:30,spa:50,spd:60,spe:30},abilities:{0:"Flame Body",1:"",H:"Cursed Body"},heightm:0.2,weightkg:2,color:"Psychic",prevo:"",evoLevel:20,eggGroups:["Amorphous"]},
 ratox:{num:886,species:"Ratox",types:["Normal","Poison"],baseStats:{hp:30,atk:60,def:40,spa:50,spd:40,spe:40},abilities:{0:"Poison Touch",1:"Run Away",H:"Hustle"},heightm:1,weightkg:1,color:"Brown",prevo:"",evoLevel:25,eggGroups:["Field"]},
@@ -283,14 +281,11 @@ spidium:{num:888,species:"Spidium",types:["Psychic","Poison"],baseStats:{hp:70,a
 expium:{num:889,species:"Expium",types:["Bug","Psychic"],baseStats:{hp:70,atk:75,def:50,spa:80,spd:80,spe:75},abilities:{0:"Unnerve",1:"Skill Link",H:"Levitate"},heightm:1,weightkg:25,color:"Bug",prevo:"Buglum",evoLevel:36,eggGroups:["Bug","Monster"]},
 toxipus:{num:890,species:"Toxipus",types:["Water","Poison"],baseStats:{hp:70,atk:80,def:70,spa:110,spd:80,spe:90},abilities:{0:"Adaptability",1:"Swift Swim",H:"Poison Touch"},heightm:7,weightkg:153,color:"Brown",prevo:"Platorrent",evoLevel:30,eggGroups:["Field","Water1"]},
 platorrent:{num:891,species:"Platorrent",types:["Water"],baseStats:{hp:60,atk:60,def:50,spa:90,spd:70,spe:80},abilities:{0:"Adaptability",1:"Swift Swim",H:"Poison Touch"},heightm:4,weightkg:94,color:"Brown",prevo:"Plataqua",evoLevel:15,eggGroups:["Field","Water1"]},
-plataqua:{num:892,species:"Plataqua",types:["Water"],baseStats:{hp:60,atk:20,def:40,spa:50,spd:70,spe:20},abilities:{0:"Adaptability",1:"Swift Swim",H:"Poison Touch"},heightm:1,weightkg:4.1,colour:"Brown",prevo:"",evoLevel:15,eggGroups:["Field","Water1"]}
-raddin:{num:892,species:"Raddin",types:["Psychic"],baseStats:{hp:70,atk:40,def:70,spa:105,spd:70,spe:100},abilities:{0:"Synchronize",1:"",H:"Magic Guard"},heightm:4,weightkg:94,color:"Pink",prevo:"",evoLevel:,eggGroups:["Amorphous"]},
-aurrex:{num:893,species:"Aurrex",types:["Steel"],baseStats:{hp:100,atk:130,def:100,spa:90,spd:50,spe:60},abilities:{0:"Volt Absorb",1:"Motor Drive",H:"Sheer Force"},heightm:9,weightkg:1023,color:"Yellow",prevo:"Argentusaur",evoLevel:,eggGroups:["Monster","Mineral"]},
+plataqua:{num:892,species:"Plataqua",types:["Water"],baseStats:{hp:60,atk:20,def:40,spa:50,spd:70,spe:20},abilities:{0:"Adaptability",1:"Swift Swim",H:"Poison Touch"},heightm:1,weightkg:4.1,colour:"Brown",prevo:"",evoLevel:15,eggGroups:["Field","Water1"]},
+raddin:{num:892,species:"Raddin",types:["Psychic"],baseStats:{hp:70,atk:40,def:70,spa:105,spd:70,spe:100},abilities:{0:"Synchronize",1:"",H:"Magic Guard"},heightm:4,weightkg:94,color:"Pink",prevo:"",evoLevel:1,eggGroups:["Amorphous"]},
+aurrex:{num:893,species:"Aurrex",types:["Steel"],baseStats:{hp:100,atk:130,def:100,spa:90,spd:50,spe:60},abilities:{0:"Volt Absorb",1:"Motor Drive",H:"Sheer Force"},heightm:9,weightkg:1023,color:"Yellow",prevo:"Argentusaur",evoLevel:1,eggGroups:["Monster","Mineral"]},
 argentusaur:{num:895,species:"Argentusaur",types:["Ground"],baseStats:{hp:90,atk:110,def:90,spa:80,spd:50,spe:50},abilities:{0:"Lightningrod",1:"Battle Armor",H:"Sheer Force"},heightm:7,weightkg:617,color:"Gray",prevo:"Curuptile",evoLevel:36,eggGroups:["Monster","Mineral"]},
 curuptile:{num:894,species:"Curuptile",types:["Ground"],baseStats:{hp:70,atk:80,def:70,spa:60,spd:30,spe:40},abilities:{0:"Lightningrod",1:"Battle Armor",H:"Sheer Force"},heightm:2,weightkg:221,color:"Brown",prevo:"",evoLevel:16,eggGroups:["Monster","Mineral"]},
-contyphlos:{num:896,species:"Contyphlos",types:["Poison"],baseStats:{hp:80,atk:115,def:75,spa:78,spd:75,spe:95},abilities:{0:"Unaware",1:"Quick Feet",H:"Poison Touch"},heightm:4,weightkg:89,color:"Brown",prevo:"",evoLevel:,eggGroups:["Human"]},
-bouldemage:{num:897,species:"Bouldemage",types:["Rock"."Psychic"],baseStats:{hp:105,atk:40,def:75,spa:75,spd:125,spe:50},abilities:{0:"Mountaineer",1:"Solid Rock",H:"Regenerator"},heightm:1.8,weightkg:150,color:"Brown",prevo:"Sedimage",evoLevel:,eggGroups:["Mineral","Humanshape"]},
- 
-};
->>>>>>> ecd24fe2eec379c64a11626ee76e9201041c77dd
+contyphlos:{num:896,species:"Contyphlos",types:["Poison"],baseStats:{hp:80,atk:115,def:75,spa:78,spd:75,spe:95},abilities:{0:"Unaware",1:"Quick Feet",H:"Poison Touch"},heightm:4,weightkg:89,color:"Brown",prevo:"",evoLevel:1,eggGroups:["Human"]},
+bouldemage:{num:897,species:"Bouldemage",types:["Rock","Psychic"],baseStats:{hp:105,atk:40,def:75,spa:75,spd:125,spe:50},abilities:{0:"Mountaineer",1:"Solid Rock",H:"Regenerator"},heightm:1.8,weightkg:150,color:"Brown",prevo:"Sedimage",evoLevel:1,eggGroups:["Mineral","Humanshape"]},
 };

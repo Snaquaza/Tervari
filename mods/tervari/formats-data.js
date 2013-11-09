@@ -4716,8 +4716,6 @@ viableMoves:
 {"waterspout":1,"gunkshot":1,"hydropump":1,"sludgewave":1},
 tier: "NU"
 },
-<<<<<<< HEAD
-=======
 platorrent:{
 viableMoves:
 {"waterspout":1,"bite":1,"hydropump":1,"scald":1},
@@ -4725,39 +4723,38 @@ tier: "NU"
 },
 plataqua:{
 viableMoves:
-{"scald":1,"muddywater":1,"dualchop":1,"crunch":1}
+{"scald":1,"muddywater":1,"dualchop":1,"crunch":1},
 tier: "LC"
 },
 raddin:{
 viableMoves:
-{"darkpulse":1,"gigadrain":1,"recover":1,"psychic":1}
+{"darkpulse":1,"gigadrain":1,"recover":1,"psychic":1},
 tier: "NU"
 },
 aurrex:{
 viableMoves:
-{"headsmash":1,"ironhead":1,"wildcharge":1,"rockslide":1,"crunch":1,"earthquake":1,}
+{"headsmash":1,"ironhead":1,"wildcharge":1,"rockslide":1,"crunch":1,"earthquake":1},
 tier: "NU"
 },
 argentusaur:{
 viableMoves:
-{"rockslide":1,"crunch:1","ironhead":1,"earthquake":1,"headsmash":1,"wildcharge":1}
+{"rockslide":1,"crunch":1,"ironhead":1,"earthquake":1,"headsmash":1,"wildcharge":1},
 tier: "NU"
 },
 curuptile:{
 viableMoves:
-{"earthquake":1,"ironhead":1,"crunch":1,"rockslide":1,"wildcharge":1,"headsmash":1}
+{"earthquake":1,"ironhead":1,"crunch":1,"rockslide":1,"wildcharge":1,"headsmash":1},
 tier: "LC"
 },
 contyphlos:{
 viableMoves:
 {"psychocut":1,"uturn":1,"shadowclaw":1,"x-scissor":1,"icepunch":1,"thunderpunch":1,"firepunch":1,"drainpunch":1,
-"nightslash":1,"poisonjab":1}
+"nightslash":1,"poisonjab":1},
 tier: "NU"
 },
 bouldemage:{
 viableMoves:
-{"rockpolish":1,"nastyplot":1,"trickroom":1,"earthpower":1,"calmmind":1,"icebeam":1,"thunderbolt":1,"psychic":1,"shadowball":1,"focusblast":1,"energyball":1,"flashcannon":1}
+{"rockpolish":1,"nastyplot":1,"trickroom":1,"earthpower":1,"calmmind":1,"icebeam":1,"thunderbolt":1,"psychic":1,"shadowball":1,"focusblast":1,"energyball":1,"flashcannon":1},
 tier: "NU"
 },
->>>>>>> ecd24fe2eec379c64a11626ee76e9201041c77dd
 };
