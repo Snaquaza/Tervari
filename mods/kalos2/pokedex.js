@@ -1,9 +1,4 @@
 exports.BattlePokedex = {
-        latias: {
-                inherit: true,
-                types: ["Dragon","Fairy"]
-                baseStats: {hp:90,atk:65,def:100,spa:105,spd:140,spe:110}
-       },
        flygon: {
                 inherit: true,
                 types: ["Bug","Ground"]
@@ -70,8 +65,12 @@ exports.BattlePokedex = {
                 abilites: {0:"Levtitate",1:"Compoundeyes",H:"Tinted Lens"}
                 baseStats: {hp:80,atk:110,def:100,spa:80,spd:95,spe:105}
        },
+       latias:{num:380,species:"Latias",types:["Dragon","Fairy"],gender:"F",baseStats: {hp:90,atk:65,def:100,spa:105,spd:140,spe:110},abilities:{0:"Levitate"},heightm:1.4,weightkg:40,color:"Red",eggGroups:["No Eggs"],otherFormes:["latiasmega"]},
+       latiasmega:{num:380,species:"Latias-Mega",baseSpecies:"Latias",forme:"Mega",formeLetter:"M",types:["Dragon","Fairy"],gender:"N",baseStats:{hp:120,atk:65,def:100,spa:130,spd:165,spe:135},abilities:{0:"Magic Bounce"},heightm:3,weightkg:215,color:"Red",eggGroups:["No Eggs"]},
+       latios:{num:381,species:"Latios",types:["Dragon","Psychic"],gender:"M",baseStats:{hp:90,atk:100,def:65,spa:140,spd:105,spe:110},abilities:{0:"Levitate"},heightm:2,weightkg:60,color:"Blue",eggGroups:["No Eggs"],otherFormes:["latiosmega"]},
+       latiosmega:{num:381,species:"Latios-Mega",baseSpecies:"Latios",forme:"Mega",formeLetter:"M",types:["Dragon","Psychic"],gender:"N",baseStats:{hp:70,atk:150,def:68,spa:190,spd:72,spe:165},abilities:{0:"Magic Guard"},heightm:3,weightkg:215,color:"Blue",eggGroups:["No Eggs"]},
        xerneas:{num:716,species:"Xerneas",types:["Fairy"],gender:"N",baseStats:{hp:126,atk:131,def:95,spa:131,spd:98,spe:99},abilities:{0:"Fairy Aura"},heightm:3,weightkg:215,color:"",eggGroups:["No Eggs"],otherFormes:["xerneasmega"]},
        yveltal:{num:717,species:"Yveltal",types:["Dark","Flying"],gender:"N",baseStats:{hp:126,atk:131,def:95,spa:131,spd:98,spe:99},abilities:{0:"Dark Aura"},heightm:5.8,weightkg:203,color:"",eggGroups:["No Eggs"],otherFormes:["yveltalmega"]},
        xerneasmega:{num:716,species:"Xerneas-Mega",baseSpecies:"Xerneas",forme:"Mega",formeLetter:"M",types:["Fairy","Grass"],gender:"N",baseStats:{hp:165,atk:60,def:135,spa:115,spd:165,spe:105},abilities:{0:"Natural Cure"},heightm:3,weightkg:215,color:"",eggGroups:["No Eggs"]},
-       yveltalmega:{num:717,species:"Yveltal-Mega",baseSpecies:"Yveltal",forme:"Mega",formeLetter:"M",types:["Dark","Flying"],gender:"N",baseStats:{hp:105,atk:185,def:90,spa:175,spd:85,spe:115},abilities:{0:"Gale Wings"},heightm:5.8,weightkg:203,color:"",eggGroups:["No Eggs"]},
+       yveltalmega:{num:717,species:"Yveltal-Mega",baseSpecies:"Yveltal",forme:"Mega",formeLetter:"M",types:["Dark","Flying"],gender:"N",baseStats:{hp:105,atk:185,def:90,spa:175,spd:85,spe:115},abilities:{0:"Gale Wings"},heightm:5.8,weightkg:203,color:"",eggGroups:["No Eggs"]}
 };
