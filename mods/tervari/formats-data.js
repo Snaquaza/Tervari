@@ -4754,4 +4754,9 @@ viableMoves:
 "nightslash":1,"poisonjab":1}
 tier: "NU"
 },
+bouldemage:{
+viableMoves:
+{"rockpolish":1,"nastyplot":1,"trickroom":1,"earthpower":1,"calmmind":1,"icebeam":1,"thunderbolt":1,"psychic":1,"shadowball":1,"focusblast":1,"energyball":1,"flashcannon":1}
+tier: "NU"
+},
 };
