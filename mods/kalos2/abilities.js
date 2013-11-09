@@ -20,7 +20,7 @@ exports.BattleAbilities = {
                 rating: 4.5,
                 num: -6,
                 gen: 6
-        }
+        },
         "protean": {
                 desc: "Changes user's type to match the user's current move before it attacks.",
                 shortDesc: "Changes user's type to match its move.",
@@ -37,5 +37,5 @@ exports.BattleAbilities = {
                 rating: 1.5,
                 num: -6,
                 gen: 6
-        }, 
+        } 
 };
