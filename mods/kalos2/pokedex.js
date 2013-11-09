@@ -59,11 +59,35 @@ exports.BattlePokedex = {
                 abilites: {0:"Moxie"}
                 baseStats: {hp:100,atk:165,def:90,spa:85,spd:110,spe:100}
        },
-       flygon: {
+       delphox: {
                 inherit: true,
-                types: ["Bug","Ground"]
-                abilites: {0:"Levtitate",1:"Compoundeyes",H:"Tinted Lens"}
+                abilites: {0:"Blaze",1:"Magic Guard",H:"Magician"}
+                baseStats: {hp:75,atk:69,def:72,spa:115,spd:100,spe:108}
+       },
+       greninja: {
+                inherit: true,
+                abilites: {0:"Torrent",1:"Illusion",H:"Protean"}
+                baseStats: {hp:72,atk:105,def:67,spa:100,spd:71,spe:122}
+       },
+       chesnaught: {
+                inherit: true,
+                abilites: {0:"Overgrow",1:"Regenerator",H:"Bulletproof"}
                 baseStats: {hp:80,atk:110,def:100,spa:80,spd:95,spe:105}
+       },
+       florges: {
+                inherit: true,
+                abilites: {0:"Regenerator",1:"Natural Cure",H:"Pixelate"}
+                baseStats: {hp:90,atk:65,def:68,spa:112,spd:160,spe:75}
+       },
+       heliolisk: {
+                inherit: true,
+                types: ["Electric","Ground"]
+                baseStats: {hp:70,atk:55,def:105,spa:110,spd:60,spe:135}
+       },
+       talonflame: {
+                inherit: true,
+                abilites: {0:"Flame Body",1:"Flash Fire",H:"Gale Wings"}
+                baseStats: {hp:80,atk:100,def:100,spa:80,spd:95,spe:126}
        },
        latias:{num:380,species:"Latias",types:["Dragon","Fairy"],gender:"F",baseStats: {hp:90,atk:65,def:100,spa:105,spd:140,spe:110},abilities:{0:"Levitate"},heightm:1.4,weightkg:40,color:"Red",eggGroups:["No Eggs"],otherFormes:["latiasmega"]},
        latiasmega:{num:380,species:"Latias-Mega",baseSpecies:"Latias",forme:"Mega",formeLetter:"M",types:["Dragon","Fairy"],gender:"N",baseStats:{hp:120,atk:65,def:100,spa:130,spd:165,spe:135},abilities:{0:"Magic Bounce"},heightm:3,weightkg:215,color:"Red",eggGroups:["No Eggs"]},
