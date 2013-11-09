@@ -598,7 +598,47 @@ exports.BattleItems = {
                 num: -6,
                 gen: 6,
                 desc: "Mega-evolves Yveltal."
-        }        
+        },
+        "latiteblue": {
+                id: "latiteblue",
+                name: "Latite-Blue",
+                spritenum: 0,
+                onResidualOrder: 5,
+                onResidualSubOrder: 2,
+                onResidual: function(pokemon) {
+                        if (user.baseTemplate.species === 'Latios') {
+                        if (user.baseTemplate.species === 'Latios-Mega') {                        
+                                this.heal(pokemon.maxhp/16);
+                        } else {
+                                this.damage(pokemon.maxhp/8);
+                        }
+                },                
+                megaStone: "Latios-Mega",
+                onTakeItem: false,
+                num: -6,
+                gen: 6,
+                desc: "Mega-evolves Yveltal."
+        },
+        "latitered": {
+                id: "latitered",
+                name: "Latite-Red",
+                spritenum: 0,
+                onResidualOrder: 5,
+                onResidualSubOrder: 2,
+                onResidual: function(pokemon) {
+                        if (user.baseTemplate.species === 'Latias') {
+                        if (user.baseTemplate.species === 'Latias-Mega') {                        
+                                this.heal(pokemon.maxhp/16);
+                        } else {
+                                this.damage(pokemon.maxhp/8);
+                        }
+                },                
+                megaStone: "Latias-Mega",
+                onTakeItem: false,
+                num: -6,
+                gen: 6,
+                desc: "Mega-evolves Yveltal."
+        }
 };     
         
         
