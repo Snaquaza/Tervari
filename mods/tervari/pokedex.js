@@ -244,5 +244,7 @@ aurrex:{num:893,species:"Aurrex",types:["Steel"],baseStats:{hp:100,atk:130,def:1
 argentusaur:{num:895,species:"Argentusaur",types:["Ground"],baseStats:{hp:90,atk:110,def:90,spa:80,spd:50,spe:50},abilities:{0:"Lightningrod",1:"Battle Armor",H:"Sheer Force"},heightm:7,weightkg:617,color:"Gray",prevo:"Curuptile",evoLevel:36,eggGroups:["Monster","Mineral"]},
 curuptile:{num:894,species:"Curuptile",types:["Ground"],baseStats:{hp:70,atk:80,def:70,spa:60,spd:30,spe:40},abilities:{0:"Lightningrod",1:"Battle Armor",H:"Sheer Force"},heightm:2,weightkg:221,color:"Brown",prevo:"",evoLevel:16,eggGroups:["Monster","Mineral"]},
 contyphlos:{num:896,species:"Contyphlos",types:["Poison"],baseStats:{hp:80,atk:115,def:75,spa:78,spd:75,spe:95},abilities:{0:"Unaware",1:"Quick Feet",H:"Poison Touch"},heightm:4,weightkg:89,color:"Brown",prevo:"",evoLevel:,eggGroups:["Human"]},
-
+bouldemage:{num:897,species:"Bouldemage",types:["Rock"."Psychic"],baseStats:{hp:105,atk:40,def:75,spa:75,spd:125,spe:50},abilities:{0:"Mountaineer",1:"Solid Rock",H:"Regenerator"},heightm:1.8,weightkg:150,color:"Brown",prevo:"Sedimage",evoLevel:,eggGroups:["Mineral","Humanshape"]},
+ 
+};
 };
