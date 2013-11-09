@@ -2,7 +2,9 @@
 {"title":"Lobby","autojoin":true,"desc":"Our official room, come here to have fun, battle, or ask questions!"},
 {"title":"Staff","isPrivate":true,"staffRoom":true,"staffAutojoin":true,"desc":"The Room for Staff Discussion and other boring stuff!"},
 {"title":"Mafia","desc":"This room is made for an amazing game in Mafia, that you can play here!"},
-{"title":"Tervari Olympics","auth":{"firehound":"#","adrianmarinbh":"@","snaquaza":"@","spartanmalice":"%","eneomas":"+","hdow":"+","namin":"+","asterat":"+"},"desc":"The Official Room for our amazing Other Metas Competition, the Tervari Olympics!"},
+{"title":"Tervari Olympics","auth":{"firehound":"#","adrianmarinbh":"@","snaquaza":"@","spartanmalice":"%","eneomas":"+","hdow":"+","namin":"+","asterat":"+","adrianmarin":"@"},"desc":"The Official Room for our amazing Other Metas Competition, the Tervari Olympics!"},
 {"title":"Tervari","desc":"This room is for discussion on the Game that we at the Tervari are making!"},
-{"title":"Spammer's Paradise","desc":"The only place on the server where it is allowed to spam!"}
+{"title":"Spammer's Paradise","desc":"The only place on the server where it is allowed to spam!"},
+{"title":"Bidoof World","isPrivate":true,"auth":{"teamninjaleader":"#","haxoursking":"@","snaquaza":"@","narwhaledninja":"@"}},
+{"title":"MenceLeague","isPrivate":true}
 ]

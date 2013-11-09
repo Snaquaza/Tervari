@@ -547,7 +547,7 @@ exports.BattleScripts = {
 		for (var i=0; i<6; i++)
 		{
 			while (true) {
-				var x=Math.floor(Math.random()*649)+1;
+				var x=Math.floor(Math.random()*690)+1;
 				if (teamdexno.indexOf(x) === -1) {
 					teamdexno.push(x);
 					break;
