@@ -132,6 +132,132 @@ exports.BattleFormats = {
 			return problems;
 		}
 	},
+	kalos2pokemon: {
+                effectType: 'Banlist',
+                validateSet: function(set, format) {
+                        var item = this.getItem(set.item);
+                        var template = this.getTemplate(set.species);
+                        var problems = [];
+
+                        if (set.species === set.name) delete set.name;
+                        if (template.gen > this.gen) {
+                                problems.push(set.species+' does not exist in gen '+this.gen+'.');
+                        } else if (template.isNonstandard) {
+                                problems.push(set.species+' is not a real Pokemon.');
+                        }
+                        var ability = {};
+                        if (set.ability) {
+                                ability = this.getAbility(set.ability);
+                                if (ability.gen > this.gen) {
+                                        problems.push(ability.name+' does not exist in gen '+this.gen+'.');
+                                } else if (ability.isNonstandard) {
+                                        problems.push(ability.name+' is not a real ability.');
+                                }
+                        }
+                        if (set.moves) for (var i=0; i<set.moves.length; i++) {
+                                var move = this.getMove(set.moves[i]);
+                                if (move.gen > this.gen) {
+                                        problems.push(move.name+' does not exist in gen '+this.gen+'.');
+                                } else if (move.isNonstandard) {
+                                        problems.push(move.name+' is not a real move.');
+                                }
+                        }
+                        if (item) {
+                                if (item.gen > this.gen) {
+                                        problems.push(item.name+' does not exist in gen '+this.gen+'.');
+                                } else if (item.isNonstandard) {
+                                        problems.push(item.name + ' is not a real item.');
+                                }
+                        }
+                        if (set.moves && set.moves.length > 4) {
+                                problems.push((set.name||set.species) + ' has more than four moves.');
+                        }
+                        if (set.level && set.level > 100) {
+                                problems.push((set.name||set.species) + ' is higher than level 100.');
+                        }
+
+                        // ----------- legality line ------------------------------------------
+                        if (!format.banlistTable || !format.banlistTable['illegal']) return problems;
+                        // everything after this line only happens if we're doing legality enforcement
+
+                        // limit one of each move
+                        var moves = [];
+                        if (set.moves) {
+                                var hasMove = {};
+                                for (var i=0; i<set.moves.length; i++) {
+                                        var move = this.getMove(set.moves[i]);
+                                        var moveid = move.id;
+                                        if (hasMove[moveid]) continue;
+                                        hasMove[moveid] = true;
+                                        moves.push(set.moves[i]);
+                                }
+                        }
+                        set.moves = moves;
+
+                        if (template.requiredItem) {
+                                if (template.isMega) {
+                                        // Mega evolutions evolve in-battle
+                                        set.species = template.baseSpecies;
+                                        var baseAbilities = Tools.getTemplate(set.species).abilities;
+                                        var niceAbility = false;
+                                        for (var i in baseAbilities) {
+                                                if (baseAbilities[i] === set.ability) {
+                                                        niceAbility = true;
+                                                        break;
+                                                }
+                                        }
+                                        if (!niceAbility) set.ability = baseAbilities['0'];
+                                }
+                                if (item.name !== template.requiredItem) {
+                                        problems.push((set.name||set.species) + ' needs to hold '+template.requiredItem+'.');
+                                }
+                        }
+                        if (template.num == 351) { // Castform
+                                set.species = 'Castform';
+                        }
+                        if (template.num == 421) { // Cherrim
+                                set.species = 'Cherrim';
+                        }
+                        if (template.num == 493) { // Arceus
+                                if (set.ability === 'Multitype' && item.onPlate) {
+                                        set.species = 'Arceus-'+item.onPlate;
+                                } else if (item.id === 'godstone') {
+                                        set.species = 'Arceus-God';
+                                        set.ability = 'Protean';
+                                } else {
+                                        set.species = 'Arceus';
+                                }
+                        }
+                        if (template.num == 555) { // Darmanitan
+                                if (set.species === 'Darmanitan-Zen' && ability.id !== 'zenmode') {
+                                        problems.push('Darmanitan-Zen transforms in-battle with Zen Mode.');
+                                }
+                                set.species = 'Darmanitan';
+                        }
+                        if (template.num == 487) { // Giratina
+                                if (item.id === 'griseousorb') {
+                                        set.species = 'Giratina-Origin';
+                                        set.ability = 'Levitate';
+                                } else {
+                                        set.species = 'Giratina';
+                                        set.ability = 'Pressure';
+                                }
+                        }
+                        if (template.num == 647) { // Keldeo
+                                if (set.species === 'Keldeo-Resolute' && set.moves.indexOf('Secret Sword') < 0) {
+                                        problems.push('Keldeo-Resolute needs to have Secret Sword.');
+                                }
+                                set.species = 'Keldeo';
+                        }
+                        if (template.num == 648) { // Meloetta
+                                if (set.species === 'Meloetta-Pirouette' && set.moves.indexOf('Relic Song') < 0) {
+                                        problems.push('Meloetta-Pirouette transforms in-battle with Relic Song.');
+                                }
+                                set.species = 'Meloetta';
+                        }
+                        return problems;
+                }
+        }
 	cappokemon: {
 		effectType: 'Rule',
 		validateSet: function(set, format) {
