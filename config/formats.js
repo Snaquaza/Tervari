@@ -47,7 +47,31 @@ exports.Formats = [
 		// no restrictions, for serious (other than team preview)
 		ruleset: ['Team Preview']
 	},
+        
+        // Kalos2.0
+	///////////////////////////////////////////////////////////////////
+        {
+		name: "Kalos 2.0 OU",
+		section: "Kalos 2.0",
 
+		ruleset: ['Kalos 2 Pokemon', 'Standard Pokebank', 'Team Preview'],
+		banlist: ['Uber', 'Soul Dew', 'Charizardite-X']
+	},
+        {
+		name: "Kalos 2.0 Uber",
+		section: "Kalos 2.0",
+
+		ruleset: ['Kalos 2 Pokemon', 'Standard Pokebank', 'Team Preview'],
+		banlist: ['Charizardite-X']
+	},
+       {
+		name: "Kalos 2.0 LC",
+		section: "Kalos 2.0",
+
+		ruleset: ['Pokemon', 'Standard Pokebank', 'Team Preview', 'Little Cup'],
+		banlist: ['Sonicboom', 'Dragon Rage', 'Scyther']
+	},	
+	
 	// BW2 Singles
 	///////////////////////////////////////////////////////////////////
 
