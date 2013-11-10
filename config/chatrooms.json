@@ -1,7 +1,7 @@
 [
 {"title":"Lobby","autojoin":true},
 {"title":"Staff","isPrivate":true,"staffRoom":true,"staffAutojoin":true},
-{"title":"Tervari Olympics","auth":{"snaquaza":"@","hdow":"+","eneomas":"+","spartanmalice":"+","namin":"+","realpresent":"+"}},
+{"title":"Tervari Olympics","auth":{"snaquaza":"@","hdow":"+","eneomas":"+","spartanmalice":"+","namin":"+","realpresent":"+","imunderthebed":"+"}},
 {"title":"Tervari Game"},
 {"title":"Mafia"},
 {"title":"Spammer's Paradise"},
