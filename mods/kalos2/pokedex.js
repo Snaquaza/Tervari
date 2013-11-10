@@ -33,6 +33,10 @@ exports.BattlePokedex = {
                 inherit: true,
                 abilites: {0:"Stance Change"}
        },
+       meloettapirouette: {
+                inherit: true,
+                abilites: {0:"Stance Change"}
+       },
        victini: {
                 inherit: true,
                 types: ["Fire","Fairy"]
