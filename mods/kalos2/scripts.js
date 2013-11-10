@@ -178,4 +178,5 @@ exports.BattleScripts = {
                   
                   //recover
                   this.modData('Learnsets', 'dragalge').learnset.recover = ['6T'];
+        }
 };
