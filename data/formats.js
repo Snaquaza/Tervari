@@ -257,7 +257,7 @@ exports.BattleFormats = {
                         }
                         return problems;
                 }
-        }
+        },
 	cappokemon: {
 		effectType: 'Rule',
 		validateSet: function(set, format) {
