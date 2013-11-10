@@ -201,10 +201,27 @@ exports.BattleMovedex = {
                 pp: 5,
                 priority: 0,
                 recoil: [33,100],
-                secondary: false
+                secondary: false,
                 target: "normal",
                 type: "Fairy"
         },
+        "phantomforce": {
+		num: -6,
+		gen: 6,
+		accuracy: 100,
+		basePower: 100,
+		category: "Physical",
+		desc: "Deals damage to one adjacent target and breaks through Protect and Detect for this turn, allowing other Pokemon to attack the target normally. This attack charges on the first turn and strikes on the second. On the first turn, the user avoids all attacks. The user cannot make a move between turns. If the user is holding a Power Herb, the move completes in one turn. Makes contact.",
+		shortDesc: "Disappears turn 1. Hits turn 2. Breaks protection.",
+		id: "phantomforce",
+		name: "Phantom Force",
+		pp: 10,
+		priority: 0,
+		isContact: true,
+		secondary: false,
+		target: "normal",
+		type: "Ghost"
+	},
         "roaroftime": {
                 num: 459,
                 accuracy: 100,
