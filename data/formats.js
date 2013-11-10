@@ -249,12 +249,6 @@ exports.BattleFormats = {
                                 }
                                 set.species = 'Keldeo';
                         }
-                        if (template.num == 648) { // Meloetta
-                                if (set.species === 'Meloetta-Pirouette' && set.moves.indexOf('Relic Song') < 0) {
-                                        problems.push('Meloetta-Pirouette transforms in-battle with Relic Song.');
-                                }
-                                set.species = 'Meloetta';
-                        }
                         return problems;
                 }
         },
