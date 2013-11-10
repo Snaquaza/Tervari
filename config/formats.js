@@ -54,6 +54,7 @@ exports.Formats = [
 		name: "Kalos 2.0 OU",
 		section: "Kalos 2.0",
 
+                mod: 'kalos2', 
 		ruleset: ['Kalos 2 Pokemon', 'Standard Pokebank', 'Team Preview'],
 		banlist: ['Uber', 'Soul Dew', 'Charizardite-X']
 	},
@@ -61,6 +62,7 @@ exports.Formats = [
 		name: "Kalos 2.0 Uber",
 		section: "Kalos 2.0",
 
+                mod: 'kalos2', 
 		ruleset: ['Kalos 2 Pokemon', 'Standard Pokebank', 'Team Preview'],
 		banlist: ['Charizardite-X']
 	},
@@ -68,6 +70,7 @@ exports.Formats = [
 		name: "Kalos 2.0 LC",
 		section: "Kalos 2.0",
 
+                mod: 'kalos2', 
 		ruleset: ['Pokemon', 'Standard Pokebank', 'Team Preview', 'Little Cup'],
 		banlist: ['Sonicboom', 'Dragon Rage', 'Scyther']
 	},	
