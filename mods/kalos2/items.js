@@ -11,7 +11,7 @@ exports.BattleItems = {
                         } else {
                                 this.damage(pokemon.maxhp/8);
                         }
-                },
+                }
                 megaStone: "Abomasnow-Mega",
                 onTakeItem: false,
                 num: -6,
@@ -30,7 +30,7 @@ exports.BattleItems = {
                         } else {
                                 this.damage(pokemon.maxhp/8);
                         }
-                },                
+                },               
                 megaStone: "Absol-Mega",
                 num: -6,
                 gen: 6,
@@ -48,7 +48,7 @@ exports.BattleItems = {
                         } else {
                                 this.damage(pokemon.maxhp/8);
                         }
-                },                
+                }             
                 megaStone: "Aerodactyl-Mega",
                 num: -6,
                 gen: 6,
@@ -66,7 +66,7 @@ exports.BattleItems = {
                         } else {
                                 this.damage(pokemon.maxhp/8);
                         }
-                },                
+                }                
                 megaStone: "Aggron-Mega",
                 num: -6,
                 gen: 6,
@@ -84,7 +84,7 @@ exports.BattleItems = {
                         } else {
                                 this.damage(pokemon.maxhp/8);
                         }
-                },                
+                }                
                 megaStone: "Alakazam-Mega",
                 num: -6,
                 gen: 6,
@@ -102,7 +102,7 @@ exports.BattleItems = {
                         } else {
                                 this.damage(pokemon.maxhp/8);
                         }
-                },                
+                }               
                 megaStone: "Ampharos-Mega",
                 num: -6,
                 gen: 6,
@@ -120,7 +120,7 @@ exports.BattleItems = {
                         } else {
                                 this.damage(pokemon.maxhp/8);
                         }
-                },                
+                }
                 megaStone: "Banette-Mega",
                 num: -6,
                 gen: 6,
@@ -138,7 +138,7 @@ exports.BattleItems = {
                         } else {
                                 this.damage(pokemon.maxhp/8);
                         }
-                },                
+                }                
                 megaStone: "Blastoise-Mega",
                 num: -6,
                 gen: 6,
@@ -156,7 +156,7 @@ exports.BattleItems = {
                         } else {
                                 this.damage(pokemon.maxhp/8);
                         }
-                },                
+                }                
                 megaStone: "Blaziken-Mega",
                 num: -6,
                 gen: 6,
@@ -174,7 +174,7 @@ exports.BattleItems = {
                         } else {
                                 this.damage(pokemon.maxhp/8);
                         }
-                },                
+                }                
                 megaStone: "Charizard-Mega-X",
                 num: -6,
                 gen: 6,
@@ -192,7 +192,7 @@ exports.BattleItems = {
                         } else {
                                 this.damage(pokemon.maxhp/8);
                         }
-                },                
+                }                
                 megaStone: "Charizard-Mega-Y",
                 num: -6,
                 gen: 6,
@@ -210,7 +210,7 @@ exports.BattleItems = {
                         } else {
                                 this.damage(pokemon.maxhp/8);
                         }
-                },                
+                }               
                 megaStone: "Garchomp-Mega",
                 num: -6,
                 gen: 6,
@@ -228,7 +228,7 @@ exports.BattleItems = {
                         } else {
                                 this.damage(pokemon.maxhp/8);
                         }
-                },                
+                }                
                 megaStone: "Gardevoir-Mega",
                 num: -6,
                 gen: 6,
@@ -246,7 +246,7 @@ exports.BattleItems = {
                         } else {
                                 this.damage(pokemon.maxhp/8);
                         }
-                },                
+                }               
                 megaStone: "Gengar-Mega",
                 num: -6,
                 gen: 6,
@@ -264,7 +264,7 @@ exports.BattleItems = {
                         } else {
                                 this.damage(pokemon.maxhp/8);
                         }
-                },                
+                }                
                 megaStone: "Gyarados-Mega",
                 num: -6,
                 gen: 6,
@@ -282,7 +282,7 @@ exports.BattleItems = {
                         } else {
                                 this.damage(pokemon.maxhp/8);
                         }
-                },                
+                }                
                 megaStone: "Heracross-Mega",
                 num: -6,
                 gen: 6,
@@ -300,7 +300,7 @@ exports.BattleItems = {
                         } else {
                                 this.damage(pokemon.maxhp/8);
                         }
-                },                
+                }                
                 megaStone: "Houndoom-Mega",
                 num: -6,
                 gen: 6,
@@ -318,7 +318,7 @@ exports.BattleItems = {
                         } else {
                                 this.damage(pokemon.maxhp/8);
                         }
-                },                
+                }               
                 megaStone: "Kangaskhan-Mega",
                 onTakeItem: false,
                 num: -6,
@@ -337,7 +337,7 @@ exports.BattleItems = {
                         } else {
                                 this.damage(pokemon.maxhp/8);
                         }
-                },                
+                }               
                 megaStone: "Lucario-Mega",
                 num: -6,
                 gen: 6,
@@ -355,7 +355,7 @@ exports.BattleItems = {
                         } else {
                                 this.damage(pokemon.maxhp/8);
                         }
-                },                
+                }                
                 megaStone: "Manectric-Mega",
                 num: -6,
                 gen: 6,
@@ -373,7 +373,7 @@ exports.BattleItems = {
                         } else {
                                 this.damage(pokemon.maxhp/8);
                         }
-                },                
+                }                
                 megaStone: "Mawile-Mega",
                 num: -6,
                 gen: 6,
@@ -391,7 +391,7 @@ exports.BattleItems = {
                         } else {
                                 this.damage(pokemon.maxhp/8);
                         }
-                },                
+                }               
                 megaStone: "Medicham-Mega",
                 num: -6,
                 gen: 6,
@@ -409,7 +409,7 @@ exports.BattleItems = {
                         } else {
                                 this.damage(pokemon.maxhp/8);
                         }
-                },                
+                }                
                 megaStone: "Mewtwo-Mega-X",
                 num: -6,
                 gen: 6,
@@ -427,7 +427,7 @@ exports.BattleItems = {
                         } else {
                                 this.damage(pokemon.maxhp/8);
                         }
-                },                
+                }               
                 megaStone: "Mewtwo-Mega-Y",
                 num: -6,
                 gen: 6,
@@ -445,7 +445,7 @@ exports.BattleItems = {
                         } else {
                                 this.damage(pokemon.maxhp/8);
                         }
-                },                
+                }               
                 megaStone: "Pinsir-Mega",
                 num: -6,
                 gen: 6,
@@ -463,7 +463,7 @@ exports.BattleItems = {
                         } else {
                                 this.damage(pokemon.maxhp/8);
                         }
-                },                
+                }              
                 megaStone: "Scizor-Mega",
                 num: -6,
                 gen: 6,
@@ -481,7 +481,7 @@ exports.BattleItems = {
                         } else {
                                 this.damage(pokemon.maxhp/8);
                         }
-                },                
+                }           
                 megaStone: "Tyranitar-Mega",
                 num: -6,
                 gen: 6,
@@ -499,7 +499,7 @@ exports.BattleItems = {
                         } else {
                                 this.damage(pokemon.maxhp/8);
                         }
-                },                
+                }               
                 megaStone: "Venusaur-Mega",
                 num: -6,
                 gen: 6,
@@ -517,7 +517,7 @@ exports.BattleItems = {
                         } else {
                                 this.damage(pokemon.maxhp/8);
                         }
-                },                
+                }                
                 megaStone: "Xerneas-Mega",
                 num: -6,
                 gen: 6,
@@ -535,7 +535,7 @@ exports.BattleItems = {
                         } else {
                                 this.damage(pokemon.maxhp/8);
                         }
-                },                
+                }                
                 megaStone: "Yveltal-Mega",
                 num: -6,
                 gen: 6,
@@ -553,7 +553,7 @@ exports.BattleItems = {
                         } else {
                                 this.damage(pokemon.maxhp/8);
                         }
-                },                
+                }                
                 megaStone: "Latios-Mega",
                 num: -6,
                 gen: 6,
@@ -571,7 +571,7 @@ exports.BattleItems = {
                         } else {
                                 this.damage(pokemon.maxhp/8);
                         }
-                },                
+                }               
                 megaStone: "Latias-Mega",
                 num: -6,
                 gen: 6,
