@@ -638,7 +638,27 @@ exports.BattleItems = {
                 num: -6,
                 gen: 6,
                 desc: "Mega-evolves Yveltal."
-        }
+        },
+        "godstone": {
+                id: "god stone,
+                name: "God Stone",
+                spritenum: 0,
+                onBasePowerPriority: 6,
+                onBasePower: function(basePower, user, target, move) {
+                        if (user.baseTemplate.num === 493 && (move.type === 'Normal' || move.type === 'Fairy')) {
+                                return this.chainModify(1.2);
+                        }
+                },
+                onTakeItem: function(item, pokemon, source) {
+                        if ((source && source.baseTemplate.num === 493) || pokemon.baseTemplate.num === 493) {
+                                return false;
+                        }
+                },
+                onTakeItem: false,
+                num: -199,
+                gen: 6,
+                desc: "God Stone."
+        }        
 };     
         
         
