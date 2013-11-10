@@ -38,6 +38,11 @@ exports.BattlePokedex = {
                 types: ["Fire","Fairy"]
                 abilites: {0:"Victory Star",H:"Pixilate"}
        },
+       flygon: {
+                inherit: true,
+                abilites: {0:"Intimidate",1:"Dry Skin",H:"Sand Rush"}
+                baseStats: {hp:80,atk:110,def:100,spa:80,spd:95,spe:105}
+       },
        abomasnowmega: {
                 inherit: true,
                 abilites: {0:"Analytic"}
@@ -46,7 +51,7 @@ exports.BattlePokedex = {
        garchompmega: {
                 inherit: true,
                 types: ["Dragon","Fighting"]
-                abilites: {0:"Tough Claws"}
+                abilites: {0:"Intimidate"}
                 baseStats: {hp:110,atk:175,def:110,spa:110,spd:100,spe:98}
        },
        heracrossmega: {
