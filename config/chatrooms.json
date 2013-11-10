@@ -1,10 +1,11 @@
 [
 {"title":"Lobby","autojoin":true},
 {"title":"Staff","isPrivate":true,"staffRoom":true,"staffAutojoin":true},
-{"title":"Tervari Olympics","auth":{"snaquaza":"@","hdow":"+","eneomas":"+"}},
+{"title":"Tervari Olympics","auth":{"snaquaza":"@","hdow":"+","eneomas":"+","spartanmalice":"+","namin":"+","realpresent":"+"}},
 {"title":"Tervari Game"},
 {"title":"Mafia"},
 {"title":"Spammer's Paradise"},
 {"title":"League Ugh","desc":"For all server hate","isPrivate":true},
-{"title":"Mence League","isPrivate":true,"auth":{"gardreigon982":"#","dragonraptor792":"#","snaquaza":"@"}}
+{"title":"Mence League","isPrivate":true,"auth":{"gardreigon982":"#","dragonraptor792":"#","snaquaza":"@"}},
+{"title":"Bidoof World","isPrivate":true,"auth":{"teamninjaleader":"#","haxoursking":"@","snaquaza":"%"}}
 ]
