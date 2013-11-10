@@ -6,8 +6,7 @@ exports.BattleItems = {
                 onResidualOrder: 5,
                 onResidualSubOrder: 2,
                 onResidual: function(pokemon) {
-                        if (user.baseTemplate.species === 'Abomasnow') {
-                        if (user.baseTemplate.species === 'Abomasnow-Mega') {                        
+                        if (user.baseTemplate.species === 'Abomasnow') { else if (user.baseTemplate.species === 'Abomasnow-Mega') {                        
                                 this.heal(pokemon.maxhp/16);
                         } else {
                                 this.damage(pokemon.maxhp/8);
@@ -26,15 +25,13 @@ exports.BattleItems = {
                 onResidualOrder: 5,
                 onResidualSubOrder: 2,
                 onResidual: function(pokemon) {
-                        if (user.baseTemplate.species === 'Absol') {
-                        if (user.baseTemplate.species === 'Absol-Mega') {                        
+                        if (user.baseTemplate.species === 'Absol') {else if (user.baseTemplate.species === 'Absol-Mega') {                        
                                 this.heal(pokemon.maxhp/16);
                         } else {
                                 this.damage(pokemon.maxhp/8);
                         }
                 },                
                 megaStone: "Absol-Mega",
-                onTakeItem: false,
                 num: -6,
                 gen: 6,
                 desc: "Mega-evolves Absol."
@@ -46,15 +43,13 @@ exports.BattleItems = {
                 onResidualOrder: 5,
                 onResidualSubOrder: 2,
                 onResidual: function(pokemon) {
-                        if (user.baseTemplate.species === 'Aerodactyl') {
-                        if (user.baseTemplate.species === 'Aerodactyl-Mega') {                        
+                        if (user.baseTemplate.species === 'Aerodactyl') {else if (user.baseTemplate.species === 'Aerodactyl-Mega') {                        
                                 this.heal(pokemon.maxhp/16);
                         } else {
                                 this.damage(pokemon.maxhp/8);
                         }
                 },                
                 megaStone: "Aerodactyl-Mega",
-                onTakeItem: false,
                 num: -6,
                 gen: 6,
                 desc: "Mega-evolves Aerodactyl."
@@ -66,15 +61,13 @@ exports.BattleItems = {
                 onResidualOrder: 5,
                 onResidualSubOrder: 2,
                 onResidual: function(pokemon) {
-                        if (user.baseTemplate.species === 'Aggron') {
-                        if (user.baseTemplate.species === 'Aggron-Mega') {                        
+                        if (user.baseTemplate.species === 'Aggron') {else if (user.baseTemplate.species === 'Aggron-Mega') {                        
                                 this.heal(pokemon.maxhp/16);
                         } else {
                                 this.damage(pokemon.maxhp/8);
                         }
                 },                
                 megaStone: "Aggron-Mega",
-                onTakeItem: false,
                 num: -6,
                 gen: 6,
                 desc: "Mega-evolves Aggron."
@@ -86,15 +79,13 @@ exports.BattleItems = {
                 onResidualOrder: 5,
                 onResidualSubOrder: 2,
                 onResidual: function(pokemon) {
-                        if (user.baseTemplate.species === 'Alakazam') {
-                        if (user.baseTemplate.species === 'Aalakazam-Mega') {                        
+                        if (user.baseTemplate.species === 'Alakazam') {else if (user.baseTemplate.species === 'Aalakazam-Mega') {                        
                                 this.heal(pokemon.maxhp/16);
                         } else {
                                 this.damage(pokemon.maxhp/8);
                         }
                 },                
                 megaStone: "Alakazam-Mega",
-                onTakeItem: false,
                 num: -6,
                 gen: 6,
                 desc: "Mega-evolves Alakazam."
@@ -106,15 +97,13 @@ exports.BattleItems = {
                 onResidualOrder: 5,
                 onResidualSubOrder: 2,
                 onResidual: function(pokemon) {
-                        if (user.baseTemplate.species === 'Ampharos') {
-                        if (user.baseTemplate.species === 'Ampharos-Mega') {                        
+                        if (user.baseTemplate.species === 'Ampharos') {else if (user.baseTemplate.species === 'Ampharos-Mega') {                        
                                 this.heal(pokemon.maxhp/16);
                         } else {
                                 this.damage(pokemon.maxhp/8);
                         }
                 },                
                 megaStone: "Ampharos-Mega",
-                onTakeItem: false,
                 num: -6,
                 gen: 6,
                 desc: "Mega-evolves Ampharos."
@@ -126,15 +115,13 @@ exports.BattleItems = {
                 onResidualOrder: 5,
                 onResidualSubOrder: 2,
                 onResidual: function(pokemon) {
-                        if (user.baseTemplate.species === 'Banette') {
-                        if (user.baseTemplate.species === 'Banette-Mega') {                        
+                        if (user.baseTemplate.species === 'Banette') {else if (user.baseTemplate.species === 'Banette-Mega') {                        
                                 this.heal(pokemon.maxhp/16);
                         } else {
                                 this.damage(pokemon.maxhp/8);
                         }
                 },                
                 megaStone: "Banette-Mega",
-                onTakeItem: false,
                 num: -6,
                 gen: 6,
                 desc: "Mega-evolves Banette."
@@ -146,15 +133,13 @@ exports.BattleItems = {
                 onResidualOrder: 5,
                 onResidualSubOrder: 2,
                 onResidual: function(pokemon) {
-                        if (user.baseTemplate.species === 'Blastoise') {
-                        if (user.baseTemplate.species === 'Blastoise-Mega') {                        
+                        if (user.baseTemplate.species === 'Blastoise') {else if (user.baseTemplate.species === 'Blastoise-Mega') {                        
                                 this.heal(pokemon.maxhp/16);
                         } else {
                                 this.damage(pokemon.maxhp/8);
                         }
                 },                
                 megaStone: "Blastoise-Mega",
-                onTakeItem: false,
                 num: -6,
                 gen: 6,
                 desc: "Mega-evolves Blastoise."
@@ -166,15 +151,13 @@ exports.BattleItems = {
                 onResidualOrder: 5,
                 onResidualSubOrder: 2,
                 onResidual: function(pokemon) {
-                        if (user.baseTemplate.species === 'Blaziken') {
-                        if (user.baseTemplate.species === 'Blaziken-Mega') {                        
+                        if (user.baseTemplate.species === 'Blaziken') {else if (user.baseTemplate.species === 'Blaziken-Mega') {                        
                                 this.heal(pokemon.maxhp/16);
                         } else {
                                 this.damage(pokemon.maxhp/8);
                         }
                 },                
                 megaStone: "Blaziken-Mega",
-                onTakeItem: false,
                 num: -6,
                 gen: 6,
                 desc: "Mega-evolves Blaziken."
@@ -186,15 +169,13 @@ exports.BattleItems = {
                 onResidualOrder: 5,
                 onResidualSubOrder: 2,
                 onResidual: function(pokemon) {
-                        if (user.baseTemplate.species === 'Charizard') {
-                        if (user.baseTemplate.species === 'Charizard-Mega-X') {                        
+                        if (user.baseTemplate.species === 'Charizard') {else if (user.baseTemplate.species === 'Charizard-Mega-X') {                        
                                 this.heal(pokemon.maxhp/16);
                         } else {
                                 this.damage(pokemon.maxhp/8);
                         }
                 },                
                 megaStone: "Charizard-Mega-X",
-                onTakeItem: false,
                 num: -6,
                 gen: 6,
                 desc: "Mega-evolves Charizard into Mega Charizard X."
@@ -206,15 +187,13 @@ exports.BattleItems = {
                 onResidualOrder: 5,
                 onResidualSubOrder: 2,
                 onResidual: function(pokemon) {
-                        if (user.baseTemplate.species === 'Charizard') {
-                        if (user.baseTemplate.species === 'Charizard-Mega-Y') {                        
+                        if (user.baseTemplate.species === 'Charizard') {else if (user.baseTemplate.species === 'Charizard-Mega-Y') {                        
                                 this.heal(pokemon.maxhp/16);
                         } else {
                                 this.damage(pokemon.maxhp/8);
                         }
                 },                
                 megaStone: "Charizard-Mega-Y",
-                onTakeItem: false,
                 num: -6,
                 gen: 6,
                 desc: "Mega-evolves Charizard into Mega Charizard Y."
@@ -226,15 +205,13 @@ exports.BattleItems = {
                 onResidualOrder: 5,
                 onResidualSubOrder: 2,
                 onResidual: function(pokemon) {
-                        if (user.baseTemplate.species === 'Garchomp') {
-                        if (user.baseTemplate.species === 'Garchomp-Mega') {                        
+                        if (user.baseTemplate.species === 'Garchomp') {else if (user.baseTemplate.species === 'Garchomp-Mega') {                        
                                 this.heal(pokemon.maxhp/16);
                         } else {
                                 this.damage(pokemon.maxhp/8);
                         }
                 },                
                 megaStone: "Garchomp-Mega",
-                onTakeItem: false,
                 num: -6,
                 gen: 6,
                 desc: "Mega-evolves Garchomp."
@@ -246,15 +223,13 @@ exports.BattleItems = {
                 onResidualOrder: 5,
                 onResidualSubOrder: 2,
                 onResidual: function(pokemon) {
-                        if (user.baseTemplate.species === 'Gardevoir') {
-                        if (user.baseTemplate.species === 'Gardevoir-Mega') {                        
+                        if (user.baseTemplate.species === 'Gardevoir') {else if (user.baseTemplate.species === 'Gardevoir-Mega') {                        
                                 this.heal(pokemon.maxhp/16);
                         } else {
                                 this.damage(pokemon.maxhp/8);
                         }
                 },                
                 megaStone: "Gardevoir-Mega",
-                onTakeItem: false,
                 num: -6,
                 gen: 6,
                 desc: "Mega-evolves Gardevoir."
@@ -266,15 +241,13 @@ exports.BattleItems = {
                 onResidualOrder: 5,
                 onResidualSubOrder: 2,
                 onResidual: function(pokemon) {
-                        if (user.baseTemplate.species === 'Gengar') {
-                        if (user.baseTemplate.species === 'Gengar-Mega') {                        
+                        if (user.baseTemplate.species === 'Gengar') {else if (user.baseTemplate.species === 'Gengar-Mega') {                        
                                 this.heal(pokemon.maxhp/16);
                         } else {
                                 this.damage(pokemon.maxhp/8);
                         }
                 },                
                 megaStone: "Gengar-Mega",
-                onTakeItem: false,
                 num: -6,
                 gen: 6,
                 desc: "Mega-evolves Gengar."
@@ -286,15 +259,13 @@ exports.BattleItems = {
                 onResidualOrder: 5,
                 onResidualSubOrder: 2,
                 onResidual: function(pokemon) {
-                        if (user.baseTemplate.species === 'Gyarados') {
-                        if (user.baseTemplate.species === 'Gyarados-Mega') {                        
+                        if (user.baseTemplate.species === 'Gyarados') {else if (user.baseTemplate.species === 'Gyarados-Mega') {                        
                                 this.heal(pokemon.maxhp/16);
                         } else {
                                 this.damage(pokemon.maxhp/8);
                         }
                 },                
                 megaStone: "Gyarados-Mega",
-                onTakeItem: false,
                 num: -6,
                 gen: 6,
                 desc: "Mega-evolves Gyarados."
@@ -306,15 +277,13 @@ exports.BattleItems = {
                 onResidualOrder: 5,
                 onResidualSubOrder: 2,
                 onResidual: function(pokemon) {
-                        if (user.baseTemplate.species === 'Heracross') {
-                        if (user.baseTemplate.species === 'Heracross-Mega') {                        
+                        if (user.baseTemplate.species === 'Heracross') {else if (user.baseTemplate.species === 'Heracross-Mega') {                        
                                 this.heal(pokemon.maxhp/16);
                         } else {
                                 this.damage(pokemon.maxhp/8);
                         }
                 },                
                 megaStone: "Heracross-Mega",
-                onTakeItem: false,
                 num: -6,
                 gen: 6,
                 desc: "Mega-evolves Heracross."
@@ -326,15 +295,13 @@ exports.BattleItems = {
                 onResidualOrder: 5,
                 onResidualSubOrder: 2,
                 onResidual: function(pokemon) {
-                        if (user.baseTemplate.species === 'Houndoom') {
-                        if (user.baseTemplate.species === 'Houndoom-Mega') {                        
+                        if (user.baseTemplate.species === 'Houndoom') {else if (user.baseTemplate.species === 'Houndoom-Mega') {                        
                                 this.heal(pokemon.maxhp/16);
                         } else {
                                 this.damage(pokemon.maxhp/8);
                         }
                 },                
                 megaStone: "Houndoom-Mega",
-                onTakeItem: false,
                 num: -6,
                 gen: 6,
                 desc: "Mega-evolves Houndoom."
@@ -346,8 +313,7 @@ exports.BattleItems = {
                 onResidualOrder: 5,
                 onResidualSubOrder: 2,
                 onResidual: function(pokemon) {
-                        if (user.baseTemplate.species === 'Kangaskhan') {
-                        if (user.baseTemplate.species === 'Kangaskhan-Mega') {                        
+                        if (user.baseTemplate.species === 'Kangaskhan') {else if (user.baseTemplate.species === 'Kangaskhan-Mega') {                        
                                 this.heal(pokemon.maxhp/16);
                         } else {
                                 this.damage(pokemon.maxhp/8);
@@ -366,15 +332,13 @@ exports.BattleItems = {
                 onResidualOrder: 5,
                 onResidualSubOrder: 2,
                 onResidual: function(pokemon) {
-                        if (user.baseTemplate.species === 'Lucario') {
-                        if (user.baseTemplate.species === 'Lucario-Mega') {                        
+                        if (user.baseTemplate.species === 'Lucario') {else if (user.baseTemplate.species === 'Lucario-Mega') {                        
                                 this.heal(pokemon.maxhp/16);
                         } else {
                                 this.damage(pokemon.maxhp/8);
                         }
                 },                
                 megaStone: "Lucario-Mega",
-                onTakeItem: false,
                 num: -6,
                 gen: 6,
                 desc: "Mega-evolves Lucario."
@@ -386,15 +350,13 @@ exports.BattleItems = {
                 onResidualOrder: 5,
                 onResidualSubOrder: 2,
                 onResidual: function(pokemon) {
-                        if (user.baseTemplate.species === 'Manectric') {
-                        if (user.baseTemplate.species === 'Manectric-Mega') {                        
+                        if (user.baseTemplate.species === 'Manectric') {else if (user.baseTemplate.species === 'Manectric-Mega') {                        
                                 this.heal(pokemon.maxhp/16);
                         } else {
                                 this.damage(pokemon.maxhp/8);
                         }
                 },                
                 megaStone: "Manectric-Mega",
-                onTakeItem: false,
                 num: -6,
                 gen: 6,
                 desc: "Mega-evolves Manectric."
@@ -406,15 +368,13 @@ exports.BattleItems = {
                 onResidualOrder: 5,
                 onResidualSubOrder: 2,
                 onResidual: function(pokemon) {
-                        if (user.baseTemplate.species === 'Mawile') {
-                        if (user.baseTemplate.species === 'Mawile-Mega') {                        
+                        if (user.baseTemplate.species === 'Mawile') {else if (user.baseTemplate.species === 'Mawile-Mega') {                        
                                 this.heal(pokemon.maxhp/16);
                         } else {
                                 this.damage(pokemon.maxhp/8);
                         }
                 },                
                 megaStone: "Mawile-Mega",
-                onTakeItem: false,
                 num: -6,
                 gen: 6,
                 desc: "Mega-evolves Mawile."
@@ -426,15 +386,13 @@ exports.BattleItems = {
                 onResidualOrder: 5,
                 onResidualSubOrder: 2,
                 onResidual: function(pokemon) {
-                        if (user.baseTemplate.species === 'Medicham') {
-                        if (user.baseTemplate.species === 'Medicham-Mega') {                        
+                        if (user.baseTemplate.species === 'Medicham') {else if (user.baseTemplate.species === 'Medicham-Mega') {                        
                                 this.heal(pokemon.maxhp/16);
                         } else {
                                 this.damage(pokemon.maxhp/8);
                         }
                 },                
                 megaStone: "Medicham-Mega",
-                onTakeItem: false,
                 num: -6,
                 gen: 6,
                 desc: "Mega-evolves Medicham."
@@ -446,15 +404,13 @@ exports.BattleItems = {
                 onResidualOrder: 5,
                 onResidualSubOrder: 2,
                 onResidual: function(pokemon) {
-                        if (user.baseTemplate.species === 'Mewtwo') {
-                        if (user.baseTemplate.species === 'Mewtwo-Mega-X') {                        
+                        if (user.baseTemplate.species === 'Mewtwo') {else if (user.baseTemplate.species === 'Mewtwo-Mega-X') {                        
                                 this.heal(pokemon.maxhp/16);
                         } else {
                                 this.damage(pokemon.maxhp/8);
                         }
                 },                
                 megaStone: "Mewtwo-Mega-X",
-                onTakeItem: false,
                 num: -6,
                 gen: 6,
                 desc: "Mega-evolves Mewtwo into Mega Mewtwo X."
@@ -466,15 +422,13 @@ exports.BattleItems = {
                 onResidualOrder: 5,
                 onResidualSubOrder: 2,
                 onResidual: function(pokemon) {
-                        if (user.baseTemplate.species === 'Mewtwo') {
-                        if (user.baseTemplate.species === 'Mewtwo-Mega-Y') {                        
+                        if (user.baseTemplate.species === 'Mewtwo') {else if (user.baseTemplate.species === 'Mewtwo-Mega-Y') {                        
                                 this.heal(pokemon.maxhp/16);
                         } else {
                                 this.damage(pokemon.maxhp/8);
                         }
                 },                
                 megaStone: "Mewtwo-Mega-Y",
-                onTakeItem: false,
                 num: -6,
                 gen: 6,
                 desc: "Mega-evolves Mewtwo into Mega Mewtwo Y."
@@ -486,15 +440,13 @@ exports.BattleItems = {
                 onResidualOrder: 5,
                 onResidualSubOrder: 2,
                 onResidual: function(pokemon) {
-                        if (user.baseTemplate.species === 'Pinsir') {
-                        if (user.baseTemplate.species === 'Pinsir-Mega') {                        
+                        if (user.baseTemplate.species === 'Pinsir') {else if (user.baseTemplate.species === 'Pinsir-Mega') {                        
                                 this.heal(pokemon.maxhp/16);
                         } else {
                                 this.damage(pokemon.maxhp/8);
                         }
                 },                
                 megaStone: "Pinsir-Mega",
-                onTakeItem: false,
                 num: -6,
                 gen: 6,
                 desc: "Mega-evolves Pinsir."
@@ -506,15 +458,13 @@ exports.BattleItems = {
                 onResidualOrder: 5,
                 onResidualSubOrder: 2,
                 onResidual: function(pokemon) {
-                        if (user.baseTemplate.species === 'Scizor') {
-                        if (user.baseTemplate.species === 'Scizor-Mega') {                        
+                        if (user.baseTemplate.species === 'Scizor') {else if (user.baseTemplate.species === 'Scizor-Mega') {                        
                                 this.heal(pokemon.maxhp/16);
                         } else {
                                 this.damage(pokemon.maxhp/8);
                         }
                 },                
                 megaStone: "Scizor-Mega",
-                onTakeItem: false,
                 num: -6,
                 gen: 6,
                 desc: "Mega-evolves Scizor."
@@ -526,15 +476,13 @@ exports.BattleItems = {
                 onResidualOrder: 5,
                 onResidualSubOrder: 2,
                 onResidual: function(pokemon) {
-                        if (user.baseTemplate.species === 'Tyranitar') {
-                        if (user.baseTemplate.species === 'Tyranitar-Mega') {                        
+                        if (user.baseTemplate.species === 'Tyranitar') {else if (user.baseTemplate.species === 'Tyranitar-Mega') {                        
                                 this.heal(pokemon.maxhp/16);
                         } else {
                                 this.damage(pokemon.maxhp/8);
                         }
                 },                
                 megaStone: "Tyranitar-Mega",
-                onTakeItem: false,
                 num: -6,
                 gen: 6,
                 desc: "Mega-evolves Tyranitar."
@@ -546,15 +494,13 @@ exports.BattleItems = {
                 onResidualOrder: 5,
                 onResidualSubOrder: 2,
                 onResidual: function(pokemon) {
-                        if (user.baseTemplate.species === 'Venusaur') {
-                        if (user.baseTemplate.species === 'Venusaur-Mega') {                        
+                        if (user.baseTemplate.species === 'Venusaur') {else if (user.baseTemplate.species === 'Venusaur-Mega') {                        
                                 this.heal(pokemon.maxhp/16);
                         } else {
                                 this.damage(pokemon.maxhp/8);
                         }
                 },                
                 megaStone: "Venusaur-Mega",
-                onTakeItem: false,
                 num: -6,
                 gen: 6,
                 desc: "Mega-evolves Venusaur."
@@ -566,15 +512,13 @@ exports.BattleItems = {
                 onResidualOrder: 5,
                 onResidualSubOrder: 2,
                 onResidual: function(pokemon) {
-                        if (user.baseTemplate.species === 'Xerneas') {
-                        if (user.baseTemplate.species === 'Xerneas-Mega') {                        
+                        if (user.baseTemplate.species === 'Xerneas') {else if (user.baseTemplate.species === 'Xerneas-Mega') {                        
                                 this.heal(pokemon.maxhp/16);
                         } else {
                                 this.damage(pokemon.maxhp/8);
                         }
                 },                
                 megaStone: "Xerneas-Mega",
-                onTakeItem: false,
                 num: -6,
                 gen: 6,
                 desc: "Mega-evolves Xerneas."
@@ -586,15 +530,13 @@ exports.BattleItems = {
                 onResidualOrder: 5,
                 onResidualSubOrder: 2,
                 onResidual: function(pokemon) {
-                        if (user.baseTemplate.species === 'Yveltal') {
-                        if (user.baseTemplate.species === 'Yveltal-Mega') {                        
+                        if (user.baseTemplate.species === 'Yveltal') {else if (user.baseTemplate.species === 'Yveltal-Mega') {                        
                                 this.heal(pokemon.maxhp/16);
                         } else {
                                 this.damage(pokemon.maxhp/8);
                         }
                 },                
                 megaStone: "Yveltal-Mega",
-                onTakeItem: false,
                 num: -6,
                 gen: 6,
                 desc: "Mega-evolves Yveltal."
@@ -606,15 +548,13 @@ exports.BattleItems = {
                 onResidualOrder: 5,
                 onResidualSubOrder: 2,
                 onResidual: function(pokemon) {
-                        if (user.baseTemplate.species === 'Latios') {
-                        if (user.baseTemplate.species === 'Latios-Mega') {                        
+                        if (user.baseTemplate.species === 'Latios') {else if (user.baseTemplate.species === 'Latios-Mega') {                        
                                 this.heal(pokemon.maxhp/16);
                         } else {
                                 this.damage(pokemon.maxhp/8);
                         }
                 },                
                 megaStone: "Latios-Mega",
-                onTakeItem: false,
                 num: -6,
                 gen: 6,
                 desc: "Mega-evolves Yveltal."
@@ -626,15 +566,13 @@ exports.BattleItems = {
                 onResidualOrder: 5,
                 onResidualSubOrder: 2,
                 onResidual: function(pokemon) {
-                        if (user.baseTemplate.species === 'Latias') {
-                        if (user.baseTemplate.species === 'Latias-Mega') {                        
+                        if (user.baseTemplate.species === 'Latias') {else if (user.baseTemplate.species === 'Latias-Mega') {                        
                                 this.heal(pokemon.maxhp/16);
                         } else {
                                 this.damage(pokemon.maxhp/8);
                         }
                 },                
                 megaStone: "Latias-Mega",
-                onTakeItem: false,
                 num: -6,
                 gen: 6,
                 desc: "Mega-evolves Yveltal."
@@ -654,7 +592,6 @@ exports.BattleItems = {
                                 return false;
                         }
                 },
-                onTakeItem: false,
                 num: -199,
                 gen: 6,
                 desc: "God Stone."
