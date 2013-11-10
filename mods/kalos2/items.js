@@ -640,7 +640,7 @@ exports.BattleItems = {
                 desc: "Mega-evolves Yveltal."
         },
         "godstone": {
-                id: "god stone,
+                id: "god stone",
                 name: "God Stone",
                 spritenum: 0,
                 onBasePowerPriority: 6,
