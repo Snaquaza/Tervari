@@ -1,198 +1,43 @@
 exports.BattlePokedex = {
-       flygon: {
-                inherit: true,
-                types: ["Bug","Ground"],
-                abilites: {0:"Levitate",1:"Compoundeyes",H:"Tinted Lens"},
-                baseStats: {hp:80,atk:110,def:100,spa:80,spd:95,spe:105}
-       },
-       mew: {
-                inherit: true,
-                types: ["Psychic","Fairy"],
-                abilites: {0:"Regenerator",H:"Synchronoise"}
-       },
-       celebi: {
-                inherit: true,
-                types: ["Grass","Fairy"]
-       },
-       jirachi: {
-                inherit: true,
-                types: ["Steel","Fairy"],
-                abilites: {0:"Synchronoise",H:"Illuminate"}
-       },
-       manaphy: {
-                inherit: true,
-                types: ["Water","Fairy"],
-                abilites: {0:"Hydraition",H:"Swift Swim"}
-       },
-       shaymin: {
-                inherit: true,
-                types: ["Grass","Normal"],
-                abilites: {0:"Unaware"}
-       },
-       meloetta: {
-                inherit: true,
-                abilites: {0:"Stance Change"}
-       },
-       meloettapirouette: {
-                inherit: true,
-                abilites: {0:"Stance Change"}
-       },
-       victini: {
-                inherit: true,
-                types: ["Fire","Fairy"],
-                abilites: {0:"Victory Star",H:"Pixilate"}
-       },
-       flygon: {
-                inherit: true,
-                abilites: {0:"Intimidate",1:"Dry Skin",H:"Sand Rush"},
-                baseStats: {hp:80,atk:110,def:100,spa:80,spd:95,spe:105}
-       },
-       abomasnowmega: {
-                inherit: true,
-                abilites: {0:"Analytic"},
-                baseStats: {hp:100,atk:140,def:90,spa:165,spd:95,spe:30}
-       },
-       garchompmega: {
-                inherit: true,
-                types: ["Dragon","Fighting"],
-                abilites: {0:"Intimidate"},
-                baseStats: {hp:110,atk:175,def:110,spa:110,spd:100,spe:98}
-       },
-       heracrossmega: {
-                inherit: true,
-                abilites: {0:"Scrappy"},
-                baseStats: {hp:80,atk:165,def:90,spa:85,spd:90,spe:100}
-       },
-       gyaradosmega: {
-                inherit: true,
-                abilites: {0:"Moxie"},
-                baseStats: {hp:100,atk:165,def:90,spa:85,spd:110,spe:100}
-       },
-       delphox: {
-                inherit: true,
-                abilites: {0:"Blaze",1:"Magic Guard",H:"Magician"},
-                baseStats: {hp:75,atk:69,def:72,spa:115,spd:100,spe:108}
-       },
-       greninja: {
-                inherit: true,
-                abilites: {0:"Torrent",1:"Illusion",H:"Protean"},
-                baseStats: {hp:72,atk:105,def:67,spa:100,spd:71,spe:122}
-       },
-       chesnaught: {
-                inherit: true,
-                abilites: {0:"Overgrow",1:"Regenerator",H:"Bulletproof"},
-                baseStats: {hp:80,atk:110,def:100,spa:80,spd:95,spe:105}
-       },
-       florges: {
-                inherit: true,
-                abilites: {0:"Regenerator",1:"Natural Cure",H:"Pixelate"},
-                baseStats: {hp:90,atk:65,def:68,spa:112,spd:160,spe:75}
-       },
-       heliolisk: {
-                inherit: true,
-                types: ["Electric","Ground"],
-                baseStats: {hp:70,atk:55,def:105,spa:110,spd:60,spe:135}
-       },
-       talonflame: {
-                inherit: true,
-                abilites: {0:"Flame Body",1:"Flash Fire",H:"Gale Wings"},
-                baseStats: {hp:78,atk:100,def:71,spa:80,spd:69,spe:126}
-       },
-       vivillon: {
-                inherit: true,
-                types: ["Bug","Fairy"],
-                baseStats: {hp:80,atk:52,def:85,spa:105,spd:85,spe:105}
-       },
-       gogoat: {
-                inherit: true,
-                abilites: {0:"Sap Sipper",H:"Regenerator"},
-                baseStats: {hp:123,atk:105,def:62,spa:80,spd:81,spe:68}
-       },
-       pyroar: {
-                inherit: true,
-                abilites: {0:"Rivalry",1:"Unnerve",H:"Solar Power"},
-                baseStats: {hp:86,atk:68,def:68,spa:110,spd:66,spe:106}
-       },
-       pangoro: {
-                inherit: true,
-                abilites: {0:"Iron Fist",1:"Moxie",H:"Scrappy"},
-                baseStats: {hp:110,atk:130,def:78,spa:69,spd:71,spe:75}
-       },
-       meowstic: {
-                inherit: true,
-                types: ["Psychic","Dark"],
-                abilites: {0:"Magic Bounce",1:"Infiltrator",H:"Prankster"},
-                baseStats: {hp:100,atk:70,def:95,spa:70,spd:100,spe:105}
-       },
-       meowsticf: {
-                inherit: true,
-                types: ["Psychic","Normal"],
-                abilites: {0:"Magic Guard",1:"Infiltrator",H:"Competetive"},
-                baseStats: {hp:80,atk:105,def:80,spa:110,spd:60,spe:110}
-       },
-       doublade: {
-                inherit: true,
-                abilites: {0:"Frisk"},
-                baseStats: {hp:80,atk:115,def:130,spa:45,spd:65,spe:30}
-       },
-       aegislash: {
-                inherit: true,
-                types: ["Ghost"],
-                baseStats: {hp:85,atk:55,def:140,spa:55,spd:90,spe:55}
-       },
-       aegislashblade: {
-                inherit: true,
-                types: ["Ghost"],
-                baseStats: {hp:65,atk:125,def:55,spa:125,spd:55,spe:100}
-       },
-       furfrou: {
-                inherit: true,
-                baseStats: {hp:90,atk:80,def:70,spa:80,spd:100,spe:110}
-       },
-       malamar: {
-                inherit: true,
-                abilites: {0:"Contrary",1:"Infiltrator",H:"Prankster"},
-                baseStats: {hp:80,atk:105,def:90,spa:100,spd:95,spe:80}
-       },
-       barbaracle: {
-                inherit: true,
-                abilites: {0:"Tough Claws",1:"Sniper",H:"Sand Rush"},
-                baseStats: {hp:80,atk:110,def:86,spa:54,spd:115,spe:72}
-       },
-       goodra: {
-                inherit: true,
-                abilites: {0:"Regenerator",1:"Dry Skin",H:"Gooey"}
-       },
-       clawitzer: {
-                inherit: true,
-                types: ["Bug","Water"],
-                abilites: {0:"Mega Launcher",1:"Compoundeyes"},
-                baseStats: {hp:71,atk:135,def:88,spa:85,spd:89,spe:80}
-       },
-       dragalge: {
-                inherit: true,
-                baseStats: {hp:90,atk:75,def:90,spa:100,spd:123,spe:60}
-       },
-       chespin: {
-                inherit: true,
-                types: ["Grass","Ground"],
-                baseStats: {hp:70,atk:70,def:80,spa:33,spd:55,spe:60}
-       },
-       fennekin: {
-                inherit: true,
-                types: ["Fire","Psychic"],
-                baseStats: {hp:60,atk:20,def:60,spa:85,spd:70,spe:85}
-       },
-       froakie: {
-                inherit: true,
-                types: ["Water","Dark"],
-                baseStats: {hp:42,atk:61,def:40,spa:70,spd:50,spe:90}
-       },
-       fletchling: {
-                inherit: true,
-                types: ["Fire","Flying"],
-                baseStats: {hp:55,atk:70,def:50,spa:65,spd:45,spe:80}
-       },
+       flygon:{num:330,species:"Flygon",types:["Bug","Ground"],baseStats:{hp:80,atk:110,def:100,spa:80,spd:95,spe:105},abilities:{0:"Levitate",1:"Compoundeyes",H:"Tinted Lens"},heightm:2,weightkg:82,color:"Green",prevo:"vibrava",evoLevel:45,eggGroups:["Bug"]},       
+       mew:{num:151,species:"Mew",types:["Psychic","Fairy"],gender:"N",baseStats:{hp:100,atk:100,def:100,spa:100,spd:100,spe:100},abilities:{0:"Regenerator",H:"Synchronize"},heightm:0.4,weightkg:4,color:"Pink",eggGroups:["No Eggs"]},
+       celebi:{num:251,species:"Celebi",types:["Grass","Fairy"],gender:"N",baseStats:{hp:100,atk:100,def:100,spa:100,spd:100,spe:100},abilities:{0:"Natural Cure"},heightm:0.6,weightkg:5,color:"Green",eggGroups:["No Eggs"]},
+       jirachi:{num:385,species:"Jirachi",types:["Steel","Fairy"],gender:"N",baseStats:{hp:100,atk:100,def:100,spa:100,spd:100,spe:100},abilities:{0:"Synchronoise"},heightm:0.3,weightkg:1.1,color:"Yellow",eggGroups:["No Eggs"]},
+       manaphy:{num:490,species:"Manaphy",types:["Water","Fairy"],gender:"N",baseStats:{hp:100,atk:100,def:100,spa:100,spd:100,spe:100},abilities:{0:"Hydraition",H:"Swift Swim"},heightm:0.3,weightkg:1.4,color:"Blue",eggGroups:["Water 1","Fairy"]},
+       shaymin:{num:492,species:"Shaymin",baseForme:"Land",types:["Grass","Normal"],gender:"N",baseStats:{hp:100,atk:100,def:100,spa:100,spd:100,spe:100},abilities:{0:"Unaware"},heightm:0.2,weightkg:2.1,color:"Green",eggGroups:["No Eggs"],otherFormes:["shayminsky"]},
+       meloetta:{num:648,species:"Meloetta",baseForme:"Aria",types:["Normal","Psychic"],gender:"N",baseStats:{hp:100,atk:77,def:77,spa:128,spd:128,spe:90},abilities:{0:"Stance Change"},heightm:0.6,weightkg:6.5,color:"White",eggGroups:["No Eggs"],otherFormes:["meloettapirouette"]},
+       meloettapirouette:{num:648,species:"Meloetta-Pirouette",baseSpecies:"Meloetta",forme:"Pirouette",formeLetter:"P",types:["Normal","Fighting"],gender:"N",baseStats:{hp:100,atk:128,def:90,spa:77,spd:77,spe:128},abilities:{0:"Stance Change"},heightm:0.6,weightkg:6.5,color:"White",eggGroups:["No Eggs"]},
+       victini:{num:494,species:"Victini",types:["Fire","Fairy"],gender:"N",baseStats:{hp:100,atk:100,def:100,spa:100,spd:100,spe:100},abilities:{0:"Victory Star",H:"Pixilate"},heightm:0.4,weightkg:4,color:"Yellow",eggGroups:["No Eggs"]},
+       garchomp:{num:445,species:"Garchomp",types:["Dragon","Ground"],baseStats:{hp:108,atk:145,def:95,spa:80,spd:85,spe:102},abilities:{0:"Intimidate",1:"Dry Skin",H:"Sand Rush"},heightm:1.9,weightkg:95,color:"Blue",prevo:"gabite",evoLevel:48,eggGroups:["Monster","Dragon"],otherFormes:["garchompmega"]},
+       garchompmega:{num:445,species:"Garchomp-Mega",baseSpecies:"Garchomp",forme:"Mega",formeLetter:"M",types:["Dragon","Fighting"],baseStats:{hp:110,atk:175,def:110,spa:110,spd:100,spe:98},abilities:{0:"Intimidate"},heightm:1.9,weightkg:95,color:"Blue",prevo:"gabite",evoLevel:48,eggGroups:["Monster","Dragon"]},
+       abomasnowmega:{num:460,species:"Abomasnow-Mega",baseSpecies:"Abomasnow",forme:"Mega",formeLetter:"M",types:["Grass","Ice"],baseStats:{hp:100,atk:140,def:90,spa:165,spd:95,spe:30},abilities:{0:"Analytic"},heightm:2.7,weightkg:185,color:"White",prevo:"snover",evoLevel:40,eggGroups:["Monster","Plant"]},
+       heracrossmega:{num:214,species:"Heracross-Mega",baseSpecies:"Heracross",forme:"Mega",formeLetter:"M",types:["Bug","Fighting"],baseStats:{hp:80,atk:165,def:90,spa:85,spd:90,spe:100},abilities:{0:"Scrappy"},heightm:1.7,weightkg:62.5,color:"Blue",eggGroups:["Bug"]},
+       gyaradosmega:{num:130,species:"Gyarados-Mega",baseSpecies:"Gyarados",forme:"Mega",formeLetter:"M",types:["Water","Dark"],baseStats:{hp:100,atk:165,def:90,spa:85,spd:110,spe:100},abilities:{0:"Moxie"},heightm:6.5,weightkg:305,color:"Blue",prevo:"magikarp",evoLevel:20,eggGroups:["Water 2","Dragon"]},
+       delphox:{num:655,species:"Delphox",types:["Fire","Psychic"],genderRatio:{M:0.875,F:0.125},baseStats:{hp:75,atk:69,def:72,spa:115,spd:100,spe:108},abilities:{0:"Blaze",1:"Magic Guard",H:"Magician"},,heightm:1.5,weightkg:39,color:"",prevo:"braixen",evoLevel:36,eggGroups:["Field"]},
+       greninja:{num:658,species:"Greninja",types:["Water","Dark"],genderRatio:{M:0.875,F:0.125},baseStats:{hp:72,atk:105,def:67,spa:100,spd:71,spe:122},abilities:{0:"Torrent",1:"Illusion",H:"Protean"},heightm:1.5,weightkg:40,color:"",prevo:"frogadier",evoLevel:36,eggGroups:["Water 1"]},
+       chesnaught:{num:652,species:"Chesnaught",types:["Grass","Fighting"],genderRatio:{M:0.875,F:0.125},baseStats:{hp:80,atk:110,def:100,spa:80,spd:95,spe:105},abilities:{0:"Overgrow",1:"Regenerator",H:"Bulletproof"},heightm:1.6,weightkg:90,color:"",prevo:"quilladin",evoLevel:36,eggGroups:["Field"]},
+       florges:{num:671,species:"Florges",types:["Fairy"],baseStats:{hp:90,atk:65,def:68,spa:112,spd:160,spe:75},abilities:{0:"Regenerator",1:"Natural Cure",H:"Pixelate"},heightm:1.1,weightkg:10,color:"",prevo:"floette",evoLevel:19,eggGroups:["Fairy"]},
+       heliolisk:{num:695,species:"Heliolisk",types:["Electric","Ground"],baseStats:{hp:70,atk:55,def:105,spa:110,spd:60,spe:135},abilities:{0:"Dry Skin",1:"Sand Veil",H:"Solar Power"},heightm:1,weightkg:21,color:"",prevo:"helioptile",evoLevel:1,eggGroups:["Monster","Dragon"]},
+       talonflame:{num:663,species:"Talonflame",types:["Fire","Flying"],baseStats:{hp:78,atk:100,def:71,spa:80,spd:69,spe:126},abilities:{0:"Flame Body",1:"Flash Fire",H:"Gale Wings"},heightm:1.2,weightkg:24.5,color:"",prevo:"fletchinder",evoLevel:35,eggGroups:["Flying"]},
+       vivillon:{num:666,species:"Vivillon",types:["Bug","Fairy"],baseStats:{hp:80,atk:52,def:85,spa:105,spd:85,spe:105}abilities:{0:"Shield Dust",1:"Compound Eyes",H:"Friend Guard"},heightm:1.2,weightkg:17,color:"",prevo:"spewpa",evoLevel:12,eggGroups:["Bug"]},
+       gogoat:{num:673,species:"Gogoat",types:["Grass"],baseStats:{hp:123,atk:105,def:62,spa:80,spd:81,spe:68},abilities:{0:"Sap Sipper",H:"Regenerator"},heightm:1.7,weightkg:91,color:"",prevo:"skiddo",evoLevel:32,eggGroups:["Field"]},
+       pyroar:{num:668,species:"Pyroar",baseForme:"M",types:["Fire","Normal"],baseStats:{hp:86,atk:68,def:68,spa:110,spd:66,spe:106},abilities:{0:"Rivalry",1:"Unnerve",H:"Solar Power"},heightm:1.5,weightkg:81.5,color:"",prevo:"litleo",evoLevel:35,eggGroups:["Field"],otherFormes:["pyroarf"]},
+       pangoro:{num:675,species:"Pangoro",types:["Fighting","Dark"],baseStats:{hp:110,atk:130,def:78,spa:69,spd:71,spe:75},abilities:{0:"Iron Fist",1:"Moxie",H:"Scrappy"},heightm:2.1,weightkg:136,color:"",prevo:"pancham",evoLevel:32,eggGroups:["Field","Humanshape"]},
+       meowstic:{num:678,species:"Meowstic",baseForme:"Male",types:["Psychic","Dark"],,gender:"M",baseStats:{hp:100,atk:70,def:95,spa:70,spd:100,spe:105},abilities:{0:"Magic Bounce",1:"Infiltrator",H:"Prankster"},heightm:0.6,weightkg:8.5,color:"",prevo:"espurr",evoLevel:25,eggGroups:["Field"],otherFormes:["meowsticf"]},
+       meowsticf:{num:678,species:"Meowstic-F",baseSpecies:"Meowstic",forme:"F",formeLetter:"F",types:["Psychic","Normal"],,gender:"F",baseStats:{hp:80,atk:105,def:80,spa:110,spd:60,spe:110},abilities:{0:"Magic Guard",1:"Infiltrator",H:"Competetive"},heightm:0.6,weightkg:8.5,color:"",prevo:"espurr",evoLevel:25,eggGroups:["Field"]},
+       doublade:{num:680,species:"Doublade",types:["Steel","Ghost"],baseStats:{hp:80,atk:115,def:130,spa:45,spd:60,spe:30},abilities:{0:"Frisk"},heightm:0.8,weightkg:4.5,color:"",prevo:"honedge",evos:["aegislash"],evoLevel:35,eggGroups:["Mineral"]},
+       aegislash:{num:681,species:"Aegislash",types:["Ghost"],baseStats:{hp:85,atk:55,def:140,spa:55,spd:90,spe:55},abilities:{0:"Stance Change"},heightm:1.7,weightkg:52,color:"",prevo:"doublade",evoLevel:35,eggGroups:["Mineral"],otherFormes:["aegislashblade"]},
+       aegislashblade:{num:681,species:"Aegislash-Blade",baseSpecies:"Aegislash",forme:"Blade",formeLetter:"B",types:["Ghost"],baseStats:{hp:65,atk:125,def:55,spa:125,spd:55,spe:100},abilities:{0:"Stance Change"},heightm:0,weightkg:0,color:"",prevo:"doublade",evoLevel:35,eggGroups:["Mineral"]},
+       furfrou:{num:676,species:"Furfrou",types:["Normal"],baseStats:{hp:90,atk:80,def:70,spa:80,spd:100,spe:110},abilities:{0:"Fur Coat"},heightm:1.2,weightkg:28,color:"",eggGroups:["Field"]},
+       malamar:{num:687,species:"Malamar",types:["Dark","Psychic"],baseStats:{hp:80,atk:105,def:90,spa:100,spd:95,spe:80},abilities:{0:"Contrary",1:"Infiltrator",H:"Prankster"},,heightm:1.5,weightkg:47,color:"",prevo:"inkay",evoLevel:30,eggGroups:["Water 1","Water 2"]},
+       barbaracle:{num:689,species:"Barbaracle",types:["Rock","Water"],baseStats:{hp:80,atk:110,def:86,spa:54,spd:115,spe:72},abilities:{0:"Tough Claws",1:"Sniper",H:"Sand Rush"},heightm:1.3,weightkg:96,color:"",prevo:"binacle",evoLevel:39,eggGroups:["Water 3"]},
+       goodra:{num:706,species:"Goodra",types:["Dragon"],baseStats:{hp:90,atk:100,def:70,spa:110,spd:150,spe:80},abilities:{0:"Regenerator",1:"Dry Skin",H:"Gooey"},heightm:2,weightkg:150.5,color:"",prevo:"sliggoo",evoLevel:50,eggGroups:["Dragon"]},
+       clawitzer:{num:693,species:"Clawitzer",types:["Bug","Water"],baseStats:{hp:71,atk:135,def:88,spa:85,spd:89,spe:80},abilities:{0:"Mega Launcher",1:"Compoundeyes"},,heightm:1.3,weightkg:35.3,color:"",prevo:"clauncher",evoLevel:37,eggGroups:["Water 1","Water 3"]},
+       dragalge:{num:691,species:"Dragalge",types:["Poison","Dragon"],baseStats:{hp:90,atk:75,def:90,spa:100,spd:123,spe:60},abilities:{0:"Poison Point",1:"Poison Touch",H:"Adaptability"},heightm:1.8,weightkg:81.5,color:"",prevo:"skrelp",evoLevel:37,eggGroups:["Water 1","Dragon"]},
+       chespin:{num:650,species:"Chespin",types:["Grass","Ground"],genderRatio:{M:0.875,F:0.125},baseStats:{hp:70,atk:70,def:80,spa:33,spd:55,spe:60},abilities:{0:"Overgrow",H:"Bulletproof"},heightm:0.4,weightkg:9,color:"",evos:["quilladin"],eggGroups:["Field"]},
+       fennekin:{num:653,species:"Fennekin",types:["Fire","Psychic"],genderRatio:{M:0.875,F:0.125},baseStats:{hp:60,atk:20,def:60,spa:85,spd:70,spe:85},abilities:{0:"Blaze",H:"Magician"},heightm:0.4,weightkg:9.4,color:"",evos:["braixen"],eggGroups:["Field"]},
+       froakie:{num:656,species:"Froakie",types:["Water","Dark"],genderRatio:{M:0.875,F:0.125},baseStats:{hp:42,atk:61,def:40,spa:70,spd:50,spe:90},abilities:{0:"Torrent",H:"Protean"},heightm:0.3,weightkg:7,color:"",evos:["frogadier"],eggGroups:["Water 1"]},
+       fletchling:{num:661,species:"Fletchling",types:["Fire","Flying"],baseStats:{hp:55,atk:70,def:50,spa:65,spd:45,spe:80},abilities:{0:"Big Pecks",H:"Gale Wings"},heightm:0.3,weightkg:1.7,color:"",evos:["fletchinder"],eggGroups:["Flying"]},
        latias:{num:380,species:"Latias",types:["Dragon","Fairy"],gender:"F",baseStats: {hp:90,atk:65,def:100,spa:105,spd:140,spe:110},abilities:{0:"Levitate"},heightm:1.4,weightkg:40,color:"Red",eggGroups:["No Eggs"],otherFormes:["latiasmega"]},
        latiasmega:{num:380,species:"Latias-Mega",baseSpecies:"Latias",forme:"Mega",formeLetter:"M",types:["Dragon","Fairy"],gender:"N",baseStats:{hp:120,atk:65,def:100,spa:130,spd:165,spe:135},abilities:{0:"Magic Bounce"},heightm:3,weightkg:215,color:"Red",eggGroups:["No Eggs"]},
        latios:{num:381,species:"Latios",types:["Dragon","Psychic"],gender:"M",baseStats:{hp:90,atk:100,def:65,spa:140,spd:105,spe:110},abilities:{0:"Levitate"},heightm:2,weightkg:60,color:"Blue",eggGroups:["No Eggs"],otherFormes:["latiosmega"]},
