@@ -7,8 +7,7 @@ exports.BattleAbilities = {
                         if (move.category === 'Status' && move.id !== 'kingsshield') return;
                         var targetSpecies = (move.id === 'kingsshield'?'Aegislash':'Aegislash-Blade');
                         if (attacker.template.species !== targetSpecies && attacker.formeChange(targetSpecies)) {
-                                this.add('-formechange', attacker, targetSpecies);
-                        if (attacker.template.baseSpecies !== 'Meloetta') return;
+                                this.add('-formechange', attacker, targetSpecies); else if (attacker.template.baseSpecies !== 'Meloetta') return;
                         if (move.category === 'Status' && move.category === 'Special') return;
                         var targetSpecies = (move.category === 'Status' && move.category === 'Special'?'Meloetta':'Meloetta-Pirouette');
                         if (attacker.template.species !== targetSpecies && attacker.formeChange(targetSpecies)) {
