@@ -2,7 +2,7 @@ exports.BattlePokedex = {
        flygon: {
                 inherit: true,
                 types: ["Bug","Ground"]
-                abilites: {0:"Levtitate",1:"Compoundeyes",H:"Tinted Lens"}
+                abilites: {0:"Levitate",1:"Compoundeyes",H:"Tinted Lens"}
                 baseStats: {hp:80,atk:110,def:100,spa:80,spd:95,spe:105}
        },
        mew: {
