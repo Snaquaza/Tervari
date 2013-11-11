@@ -24,10 +24,13 @@ exports.BattleScripts = {
                   this.modData('Learnsets', 'florges').learnset.thunder = ['6M'];
                   this.modData('Learnsets', 'flabebe').learnset.trickroom = ['6E'];
                   this.modData('Learnsets', 'flabebe').learnset.sleeppowder = ['6E'];
+                  this.modData('Learnsets', 'florges').learnset.focusblast = ['6L100'];
+                  this.modData('Learnsets', 'flabebe').learnset.thunderbolt = ['6E'];
                   
                   this.modData('Learnsets', 'heliolisk').learnset.earthpower = ['6L100'];
                   this.modData('Learnsets', 'heliolisk').learnset.flamethrower = ['6M'];
-                  this.modData('Learnsets', 'helioptile').learnset.earthpower = ['6E'];
+                  this.modData('Learnsets', 'helioptile').learnset.stealthrock = ['6E'];
+                  this.modData('Learnsets', 'helioptile').learnset.weatherball = ['6E'];
                   
                   this.modData('Learnsets', 'talonflame').learnset.superpower = ['6L100'];
                   this.modData('Learnsets', 'fletchling').learnset.flareblitz = ['6T'];
