@@ -1,3 +1,3 @@
 exports.BattleLearnsets = {
-missingno:{learnset:{blizzard:["5L1"],bubblebeam:["5L1"],cut:["5L1"],doubleedge:["5L1"],earthquake:["5L1"],fissure:["5L1"],fly:["5L1"],icebeam:["5L1"],megakick:["5L1"],megapunch:["5L1"],psychic:["5L1"],rage:["5L1"],razorwind:["5L1"],rest:["5L1"],seismictoss:["5L1"],skyattack:["5L1"],submission:["5L1"],swordsdance:["5L1"],takedown:["5L1"],teleport:["5L1"],thunder:["5L1"],thunderwave:["5L1"],toxic:["5L1"],triattack:["5L1"],watergun:["5L1"]}},
+volcanion:{learnset:{rapidspin:["6E"],lavaplume:["6L100"],scald:["6L100"],steamcannon:["6L100"],recover:["6L100"],flamethrower:["6M"],fireblast:["6M"],flamecharge:["6L100"],superpower:["6L100"],earthpower:["6L100"],toxic:["6M"],sleeptalk:["6L100"],bulkup:["6L100"],surf:["6L100"],earthquake:["6L100"],willowisp:["6L100"],icebeam:["6L100"],focusblast:["6L100"],rockpolish:["6L100"],spikes:["6E"],steamray:["6E"],hydropump:["6E"],aurasphere:["6E"],thunderwave:["6M"],stealthrock:["6E"]}},
 };
