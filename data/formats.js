@@ -243,6 +243,22 @@ exports.BattleFormats = {
                                         set.ability = 'Pressure';
                                 }
                         }
+                        if (template.num == 380) { // Keldeo
+                                if (item.id === 'latitered') {
+                                        set.species = 'Latias-Mega';
+                                        set.ability = 'Magic Bounce';
+                                } else {
+                                set.species = 'Latias';
+                                }
+                        }
+                        if (template.num == 381) { // Keldeo
+                                if (item.id === 'latiteblue') {
+                                        set.species = 'Latios-Mega';
+                                        set.ability = 'Magic Guard';
+                                } else {
+                                set.species = 'Latios';
+                                }
+                        }
                         if (template.num == 647) { // Keldeo
                                 if (set.species === 'Keldeo-Resolute' && set.moves.indexOf('Secret Sword') < 0) {
                                         problems.push('Keldeo-Resolute needs to have Secret Sword.');
