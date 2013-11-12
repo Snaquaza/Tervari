@@ -126,4 +126,16 @@ exports.BattleAbilities = {
 		rating: 5,
 		num: 2
 	},
+	"centrepoint": {
+		desc: "When this Pokemon enters the battlefield, it causes a Gravity that only stops 5 turns after the user switches out.",
+		shortDesc: "On switch-in, this Pokemon summons Gravity which lasts 5 turns after the user switches out.",
+		onStart: function(source) {
+			this.setWeather('gravity');
+			this.weatherData.duration = 5;
+		},
+		id: "centrepoint",
+		name: "Centrepoint",
+		rating: 2,
+		num: 3
+	},
 };

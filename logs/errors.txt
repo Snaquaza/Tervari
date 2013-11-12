@@ -5686,3 +5686,12 @@ TypeError: Cannot call method 'validateTeam' of undefined
     at ChatRoom.chat (/Users/clazinasteunenberg/Downloads/Tervari/rooms.js:1499:27)
     at User.processChatQueue (/Users/clazinasteunenberg/Downloads/Tervari/users.js:1148:13)
     at Timer.listOnTimeout [as ontimeout] (timers.js:110:15)
+
+TypeError: Cannot call method 'validateTeam' of undefined
+    at Tools.module.exports.Tools.validateTeam (/Users/clazinasteunenberg/Downloads/Tervari/tools.js:706:28)
+    at User.prepBattle (/Users/clazinasteunenberg/Downloads/Tervari/users.js:1015:24)
+    at Object.exports.commands.challenge (/Users/clazinasteunenberg/Downloads/Tervari/commands.js:1475:13)
+    at Object.exports.parse (/Users/clazinasteunenberg/Downloads/Tervari/command-parser.js:200:31)
+    at ChatRoom.chat (/Users/clazinasteunenberg/Downloads/Tervari/rooms.js:1499:27)
+    at User.processChatQueue (/Users/clazinasteunenberg/Downloads/Tervari/users.js:1148:13)
+    at Timer.listOnTimeout [as ontimeout] (timers.js:110:15)

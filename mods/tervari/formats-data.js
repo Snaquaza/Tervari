@@ -4761,4 +4761,7 @@ tier: "NU"
 		viableMoves:{"surf":1,"icebeam":1,"hyperbeam":1,"calmmind":1},
 		tier: "NU"
 	},
+	cylibor:{
+		viableMoves:{"nastyplot":1,"zapcannon":1,"hiddenpowerice":1,"darkpulse":1},		tier: "NU"
+	}
 };

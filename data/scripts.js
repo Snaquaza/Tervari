@@ -1226,7 +1226,7 @@ exports.BattleScripts = {
 				if ((ability === 'Rock Head' || ability === 'Reckless') && !counter['recoil']) {
 					rejectAbility = true;
 				}
-				if ((ability === 'No Guard' || ability === 'Compoundeyes') && !counter['inaccurate']) {
+				if ((ability === 'No Guard' || ability === 'Compoundeyes' || ability === 'Centrepoint') && !counter['inaccurate']) {
 					rejectAbility = true;
 				}
 				if ((ability === 'Sheer Force' || ability === 'Serene Grace') && !counter['sheerforce']) {

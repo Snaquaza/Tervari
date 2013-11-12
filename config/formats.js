@@ -2,7 +2,147 @@
 // The rules that formats use are stored in data/formats.js
 
 exports.Formats = [
+////////////////Tervari Tiers
+///////////////////////////////////////////////////////////////////////////////////////////
+        {
+                name: "Tervari Random Battle",
+                section: "Tervari Random Tiers",
 
+                mod: 'tervari',
+                canUseRandomTeam: true,
+                team: 'random',
+                ruleset: ['PotD', 'Pokemon', 'Sleep Clause Mod', 'HP Percentage Mod']
+        },
+        {
+                name: "Tervari Challenge Cup",
+                section: "Tervari Random Tiers",
+
+                mod: 'tervari',
+                team: 'randomCC',
+                canUseRandomTeam: true,
+                ruleset: ['PotD', 'Pokemon', 'HP Percentage Mod']
+        },
+        {
+                name: "Tervari Challenge Cup 1-vs-1",
+                section: "Tervari Random Tiers",
+
+                mod: 'tervari',
+                team: 'randomCC',
+                canUseRandomTeam: true,
+                ruleset: ['PotD', 'Pokemon', 'Team Preview 1v1', 'HP Percentage Mod'],
+                onBegin: function() {
+                        this.debug('Cutting down to 1');
+                        this.p1.pokemon = this.p1.pokemon.slice(0, 1);
+                        this.p1.pokemonLeft = this.p1.pokemon.length;
+                        this.p2.pokemon = this.p2.pokemon.slice(0, 1);
+                        this.p2.pokemonLeft = this.p2.pokemon.length;
+                }
+        },
+        {
+                name: "Tervari OU",
+                section: "Tervari Tiers",
+
+                mod: 'tervari',
+                ruleset: ['Standard', 'Evasion Abilities Clause', 'Team Preview'],
+                banlist: ['Uber']        
+        },
+        {
+                name: "Tervari Ubers",
+                section: "Tervari Tiers",
+
+                mod: 'tervari',
+                ruleset: ['Team Preview', 'Sleep Clause Mod', 'Standard Ubers'],
+                banlist: []
+        },
+        {
+                name: "Tervari MU",
+                section: "Tervari Tiers",
+
+                mod: 'tervari',
+                ruleset: ['OU'],
+                banlist: ['OU', 'BL', 'Drought', 'Sand Stream']
+        },
+        {
+                name: "Tervari UU",
+                section: "Tervari Tiers",
+
+                mod: 'tervari',
+                ruleset: ['OU'],
+                banlist: ['MU', 'BL2', 'Drought', 'Sand Stream']
+        },        
+        {
+                name: "Tervari RU",
+                section: "Tervari Tiers",
+
+                mod: 'tervari',
+                ruleset: ['UU'],
+                banlist: ['UU', 'BL3', 'Shell Smash + Baton Pass']
+        },
+        {
+                name: "Tervari NU",
+                section: "Tervari Tiers",
+
+                mod: 'tervari',
+                ruleset: ['RU'],
+                banlist: ['RU','BL4']
+        },
+        {
+                name: "Tervari PU",
+                section: "Tervari Tiers",
+
+                mod: 'tervari',
+                ruleset: ['NU'],
+                banlist: ['NU','BL5']
+        },
+        {
+                name: "Tervari LC",
+                section: "Tervari Tiers",
+
+                mod: 'tervari',
+                maxLevel: 5,
+                ruleset: ['Pokemon', 'Standard', 'Team Preview', 'Little Cup'],
+                banlist: ['Sonicboom', 'Dragon Rage', 'Berry Juice', 'Carvanha', 'Meditite', 'Gligar', 'Scyther', 'Sneasel', 'Tangela', 'Vulpix', 'Yanma', 'Soul Dew']
+        },
+
+        {
+                name: "Tervari Doubles",
+                section: "Tervari Double Tiers",
+
+                mod: 'tervari',
+                gameType: 'doubles',
+                ruleset: ['Pokemon', 'Team Preview', 'Sleep Clause Mod', 'Species Clause', 'OHKO Clause', 'Moody Clause', 'Evasion Moves Clause', 'Evasion Abilities Clause', 'HP Percentage Mod'],
+                banlist: ['Unreleased', 'Illegal', 'Sky Drop', 'Dark Void', 'Soul Dew',
+                        'Mewtwo',
+                        'Lugia',
+                        'Ho-Oh',
+                        'Kyogre',
+                        'Groudon',
+                        'Rayquaza',
+                        'Dialga',
+                        'Palkia',
+                        'Giratina', 'Giratina-Origin',
+                        'Arceus', 'Arceus-Bug', 'Arceus-Dark', 'Arceus-Dragon', 'Arceus-Electric', 'Arceus-Fighting', 'Arceus-Fire', 'Arceus-Flying', 'Arceus-Ghost', 'Arceus-Grass', 'Arceus-Ground', 'Arceus-Ice', 'Arceus', 'Arceus-Poison', 'Arceus-Psychic', 'Arceus-Rock', 'Arceus-Steel', 'Arceus-Water',
+                        'Reshiram',
+                        'Zekrom',
+                        'Kyurem-White'
+                ]
+        },
+        {
+                name: "Tervari Uber Doubles",
+                section: "Tervari Double Tiers",
+
+                mod: 'tervari',
+                gameType: 'doubles',
+                ruleset: ['Pokemon', 'Team Preview', 'Sleep Clause Mod', 'Species Clause', 'OHKO Clause', 'Moody Clause', 'Evasion Moves Clause', 'Evasion Abilities Clause', 'HP Percentage Mod'],
+                banlist: ['Unreleased', 'Illegal', 'Sky Drop']
+        },
+	{
+                name: "Tervari Balanced Hackmons",
+                section: "Tervari Other Metagames",
+		mod: 'tervari',
+                ruleset: ['Pokemon', 'OHKO Clause'],
+                banlist: ['Wonder Guard', 'Pure Power', 'Huge Power', 'Shadow Tag', 'Arena Trap']
+        },
 	// XY Singles
 	///////////////////////////////////////////////////////////////////
 
@@ -48,32 +188,7 @@ exports.Formats = [
 		ruleset: ['Team Preview']
 	},
         
-        // Kalos2.0
-	///////////////////////////////////////////////////////////////////
-        {
-		name: "Kalos 2.0 OU",
-		section: "Kalos 2.0",
 
-                mod: 'kalos2', 
-		ruleset: ['Kalos 2 Pokemon', 'Standard Pokebank', 'Team Preview'],
-		banlist: ['Uber', 'Soul Dew', 'Charizardite-X']
-	},
-        {
-		name: "Kalos 2.0 Uber",
-		section: "Kalos 2.0",
-
-                mod: 'kalos2', 
-		ruleset: ['Kalos 2 Pokemon', 'Standard Pokebank', 'Team Preview'],
-		banlist: ['Charizardite-X']
-	},
-       {
-		name: "Kalos 2.0 LC",
-		section: "Kalos 2.0",
-
-                mod: 'kalos2', 
-		ruleset: ['Pokemon', 'Standard Pokebank', 'Team Preview', 'Little Cup'],
-		banlist: ['Sonicboom', 'Dragon Rage', 'Scyther']
-	},	
 	
 	// BW2 Singles
 	///////////////////////////////////////////////////////////////////
@@ -322,140 +437,6 @@ exports.Formats = [
 		ruleset: ['Pokemon', 'HP Percentage Mod']
 	},
 
-////////////////Tervari Tiers
-///////////////////////////////////////////////////////////////////////////////////////////
-        {
-                name: "Tervari Random Battle",
-                section: "Tervari Random Tiers",
-
-                mod: 'tervari',
-                canUseRandomTeam: true,
-                team: 'random',
-                ruleset: ['PotD', 'Pokemon', 'Sleep Clause Mod', 'HP Percentage Mod']
-        },
-        {
-                name: "Tervari Challenge Cup",
-                section: "Tervari Random Tiers",
-
-                mod: 'tervari',
-                team: 'randomCC',
-                canUseRandomTeam: true,
-                ruleset: ['PotD', 'Pokemon', 'HP Percentage Mod']
-        },
-        {
-                name: "Tervari Challenge Cup 1-vs-1",
-                section: "Tervari Random Tiers",
-
-                mod: 'tervari',
-                team: 'randomCC',
-                canUseRandomTeam: true,
-                ruleset: ['PotD', 'Pokemon', 'Team Preview 1v1', 'HP Percentage Mod'],
-                onBegin: function() {
-                        this.debug('Cutting down to 1');
-                        this.p1.pokemon = this.p1.pokemon.slice(0, 1);
-                        this.p1.pokemonLeft = this.p1.pokemon.length;
-                        this.p2.pokemon = this.p2.pokemon.slice(0, 1);
-                        this.p2.pokemonLeft = this.p2.pokemon.length;
-                }
-        },
-        {
-                name: "Tervari OU",
-                section: "Tervari Tiers",
-
-                mod: 'tervari',
-                ruleset: ['Standard', 'Evasion Abilities Clause', 'Team Preview'],
-                banlist: ['Uber']        
-        },
-        {
-                name: "Tervari Ubers",
-                section: "Tervari Tiers",
-
-                mod: 'tervari',
-                ruleset: ['Team Preview', 'Sleep Clause Mod', 'Standard Ubers'],
-                banlist: []
-        },
-        {
-                name: "Tervari MU",
-                section: "Tervari Tiers",
-
-                mod: 'tervari',
-                ruleset: ['OU'],
-                banlist: ['OU', 'BL', 'Drought', 'Sand Stream']
-        },
-        {
-                name: "Tervari UU",
-                section: "Tervari Tiers",
-
-                mod: 'tervari',
-                ruleset: ['OU'],
-                banlist: ['MU', 'BL2', 'Drought', 'Sand Stream']
-        },        
-        {
-                name: "Tervari RU",
-                section: "Tervari Tiers",
-
-                mod: 'tervari',
-                ruleset: ['UU'],
-                banlist: ['UU', 'BL3', 'Shell Smash + Baton Pass']
-        },
-        {
-                name: "Tervari NU",
-                section: "Tervari Tiers",
-
-                mod: 'tervari',
-                ruleset: ['RU'],
-                banlist: ['RU','BL4']
-        },
-        {
-                name: "Tervari PU",
-                section: "Tervari Tiers",
-
-                mod: 'tervari',
-                ruleset: ['NU'],
-                banlist: ['NU','BL5']
-        },
-        {
-                name: "Tervari LC",
-                section: "Tervari Tiers",
-
-                mod: 'tervari',
-                maxLevel: 5,
-                ruleset: ['Pokemon', 'Standard', 'Team Preview', 'Little Cup'],
-                banlist: ['Sonicboom', 'Dragon Rage', 'Berry Juice', 'Carvanha', 'Meditite', 'Gligar', 'Scyther', 'Sneasel', 'Tangela', 'Vulpix', 'Yanma', 'Soul Dew']
-        },
-
-        {
-                name: "Tervari Doubles",
-                section: "Tervari Double Tiers",
-
-                mod: 'tervari',
-                gameType: 'doubles',
-                ruleset: ['Pokemon', 'Team Preview', 'Sleep Clause Mod', 'Species Clause', 'OHKO Clause', 'Moody Clause', 'Evasion Moves Clause', 'Evasion Abilities Clause', 'HP Percentage Mod'],
-                banlist: ['Unreleased', 'Illegal', 'Sky Drop', 'Dark Void', 'Soul Dew',
-                        'Mewtwo',
-                        'Lugia',
-                        'Ho-Oh',
-                        'Kyogre',
-                        'Groudon',
-                        'Rayquaza',
-                        'Dialga',
-                        'Palkia',
-                        'Giratina', 'Giratina-Origin',
-                        'Arceus', 'Arceus-Bug', 'Arceus-Dark', 'Arceus-Dragon', 'Arceus-Electric', 'Arceus-Fighting', 'Arceus-Fire', 'Arceus-Flying', 'Arceus-Ghost', 'Arceus-Grass', 'Arceus-Ground', 'Arceus-Ice', 'Arceus', 'Arceus-Poison', 'Arceus-Psychic', 'Arceus-Rock', 'Arceus-Steel', 'Arceus-Water',
-                        'Reshiram',
-                        'Zekrom',
-                        'Kyurem-White'
-                ]
-        },
-        {
-                name: "Tervari Uber Doubles",
-                section: "Tervari Double Tiers",
-
-                mod: 'tervari',
-                gameType: 'doubles',
-                ruleset: ['Pokemon', 'Team Preview', 'Sleep Clause Mod', 'Species Clause', 'OHKO Clause', 'Moody Clause', 'Evasion Moves Clause', 'Evasion Abilities Clause', 'HP Percentage Mod'],
-                banlist: ['Unreleased', 'Illegal', 'Sky Drop']
-        },
            // Doubles
         ///////////////////////////////////////////////////////////////////
 
@@ -1070,6 +1051,32 @@ exports.Formats = [
                 //ruleset: ['Pokemon', 'Standard', 'Evasion Abilities Clause', 'Team Preview'],
  //               banlist: ['Uber', 'Drizzle ++ Swift Swim', 'Soul Dew']        
    //     },
+        // Kalos2.0
+	///////////////////////////////////////////////////////////////////
+        {
+		name: "Kalos 2.0 OU",
+		section: "Kalos 2.0",
+
+                mod: 'kalos2', 
+		ruleset: ['Kalos 2 Pokemon', 'Standard Pokebank', 'Team Preview'],
+		banlist: ['Uber', 'Soul Dew', 'Charizardite-X']
+	},
+        {
+		name: "Kalos 2.0 Uber",
+		section: "Kalos 2.0",
+
+                mod: 'kalos2', 
+		ruleset: ['Kalos 2 Pokemon', 'Standard Pokebank', 'Team Preview'],
+		banlist: ['Charizardite-X']
+	},
+       {
+		name: "Kalos 2.0 LC",
+		section: "Kalos 2.0",
+
+                mod: 'kalos2', 
+		ruleset: ['Pokemon', 'Standard Pokebank', 'Team Preview', 'Little Cup'],
+		banlist: ['Sonicboom', 'Dragon Rage', 'Scyther']
+	},
         // Past Generations
         ///////////////////////////////////////////////////////////////////
 
@@ -1137,4 +1144,5 @@ exports.Formats = [
 
 		ruleset: ['Pokemon']
 	}
+
 ];	
