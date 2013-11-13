@@ -337,6 +337,10 @@ var commands = exports.commands = {
 		if (!user.joinRoom(targetRoom || room, connection)) {
 			return connection.sendTo(target, "|noinit|joinfailed|The room '"+target+"' could not be joined.");
 		}
+		if (room.id == "lobby" && !user.welcomed) {
+                user.welcomed = true;
+                  this.sendReply('|raw|<div class="visibility: hidden"><P "ALIGN=center"> <img src="http://i.imgur.com/arkzHIO.png"/> Welcome to Tervari!<img src="http://i.imgur.com/4nlwZx7.png"/></P></u></div>');
+         }
 	},
 
 	rb: 'roomban',

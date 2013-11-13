@@ -1299,6 +1299,9 @@ exports.BattleScripts = {
 			} else if (template.species === 'Delibird') {
 				// to go along with the Christmas Delibird set
 				item = 'Leftovers';
+			} else if (template.species === 'Cylibor') {
+				// to go along with the Christmas Delibird set
+				item = 'Leftovers';
 
 			// First, the extra high-priority items
 

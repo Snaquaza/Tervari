@@ -1180,3 +1180,22 @@
 [2013-11-12T17:43:50.647Z] (mawile) The Pokemon of the Day was changed to Cylibor by Snaquaza.
 [2013-11-12T17:57:31.031Z] (lobby) The Pokemon of the Day was changed to Cylibor by Snaquaza.
 [2013-11-12T18:00:00.596Z] (mawile) Snaquaza set modchat to @
+[2013-11-12T20:05:25.490Z] (lobby) Snaquaza declared Ladder Tervari OU!
+[2013-11-12T20:22:01.840Z] (staff) Validus was promoted to a regular user by RealPresent.
+[2013-11-12T20:23:03.222Z] (lobby) The Pokemon of the Day was changed to Cylibor by Snaquaza.
+[2013-11-12T20:35:09.906Z] (staff) Ѕhаdow was banned from room staff by Snaquaza.
+[2013-11-12T20:35:23.854Z] (staff) Ѕhаdow was unbanned from room staff by Snaquaza.
+[2013-11-12T21:02:56.711Z] (staff) (Cychainix was forcibly renamed to Nude Gothic by Snaquaza.)
+[2013-11-12T21:03:35.337Z] (staff) (Nude Overlord was forcibly renamed to Nude Gothic by Snaquaza.)
+[2013-11-12T21:03:48.436Z] (staff) (Nude Overlord was forcibly renamed to Nude Gothic by Snaquaza.)
+[2013-11-12T22:24:02.724Z] (lobby) Snaquaza declared If you HTML or Shadow, PM Snaq
+[2013-11-12T22:25:54.232Z] (battle-tervarirandombattle-305) Snaquaza forced a win for snaquaza.
+[2013-11-12T23:20:25.645Z] (staff) SilverKill was promoted to Driver by Snaquaza.
+[2013-11-13T02:58:34.919Z] (lobby) DR4G0Nx was locked from talking by SilverKill.
+[2013-11-13T02:58:34.919Z] (lobby) DR4G0Nx's alts were also locked: Guest 50
+[2013-11-13T03:03:47.660Z] (lobby) Guest 50, DR4G0Nx were unlocked by SilverKill.
+[2013-11-13T15:08:51.509Z] (lobby) SpartanMalice set modchat to +
+[2013-11-13T15:08:57.827Z] (lobby) in bed with justin was banned by SpartanMalice. (79.216.54.42)
+[2013-11-13T15:09:01.031Z] (lobby) SpartanMalice set modchat to false
+[2013-11-13T15:10:11.995Z] (lobby) SpartanMalice set modchat to autoconfirmed
+[2013-11-13T15:14:39.565Z] (lobby) The Pokemon of the Day was changed to Trolliath by Snaquaza.
