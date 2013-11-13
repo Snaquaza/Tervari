@@ -289,5 +289,6 @@ curuptile:{num:894,species:"Curuptile",types:["Ground"],baseStats:{hp:70,atk:80,
 contyphlos:{num:896,species:"Contyphlos",types:["Poison"],baseStats:{hp:80,atk:115,def:75,spa:78,spd:75,spe:95},abilities:{0:"Unaware",1:"Quick Feet",H:"Poison Touch"},heightm:4,weightkg:89,color:"Brown",prevo:"",evoLevel:1,eggGroups:["Human"]},
 bouldemage:{num:897,species:"Bouldemage",types:["Rock","Psychic"],baseStats:{hp:105,atk:40,def:75,spa:75,spd:125,spe:50},abilities:{0:"Solid Rock",H:"Regenerator"},heightm:1.8,weightkg:150,color:"Brown",prevo:"Sedimage",evoLevel:1,eggGroups:["Mineral","Humanshape"]},
 naruntic:{num:898,species:"Naruntic",types:["Ice","Water"],baseStats:{hp:70,atk:70,def:40,spa:60,spd:60,spe:90},abilities:{0:"Benefactor"},heightm:0.4,weightkg:5,color:"Blue",eggGroups:["Water 1"]},
-	cylibor:{num:899,species:"Cylibor",types:["Electric","Dark"],gender:"N",baseStats:{hp:80,atk:60,def:75,spa:60,spd:75,spe:120},abilities:{0:"Battle Armor",1:"Levitate",H:"Centrepoint"},heightm:2,weightkg:300,color:"Yellow",eggGroups:["Mineral"]}
+	cylibor:{num:899,species:"Cylibor",types:["Electric","Dark"],gender:"N",baseStats:{hp:80,atk:60,def:75,spa:60,spd:75,spe:120},abilities:{0:"Battle Armor",1:"Levitate",H:"Centrepoint"},heightm:2,weightkg:300,color:"Yellow",eggGroups:["Mineral"]},
+	trolliath:{num:900,species:"Trolliath",types:["Grass","Dark"],genderRatio:{M:0.5,F:0.5},baseStats:{hp:104,atk:115,def:73,spa:40,spd:100,spa:63},abilities:{0:"Harvest",1:"Battle Armor",H:"Deep Tension"},heightm:2,weightkg:100,color:"Green",eggGroups:["Grass","Human-Like"]}
 };

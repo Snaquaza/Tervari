@@ -4763,5 +4763,9 @@ tier: "NU"
 	},
 	cylibor:{
 		viableMoves:{"nastyplot":1,"zapcannon":1,"hiddenpowerice":1,"darkpulse":1},		tier: "NU"
+	},
+	trolliath:{
+		viableMoves:"woodhammer":1,"suckerpunch":1,"naturepower":1,"crunch":1}
+		tier: "RU"
 	}
 };
