@@ -4762,10 +4762,19 @@ tier: "NU"
 		tier: "NU"
 	},
 	cylibor:{
-		viableMoves:{"nastyplot":1,"zapcannon":1,"hiddenpowerice":1,"darkpulse":1},		tier: "NU"
+		viableMoves:{"nastyplot":1,"zapcannon":1,"hiddenpowerice":1,"darkpulse":1},		
+		tier: "NU"
 	},
 	trolliath:{
-		viableMoves:"woodhammer":1,"suckerpunch":1,"naturepower":1,"crunch":1}
+		viableMoves:{"woodhammer":1,"suckerpunch":1,"naturepower":1,"crunch":1},
+		tier: "RU"
+	},
+	dridion:{
+		viableMoves:{"megahorn":1,"earthquake":1,"swordsdance":1,"stoneedge":1},
+		tier: "NU"
+	},
+	icoxi:{
+		viableMoves:{"aciditygash":1,"iciclecrash":1,"moonlight":1,"iceshard":1},
 		tier: "RU"
 	}
 };

@@ -844,4 +844,23 @@ exports.BattleMovedex = {
 		target: "normal",
 		type: "Ghost"
 	},
+        "aciditygash": {
+                num: 716,
+                accuracy: 95,
+                basePower: 100,
+                category: "Physical",
+                desc: "Deals damage to one adjacent target with a 20 chance to inflict Badly Poison.",
+                shortDesc: "20% chance to badly poison the target.",
+                id: "aciditygash",
+                isViable: true,
+                name: "Acidity Gash",
+                pp: 10,
+                priority: 0,
+   		 secondary: {
+			chance: 20,
+			status: 'tox'
+			},
+                target: "normal",
+                type: "Poison"
+        }
 };

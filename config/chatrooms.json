@@ -1,13 +1,15 @@
 [
-{"title":"Lobby","autojoin":true},
+{"title":"Lobby","autojoin":true,"auth":{}},
 {"title":"Staff","isPrivate":true,"staffRoom":true,"staffAutojoin":true},
 {"title":"Tervari Olympics","auth":{"snaquaza":"@","hdow":"+","eneomas":"+","spartanmalice":"+","namin":"+","realpresent":"+","imunderthebed":"+","adrianmarin":"@"}},
 {"title":"Tervari Game","isPrivate":true},
 {"title":"Mafia"},
-{"title":"Spammer's Paradise"},
+{"title":"Spammer's Paradise","isPrivate":true},
 {"title":"League Ugh","desc":"For all server hate","isPrivate":true},
 {"title":"Mence League","isPrivate":true,"auth":{"gardreigon982":"#","dragonraptor792":"#","snaquaza":"@"}},
-{"title":"Bidoof World","isPrivate":true,"auth":{"teamninjaleader":"#","haxoursking":"@","snaquaza":"%","narwhaledninja":"@"}},
-{"title":"#mawile","auth":{"cellyberry":"#","nozzle":"@","eroticllamas":"@","silvershadow234":"@","snaquaza":"@","anty208":"+"}},
-{"title":"Trivia"}
+{"title":"Bidoof World","isPrivate":true,"auth":{"teamninjaleader":"#","haxoursking":"@","snaquaza":"%","narwhaledninja":"@","omegakiba":"%"}},
+{"title":"#mawile","auth":{"cellyberry":"#","nozzle":"@","eroticllamas":"@","silvershadow234":"@","snaquaza":"@","anty208":"+","celever":"#"}},
+{"title":"Trivia","auth":{"volcun":"#","teruxd":"@","crystalvibritannia":"@","supanova":"@","e4alexial":"@","derpymcderpson":"%","feraligilicious":"%"},"desc":"Rules And Tracking Sheet: http://bit.ly/1aqgma2"},
+{"title":"Would You Rather?","auth":{"leonidaswsmiley":"#","zetasniper":"+","jakfratello":"%","zekek":"%","startsphealinwitit":"+","chaossigma":"+","devoratrix":"+","coolsylveon":"+","jdee18":"@","saverdien":"%","sirtommyd":"#","b1naryb0t":"+","coronis":"%","heracrossthegreek":"%"}},
+{"title":"hi","isPrivate":true}
 ]

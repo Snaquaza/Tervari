@@ -339,8 +339,7 @@ var commands = exports.commands = {
 		}
 		if (room.id == "lobby" && !user.welcomed) {
                 user.welcomed = true;
-                  this.sendReply('|raw|<div class="visibility: hidden"><P "ALIGN=center"> <img src="http://i.imgur.com/arkzHIO.png"/> Welcome to Tervari!<img src="http://i.imgur.com/4nlwZx7.png"/></P></u></div>');
-         }
+                  this.sendReply('|raw|<div class="infobox"><center><P "ALIGN=center"> <img src="http://i.imgur.com/arkzHIO.png" align="middle"/> <font color="red"><font size="5"><font face="Lucida Calligraphy"><b>Welcome to Tervari!</b></font></font></font><img src="http://i.imgur.com/4nlwZx7.png" align="middle"/></P></u><br>Tervari is the server dedicated to the identically named Pokémon region. <br>Please enjoy your stay!<br><br><a href="http://letsmakeagametogether.createaforum.com/" class="rb">Official Forum</a><br><br>Be sure to check out the following links:<br><br><button name="joinRoom" value="mafia"><b>Mafia</b></button> | <button name="joinRoom" value="tervariolympics"><b>Tervari Olympics</b></button> | <button name="joinRoom" value="trivia"><b>Trivia</b></button></div>');         }
 	},
 
 	rb: 'roomban',

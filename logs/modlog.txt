@@ -1199,3 +1199,219 @@
 [2013-11-13T15:09:01.031Z] (lobby) SpartanMalice set modchat to false
 [2013-11-13T15:10:11.995Z] (lobby) SpartanMalice set modchat to autoconfirmed
 [2013-11-13T15:14:39.565Z] (lobby) The Pokemon of the Day was changed to Trolliath by Snaquaza.
+[2013-11-13T15:21:03.005Z] (lobby) Snaquaza set modchat to false
+[2013-11-13T15:27:45.256Z] (lobby) The Pokemon of the Day was changed to Saigris by Snaquaza.
+[2013-11-13T15:37:07.513Z] (lobby) The Pokemon of the Day was changed to Spidium by Snaquaza.
+[2013-11-13T15:44:43.932Z] (lobby) The Pokemon of the Day was changed to Trolliath by Snaquaza.
+[2013-11-13T15:47:22.572Z] (lobby) The Pokemon of the Day was changed to hi by RealPresent.
+[2013-11-13T15:57:15.505Z] (lobby) The Pokemon of the Day was changed to $pankopaw by Snaquaza.
+[2013-11-13T17:55:46.344Z] (lobby) RealPresent declared <img scr='http://postimg.org/image/mvih1y4s1/>
+[2013-11-13T17:56:30.480Z] (lobby) RealPresent declared <img src="http://postimg.org/image/mvih1y4s1/>
+[2013-11-13T17:56:59.621Z] (lobby) RealPresent declared <img src="http://postimg.org/image/mvih1y4s1/">
+[2013-11-13T17:57:53.526Z] (spammersparadise) RealPresent declared <img src="http://postimg.org/image/mvih1y4s1/">
+[2013-11-13T17:58:01.050Z] (spammersparadise) RealPresent declared <img src="http://postimg.org/image/mvih1y4s1/"></img>
+[2013-11-13T17:58:06.022Z] (spammersparadise) RealPresent declared <img src="http://postimg.org/image/mvih1y4s1/"</img>
+[2013-11-13T17:59:01.003Z] (spammersparadise) RealPresent declared <img src="http://postimg.org/image/mvih1y4s1/.gif"></img>
+[2013-11-13T17:59:05.104Z] (spammersparadise) RealPresent declared <img src="http://postimg.org/image/mvih1y4s1/.gif">
+[2013-11-13T17:59:10.117Z] (spammersparadise) RealPresent declared <img src="http://postimg.org/image/mvih1y4s1/">
+[2013-11-13T17:59:38.499Z] (spammersparadise) RealPresent declared <marquee><img src="http://i1125.photobucket.com/albums/l583/Terie1970/nyan-cat.gif"</img></marquee><marquee><font color=red><font size="10">Moonwalk!</font></font></marquee>
+[2013-11-13T18:01:28.569Z] (spammersparadise) RealPresent declared <img src="http://postimg.org/image/50yrgnuqp/>
+[2013-11-13T18:01:47.357Z] (spammersparadise) RealPresent declared <img src="http://postimg.org/image/50yrgnuqp/">
+[2013-11-13T18:01:52.383Z] (spammersparadise) RealPresent declared <img src="http://postimg.org/image/50yrgnuqp">
+[2013-11-13T18:02:10.283Z] (spammersparadise) RealPresent declared http://postimg.org/image/50yrgnuqp/
+[2013-11-13T18:04:28.681Z] (hi) (I am Guest 104 was demoted to a regular user by RealPresent.)
+[2013-11-13T18:04:38.074Z] (hi) (please help me was demoted to Voice by RealPresent.)
+[2013-11-13T18:04:39.571Z] (hi) (please help me was demoted to a regular user by RealPresent.)
+[2013-11-13T18:05:06.631Z] (hi) (iPhone Shadow was demoted to Driver by RealPresent.)
+[2013-11-13T18:05:11.382Z] (hi) (iPhone Shadow was demoted to Voice by RealPresent.)
+[2013-11-13T18:05:11.882Z] (hi) (iPhone Shadow was demoted to a regular user by RealPresent.)
+[2013-11-13T18:05:21.841Z] (hi) (AngelKeldeo was demoted to Driver by RealPresent.)
+[2013-11-13T18:05:25.515Z] (hi) (AngelKeldeo was demoted to Voice by RealPresent.)
+[2013-11-13T18:06:06.095Z] (spammersparadise) Naminé declared .
+[2013-11-13T18:09:21.527Z] (lobby) Ѕhаdow was warned by Naminé. (calling me a bith)
+[2013-11-13T18:09:27.492Z] (lobby) Ѕhаdow was warned by Naminé. (calling me a nub)
+[2013-11-13T18:09:40.130Z] (lobby) Ѕhаdow was warned by Naminé. (wanting to burn me)
+[2013-11-13T18:21:26.559Z] (lobby) Gerord Goggling was warned by Snaquaza. (gross)
+[2013-11-13T18:44:21.856Z] (staff) (PokermansCoach was forcibly renamed to Sir Wailord by Snaquaza.)
+[2013-11-13T18:45:32.098Z] (staff) (Sir Wailord was forcibly renamed to PokermansCoach by Snaquaza.)
+[2013-11-13T19:14:16.945Z] (staff) Ѕhаdow was warned by Snaquaza. (I saw the wonder Lavender ;_;)
+[2013-11-13T19:36:12.581Z] (staff) (Ѕhаdow was forced to choose a new name by Snaquaza: no unicode)
+[2013-11-13T19:42:38.679Z] (staff) (Ѕhаdow was forced to choose a new name by Snaquaza: no unicode)
+[2013-11-13T19:43:03.506Z] (staff) (Ѕhаdow was forcibly renamed to hdow by Snaquaza.)
+[2013-11-13T19:45:46.828Z] (lobby) Snaquaza declared Test coming up
+[2013-11-13T19:50:51.920Z] (spammersparadise) RealPresent declared <img src="http://i.imgur.com/tMv6TT7.png"/> Welcome to Tervari!<img src="http://i.imgur.com/tMv6TT7.png"/>
+[2013-11-13T19:51:13.703Z] (spammersparadise) RealPresent declared <img src="http://i.imgur.com/tMv6TT7.png"/> <font size="7">Welcome to Tervari!</font><img src="http://i.imgur.com/tMv6TT7.png"/>
+[2013-11-13T19:51:21.836Z] (spammersparadise) RealPresent declared <img src="http://i.imgur.com/tMv6TT7.png"/> <font size="6">Welcome to Tervari!</font><img src="http://i.imgur.com/tMv6TT7.png"/>
+[2013-11-13T19:51:38.843Z] (spammersparadise) RealPresent declared <img src="http://i.imgur.com/tMv6TT7.png"/> <font size="6"><font color="red"Welcome to Tervari!</font></font><img src="http://i.imgur.com/tMv6TT7.png"/>
+[2013-11-13T19:51:49.820Z] (spammersparadise) RealPresent declared <img src="http://i.imgur.com/tMv6TT7.png"/> <font size="6"><font color="red">Welcome to Tervari!</font></font><img src="http://i.imgur.com/tMv6TT7.png"/>
+[2013-11-13T19:52:16.560Z] (spammersparadise) RealPresent declared <div class="visibility: hidden"><img src="http://i.imgur.com/tMv6TT7.png"/> <font size="6"><font color="red">Welcome to Tervari!</font></font><img src="http://i.imgur.com/tMv6TT7.png"/>
+[2013-11-13T19:52:30.589Z] (spammersparadise) RealPresent declared <div class="visibility: hidden"><img src="http://i.imgur.com/tMv6TT7.png"/> <font size="6"><font color="red">Welcome to Tervari!</font></font><img src="http://i.imgur.com/tMv6TT7.png"/>,/div class>
+[2013-11-13T19:52:34.325Z] (spammersparadise) RealPresent declared <div class="visibility: hidden"><img src="http://i.imgur.com/tMv6TT7.png"/> <font size="6"><font color="red">Welcome to Tervari!</font></font><img src="http://i.imgur.com/tMv6TT7.png"/></div class>
+[2013-11-13T19:52:39.292Z] (spammersparadise) Snaquaza declared <div class="visibility: hidden">hi</div>
+[2013-11-13T19:52:42.982Z] (spammersparadise) Snaquaza declared <div class="visibility: hidden">hi
+[2013-11-13T19:53:31.309Z] (spammersparadise) RealPresent declared <bgcolor="transparent"><img src="http://i.imgur.com/tMv6TT7.png"/> <font size="6"><font color="red">Welcome to Tervari!</font></font><img src="http://i.imgur.com/tMv6TT7.png"/>
+[2013-11-13T19:53:37.560Z] (spammersparadise) RealPresent declared <bgcolor="transparent"><img src="http://i.imgur.com/tMv6TT7.png"/> <font size="6"><font color="red">Welcome to Tervari!</font></font><img src="http://i.imgur.com/tMv6TT7.png"/></font>
+[2013-11-13T19:53:49.029Z] (spammersparadise) RealPresent declared <MARQUEE bgcolor="transparent"><img src="http://i.imgur.com/tMv6TT7.png"/> <font size="6"><font color="red">Welcome to Tervari!</font></font><img src="http://i.imgur.com/tMv6TT7.png"/></marquee>
+[2013-11-13T19:54:13.503Z] (spammersparadise) RealPresent declared <blink><font size=”7”><font color=white><MARQUEE behavior="alternate" direction="right" width="100%" scrollamount="50" bgcolor=”orange” hspace=”200” scrolldelay=”1000”>YOUR TEXT GOES HERE</MARQUEE></font></font></blink>
+[2013-11-13T19:55:33.729Z] (spammersparadise) RealPresent declared <div class="visibility: hidden"><img src="http://i.imgur.com/tMv6TT7.png"/> <font size="6"><font color="red">Welcome to Tervari!</font></font><img src="http://i.imgur.com/tMv6TT7.png"/></div>
+[2013-11-13T19:55:41.818Z] (spammersparadise) Snaquaza declared <div "class=visibility: hidden">hi</div>
+[2013-11-13T19:56:01.640Z] (spammersparadise) RealPresent declared <div "class=visibility: hidden"><img src="http://i.imgur.com/tMv6TT7.png"/> <font size="6"><font color="red">Welcome to Tervari!</font></font><img src="http://i.imgur.com/tMv6TT7.png"/></div>
+[2013-11-13T19:56:07.744Z] (spammersparadise) RealPresent declared <div class="visibility: hidden"><img src="http://i.imgur.com/tMv6TT7.png"/> <font size="6"><font color="red">Welcome to Tervari!</font></font><img src="http://i.imgur.com/tMv6TT7.png"/></div>
+[2013-11-13T19:56:55.918Z] (leagueugh) Leonidas W. Smiley was promoted to Voice by Snaquaza.
+[2013-11-13T19:56:56.420Z] (leagueugh) (Leonidas W. Smiley was demoted to a regular user by Snaquaza.)
+[2013-11-13T19:56:59.358Z] (spammersparadise) RealPresent declared <P ALIGNN=“center”> <img src="http://i.imgur.com/tMv6TT7.png"/> Welcome to Tervari!<img src="http://i.imgur.com/tMv6TT7.png"/></P>
+[2013-11-13T19:57:08.723Z] (leagueugh) Leonidas W. Smiley was promoted to Driver by Snaquaza.
+[2013-11-13T19:57:09.224Z] (leagueugh) (Leonidas W. Smiley was demoted to a regular user by Snaquaza.)
+[2013-11-13T19:59:14.870Z] (spammersparadise) RealPresent declared <MARQUEE scrollamount="0" bgcolor="white"><img src="http://i.imgur.com/tMv6TT7.png"/> <font size="6"><font color="red">Welcome to Tervari!</font></font><img src="http://i.imgur.com/tMv6TT7.png"/>
+[2013-11-13T20:01:00.387Z] (spammersparadise) Snaquaza declared <div class="visibility: hidden"><P "ALIGN=center"> <img src="http://i.imgur.com/arkzHIO.png"/> Welcome to Tervari!<img src="http://i.imgur.com/4nlwZx7.png"/></P></u></div>
+[2013-11-13T20:10:52.539Z] (spammersparadise) RealPresent declared <div class="visibility: hidden"><P "ALIGN=center"> <img src="http://i.imgur.com/arkzHIO.png"/> <font color="red"><font size="5"><font face="Georgia, Arial, Garamond"><b>Welcome to Tervari!</b></font><img src="http://i.imgur.com/4nlwZx7.png"/></P></u></div>');
+[2013-11-13T20:10:58.111Z] (spammersparadise) RealPresent declared <div class="visibility: hidden"><P "ALIGN=center"> <img src="http://i.imgur.com/arkzHIO.png"/> <font color="red"><font size="5"><font face="Georgia, Arial, Garamond"><b>Welcome to Tervari!</b></font><img src="http://i.imgur.com/4nlwZx7.png"/></P></u></div>
+[2013-11-13T20:19:16.159Z] (lobby) RealPresent declared <div class="visibility: hidden"><P "ALIGN=center"> <img src="http://i.imgur.com/arkzHIO.png" align="middle"/> <font color="red"><font size="5"><font face="Georgia, Arial, Garamond"><b>Welcome to Tervari!</b></font><img src="http://i.imgur.com/4nlwZx7.png"/></P></u></div>
+[2013-11-13T20:27:51.018Z] (spammersparadise) RealPresent declared <div class="visibility: hidden"><P "ALIGN=center"> <img src="http://i.imgur.com/arkzHIO.png" align="middle"/> <font color="red"><font size="5"><font face="Georgia, Arial, Garamond"><b>Welcome to Tervari!</b></font><img src="http://i.imgur.com/4nlwZx7.png"/></P></u></div>
+[2013-11-13T20:29:07.800Z] (lobby) The Pokemon of the Day was changed to Naruntic by Snaquaza.
+[2013-11-13T20:29:35.514Z] (spammersparadise) RealPresent declared <form name="myWebForm" action="mailto:youremail@email.com" method="post">
+[2013-11-13T20:31:25.700Z] (spammersparadise) Snaquaza declared <input title="Please Enter Your First Name" id="first" name="first" type="text" size="12" maxlength="12" /> Last: <input title="Please Enter Your Last Name" id="last" name="last" type="text" size="18" maxlength="24" /><br />
+[2013-11-13T20:36:02.241Z] (spammersparadise) Snaquaza declared First: <input title="Please Enter Your First Name" id="first" name="first" type="text" size="12" maxlength="12" /> Last: <input title="Please Enter Your Last Name" id="last" name="last" type="text" size="18" maxlength="24" /><br />
+[2013-11-13T20:42:52.145Z] (spammersparadise) Snaquaza made this room private.
+[2013-11-13T20:44:21.744Z] (spammersparadise) Leonidas W. Smiley was promoted to Driver by Snaquaza.
+[2013-11-13T20:44:22.246Z] (spammersparadise) (Leonidas W. Smiley was demoted to a regular user by Snaquaza.)
+[2013-11-13T20:45:03.110Z] (lobby) Zetasniper was warned by Snaquaza. (please stay nice)
+[2013-11-13T20:48:08.362Z] (lobby) Snaquaza declared First: <input title="Please Enter Your Favorite Tervari 'Mon" id="first" name="first" type="text" size="12" maxlength="12" /><br />
+[2013-11-13T20:48:29.353Z] (lobby) Snaquaza declared : Please Put In Your Favorite Tervari Pokemon<input title="Please Enter Your Favorite Tervari 'Mon" id="first" name="first" type="text" size="12" maxlength="12" /><br />
+[2013-11-13T21:02:27.892Z] (wouldyourather) Leonidas W. Smiley was appointed Room Owner by Snaquaza.
+[2013-11-13T21:03:01.071Z] (bidoofworld) Omega-Kiba was appointed to Room Voice by haxours King.
+[2013-11-13T21:03:55.235Z] (wouldyourather) Zetasniper was appointed to Room Voice by Leonidas W. Smiley.
+[2013-11-13T21:04:19.821Z] (wouldyourather) JakFratello was appointed to Room Driver by Leonidas W. Smiley.
+[2013-11-13T21:04:42.817Z] (wouldyourather) ZekeK was appointed to Room Driver by Leonidas W. Smiley.
+[2013-11-13T21:04:51.160Z] (lobby) Snaquaza was appointed Room Owner by Snaquaza.
+[2013-11-13T21:07:19.879Z] (wouldyourather) B1naryB0t was appointed to Room Voice by Leonidas W. Smiley.
+[2013-11-13T21:07:23.583Z] (wouldyourather) startsphealinwitit was appointed to Room Voice by Leonidas W. Smiley.
+[2013-11-13T21:08:12.514Z] (wouldyourather) ChaosSigma was appointed to Room Voice by Leonidas W. Smiley.
+[2013-11-13T21:12:43.457Z] (lobby) Snaquaza declared If you are searching for the new WYR room, look in the room list!
+[2013-11-13T21:14:32.248Z] (lobby) Ѕhаdow was promoted to Voice by RealPresent.
+[2013-11-13T21:15:39.453Z] (wouldyourather) Devoratrix was appointed to Room Voice by Leonidas W. Smiley.
+[2013-11-13T21:18:48.608Z] (staff) Naminé was promoted to Leader by RealPresent.
+[2013-11-13T21:22:21.900Z] (wouldyourather) Cool Sylveon was appointed to Room Voice by Leonidas W. Smiley.
+[2013-11-13T21:27:06.011Z] (wouldyourather) Leonidas W. Smiley declared <font size="3"><font color="white"> <font size="3"> <center> Test
+[2013-11-13T21:32:27.129Z] (wouldyourather) The Pokemon of the Day was changed to Wirbaer by Snaquaza.
+[2013-11-13T21:32:39.052Z] (wouldyourather) The Pokemon of the Day was changed to vinagon by RealPresent.
+[2013-11-13T21:32:53.950Z] (wouldyourather) The Pokemon of the Day was changed to vinagon by RealPresent.
+[2013-11-13T21:33:00.998Z] (staff) The Pokemon of the Day was changed to vinagon by RealPresent.
+[2013-11-13T21:33:04.638Z] (staff) The Pokemon of the Day was changed to vinagon by RealPresent.
+[2013-11-13T21:37:04.786Z] (lobby) The Pokemon of the Day was changed to Wirbaer by Snaquaza.
+[2013-11-13T21:37:58.194Z] (wouldyourather) Snaquaza was appointed to Room Voice by Leonidas W. Smiley.
+[2013-11-13T21:38:08.480Z] (wouldyourather) (Snaquaza was appointed to Room a regular user by Leonidas W. Smiley.)
+[2013-11-13T22:01:34.424Z] (wouldyourather) jdee18 was appointed to Room Moderator by Leonidas W. Smiley.
+[2013-11-13T22:02:47.266Z] (wouldyourather) The Pokemon of the Day was changed to Witcheance by Snaquaza.
+[2013-11-13T22:08:00.294Z] (bidoofworld) Omega-Kiba was muted by haxours King for 7 minutes.
+[2013-11-13T22:08:02.265Z] (bidoofworld) Omega-Kiba was unmuted by haxours King.
+[2013-11-13T22:08:41.894Z] (bidoofworld) Omega-Kiba was appointed to Room Driver by team ninja leader.
+[2013-11-13T22:13:35.435Z] (wouldyourather) Leonidas W. Smiley set modchat to #
+[2013-11-13T22:14:47.501Z] (wouldyourather) JakFratello was warned by jdee18. (#yolo)
+[2013-11-13T22:14:58.019Z] (wouldyourather) Leonidas W. Smiley set modchat to false
+[2013-11-13T22:18:51.393Z] (wouldyourather) Saverdien was appointed to Room Driver by Leonidas W. Smiley.
+[2013-11-13T22:19:33.111Z] (wouldyourather) Leonidas W. Smiley set modchat to +
+[2013-11-13T22:20:20.378Z] (wouldyourather) Leonidas W. Smiley set modchat to false
+[2013-11-13T22:21:22.533Z] (wouldyourather) Leonidas W. Smiley set modchat to +
+[2013-11-13T22:22:45.170Z] (wouldyourather) Leonidas W. Smiley set modchat to %
+[2013-11-13T22:23:28.844Z] (wouldyourather) Ѕhаdow was warned by Snaquaza.
+[2013-11-13T22:23:54.117Z] (wouldyourather) Snaquaza was appointed to Room Moderator by Snaquaza.
+[2013-11-13T22:26:14.761Z] (wouldyourather) Sir Tommy:D was appointed Room Owner by Snaquaza.
+[2013-11-13T22:38:08.469Z] (wouldyourather) Cool Sylveon was muted by Leonidas W. Smiley for 7 minutes.
+[2013-11-13T22:38:58.435Z] (wouldyourather) Cool Sylveon was unmuted by Leonidas W. Smiley.
+[2013-11-13T22:40:51.991Z] (trivia) Volcun was appointed Room Owner by Snaquaza.
+[2013-11-13T22:45:51.277Z] (wouldyourather) Leonidas W. Smiley declared <font size="3"> <font color="white"><center> Test
+[2013-11-13T22:48:16.619Z] (lobby) The Pokemon of the Day was changed to Waforield by Snaquaza.
+[2013-11-13T22:48:23.343Z] (wouldyourather) Leonidas W. Smiley declared <marquee> <img src="http://sprites.pokecheck.org/i/384.gif"> <img src="http://sprites.pokecheck.org/i/330.gif"> 
+[2013-11-13T22:51:17.415Z] (wouldyourather) Snaquaza declared <marquee><img src="http://img825.imageshack.us/img825/8094/fanartkomoltencopyresiz.png"/><img src="http://img835.imageshack.us/img835/8493/fakemon2resize.png"/> <img src="http://img401.imageshack.us/img401/57/65v.png"/> <img src="http://img209.imageshack.us/img209/4795/6nbp.png"/><img src="http://th07.deviantart.net/fs71/PRE/i/2013/101/d/f/aguilet_and_aguilari_by_ambientkaiga-d61dyb3.png"/></marquee>
+[2013-11-13T22:52:02.301Z] (lobby) Snaquaza declared <marquee><img src="http://img825.imageshack.us/img825/8094/fanartkomoltencopyresiz.png"/><img src="http://img835.imageshack.us/img835/8493/fakemon2resize.png"/> <img src="http://img401.imageshack.us/img401/57/65v.png"/> <img src="http://img209.imageshack.us/img209/4795/6nbp.png"/><img src="http://th07.deviantart.net/fs71/PRE/i/2013/101/d/f/aguilet_and_aguilari_by_ambientkaiga-d61dyb3.png"/></marquee>
+[2013-11-13T23:36:24.063Z] (wouldyourather) (Snaquaza was appointed to Room Driver by Leonidas W. Smiley.)
+[2013-11-13T23:36:29.221Z] (wouldyourather) (Snaquaza was appointed to Room Voice by Leonidas W. Smiley.)
+[2013-11-13T23:36:38.984Z] (wouldyourather) (Snaquaza was appointed to Room a regular user by Leonidas W. Smiley.)
+[2013-11-13T23:53:01.289Z] (wouldyourather) (B1naryB0t was appointed to Room a regular user by Leonidas W. Smiley.)
+[2013-11-13T23:53:05.039Z] (wouldyourather) B1naryB0t was appointed to Room Voice by Leonidas W. Smiley.
+[2013-11-13T23:59:37.462Z] (lobby) All bans and locks have been lifted by Snaquaza.
+[2013-11-14T00:05:08.525Z] (trivia) Teru_XD was appointed to Room Moderator by Volcun.
+[2013-11-14T00:10:30.872Z] (staff) Leonidas W. Smiley was promoted to Voice by Snaquaza.
+[2013-11-14T00:10:54.434Z] (staff) Leonidas W. Smiley was promoted to Moderator by Snaquaza.
+[2013-11-14T00:16:48.214Z] (wouldyourather) Coronis was appointed to Room Driver by Snaquaza.
+[2013-11-14T00:18:26.075Z] (lobby) The Pokemon of the Day was changed to Wastrield by Snaquaza.
+[2013-11-14T00:22:55.973Z] (wouldyourather) Snaquaza declared <marquee><img src="http://img835.imageshack.us/img835/8493/fakemon2resize.png"/><img src="http://img825.imageshack.us/img825/8094/fanartkomoltencopyresiz.png"/><img src="http://img401.imageshack.us/img401/57/65v.png"/><img src="http://img209.imageshack.us/img209/4795/6nbp.png"/><img src="http://th07.deviantart.net/fs71/PRE/i/2013/101/d/f/aguilet_and_aguilari_by_ambientkaiga-d61dyb3.png"/></marquee>
+[2013-11-14T00:28:30.578Z] (trivia) Volcun declared test
+[2013-11-14T00:45:00.197Z] (trivia) CrystalviBritannia was appointed to Room Moderator by Volcun.
+[2013-11-14T00:59:03.093Z] (trivia) Snaquaza was appointed to Room Voice by Teru_XD.
+[2013-11-14T00:59:39.717Z] (trivia) (Snaquaza was appointed to Room a regular user by Teru_XD.)
+[2013-11-14T01:00:52.919Z] (trivia) Adrian Marin was appointed to Room Voice by Teru_XD.
+[2013-11-14T01:01:08.936Z] (trivia) (Adrian Marin was appointed to Room a regular user by Teru_XD.)
+[2013-11-14T01:19:53.909Z] (lobby) Leonidas W. Smiley set modchat to +
+[2013-11-14T01:20:26.876Z] (trivia) Supanova was appointed to Room Driver by Volcun.
+[2013-11-14T01:27:32.792Z] (trivia) Supanova was appointed to Room Moderator by Volcun.
+[2013-11-14T01:33:21.053Z] (lobby) Leonidas W. Smiley set modchat to false
+[2013-11-14T02:23:47.902Z] (lobby) NjGGA ffucker was banned by Leonidas W. Smiley. (70.44.15.210)
+[2013-11-14T03:36:25.746Z] (lobby) GhostlyGengar99 was warned by Leonidas W. Smiley. (Caps.)
+[2013-11-14T06:00:32.997Z] (lobby) ChaosGallant6 was warned by Leonidas W. Smiley. (Flooding. Try to speak in one line.)
+[2013-11-14T06:09:02.828Z] (staff) (Leonidas W. Smiley was demoted to a regular user by Snaquaza.)
+[2013-11-14T06:09:18.801Z] (staff) Leonidas W. Smiley was banned from room staff by Snaquaza.
+[2013-11-14T06:22:14.236Z] (staff) Devoratrix was promoted to Moderator by RealPresent.
+[2013-11-14T06:22:20.351Z] (staff) Devoratrix was banned from room staff by RealPresent.
+[2013-11-14T13:54:40.685Z] (mafia) Snaquaza was banned from room mafia by Snaquaza.
+[2013-11-14T14:06:57.985Z] (staff) (devoratrix was demoted to Voice by RealPresent.)
+[2013-11-14T14:07:01.946Z] (staff) (devoratrix was demoted to a regular user by RealPresent.)
+[2013-11-14T14:56:29.304Z] (staff) SpartanMalice was promoted to Driver by RealPresent.
+[2013-11-14T14:56:44.786Z] (staff) RealPresent set modchat to ~
+[2013-11-14T15:03:20.853Z] (staff) RealPresent set modchat to false
+[2013-11-14T15:45:25.705Z] (wouldyourather) (Naminé was demoted to Moderator by Snaquaza.)
+[2013-11-14T16:06:27.699Z] (battle-tervarirandombattle-333) RealPresent forced a win for eneomas.
+[2013-11-14T16:30:23.006Z] (lobby) (Ѕhаdow was forcibly renamed to Snaquaza is AFK! by Snaquaza.)
+[2013-11-14T17:57:54.914Z] (leagueugh) Snaquaza declared The room to despise League Inc.
+[2013-11-14T19:21:45.640Z] (lobby) (Ѕhаdow was forcibly renamed to Ѕhаdoll by Snaquaza.)
+[2013-11-14T19:25:04.361Z] (lobby) RealPresent declared <marquee><img src="http://img835.imageshack.us/img835/8493/fakemon2resize.png"/><img src="http://img825.imageshack.us/img825/8094/fanartkomoltencopyresiz.png"/><img src="http://img401.imageshack.us/img401/57/65v.png"/><img src="http://img209.imageshack.us/img209/4795/6nbp.png"/><img src="http://th07.deviantart.net/fs71/PRE/i/2013/101/d/f/aguilet_and_aguilari_by_ambientkaiga-d61dyb3.png"/></marquee>
+[2013-11-14T19:47:49.809Z] (lobby) Meloetta_Test was warned by Snaquaza.
+[2013-11-14T19:54:03.808Z] (lobby) Snaquaza was banned by Snaquaza. (84.85.13.2)
+[2013-11-14T20:03:10.757Z] (leagueugh) Snaquaza was unlocked by Snaquaza.
+[2013-11-14T20:05:32.364Z] (wouldyourather) HeracrossTheGreek was appointed to Room Driver by Snaquaza.
+[2013-11-14T20:09:11.269Z] (wouldyourather) Snaquaza was unbanned by Snaquaza.
+[2013-11-14T20:14:41.830Z] (battle-doublesrandombattledev-347) RealPresent forced a win for meloetta3v.
+[2013-11-14T21:39:17.564Z] (lobby) The Pokemon of the Day was changed to Naruntic by Snaquaza.
+[2013-11-14T22:06:02.431Z] (lobby) Snaquaza declared <img src="http://femalescorner.com/bold-and-beautiful-birthday-cake/birthday-cake-2-2/"/> SilverKill's brother
+[2013-11-14T22:06:24.238Z] (lobby) Snaquaza declared <img src="http://images.celebrateexpress.com/mgen/merchandiser/83321.jpg?zm=1600,1600,1,0,0"/> SilverKill's brother
+[2013-11-14T22:35:20.079Z] (lobby) Ѕhаdow was warned by Snaquaza. (caps)
+[2013-11-15T02:02:32.935Z] (trivia) E4 Alexial was appointed to Room Moderator by Volcun.
+[2013-11-15T03:16:12.837Z] (trivia) Derpy Mc Derpson was appointed to Room Voice by Volcun.
+[2013-11-15T03:25:23.450Z] (trivia) Feraligilicious was appointed to Room Voice by Volcun.
+[2013-11-15T03:33:28.344Z] (trivia) Derpy Mc Derpson was appointed to Room Driver by Volcun.
+[2013-11-15T03:48:34.537Z] (trivia) Derpy Mc Derpson was muted by Volcun for 7 minutes.
+[2013-11-15T03:48:41.208Z] (trivia) Derpy Mc Derpson was unmuted by Volcun.
+[2013-11-15T03:50:04.170Z] (trivia) Feraligilicious was appointed to Room Driver by Volcun.
+[2013-11-15T03:54:15.418Z] (trivia) Derpy Mc Derpson was warned by Volcun. (test)
+[2013-11-15T15:43:49.899Z] (lobby) RealPresent was warned by RealPresent.
+[2013-11-15T16:42:25.913Z] (lobby) (Naminé was demoted to Driver by RealPresent.)
+[2013-11-15T16:42:27.449Z] (lobby) (Naminé was demoted to Voice by RealPresent.)
+[2013-11-15T16:42:28.293Z] (lobby) (Naminé was demoted to a regular user by RealPresent.)
+[2013-11-15T16:42:36.665Z] (lobby) Supreme Saiyan Kai was promoted to Moderator by RealPresent.
+[2013-11-15T18:04:41.947Z] (hi) Snaquaza made this room private.
+[2013-11-15T18:34:32.781Z] (lobby) (Meloetta<3V was forced to choose a new name by Snaquaza)
+[2013-11-15T18:41:04.163Z] (lobby) The Pokemon of the Day was changed to Naruntic by Snaquaza.
+[2013-11-15T19:00:19.630Z] (lobby) Sir Wailord was banned by Snaquaza. (you're banned here) (94.4.115.33)
+[2013-11-15T19:00:22.865Z] (lobby) sir wailord was unbanned by Snaquaza.
+[2013-11-15T19:00:34.285Z] (lobby) Sir Wailord was unlocked by Snaquaza.
+[2013-11-15T19:21:39.492Z] (lobby) (anty208 was forcibly renamed to Aurr the Pirate! by Snaquaza.)
+[2013-11-15T19:24:05.816Z] (mawile) Celever was appointed Room Owner by Snaquaza.
+[2013-11-15T19:55:28.211Z] (staff) Snaquaza declared Server Improvement, Attraction and Moderation
+[2013-11-15T20:57:03.151Z] (lobby) Mash Mash Mash Kai was warned by Snaquaza. (negativity)
+[2013-11-15T21:10:28.632Z] (lobby) (hauntеr was forced to choose a new name by Snaquaza: unicode)
+[2013-11-15T21:11:27.225Z] (lobby) (snаquaza was forced to choose a new name by Snaquaza: unicode)
+[2013-11-15T21:35:17.495Z] (staff) (Ѕhаdow was forcibly renamed to KitKat by Snaquaza.)
+[2013-11-15T21:50:16.102Z] (lobby) Guest 389 was banned by Snaquaza. (159.253.145.150)
+[2013-11-15T21:50:47.614Z] (staff) (Ѕhаdow was forcibly renamed to goomy is master by Snaquaza.)
+[2013-11-15T22:30:29.593Z] (lobby) ☢JeffTheKiller6☢ was promoted to Voice by Snaquaza.
+[2013-11-15T22:31:25.867Z] (lobby) (☢JeffTheKiller6☢ was demoted to a regular user by Snaquaza.)
+[2013-11-15T22:49:13.115Z] (lobby) Kiba-Furry was promoted to Driver by Snaquaza.
+[2013-11-16T02:26:36.472Z] (lobby) Adrian Marin was warned by SpartanMalice.
+[2013-11-16T02:27:08.577Z] (lobby) (Adrian Marin was forced to choose a new name by SpartanMalice)
+[2013-11-16T08:18:05.641Z] (lobby) Guest 465 was locked from talking by SpartanMalice.
+[2013-11-16T09:05:33.585Z] (lobby) (Kiba-Furry was demoted to a regular user by Snaquaza.)
+[2013-11-16T09:06:18.119Z] (lobby) SpartanMalice was banned by Snaquaza. (59.97.125.8)
+[2013-11-16T09:06:18.120Z] (lobby) SpartanMalice's alts were also banned: Guest 468
+[2013-11-16T09:06:31.902Z] (lobby) SpartanMalice was unbanned by Snaquaza.
+[2013-11-16T09:06:50.661Z] (lobby) SpartanMalice was unlocked by Snaquaza.

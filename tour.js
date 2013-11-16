@@ -987,7 +987,7 @@ var cmds = {
 
 	survey: 'poll',
 	poll: function (target, room, user) {
-		if (!tour.lowauth(user, room)) return this.sendReply('You do not have enough authority to use this command.');
+		if (!tour.midauth(user, room)) return this.sendReply('You do not have enough authority to use this command.');
 		if (!tour[room.id]) tour.reset(room.id);
 		if (tour[room.id].question) return this.sendReply('There is currently a poll going on already.');
 		var separacion = "&nbsp;&nbsp;";
@@ -998,7 +998,7 @@ var cmds = {
 		var answers = answers.join(',').toLowerCase().split(',');
 		tour[room.id].question = question;
 		tour[room.id].answerList = answers;
-		room.addRaw('<div class="infobox"><h2>' + tour[room.id].question + separacion + '<font class="closebutton" size=1><small>/vote OPTION</small></font></h2><hr />' + separacion + separacion + " &bull; " + tour[room.id].answerList.join(' &bull; ') + '</div>');
+		room.addRaw('<div class="infobox"><h2>' + sanitize(user.name) + ' has started a Poll: ' +  tour[room.id].question + separacion + '<font "class=closebutton" size=1><small>/vote OPTION</small></font></h2><hr />' + separacion + separacion + " &bull; " + tour[room.id].answerList.join(' &bull; ') + '</div>');
 	},
 
 	vote: function (target, room, user) {
@@ -1018,7 +1018,7 @@ var cmds = {
 	endsurvey: 'endpoll',
 	ep: 'endpoll',
 	endpoll: function (target, room, user) {
-		if (!tour.lowauth(user, room)) return this.sendReply('You do not have enough authority to use this command.');
+		if (!tour.midauth(user, room)) return this.sendReply('You do not have enough authority to use this command.');
 		if (!tour[room.id] || !tour[room.id].question) return this.sendReply('There is no poll to end in this room.');
 		var votes = Object.keys(tour[room.id].answers).length;
 		if (!votes) {

@@ -5695,3 +5695,101 @@ TypeError: Cannot call method 'validateTeam' of undefined
     at ChatRoom.chat (/Users/clazinasteunenberg/Downloads/Tervari/rooms.js:1499:27)
     at User.processChatQueue (/Users/clazinasteunenberg/Downloads/Tervari/users.js:1148:13)
     at Timer.listOnTimeout [as ontimeout] (timers.js:110:15)
+
+SyntaxError: Unexpected reserved word
+    at Module._compile (module.js:439:25)
+    at Object.Module._extensions..js (module.js:474:10)
+    at Module.load (module.js:356:32)
+    at Function.Module._load (module.js:312:12)
+    at Module.require (module.js:364:17)
+    at require (module.js:380:17)
+    at Object.<anonymous> (/Users/clazinasteunenberg/Downloads/Tervari/app.js:679:15)
+    at Module._compile (module.js:456:26)
+    at Object.Module._extensions..js (module.js:474:10)
+    at Module.load (module.js:356:32)
+
+SyntaxError: Unexpected string
+    at Module._compile (module.js:439:25)
+    at Object.Module._extensions..js (module.js:474:10)
+    at Module.load (module.js:356:32)
+    at Function.Module._load (module.js:312:12)
+    at Module.require (module.js:364:17)
+    at require (module.js:380:17)
+    at Object.<anonymous> (/Users/clazinasteunenberg/Downloads/Tervari/app.js:679:15)
+    at Module._compile (module.js:456:26)
+    at Object.Module._extensions..js (module.js:474:10)
+    at Module.load (module.js:356:32)
+
+TypeError: Cannot read property 'isPrivate' of undefined
+    at Object.exports.commands.whois (/Users/clazinasteunenberg/Downloads/Tervari/config/commands.js:200:38)
+    at Object.exports.parse (/Users/clazinasteunenberg/Downloads/Tervari/command-parser.js:200:31)
+    at ChatRoom.chat (/Users/clazinasteunenberg/Downloads/Tervari/rooms.js:1499:27)
+    at User.chat (/Users/clazinasteunenberg/Downloads/Tervari/users.js:1132:9)
+    at SockJSConnection.<anonymous> (/Users/clazinasteunenberg/Downloads/Tervari/app.js:598:14)
+    at SockJSConnection.EventEmitter.emit (events.js:95:17)
+    at Session.didMessage (/Users/clazinasteunenberg/Downloads/Tervari/node_modules/sockjs/lib/transport.js:220:25)
+    at WebSocketReceiver.didMessage (/Users/clazinasteunenberg/Downloads/Tervari/node_modules/sockjs/lib/trans-websocket.js:102:40)
+    at /Users/clazinasteunenberg/Downloads/Tervari/node_modules/sockjs/lib/trans-websocket.js:75:22
+    at null.<anonymous> (/Users/clazinasteunenberg/Downloads/Tervari/node_modules/sockjs/node_modules/faye-websocket/lib/faye/websocket/api/event_target.js:41:7)
+
+Additional information:
+user = hdow
+ip = 94.4.115.33
+roomid = 
+message = |/Alts Guest 176
+
+TypeError: Cannot read property 'isPrivate' of undefined
+    at Object.exports.commands.whois (/Users/clazinasteunenberg/Downloads/Tervari/config/commands.js:200:38)
+    at Object.exports.parse (/Users/clazinasteunenberg/Downloads/Tervari/command-parser.js:200:31)
+    at ChatRoom.chat (/Users/clazinasteunenberg/Downloads/Tervari/rooms.js:1499:27)
+    at User.chat (/Users/clazinasteunenberg/Downloads/Tervari/users.js:1132:9)
+    at SockJSConnection.<anonymous> (/Users/clazinasteunenberg/Downloads/Tervari/app.js:598:14)
+    at SockJSConnection.EventEmitter.emit (events.js:95:17)
+    at Session.didMessage (/Users/clazinasteunenberg/Downloads/Tervari/node_modules/sockjs/lib/transport.js:220:25)
+    at WebSocketReceiver.didMessage (/Users/clazinasteunenberg/Downloads/Tervari/node_modules/sockjs/lib/trans-websocket.js:102:40)
+    at /Users/clazinasteunenberg/Downloads/Tervari/node_modules/sockjs/lib/trans-websocket.js:75:22
+    at null.<anonymous> (/Users/clazinasteunenberg/Downloads/Tervari/node_modules/sockjs/node_modules/faye-websocket/lib/faye/websocket/api/event_target.js:41:7)
+
+Additional information:
+user = hdow
+ip = 94.4.115.33
+roomid = 
+message = |/Alts Guest 176
+
+TypeError: Cannot read property 'isPrivate' of undefined
+    at Object.exports.commands.whois (/Users/clazinasteunenberg/Downloads/Tervari/config/commands.js:200:38)
+    at Object.exports.parse (/Users/clazinasteunenberg/Downloads/Tervari/command-parser.js:200:31)
+    at ChatRoom.chat (/Users/clazinasteunenberg/Downloads/Tervari/rooms.js:1499:27)
+    at User.chat (/Users/clazinasteunenberg/Downloads/Tervari/users.js:1132:9)
+    at SockJSConnection.<anonymous> (/Users/clazinasteunenberg/Downloads/Tervari/app.js:598:14)
+    at SockJSConnection.EventEmitter.emit (events.js:95:17)
+    at Session.didMessage (/Users/clazinasteunenberg/Downloads/Tervari/node_modules/sockjs/lib/transport.js:220:25)
+    at WebSocketReceiver.didMessage (/Users/clazinasteunenberg/Downloads/Tervari/node_modules/sockjs/lib/trans-websocket.js:102:40)
+    at /Users/clazinasteunenberg/Downloads/Tervari/node_modules/sockjs/lib/trans-websocket.js:75:22
+    at null.<anonymous> (/Users/clazinasteunenberg/Downloads/Tervari/node_modules/sockjs/node_modules/faye-websocket/lib/faye/websocket/api/event_target.js:41:7)
+
+Additional information:
+user = namin
+ip = 84.25.213.109
+roomid = 
+message = |/alt guest 176
+
+TypeError: Cannot call method 'validateTeam' of undefined
+    at Tools.module.exports.Tools.validateTeam (/Users/clazinasteunenberg/Downloads/Tervari/tools.js:706:28)
+    at User.prepBattle (/Users/clazinasteunenberg/Downloads/Tervari/users.js:1015:24)
+    at GlobalRoom.searchBattle (/Users/clazinasteunenberg/Downloads/Tervari/rooms.js:265:13)
+    at Object.exports.commands.search (/Users/clazinasteunenberg/Downloads/Tervari/commands.js:1462:17)
+    at Object.exports.parse (/Users/clazinasteunenberg/Downloads/Tervari/command-parser.js:200:31)
+    at ChatRoom.chat (/Users/clazinasteunenberg/Downloads/Tervari/rooms.js:1499:27)
+    at User.processChatQueue (/Users/clazinasteunenberg/Downloads/Tervari/users.js:1148:13)
+    at Timer.listOnTimeout [as ontimeout] (timers.js:110:15)
+
+TypeError: Cannot call method 'validateTeam' of undefined
+    at Tools.module.exports.Tools.validateTeam (/Users/clazinasteunenberg/Downloads/Tervari/tools.js:706:28)
+    at User.prepBattle (/Users/clazinasteunenberg/Downloads/Tervari/users.js:1015:24)
+    at GlobalRoom.searchBattle (/Users/clazinasteunenberg/Downloads/Tervari/rooms.js:265:13)
+    at Object.exports.commands.search (/Users/clazinasteunenberg/Downloads/Tervari/commands.js:1462:17)
+    at Object.exports.parse (/Users/clazinasteunenberg/Downloads/Tervari/command-parser.js:200:31)
+    at ChatRoom.chat (/Users/clazinasteunenberg/Downloads/Tervari/rooms.js:1499:27)
+    at User.processChatQueue (/Users/clazinasteunenberg/Downloads/Tervari/users.js:1148:13)
+    at Timer.listOnTimeout [as ontimeout] (timers.js:110:15)
