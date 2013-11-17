@@ -4776,5 +4776,20 @@ tier: "NU"
 	icoxi:{
 		viableMoves:{"aciditygash":1,"iciclecrash":1,"moonlight":1,"iceshard":1},
 		tier: "RU"
+	},
+	icanoll:{
+		viableMoves:{"iciclecrash":1,"iceshard":1,"stoneedge":1,"megahorn":1,"spikes":1,"toxicspikes":1,"rapidspin":1},
+		tier: "NU"
+	},
+	desserlope:{
+		viableMoves:{"batonpass":1,"earthquake":1,"hypnosis":1,"substitute":1},
+		tier: "NU"
+	},
+	electursa:{
+		viableMoves:{"closecombat":1,"thunderpunch":1,"firepunch":1,"icepunch":1,"swordsdance":1,"crunch":1},
+		tier: "NU"
+	},
+	vankaris:{viableMoves:{"waterfall":1,"stoneedge":1,"uturn":1,"stealthrock":1},
+		tier: "UU"
 	}
 };

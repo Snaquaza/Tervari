@@ -12168,8 +12168,8 @@ exports.BattleMovedex = {
 	"soak": {
 		num: 487,
 		accuracy: 100,
-		basePower: 0,
-		category: "Status",
+		basePower: 5,
+		category: "Special",
 		desc: "Causes one adjacent target to become a Water-type. Fails if the target is an Arceus. Pokemon protected by Magic Coat or the Ability Magic Bounce are unaffected and instead use this move themselves.",
 		shortDesc: "Changes the target's type to Water.",
 		id: "soak",

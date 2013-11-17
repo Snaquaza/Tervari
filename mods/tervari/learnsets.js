@@ -57,5 +57,9 @@ vaerke:{learnset:{sandtomb:["5L1"],sandattack:["5L1"],tackle:["5L4"],harden:["5L
 	cylibor:{learnset:{hiddenpower:["5M"],zapcannon:["5L40"],darkpulse:["5L46"],nastyplot:["5L60"]}},
 	trolliath:{learnset:{woodhammer:["5L55"],suckerpunch:["5L49"],crunch:["5L29"],naturepower:["5E"]}},
 	dridion:{learnset:{megahorn:["5L57"],earthquake:["5M"],stoneedge:["5M"],swordsdance:["5L49"]}},
-	icoxi:{learnset:{moonlight:["5L56"],iciclecrash:["5L50"],aciditygash:["5L44],iceshard:["5L19"]}}
+	icoxi:{learnset:{moonlight:["5L56"],iciclecrash:["5L50"],aciditygash:["5L44"],iceshard:["5L19"]}},
+	icanoll:{learnset:{spikes:["5L7"],toxicspikes:["5L13"],rapidspin:["5L1"],iceshard:["5L1"],iciclecrash:["5L36"],megahorn:["5L1"],stoneedge:["5M"]}},
+	desserlope:{learnset:{earthquake:["5L45"],batonpass:["5L50"],substitute:["5M"],hypnosis:["5L23"]}},
+	electursa:{learnset:{closecombat:["5E"],thunderpunch:["5L1"],firepunch:["5L1"],icepunch:["5L1"],swordsdance:["5M"],crunch:["5L36"]}},
+	vankaris:{learnset:{waterfall:["5M"],uturn:["5L54"],stoneedge:["5L55"],stealthrock:["5L35"]}}
 };

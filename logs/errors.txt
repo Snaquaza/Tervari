@@ -5793,3 +5793,30 @@ TypeError: Cannot call method 'validateTeam' of undefined
     at ChatRoom.chat (/Users/clazinasteunenberg/Downloads/Tervari/rooms.js:1499:27)
     at User.processChatQueue (/Users/clazinasteunenberg/Downloads/Tervari/users.js:1148:13)
     at Timer.listOnTimeout [as ontimeout] (timers.js:110:15)
+
+TypeError: Cannot call method 'validateTeam' of undefined
+    at Tools.module.exports.Tools.validateTeam (/Users/clazinasteunenberg/Downloads/Tervari/tools.js:706:28)
+    at User.prepBattle (/Users/clazinasteunenberg/Downloads/Tervari/users.js:1015:24)
+    at Object.exports.commands.challenge (/Users/clazinasteunenberg/Downloads/Tervari/commands.js:1478:13)
+    at Object.exports.parse (/Users/clazinasteunenberg/Downloads/Tervari/command-parser.js:200:31)
+    at ChatRoom.chat (/Users/clazinasteunenberg/Downloads/Tervari/rooms.js:1499:27)
+    at User.processChatQueue (/Users/clazinasteunenberg/Downloads/Tervari/users.js:1148:13)
+    at Timer.listOnTimeout [as ontimeout] (timers.js:110:15)
+
+TypeError: Cannot read property 'isPrivate' of undefined
+    at Object.exports.commands.whois (/Users/clazinasteunenberg/Downloads/Tervari/config/commands.js:200:38)
+    at Object.exports.parse (/Users/clazinasteunenberg/Downloads/Tervari/command-parser.js:200:31)
+    at ChatRoom.chat (/Users/clazinasteunenberg/Downloads/Tervari/rooms.js:1499:27)
+    at User.chat (/Users/clazinasteunenberg/Downloads/Tervari/users.js:1132:9)
+    at SockJSConnection.<anonymous> (/Users/clazinasteunenberg/Downloads/Tervari/app.js:598:14)
+    at SockJSConnection.EventEmitter.emit (events.js:95:17)
+    at Session.didMessage (/Users/clazinasteunenberg/Downloads/Tervari/node_modules/sockjs/lib/transport.js:220:25)
+    at WebSocketReceiver.didMessage (/Users/clazinasteunenberg/Downloads/Tervari/node_modules/sockjs/lib/trans-websocket.js:102:40)
+    at /Users/clazinasteunenberg/Downloads/Tervari/node_modules/sockjs/lib/trans-websocket.js:75:22
+    at null.<anonymous> (/Users/clazinasteunenberg/Downloads/Tervari/node_modules/sockjs/node_modules/faye-websocket/lib/faye/websocket/api/event_target.js:41:7)
+
+Additional information:
+user = realpresent
+ip = 84.25.213.109
+roomid = 
+message = |/rooms

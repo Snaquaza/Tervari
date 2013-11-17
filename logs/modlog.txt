@@ -1415,3 +1415,60 @@
 [2013-11-16T09:06:18.120Z] (lobby) SpartanMalice's alts were also banned: Guest 468
 [2013-11-16T09:06:31.902Z] (lobby) SpartanMalice was unbanned by Snaquaza.
 [2013-11-16T09:06:50.661Z] (lobby) SpartanMalice was unlocked by Snaquaza.
+[2013-11-16T19:16:33.909Z] (lobby) The Pokemon of the Day was changed to Desserlope by Snaquaza.
+[2013-11-16T19:36:22.660Z] (lobby) (Stunnerfisk was forcibly renamed to spammy208 by Snaquaza.)
+[2013-11-16T19:39:50.797Z] (staff) (Ѕhаdow was forcibly renamed to Aurr by Snaquaza.)
+[2013-11-16T19:41:12.367Z] (staff) (Aurr was forcibly renamed to Aurοrа by Snaquaza.)
+[2013-11-16T19:46:54.414Z] (staff) Nozzle was promoted to Leader by Snaquaza.
+[2013-11-16T19:48:55.018Z] (lobby) The Pokemon of the Day was changed to aurrex by Nozzle.
+[2013-11-16T20:11:15.324Z] (battle-tervarirandombattle-374) (Nozzle was demoted to a regular user by Snaquaza.)
+[2013-11-16T20:20:42.290Z] (lobby) The Pokemon of the Day was changed to Contyphlos by Snaquaza.
+[2013-11-16T20:24:56.817Z] (staff) Nozzle was redirected to room mafia by RealPresent.
+[2013-11-16T21:30:50.195Z] (lobby) harold the bidoof was warned by Snaquaza. (be nice)
+[2013-11-16T22:07:23.421Z] (lobby) The Pokemon of the Day was changed to Gazceit by Snaquaza.
+[2013-11-16T22:09:14.745Z] (wouldyourather) jdee18 was appointed Room Owner by Snaquaza.
+[2013-11-16T23:05:02.077Z] (staff) Ѕhаdow was banned by Snaquaza. (94.4.115.33)
+[2013-11-16T23:05:08.455Z] (staff) hdow was unbanned by Snaquaza.
+[2013-11-16T23:08:13.875Z] (lobby) Ѕhаdow was unlocked by Snaquaza.
+[2013-11-17T00:08:09.788Z] (lobby) Ѕhаdow was promoted to Driver by Snaquaza.
+[2013-11-17T00:08:10.326Z] (lobby) Aqua The Quilava was promoted to Voice by Snaquaza.
+[2013-11-17T00:08:14.970Z] (lobby) Aqua The Quilava was promoted to Driver by Snaquaza.
+[2013-11-17T00:12:34.189Z] (lobby) Snaquaza declared <img src="http://www.naturelyrics.com/pages/articles/flash_light_photography/tunnel_spider_At_night_vgd2_small.jpg"/> Night of the Tervari Spiders...
+[2013-11-17T00:29:11.042Z] (lobby) I IS NOT HERE! was warned by Ѕhаdow. (Errmahgerrsh, spammer, you die.)
+[2013-11-17T00:32:31.371Z] (lobby) I IS NOT HERE! was locked from talking by Aqua The Quilava.
+[2013-11-17T00:32:41.477Z] (lobby) I IS NOT HERE! was unlocked by Ѕhаdow.
+[2013-11-17T00:57:22.507Z] (lobby) (Guest 3 was forced to choose a new name by Ѕhаdow)
+[2013-11-17T01:45:02.062Z] (bidoofworld) superkillerdemon was appointed to Room Moderator by team ninja leader.
+[2013-11-17T06:32:28.073Z] (wouldyourather) Snaquaza was appointed to Room Voice by jdee18.
+[2013-11-17T06:54:58.069Z] (wouldyourather) Snaquaza was muted by jdee18 for 60 minutes.
+[2013-11-17T06:55:10.399Z] (wouldyourather) Snaquaza was unmuted by jdee18.
+[2013-11-17T08:20:01.434Z] (lobby) The Pokemon of the Day was changed to Electursa by Snaquaza.
+[2013-11-17T09:10:29.984Z] (lobby) The Pokemon of the Day was changed to Waldinc by Snaquaza.
+[2013-11-17T09:10:31.439Z] (lobby) The Pokemon of the Day was changed to Waldince by Snaquaza.
+[2013-11-17T09:27:22.257Z] (staff) Snaquaza declared [S]90HP/105ATK/105DEF/130SP.ATK/74SP.DEF/96SPD[/S] 85HP/100ATK/96DEF/145SP.ATK/60SP.DEF/114SPD
+[2013-11-17T09:48:52.413Z] (lobby) The Pokemon of the Day was changed to Vankaris by Snaquaza.
+[2013-11-17T10:16:22.266Z] (lobby) The Pokemon of the Day was changed to Desserlope by Snaquaza.
+[2013-11-17T10:59:56.905Z] (lobby) The Pokemon of the Day was changed to Vankaris by Snaquaza.
+[2013-11-17T11:10:56.083Z] (lobby) The Pokemon of the Day was changed to Waldince by Snaquaza.
+[2013-11-17T11:18:14.989Z] (menceleague) Cenamderi was appointed to Room Moderator by DragonRaptor792.
+[2013-11-17T11:50:59.215Z] (staff) (Snaquaza was forcibly renamed to Nozzle by Snaquaza.)
+[2013-11-17T12:00:25.632Z] (lobby) The Pokemon of the Day was changed to Electursa by Snaquaza.
+[2013-11-17T12:20:09.893Z] (battle-tervarirandombattle-379) Snaquaza declared <img src="http://withfriendship.com/images/i/42848/invitations-go-diego-go.jpg"/>
+[2013-11-17T12:20:31.116Z] (battle-tervarirandombattle-379) Snaquaza declared <img src="http://www.kids-n-fun.nl/Wall/diego/diego.gif"/>
+[2013-11-17T13:02:37.447Z] (staff) (Aqua The Quilava was demoted to a regular user by Snaquaza.)
+[2013-11-17T13:03:37.856Z] (staff) Aqua The Quilava was redirected to room mafia by RealPresent.
+[2013-11-17T13:16:19.356Z] (battle-doublesrandombattledev-381) RealPresent was warned by Snaquaza. (YOU KILLED IT)
+[2013-11-17T13:50:25.092Z] (lobby) (Ѕhаdow was demoted to Voice by Snaquaza.)
+[2013-11-17T13:50:38.987Z] (staff) Ѕhаdow was redirected to room mafia by Snaquaza.
+[2013-11-17T14:34:00.099Z] (staff) (team ninja leader was forcibly renamed to team yveltal leader by Snaquaza.)
+[2013-11-17T14:37:29.853Z] (staff) (team ninja leader was forcibly renamed to team shampoo leader by Snaquaza.)
+[2013-11-17T15:00:59.098Z] (menceleague) TheMightymightyena was appointed to Room Driver by DragonRaptor792.
+[2013-11-17T15:03:13.332Z] (lobby) The Pokemon of the Day was changed to Witcheance by Snaquaza.
+[2013-11-17T15:36:14.503Z] (bidoofworld) team ninja leader declared u suck
+[2013-11-17T15:36:20.991Z] (lobby) (superkillerdemon was forced to choose a new name by Snaquaza)
+[2013-11-17T15:36:37.122Z] (staff) (Guest 54 was forcibly renamed to superhealerangel by RealPresent.)
+[2013-11-17T15:38:02.469Z] (lobby) (superkillerdemon was forced to choose a new name by Supreme Saiyan Kai)
+[2013-11-17T15:47:55.041Z] (lobby) Snaquaza declared Tervari Revolution Test Coming Soon!
+[2013-11-17T15:50:50.139Z] (lobby) SpartanMalice was promoted to Moderator by Snaquaza.
+[2013-11-17T16:29:23.316Z] (staff) celever was promoted to Voice by Snaquaza.
+[2013-11-17T16:31:40.024Z] (mawile) Celaway was appointed Room Owner by Snaquaza.

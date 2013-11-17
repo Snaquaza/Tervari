@@ -44,7 +44,7 @@ exports.Formats = [
 
                 mod: 'tervari',
                 ruleset: ['Standard', 'Evasion Abilities Clause', 'Team Preview'],
-                banlist: ['Uber']        
+                banlist: ['Uber','Lucarionite']        
         },
         {
                 name: "Tervari Ubers",

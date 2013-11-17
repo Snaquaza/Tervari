@@ -1000,25 +1000,83 @@ hpb: 'holypastebin',
 	/*********************************************************
 	 * Miscellaneous commands
 	 *********************************************************/
+                gazceit: function(target, room, user) {
+                if (!this.canBroadcast()) return;
+                this.sendReplyBox('<center><img src="http://i.imgur.com/tMv6TT7.png"/><br><b>Name:</b> Gazceit<br><b>Typing:</b> Normal  | Ghost<br><b>Abilities:</b> Raw Power<br><b>Stats:</b> 65 HP | 155 Att | 40 Def | 75 SpA | 35 SpD | 102 Spe<br><b>BST:</b> 472');
+                },
+                rawpower: function(target, room, user) {
+                if (!this.canBroadcast()) return;
+                this.sendReplyBox('<center><b>Ability:</b> Raw Power<br><b>Description:</b> Raises Attack when HP gets lower');
+                },
+                voidhorn: function(target, room, user) {
+                if (!this.canBroadcast()) return;
+                this.sendReplyBox('<center><b>Move:</b> Void Horn<br><b>Category:</b> Physical<br><b>Typing:</b> Ghost<br><b>Base Power:</b> 120<br><b>Accuracy:</b> 85<br><b>Description:</b> No additional effect.');
+                },
+                viterb: function(target, room, user) {
+                if (!this.canBroadcast()) return;
+                this.sendReplyBox('<center><b>Name:</b> Viterb<br><b>Typing:</b> Grass<br><b>Abilities: </b> Torrent / <i>Swift Swim</i><br><b>Stats:</b> 69 HP | 60 Att | 85 Def | 61 SpA | 85 SpD | 45 Spe<br><b>BST:</b> 405');
+                },
+                hierbado: function(target, room, user) {
+                if (!this.canBroadcast()) return;
+                this.sendReplyBox('trala');
+                },
+                rapagram: function(target, room, user) {
+                if (!this.canBroadcast()) return;
+                this.sendReplyBox('trala');
+                },
+                crotyke: function(target, room, user) {
+                if (!this.canBroadcast()) return;
+                this.sendReplyBox('trala');
+                },
+                lavatara: function(target, room, user) {
+                if (!this.canBroadcast()) return;
+                this.sendReplyBox('trala');
+                },
+                komolten: function(target, room, user) {
+                if (!this.canBroadcast()) return;
+                this.sendReplyBox('<center><br><b>Name:</b> Komolten<br><b>Typing:</b> Fire | Ground <br><b>Abilities:</b> Blaze | <i>Hotshot</i><br><b>Stats:</b> 90 HP | 115 Att | 78 Def | 97 SpA | 70 SpD | 78 Spe<br><b>BST:</b> 528');
+                },
+                hotshot: function(target, room, user) {
+                if (!this.canBroadcast()) return;
+                this.sendReplyBox('<center><b>Ability:</b> Hotshot<br><b>Description:</b> If Sunny Day is active, this Pokemon\'s Speed is doubled.');
+                },
+                
+                dolfby: function(target, room, user) {
+                this.sendReplyBox('<center><b>Name:</b> Dolfby<br><b>Typing:</b> Water<br><b>Abilities:</b> Torrent | <i>Swift Swim</i><br><b>Stats:</b> 53 HP | 46 Att | 65 Def | 48 SpA | 65 SpD | 30 Spe<br><b>BST:</b> 308');
+                },
+                fervorca: function(target, room, user) {
+                if (!this.canBroadcast()) return;
+                this.sendReplyBox('<center><b>Name:</b> Fervorca<br><b>Typing:</b> Water<br><b>Abilities: </b> Torrent | <i>Swift Swim</i><br><b>Stats:</b> 69 HP | 60 Att | 85 Def | 61 SpA | 85 SpD | 45 Spe<br><b>BST:</b> 405');                },
+                valorca: function(target, room, user) {
+                if (!this.canBroadcast()) return;
+                this.sendReplyBox('<center><b>Name:</b> Valorca<br><b>Typing:</b> Water<br><b>Abilities:</b> Torrent | <i>Swift Swim</i><br><b>Stats:</b> 95 HP | 80 Att | 110 Def | 80 SpA | 110 SpD | 55 Spe<br><b>BST:</b> 530');
+                },
+               totterade: function(target, room, user) {
+                if (!this.canBroadcast()) return;
+                this.sendReplyBox('<center><b>Name:</b> Totterade<br><b>Typing:</b> Grass <br><b>Abilities:</b> Effect Spore | Technician |<i> Serene Grace</i><br><b>Stats:</b> 40 HP | 60 Att | 40 Def | 60 SpA | 40 SpD | 60 Spe<br><b>BST: 300');
+               },
+               witcheance: function(target, room, user) {
+                if (!this.canBroadcast()) return;
+                this.sendReplyBox('<center><b>Name:</b> Witcheance<br><b>Typing:</b> Grass | Ghost<br><b>Abilities:</b> Effect Spore | Technician |<i> Serene Grace</i><br><b>Stats:</b> 64 HP | 54 Att | 57 Def | 126 SpA | 119 SpD | 106 Spe<br><b>BST:</b> 526');
+               },
+                vendetta: function(target, room, user) {
+                if (!this.canBroadcast()) return;
+                this.sendReplyBox('<center><b>Move:</b> Vendetta<br><b>Category:</b> Special<br><b>Typing:</b> Ghost<br><b>Base Power:</b> 120<br><b>Accuracy:</b> 80<br><b>Description:</b> Has a 20% chance on lowering the PP of the last move by 4');
+                },	
 
-	birkal: function(target, room, user) {
-		this.sendReply("It's not funny anymore.");
-	},
+        potd: function(target, room, user) {
+                if (!this.can('potd')) return false;
 
-	potd: function(target, room, user) {
-		if (!this.can('potd')) return false;
-
-		config.potd = target;
-		Simulator.SimulatorProcess.eval('config.potd = \''+toId(target)+'\'');
-		if (target) {
-			if (Rooms.lobby) Rooms.lobby.addRaw('<div class="broadcast-blue"><b>The Pokemon of the Day is now '+target+'!</b><br />This Pokemon will be guaranteed to show up in random battles.</div>');
-			this.logModCommand('The Pokemon of the Day was changed to '+target+' by '+user.name+'.');
-		} else {
-			if (Rooms.lobby) Rooms.lobby.addRaw('<div class="broadcast-blue"><b>The Pokemon of the Day was removed!</b><br />No pokemon will be guaranteed in random battles.</div>');
-			this.logModCommand('The Pokemon of the Day was removed by '+user.name+'.');
-		}
-	},
-	
+                config.potd = target;
+                Simulator.SimulatorProcess.eval('config.potd = \''+toId(target)+'\'');
+                if (target) {
+                        if (Rooms.lobby) Rooms.lobby.addRaw('<div class="broadcast-blue"><b>The Pokemon of the Day is now '+target+'!</b><br />This Pokemon will be guaranteed to show up in random battles.</div>');
+                        this.logModCommand('The Pokemon of the Day was changed to '+target+' by '+user.name+'.');
+                } else {
+                        if (Rooms.lobby) Rooms.lobby.addRaw('<div class="broadcast-blue"><b>The Pokemon of the Day was removed!</b><br />No pokemon will be guaranteed in random battles.</div>');
+                        this.logModCommand('The Pokemon of the Day was removed by '+user.name+'.');
+                }
+        },
 	roll: 'dice',
 	dice: function(target, room, user) {
 		if (!this.canBroadcast()) return;
