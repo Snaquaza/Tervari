@@ -243,7 +243,7 @@ exports.BattleFormats = {
                                         set.ability = 'Pressure';
                                 }
                         }
-                        if (template.num == 380) { // Keldeo
+                        if (template.num == 380) { // Latias
                                 if (item.id === 'latitered') {
                                         set.species = 'Latias-Mega';
                                         set.ability = 'Magic Bounce';
@@ -251,12 +251,28 @@ exports.BattleFormats = {
                                 set.species = 'Latias';
                                 }
                         }
-                        if (template.num == 381) { // Keldeo
+                        if (template.num == 381) { // Latios
                                 if (item.id === 'latiteblue') {
                                         set.species = 'Latios-Mega';
                                         set.ability = 'Magic Guard';
                                 } else {
                                 set.species = 'Latios';
+                                }
+                        }
+                        if (template.num == 716) { // Xerneas
+                                if (item.id === 'xernite') {
+                                        set.species = 'Xerneas-Mega';
+                                        set.ability = 'Natural Cure';
+                                } else {
+                                set.species = 'Xerneas';
+                                }
+                        }
+                        if (template.num == 717) { // Yveltal
+                                if (item.id === 'yvelite') {
+                                        set.species = 'Yveltal-Mega';
+                                        set.ability = 'Gale Wings';
+                                } else {
+                                set.species = 'Yveltal';
                                 }
                         }
                         if (template.num == 647) { // Keldeo
