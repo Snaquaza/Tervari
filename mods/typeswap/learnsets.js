@@ -1,3 +1,4 @@
+
 	
 exports.BattleLearnsets = {
 missingno:{learnset:{blizzard:["5L0"],bubblebeam:["5L0"],cut:["5L0"],doubleedge:["5L0"],earthquake:["5L0"],fissure:["5L0"],fly:["5L0"],icebeam:["5L0"],magikarpsrevenge:["5L0"],megakick:["5L0"],megapunch:["5L0"],payday:["5L0"],psychic:["5L0"],rage:["5L0"],razorwind:["5L0"],rest:["5L0"],seismictoss:["5L0"],skyattack:["5L0"],submission:["5L0"],substitute:["5L0"],swordsdance:["5L0"],takedown:["5L0"],teleport:["5L0"],thunderwave:["5L0"],toxic:["5L0"],triattack:["5L0"],watergun:["5L0"]}},
