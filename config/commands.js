@@ -695,6 +695,46 @@ var commands = exports.commands = {
 			'- <a href="http://pokemonshowdown.com/replay/gennextou-37900768">QwietQwilfish vs pickdenis</a>');
 	},
 
+	kalos2: 'k2',
+	kalos2: function(target, room, user) {
+		if (!this.canBroadcast()) return;
+		target = toId(target);
+		var buffer = '';
+		var matched = false;
+		if (target === 'delphox') {
+			matched = true;
+			buffer += '<img src="http://i.imgur.com/tMv6TT7.png"/><br><b>Name:</b> Delphox<br><b>Typing:</b> Fire  | Psychic<br><b>Abilities:</b> Blaze  | Magic Guard | [Hidden] Magician<br><b>Stats:</b> Speed is now 108, Special attack is now 115<br><b>Movepool:</b> + Nasty Plot[EVENT- BLAZE ONLY- UNRELEASED], + Thunder, + Thunderbolt, + Moonblast';
+		}
+		if (target === 'all' || target === 'balancedhackmons' || target === 'bh') {
+			matched = true;
+			buffer += '- <a href="http://www.smogon.com/forums/threads/3463764/">Balanced Hackmons</a><br />';
+		}
+		if (target === 'all' || target === 'glitchmons') {
+			matched = true;
+			buffer += '- <a href="http://www.smogon.com/forums/threads/3467120/">Glitchmons</a><br />';
+		}
+		if (target === 'all' || target === 'tiershift' || target === 'ts') {
+			matched = true;
+			buffer += '- <a href="http://www.smogon.com/forums/threads/3479358/">Tier Shift</a><br />';
+		}
+		if (target === 'all' || target === 'seasonal') {
+			matched = true;
+			buffer += '- <a href="http://www.smogon.com/sim/seasonal">Seasonal Ladder</a><br />';
+		}
+		if (target === 'all' || target === 'stabmons') {
+			matched = true;
+			buffer += '- <a href="http://www.smogon.com/forums/threads/3484106/">STABmons</a>';
+		}
+		if (target === 'all' || target === 'omotm' || target === 'omofthemonth' || target === 'month') {
+			matched = true;
+			buffer += '- <a href="http://www.smogon.com/forums/threads/3481155/">OM of the Month</a>';
+		}
+		if (!matched) {
+			return this.sendReply('The Other Metas entry "'+target+'" was not found. Try /othermetas or /om for general help.');
+		}
+		this.sendReplyBox(buffer);
+	},
+	
 	rule: 'rules',
 	rules: function(target, room, user) {
 		if (!this.canBroadcast()) return;
