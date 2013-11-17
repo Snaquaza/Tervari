@@ -28,6 +28,30 @@ exports.BattleMovedex = {
                 target: "normal",
                 type: "Normal"
         },
+        "naturepower": {
+                num: 267,
+                accuracy: true,
+                basePower: 0,
+                category: "Status",
+                desc: "This move calls another move for use depending on the battle terrain: Thunderbolt in Electric Terrain, Energy Ball in Grassy Terrain, Moonblast in Misty Terrain, and Tri Attack in plain terrain.",
+                shortDesc: "Attack depends on terrain (default Tri Attack).",
+                id: "naturepower",
+                isViable: true,
+                name: "Nature Power",
+                pp: 20,
+                priority: 0,
+                onHit: function(target) {
+                        var moveToUse = 'earhquake';
+                        if (this.isTerrain('electricterrain')) moveToUse = 'thunderbolt';
+                        else if (this.isTerrain('grassyterrain')) moveToUse = 'energyball';
+                        else if (this.isTerrain('mistyterrain')) moveToUse = 'moonblast';
+
+                        this.useMove(moveToUse, target);
+                },
+                secondary: false,
+                target: "self",
+                type: "Normal"
+        },        
         "crosschop": {
                 num: 238,
                 accuracy: 95,
