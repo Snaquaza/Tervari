@@ -1069,7 +1069,15 @@ exports.Formats = [
 		ruleset: ['Kalos 2 Pokemon', 'Standard Pokebank', 'Team Preview'],
 		banlist: ['Charizardite-X']
 	},
-       {
+	{
+                name: "Kalos 2.0 BH",
+                section: "Kalos 2.0",
+
+                mod: 'kalos2', 
+                ruleset: ['OHKO Clause'],
+                banlist: ['Wonder Guard', 'Pure Power', 'Huge Power', 'Shadow Tag', 'Arena Trap']
+       },
+        {
 		name: "Kalos 2.0 Doubles",
 		section: "Kalos 2.0",
 
@@ -1078,7 +1086,7 @@ exports.Formats = [
 		ruleset: ['Kalos 2 Pokemon', 'Standard Pokebank', 'Team Preview'],
 		banlist: ['Charizardite-X']
 	},	
-       {
+        {
 		name: "Kalos 2.0 LC",
 		section: "Kalos 2.0",
 
