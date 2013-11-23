@@ -1051,6 +1051,14 @@ exports.Formats = [
                 //ruleset: ['Pokemon', 'Standard', 'Evasion Abilities Clause', 'Team Preview'],
  //               banlist: ['Uber', 'Drizzle ++ Swift Swim', 'Soul Dew']        
    //     },
+	{
+		name: "Statloop",
+		section: "Other Metagames",
+
+		mod: 'statloop',
+		ruleset: ['Pokemon', 'Standard', 'Evasion Abilities Clause', 'Team Preview'],
+		banlist: ['Uber', 'Drizzle ++ Swift Swim', 'Soul Dew']
+	},
         // Kalos2.0
 	///////////////////////////////////////////////////////////////////
         {

@@ -1472,3 +1472,420 @@
 [2013-11-17T15:50:50.139Z] (lobby) SpartanMalice was promoted to Moderator by Snaquaza.
 [2013-11-17T16:29:23.316Z] (staff) celever was promoted to Voice by Snaquaza.
 [2013-11-17T16:31:40.024Z] (mawile) Celaway was appointed Room Owner by Snaquaza.
+[2013-11-17T19:07:25.158Z] (staff) Nozzle was promoted to Voice by Snaquaza.
+[2013-11-17T19:53:48.925Z] (lobby) Celly Berry was promoted to Voice by Snaquaza.
+[2013-11-17T21:57:47.354Z] (lobby) Snaquaza made this chat room official.
+[2013-11-17T21:58:11.620Z] (mawile) Snaquaza set modchat to @
+[2013-11-17T22:12:59.991Z] (wouldyourather) JeffTheKiller6 was warned by Snaquaza. (inappropriate in WYR)
+[2013-11-17T22:19:12.769Z] (wouldyourather) B1naryB0t was appointed to Room Moderator by Snaquaza.
+[2013-11-17T22:24:45.910Z] (lobby) The Pokemon of the Day was changed to Vankaris by Snaquaza.
+[2013-11-17T22:46:01.106Z] (wouldyourather) Devoratrix was appointed to Room Moderator by Snaquaza.
+[2013-11-17T22:54:35.844Z] (wouldyourather) ChaosSigma was muted by Devoratrix for 7 minutes. (Told you so :P)
+[2013-11-17T22:54:44.391Z] (wouldyourather) ChaosSigma was unmuted by Devoratrix.
+[2013-11-17T23:27:54.459Z] (wouldyourather) Alpha Gent was appointed Room Owner by Snaquaza.
+[2013-11-17T23:28:10.627Z] (wouldyourather) zak killa was banned from room wouldyourather by Alpha Gent. (You will be banned here too, I have no tolerance for spammers.)
+[2013-11-17T23:29:36.352Z] (wouldyourather) zak killa was banned by Snaquaza. (spamming WYR on main) (162.198.113.87)
+[2013-11-17T23:31:19.513Z] (wouldyourather) (Devoratrix was appointed to Room Driver by Alpha Gent.)
+[2013-11-17T23:31:23.814Z] (wouldyourather) (Devoratrix was appointed to Room Voice by Alpha Gent.)
+[2013-11-17T23:31:28.616Z] (wouldyourather) (Devoratrix was appointed to Room a regular user by Alpha Gent.)
+[2013-11-17T23:31:33.449Z] (wouldyourather) (ChaosSigma was appointed to Room a regular user by Alpha Gent.)
+[2013-11-17T23:31:38.253Z] (wouldyourather) (Cool Sylveon was appointed to Room a regular user by Alpha Gent.)
+[2013-11-17T23:31:41.323Z] (wouldyourather) (Snaquaza was appointed to Room a regular user by Alpha Gent.)
+[2013-11-17T23:32:18.942Z] (wouldyourather) Leonardo W Smiley was promoted to a regular user by Snaquaza.
+[2013-11-17T23:33:18.401Z] (wouldyourather) (coronis was appointed to Room Voice by Alpha Gent.)
+[2013-11-17T23:33:21.464Z] (wouldyourather) (coronis was appointed to Room a regular user by Alpha Gent.)
+[2013-11-17T23:34:08.619Z] (wouldyourather) (saverdien was appointed to Room Voice by Alpha Gent.)
+[2013-11-17T23:34:13.395Z] (wouldyourather) (saverdien was appointed to Room a regular user by Alpha Gent.)
+[2013-11-18T00:08:02.996Z] (wouldyourather) Devoratrix was appointed to Room Moderator by Alpha Gent.
+[2013-11-18T00:41:09.798Z] (wouldyourather) Adrian Marin was promoted to Driver by Snaquaza.
+[2013-11-18T00:41:13.400Z] (wouldyourather) Adrian Marin BH was promoted to Driver by Snaquaza.
+[2013-11-18T01:52:43.884Z] (wouldyourather) Fr♚ntierInferno was muted by Devoratrix for 7 minutes. (You told me too. Meanie :P)
+[2013-11-18T01:52:46.956Z] (wouldyourather) Fr♚ntierInferno was unmuted by Devoratrix.
+[2013-11-18T04:55:49.904Z] (wouldyourather) Snaquaza was appointed to Room Voice by jdee18.
+[2013-11-18T06:32:52.798Z] (wouldyourather) (Devoratrix was appointed to Room Voice by jdee18.)
+[2013-11-18T06:33:02.935Z] (wouldyourather) Devoratrix was appointed to Room Moderator by jdee18.
+[2013-11-18T06:37:46.177Z] (wouldyourather) GhostlyGengar99 was muted by Devoratrix for 7 minutes. (Get Rekt)
+[2013-11-18T06:37:52.354Z] (wouldyourather) GhostlyGengar99 was unmuted by Devoratrix.
+[2013-11-18T06:48:30.689Z] (wouldyourather) GhostlyGengar99 was appointed to Room Moderator by jdee18.
+[2013-11-18T07:00:50.270Z] (lobby) The Pokemon of the Day was changed to Vankaris by Snaquaza.
+[2013-11-18T07:03:47.642Z] (wouldyourather) jdee18 declared hai
+[2013-11-18T13:57:29.416Z] (staff) Eneomas was promoted to Voice by Snaquaza.
+[2013-11-18T14:41:36.185Z] (tervariolympics) Leafshield was appointed to Room Voice by Snaquaza.
+[2013-11-18T15:56:33.559Z] (lobby) The Pokemon of the Day was changed to Cylibor by Snaquaza.
+[2013-11-18T16:27:08.619Z] (lobby) The Pokemon of the Day was changed to Cylibor by Snaquaza.
+[2013-11-18T16:29:06.524Z] (tervariolympics) (Eneomas was forcibly renamed to loPunny by Snaquaza.)
+[2013-11-18T16:33:11.544Z] (lobby) (Snaquaza was forcibly renamed to Snaquaza [ by Snaquaza.)
+[2013-11-18T16:42:48.233Z] (lobby) The Pokemon of the Day was changed to Solebra by Snaquaza [.
+[2013-11-18T16:48:57.202Z] (lobby) The Pokemon of the Day was changed to Solebra by Snaquaza [.
+[2013-11-18T17:18:29.232Z] (lobby) The Pokemon of the Day was changed to Cylibor by Snaquaza [.
+[2013-11-18T17:29:21.697Z] (lobby) The Pokemon of the Day was changed to Cylibor by Snaquaza [.
+[2013-11-18T18:17:32.534Z] (lobby) Snaquaza [ declared Please participate with the WYR in the <a href="http://tervari.psim.us/wouldyourather">Would You Rather Room</a>
+[2013-11-18T18:19:43.510Z] (wouldyourather) RealPresent was appointed to Room Voice by jdee18.
+[2013-11-18T18:21:15.419Z] (wouldyourather) RealPresent declared <img src="http://bookriot.com/wp-content/uploads/2013/09/why.gif">
+[2013-11-18T18:21:54.415Z] (wouldyourather) (Snaquaza [ was appointed to Room a regular user by Snaquaza [.)
+[2013-11-18T18:22:25.259Z] (wouldyourather) (RealPresent was appointed to Room a regular user by RealPresent.)
+[2013-11-18T18:29:50.617Z] (wouldyourather) Aqua Typhlosion was appointed to Room Voice by jdee18.
+[2013-11-18T18:30:00.029Z] (wouldyourather) Sadoetta was appointed to Room Voice by jdee18.
+[2013-11-18T18:30:29.438Z] (wouldyourather) Snaquaza [ set modchat to #
+[2013-11-18T18:30:34.093Z] (wouldyourather) Snaquaza [ set modchat to false
+[2013-11-18T18:31:04.544Z] (wouldyourather) jdee18 set modchat to ~
+[2013-11-18T18:31:09.258Z] (wouldyourather) Snaquaza [ set modchat to false
+[2013-11-18T18:35:37.356Z] (staff) Supreme Saiyan Kai was warned by Snaquaza [. (stop with your hw ._.')
+[2013-11-18T18:45:17.221Z] (wouldyourather) Snaquaza [ declared <img src="http://static.comicvine.com/uploads/original/2/27174/602979-animal_21.jpg"/> Yes I'd totally kiss her
+[2013-11-18T18:50:29.153Z] (wouldyourather) jdee18 declared <img src="http://images.thehollywoodgossip.com/iu/t_full/v1377519764/miley-cyrus-vma-twerk.gif">
+[2013-11-18T18:53:13.604Z] (wouldyourather) Snaquaza [ declared <img src="http://s383.photobucket.com/user/SukiBayBee1234/media/this-girl-is-a-real-present.jpg.html"/>
+[2013-11-18T18:53:46.437Z] (wouldyourather) Snaquaza [ declared <img src="http://i383.photobucket.com/albums/oo278/SukiBayBee1234/this-girl-is-a-real-present.jpg"/> RP on facebook, first picture I found of "RealPresent"
+[2013-11-18T18:58:13.915Z] (wouldyourather) Snaquaza [ declared <img src="http://www.mypokecard.com/en/Gallery/my/galery/Cs2LpOAuxFHH.jpg"/>
+[2013-11-18T18:58:46.209Z] (wouldyourather) Aqua Typhlosion was warned by Supreme Saiyan Kai. (being a fake >_<)
+[2013-11-18T19:01:09.687Z] (wouldyourather) shinyjoltik was appointed to Room Moderator by jdee18.
+[2013-11-18T19:01:31.004Z] (wouldyourather) Supreme Saiyan Kai was appointed to Room Voice by jdee18.
+[2013-11-18T19:01:38.966Z] (wouldyourather) Snaquaza [ was appointed to Room Voice by Snaquaza [.
+[2013-11-18T19:01:47.285Z] (wouldyourather) RealPresent was appointed to Room Voice by Snaquaza [.
+[2013-11-18T19:07:18.729Z] (wouldyourather) (ghostlygengar99 was appointed to Room Driver by jdee18.)
+[2013-11-18T19:10:50.020Z] (wouldyourather) Supreme Saiyan Kai was muted by jdee18 for 60 minutes. (not so supreme now are we :^)
+[2013-11-18T19:10:50.021Z] (wouldyourather) Supreme Saiyan Kai's alts were also muted: RealPresent
+[2013-11-18T19:11:07.799Z] (wouldyourather) RealPresent was unmuted by jdee18.
+[2013-11-18T19:11:12.100Z] (lobby) jdee18 was muted by Supreme Saiyan Kai for 60 minutes.
+[2013-11-18T19:11:35.476Z] (wouldyourather) Supreme Saiyan Kai was unmuted by jdee18.
+[2013-11-18T19:11:36.641Z] (wouldyourather) Snaquaza [ declared <img src="https://fbcdn-profile-a.akamaihd.net/hprofile-ak-ash2/c49.49.619.619/s160x160/998621_10100295455222633_1179075722_n.jpg"/>  THIS IS RP
+[2013-11-18T19:11:50.546Z] (lobby) jdee18 was unmuted by Supreme Saiyan Kai.
+[2013-11-18T19:12:26.125Z] (wouldyourather) Supreme Saiyan Kai was muted by Snaquaza [ for 60 minutes. (I'm supreme)
+[2013-11-18T19:12:26.125Z] (wouldyourather) Supreme Saiyan Kai's alts were also muted: RealPresent
+[2013-11-18T19:12:32.920Z] (wouldyourather) RealPresent was unmuted by RealPresent.
+[2013-11-18T19:19:07.458Z] (wouldyourather) Supreme Saiyan Kai was unmuted by Snaquaza.
+[2013-11-18T19:24:00.290Z] (lobby) (Ѕhаdow was forcibly renamed to That Nude Studier by Snaquaza.)
+[2013-11-18T19:45:20.153Z] (lobby) (h?dow was forcibly renamed to Shadow by Snaquaza.)
+[2013-11-18T20:11:45.871Z] (staff) TyranitarTerror was promoted to Driver by Snaquaza.
+[2013-11-18T20:45:13.177Z] (wouldyourather) samisbeast was appointed to Room Voice by jdee18.
+[2013-11-18T21:01:45.420Z] (wouldyourather) Cool Sylveon was appointed to Room Voice by jdee18.
+[2013-11-18T21:02:23.948Z] (wouldyourather) jdee18 set modchat to ~
+[2013-11-18T21:02:31.936Z] (wouldyourather) jdee18 set modchat to false
+[2013-11-18T21:19:26.322Z] (wouldyourather) Rohep was warned by jdee18.
+[2013-11-18T21:21:07.392Z] (wouldyourather) Snaquaza was banned from room wouldyourather by jdee18.
+[2013-11-18T21:21:39.034Z] (wouldyourather) Snaquaza was unbanned from room wouldyourather by jdee18.
+[2013-11-18T21:22:30.152Z] (wouldyourather) Snaquaza was appointed to Room Driver by Snaquaza.
+[2013-11-18T21:22:56.142Z] (wouldyourather) Rohep was appointed to Room Moderator by jdee18.
+[2013-11-18T21:26:38.471Z] (wouldyourather) Rohep set modchat to +
+[2013-11-18T21:26:48.388Z] (wouldyourather) Rohep set modchat to false
+[2013-11-18T21:31:14.842Z] (wouldyourather) (Rohep was appointed to Room Driver by jdee18.)
+[2013-11-18T21:31:45.761Z] (wouldyourather) (Rohep was appointed to Room Voice by jdee18.)
+[2013-11-18T21:31:52.980Z] (wouldyourather) (Rohep was appointed to Room a regular user by jdee18.)
+[2013-11-18T21:44:09.382Z] (wouldyourather) jdee18 declared <img src="http://images2.fanpop.com/image/photos/11000000/So-Funny-lol-dogs-11000257-400-320.jpg">
+[2013-11-18T21:45:31.253Z] (wouldyourather) jdee18 declared <img src="http://breakbrunch.com/wp-content/uploads/2012/07/surprise-funny-mr-bean-picture.jpg">
+[2013-11-18T22:43:23.667Z] (lobby) ScorchingLava was banned by Snaquaza. (50.159.142.55)
+[2013-11-18T22:43:28.759Z] (lobby) (ScorchingLava would be banned by Snaquaza but was already banned.)
+[2013-11-18T22:44:48.848Z] (lobby) team ninja leader was muted by Snaquaza for 7 minutes.
+[2013-11-18T22:54:05.647Z] (lobby) Aqua Typhlosion was promoted to Driver by Snaquaza.
+[2013-11-18T23:42:49.769Z] (lobby) JeffTheKiller6 was warned by Aqua Typhlosion.
+[2013-11-19T06:08:30.740Z] (staff) Aqua Typhlosion was redirected to room mafia by Snaquaza.
+[2013-11-19T09:44:41.990Z] (lobby) u a faget bro? was banned by SpartanMalice. (68.144.221.250)
+[2013-11-19T10:05:24.937Z] (lobby) CYKA 69 was banned by SpartanMalice. (58.185.87.21)
+[2013-11-19T10:05:49.206Z] (lobby) SpartanMalice set modchat to autoconfirmed
+[2013-11-19T13:06:22.934Z] (lobby) Snaquaza set modchat to false
+[2013-11-19T13:12:46.169Z] (staff) (Aqua Typhlosion was demoted to a regular user by Snaquaza.)
+[2013-11-19T13:13:53.041Z] (lobby) The Pokemon of the Day was changed to Cylibor by Snaquaza.
+[2013-11-19T13:19:21.656Z] (lobby) The Pokemon of the Day was changed to Solebra by Snaquaza.
+[2013-11-19T13:35:47.703Z] (lobby) The Pokemon of the Day was changed to Solebra by Snaquaza.
+[2013-11-19T13:49:49.682Z] (tervariolympics) Snaquaza made this chat room official.
+[2013-11-19T13:50:34.956Z] (lobby) Snaquaza declared PM Snaquaza please if you know how to create a PS client!
+[2013-11-19T14:03:01.363Z] (lobby) The Pokemon of the Day was changed to Cylibor by Snaquaza.
+[2013-11-19T14:24:14.703Z] (lobby) Pokéadam is gay was banned by SpartanMalice. (79.216.13.244)
+[2013-11-19T14:26:33.251Z] (lobby) Pokéadam is gay was unbanned by SpartanMalice.
+[2013-11-19T14:26:36.938Z] (lobby) (Pokéadam is gay would be muted by SpartanMalice but was already offline.)
+[2013-11-19T14:26:40.625Z] (lobby) (Pokéadam is gay would be locked by SpartanMalice but was already locked.)
+[2013-11-19T14:27:37.150Z] (lobby) Pokéadam is gay was banned by Supreme Saiyan Kai. (79.216.13.244)
+[2013-11-19T15:01:02.746Z] (lobby) Snaquaza was banned by Snaquaza. (84.85.13.2)
+[2013-11-19T18:29:59.786Z] (mafia) Aqua Typhlosion was promoted to Driver by Snaquaza.
+[2013-11-19T21:19:53.610Z] (leagueugh) The Pokemon of the Day was changed to Solebra by Snaquaza.
+[2013-11-19T21:20:25.000Z] (lobby) SnaquaSad was promoted to Voice by Snaquaza.
+[2013-11-19T21:20:31.584Z] (lobby) SnaquaSad was promoted to Administrator by Snaquaza.
+[2013-11-19T21:20:58.519Z] (lobby) SnaquaSad was promoted to Administrator by Snaquaza.
+[2013-11-19T21:22:05.761Z] (lobby) SnaquaSad was promoted to Administrator by Snaquaza.
+[2013-11-19T21:25:20.843Z] (wouldyourather) Tucci was appointed to Room Moderator by jdee18.
+[2013-11-19T21:25:34.800Z] (wouldyourather) (Tucci was appointed to Room Driver by jdee18.)
+[2013-11-19T21:28:56.016Z] (wouldyourather) Tucci was appointed to Room Moderator by jdee18.
+[2013-11-19T21:31:05.088Z] (wouldyourather) samisbeast was muted by Devoratrix for 7 minutes. (at least you can still get rekt :D)
+[2013-11-19T21:31:07.612Z] (wouldyourather) samisbeast was unmuted by Devoratrix.
+[2013-11-19T21:32:01.259Z] (wouldyourather) Devoratrix was muted by jdee18 for 7 minutes. (dont be r00d)
+[2013-11-19T21:35:32.053Z] (wouldyourather) Devoratrix was unmuted by jdee18.
+[2013-11-19T21:35:55.462Z] (wouldyourather) SnaquaSad was appointed to Room Voice by jdee18.
+[2013-11-19T21:36:17.468Z] (wouldyourather) SnaquaSad was muted by jdee18 for 60 minutes. (#rekt)
+[2013-11-19T21:36:17.521Z] (wouldyourather) SnaquaSad's alts were also muted: Snaquaza
+[2013-11-19T21:36:28.586Z] (wouldyourather) SnaquaSad was unmuted by jdee18.
+[2013-11-19T21:42:10.648Z] (wouldyourather) ♫ThunđerXVIII was appointed to Room Moderator by jdee18.
+[2013-11-19T21:42:51.058Z] (wouldyourather) (Celly Berry was forcibly renamed to Selly Berry by SnaquaSad.)
+[2013-11-19T21:42:54.911Z] (wouldyourather) ツTucci set modchat to +
+[2013-11-19T21:43:04.821Z] (wouldyourather) jdee18 set modchat to #
+[2013-11-19T21:43:14.180Z] (wouldyourather) SnaquaSad set modchat to false
+[2013-11-19T21:43:53.893Z] (lobby) The Pokemon of the Day was changed to Cylibor by SnaquaSad.
+[2013-11-19T21:44:02.417Z] (battle-gen5doubleschallengecup-445) Guest 63 was warned by SnaquaSad. (being a guest)
+[2013-11-19T21:44:15.991Z] (wouldyourather) Selever was appointed to Room Voice by jdee18.
+[2013-11-19T21:44:43.536Z] (wouldyourather) (Devoratrix was appointed to Room Voice by jdee18.)
+[2013-11-19T21:47:04.573Z] (lobby) anty208 was warned by SnaquaSad. (caps)
+[2013-11-19T21:47:24.211Z] (wouldyourather) SnaquaSad declared Selever: Would you rather tweet #YOLO or #SWAG if you had to on twitter?
+[2013-11-19T21:47:33.294Z] (wouldyourather) ♫ThunđerXVIII was appointed Room Owner by SnaquaSad.
+[2013-11-19T21:48:57.021Z] (wouldyourather) ♫ThunđerXVIII declared <marquee><font color=red>testing 1, 2</marquee></font>
+[2013-11-19T21:49:02.183Z] (wouldyourather) Devoratrix was appointed to Room Moderator by jdee18.
+[2013-11-19T21:54:20.411Z] (wouldyourather) SnaquaSad was appointed to Room Driver by jdee18.
+[2013-11-19T22:02:03.061Z] (wouldyourather) Selever was muted by Devoratrix for 7 minutes. (you wanna fite m8?)
+[2013-11-19T22:02:07.380Z] (wouldyourather) Selever was unmuted by Devoratrix.
+[2013-11-19T22:10:19.000Z] (wouldyourather) samisbeast was muted by Devoratrix for 7 minutes. (No)
+[2013-11-19T22:10:20.138Z] (wouldyourather) samisbeast was unmuted by Devoratrix.
+[2013-11-19T22:14:58.507Z] (wouldyourather) samisbeast was warned by SnaquaSad. (no you don't)
+[2013-11-19T22:15:25.786Z] (wouldyourather) samisbeast was warned by ツTucci. (no)
+[2013-11-19T22:16:46.975Z] (wouldyourather) ♫ThunđerXVIII declared <marquee><font color=red><font size=10><blink>samisbeast. I, God, have determined you to be unworthy of life. There is a cliff 10 miles away in the woods from your home. go there.</marquee></font></font></blink>
+[2013-11-19T22:17:41.225Z] (wouldyourather) jdee18 declared TFW WHEN NO COLOURFUL FONT 
+[2013-11-19T22:17:52.179Z] (wouldyourather) SnaquaSad declared <marquee><img src="http://img835.imageshack.us/img835/8493/fakemon2resize.png"/><img src="http://img825.imageshack.us/img825/8094/fanartkomoltencopyresiz.png"/><img src="http://img401.imageshack.us/img401/57/65v.png"/><img src="http://img209.imageshack.us/img209/4795/6nbp.png"/><img src="http://th07.deviantart.net/fs71/PRE/i/2013/101/d/f/aguilet_and_aguilari_by_ambientkaiga-d61dyb3.png"/>
+[2013-11-19T22:18:47.148Z] (wouldyourather) The Pokemon of the Day was changed to Gazceit by SnaquaSad.
+[2013-11-19T22:19:00.759Z] (wouldyourather) jdee18 declared <img src="http://i.imgur.com/stHkleH.pnghttp://i.imgur.com/stHkleH.png>
+[2013-11-19T22:19:28.632Z] (wouldyourather) ♫ThunđerXVIII declared <marquee><font color=red><font size=10><blink>100 Like = 1 Prayer</marquee></font></font></blink>
+[2013-11-19T22:19:43.221Z] (wouldyourather) jdee18 declared <img src="http://i.imgur.com/stHkleH.png">
+[2013-11-19T22:22:48.655Z] (wouldyourather) ♫ThunđerXVIII declared <marquee> f-u-c-k-i-n-g </marquee>
+[2013-11-19T22:23:39.464Z] (wouldyourather) ♫ThunđerXVIII declared <marquee> then comes marriage </marquee>
+[2013-11-19T22:24:33.532Z] (wouldyourather) samisbeast was warned by ツTucci. (Hmm?)
+[2013-11-19T22:26:06.031Z] (lobby) ♫ThunđerXVIII was warned by SnaquaSad. (rekt)
+[2013-11-19T22:29:50.259Z] (wouldyourather) ♫ThunđerXVIII set modchat to #
+[2013-11-19T22:30:02.547Z] (wouldyourather) ♫ThunđerXVIII set modchat to false
+[2013-11-19T22:30:27.124Z] (wouldyourather) jdee18 set modchat to ~
+[2013-11-19T22:30:38.885Z] (wouldyourather) Selever was warned by jdee18. (#rekt)
+[2013-11-19T22:30:56.688Z] (wouldyourather) ツTucci was warned by ♫ThunđerXVIII. (touche sir)
+[2013-11-19T22:31:48.650Z] (wouldyourather) Cool Sylveon was warned by jdee18. (modchat ~ IS OP)
+[2013-11-19T22:31:49.188Z] (wouldyourather) SnaquaSad set modchat to false
+[2013-11-19T22:39:33.183Z] (wouldyourather) jdee18 declared <img src="http://www.all2need.com/wp-content/uploads/2012/02/ugly-fat-people.jpg">
+[2013-11-19T22:42:39.692Z] (wouldyourather) samisbeast was warned by ♫ThunđerXVIII. (no spongebob laughs)
+[2013-11-19T22:43:23.008Z] (wouldyourather) jdee18 declared <img src="http://www.motifake.com/image/demotivational-poster/small/1007/internet-dating-fat-ugly-demotivational-poster-1280080415.jpg">
+[2013-11-19T22:47:10.979Z] (wouldyourather) SnaquaSad declared <img src="https://www.facebook.com/photo.php?fbid=10201696530112330&set=a.1673173666506.2124496.1152333961&type=1&theater"/>
+[2013-11-19T22:48:36.470Z] (wouldyourather) jdee18 declared <img src="http://i2.kym-cdn.com/photos/images/newsfeed/000/626/437/ea3.gif">
+[2013-11-19T22:50:31.021Z] (wouldyourather) jdee18 declared <img src="https://lh4.googleusercontent.com/-0aPEW_tzG7Y/Uks2JAJA3rI/AAAAAAAAAzM/WKVmzjk2S_c/w346-h192-no/0_af27c_49fbfdd6_L.gif">
+[2013-11-19T22:52:38.240Z] (wouldyourather) jdee18 declared <img src="http://9gag.com/gag/aKz60GN">
+[2013-11-19T22:54:03.186Z] (wouldyourather) jdee18 declared <img src="http://i.imgur.com/BB4m2Gb.gif">
+[2013-11-19T22:55:50.550Z] (wouldyourather) ♫ThunđerXVIII declared <img src="http://i177.photobucket.com/albums/w203/Project110/thedoctor_zps7dbdafda.gif">
+[2013-11-19T22:56:18.996Z] (wouldyourather) jdee18 declared <img src="http://9gag.com/gag/aKz60GN">
+[2013-11-19T22:58:12.786Z] (wouldyourather) jdee18 declared <img src="https://scontent-a-lhr.xx.fbcdn.net/hphotos-prn2/1383366_10151602447316792_1608565127_n.jpg">
+[2013-11-19T22:58:55.915Z] (wouldyourather) ♫ThunđerXVIII declared <img src="http://4.bp.blogspot.com/-Gax3VzpG6Ik/UIfN4YbHG4I/AAAAAAAAAh4/6V_XWzIrAoc/s1600/magicbirdfart.gif">
+[2013-11-19T23:00:41.473Z] (wouldyourather) ♫ThunđerXVIII declared <img src="http://media1.policymic.com/site/articles/items/2095/1_gif.gif">
+[2013-11-19T23:02:42.069Z] (wouldyourather) ♫ThunđerXVIII declared <img src="http://img.gawkerassets.com/img/188d4vj1z4jd5gif/k-bigpic.gif">
+[2013-11-19T23:04:44.472Z] (wouldyourather) ♫ThunđerXVIII declared <img src="http://static.fjcdn.com/pictures/O_e2c805_768732.gif">
+[2013-11-19T23:04:51.695Z] (wouldyourather) jdee18 declared <img src="https://pbs.twimg.com/media/BS3uZ5fIQAAFsmP.jpg:large">
+[2013-11-19T23:05:04.441Z] (wouldyourather) ♫ThunđerXVIII declared <img src="http://static.fjcdn.com/pictures/O_e2c805_768732.gif">
+[2013-11-19T23:06:42.463Z] (wouldyourather) jdee18 declared <img src="https://i.chzbgr.com/maxW500/7906724608/h4FA715AB/">
+[2013-11-19T23:07:01.485Z] (wouldyourather) ツTucci was muted by ♫ThunđerXVIII for 7 minutes. (i cant mute your girl, but i can abuse you)
+[2013-11-19T23:07:13.159Z] (wouldyourather) ツTucci was unmuted by ♫ThunđerXVIII.
+[2013-11-19T23:07:58.625Z] (wouldyourather) jdee18 declared <img src="https://fbcdn-sphotos-f-a.akamaihd.net/hphotos-ak-frc3/1187147_10151836128757174_252538109_n.jpg">
+[2013-11-19T23:09:50.104Z] (wouldyourather) jdee18 declared <img src="http://i.imgur.com/3NvKC.jpg">
+[2013-11-19T23:10:44.238Z] (wouldyourather) Devoratrix was muted by ♫ThunđerXVIII for 7 minutes. (stfu alpha)
+[2013-11-19T23:10:49.431Z] (wouldyourather) Devoratrix was unmuted by ♫ThunđerXVIII.
+[2013-11-19T23:11:39.487Z] (wouldyourather) jdee18 declared <img src="https://fbcdn-sphotos-f-a.akamaihd.net/hphotos-ak-ash3/601418_373824459387662_408077190_n.jpg">
+[2013-11-19T23:16:10.622Z] (wouldyourather) ♫ThunđerXVIII declared <font size=20> jdee is feg </font>
+[2013-11-19T23:17:12.515Z] (wouldyourather) jdee18 declared <img src="https://fbcdn-sphotos-c-a.akamaihd.net/hphotos-ak-prn1/1012230_415450875230455_977520049_n.jpg">
+[2013-11-19T23:18:15.499Z] (wouldyourather) jdee18 declared <img src="https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcSg7crIB495FFIrPnyMxJ7xJDRokvdW_fIau7hVH6PV2hFwp6iklQ">
+[2013-11-19T23:19:28.801Z] (trivia) Cometstorm was appointed to Room Moderator by Volcun.
+[2013-11-19T23:26:47.501Z] (wouldyourather) Cool Sylveon was muted by Devoratrix for 7 minutes. (You implying something bruh?!)
+[2013-11-19T23:26:49.954Z] (wouldyourather) Cool Sylveon was unmuted by Devoratrix.
+[2013-11-19T23:29:52.233Z] (wouldyourather) Rohep was muted by ツTucci for 60 minutes.
+[2013-11-19T23:29:55.615Z] (wouldyourather) Rohep was unmuted by ツTucci.
+[2013-11-19T23:31:11.491Z] (wouldyourather) (samisbeast was appointed to Room a regular user by Devoratrix.)
+[2013-11-19T23:31:26.033Z] (wouldyourather) samisbeast was appointed to Room Voice by Devoratrix.
+[2013-11-19T23:33:44.097Z] (wouldyourather) Rohep was appointed to Room Voice by ツTucci.
+[2013-11-19T23:34:20.421Z] (wouldyourather) Rohep was banned from room wouldyourather by ツTucci.
+[2013-11-19T23:34:25.927Z] (wouldyourather) Rohep was unbanned from room wouldyourather by ツTucci.
+[2013-11-19T23:34:41.311Z] (wouldyourather) (Rohep was appointed to Room a regular user by ツTucci.)
+[2013-11-19T23:34:53.610Z] (wouldyourather) samisbeast was banned from room wouldyourather by Devoratrix. (Yes)
+[2013-11-19T23:35:02.811Z] (wouldyourather) samisbeast was unbanned from room wouldyourather by Devoratrix.
+[2013-11-20T01:31:24.213Z] (wouldyourather) Redwood Grovyle was appointed to Room Driver by jdee18.
+[2013-11-20T04:24:35.244Z] (wouldyourather) (Snaquaza was appointed to Room Voice by jdee18.)
+[2013-11-20T04:24:44.546Z] (wouldyourather) ♫ThunđerXVIII declared <marquee><font size=10><font color=yellow><blink>................#jdeeisfeg</marquee></font></font></blink>
+[2013-11-20T04:41:28.292Z] (wouldyourather) ツTucci was muted by jdee18 for 7 minutes. (cuming too fast)
+[2013-11-20T04:41:35.372Z] (wouldyourather) ツTucci was unmuted by jdee18.
+[2013-11-20T04:41:53.007Z] (wouldyourather) ツTucci was muted by ♫ThunđerXVIII for 7 minutes. (pop goes his weasel.)
+[2013-11-20T04:41:57.654Z] (wouldyourather) ツTucci was unmuted by ♫ThunđerXVIII.
+[2013-11-20T04:58:52.592Z] (wouldyourather) ChaosSigma was appointed to Room Moderator by jdee18.
+[2013-11-20T04:59:34.371Z] (wouldyourather) (ChaosSigma was appointed to Room Driver by jdee18.)
+[2013-11-20T05:02:20.569Z] (wouldyourather) ChaosSigma was banned from room wouldyourather by ツTucci.
+[2013-11-20T05:02:37.158Z] (wouldyourather) ChaosSigma was unbanned from room wouldyourather by ツTucci.
+[2013-11-20T10:38:56.025Z] (lobby) jdee18 was locked from talking by SpartanMalice.
+[2013-11-20T11:21:53.973Z] (lobby) asdfghgfdsdggfdsf was banned by SpartanMalice. (59.92.72.190)
+[2013-11-20T11:22:43.537Z] (lobby) SpartanMalice set modchat to autoconfirmed
+[2013-11-20T13:49:33.605Z] (lobby) (Aqua Typhlosion was demoted to a regular user by Snaquaza.)
+[2013-11-20T15:02:13.418Z] (staff) (SpartanMalice was forcibly renamed to Kitty by Snaquaza.)
+[2013-11-20T15:03:46.230Z] (lobby) The Pokemon of the Day was changed to Solebra by Snaquaza.
+[2013-11-20T15:04:01.417Z] (lobby) Snaquaza declared Eneomas, how is your Solebra
+[2013-11-20T15:06:55.958Z] (lobby) Snaquaza set modchat to false
+[2013-11-20T15:28:40.520Z] (battle-tervarirandombattle-461) Eneomas was warned by Snaquaza. (you were wrong)
+[2013-11-20T15:35:51.371Z] (wouldyourather) Crestfall was appointed to Room Voice by jdee18.
+[2013-11-20T15:36:17.325Z] (wouldyourather) Crestfall was appointed Room Owner by Snaquaza.
+[2013-11-20T15:43:25.781Z] (lobby) The Pokemon of the Day was changed to Necturna by Snaquaza.
+[2013-11-20T15:43:36.388Z] (lobby) The Pokemon of the Day was changed to Naruntic by Snaquaza.
+[2013-11-20T15:47:00.261Z] (wouldyourather) Snaquaza was banned from room wouldyourather by jdee18.
+[2013-11-20T15:47:11.520Z] (wouldyourather) Snaquaza was unbanned from room wouldyourather by jdee18.
+[2013-11-20T15:50:56.903Z] (lobby) (Kitty was forced to choose a new name by Snaquaza)
+[2013-11-20T16:26:09.611Z] (leagueugh) RealPresent declared <img src="http://stream1.gifsoup.com/view6/3877452/shih-na-evil-laugh-o.gif">
+[2013-11-20T16:29:13.352Z] (leagueugh) RealPresent declared <img src="http://stream1.gifsoup.com/view4/4621934/azula-rules-the-world-o.gif">
+[2013-11-20T16:58:25.644Z] (staff) (RealPresent was forcibly renamed to EatingPresent by RealPresent.)
+[2013-11-20T17:17:46.567Z] (lobby) (EatingPresent was forcibly renamed to hi by RealPresent.)
+[2013-11-20T17:18:04.999Z] (staff) (hi was forcibly renamed to RealPresent by RealPresent.)
+[2013-11-20T17:35:52.289Z] (lobby) hi was redirected to room mafia by RealPresent.
+[2013-11-20T17:36:22.950Z] (staff) hi was redirected to room trivia by RealPresent.
+[2013-11-20T18:21:50.338Z] (lobby) Snaquaza declared Ladder randbats
+[2013-11-20T18:23:12.418Z] (lobby) The Pokemon of the Day was changed to Gazceit by Snaquaza.
+[2013-11-20T19:03:30.858Z] (lobby) Snaquaza declared Ladder on Tervari Randbats, earn voice and help to get the ladder started!
+[2013-11-20T21:07:39.749Z] (lobby) AntFridge was locked from talking by Snaquaza.
+[2013-11-20T21:07:52.637Z] (lobby) Fishoetta was locked from talking by Snaquaza.
+[2013-11-20T21:23:10.361Z] (wouldyourather) samisbeast was warned by Devoratrix. (Me and Tucci are bored halp)
+[2013-11-20T21:29:55.165Z] (wouldyourather) (samisbeast was appointed to Room a regular user by ツTucci.)
+[2013-11-20T21:30:07.928Z] (wouldyourather) samisbeast was appointed to Room Voice by ツTucci.
+[2013-11-20T21:30:16.223Z] (wouldyourather) samisbeast was warned by Devoratrix. (you got burnt)
+[2013-11-20T21:31:47.462Z] (wouldyourather) samisbeast was warned by Devoratrix. (caps)
+[2013-11-20T21:36:10.483Z] (wouldyourather) samisbeast was muted by Devoratrix for 7 minutes. (SILENCE. I am far superior)
+[2013-11-20T21:36:17.907Z] (wouldyourather) samisbeast was unmuted by Devoratrix.
+[2013-11-20T21:38:51.798Z] (wouldyourather) samisbeast was warned by Devoratrix. (no bad words for insults!)
+[2013-11-20T21:42:48.596Z] (wouldyourather) samisbeast was banned from room wouldyourather by Devoratrix. (chu wanna tussel?!)
+[2013-11-20T21:42:55.437Z] (wouldyourather) samisbeast was unbanned from room wouldyourather by Devoratrix.
+[2013-11-20T21:49:57.780Z] (wouldyourather) Delta Gent was warned by Devoratrix. (hax0r)
+[2013-11-20T23:49:00.294Z] (wouldyourather) Saverdien was appointed to Room Voice by ツTucci.
+[2013-11-21T01:17:15.511Z] (wouldyourather) Espada#4 Ulquiorra was appointed to Room Voice by ツTucci.
+[2013-11-21T03:52:44.383Z] (wouldyourather) Cool Sylveon was warned by ツTucci. (nub)
+[2013-11-21T03:55:36.230Z] (wouldyourather) Cool Sylveon was appointed to Room Driver by jdee18.
+[2013-11-21T03:56:07.752Z] (wouldyourather) (ツTucci was appointed to Room Driver by jdee18.)
+[2013-11-21T03:56:29.872Z] (wouldyourather) ツTucci was appointed to Room Moderator by jdee18.
+[2013-11-21T03:58:11.500Z] (wouldyourather) Snaquaza was muted by Cool Sylveon for 7 minutes.
+[2013-11-21T03:58:23.963Z] (wouldyourather) Snaquaza was unmuted by Cool Sylveon.
+[2013-11-21T08:17:35.521Z] (lobby) Meloetta<3V, fishoetta were unlocked by Adrian Marin.
+[2013-11-21T17:32:57.031Z] (lobby) anty208, antfridge were unlocked by Snaquaza.
+[2013-11-21T17:40:44.665Z] (menceleague) Cenamderi was appointed Room Owner by Snaquaza.
+[2013-11-21T19:40:22.718Z] (staff) The Pokemon of the Day was changed to Desserlope by Snaquaza.
+[2013-11-21T20:15:18.956Z] (lobby) Ѕhаdow was promoted to Moderator by Snaquaza.
+[2013-11-21T20:39:47.112Z] (lobby) Guest 372 was locked from talking by Ѕhаdow.
+[2013-11-21T20:40:28.307Z] (lobby) (kupo's Penis was forced to choose a new name by Ѕhаdow)
+[2013-11-21T20:59:25.853Z] (wouldyourather) samisbeast was warned by Cool Sylveon. ((Just because))
+[2013-11-21T21:00:29.852Z] (wouldyourather) Ѕhаdow was appointed to Room Voice by Snaquaza.
+[2013-11-21T21:05:46.478Z] (wouldyourather) Ѕhаdow was warned by Cool Sylveon. (dont stretch)
+[2013-11-21T21:21:30.681Z] (wouldyourather) Ѕhаdow was warned by Snaquaza. (don't be nude!)
+[2013-11-21T21:32:51.609Z] (wouldyourather) samisbeast was warned by Devoratrix. (What did you just say to me punk?)
+[2013-11-21T21:35:53.386Z] (wouldyourather) samisbeast was warned by Devoratrix. (Don't you ever say that again! I never fail!)
+[2013-11-21T21:38:24.385Z] (wouldyourather) SSJ3 samisbeast was banned from room wouldyourather by Devoratrix. (GTFO feg)
+[2013-11-21T21:38:33.263Z] (wouldyourather) SSJ3 samisbeast was unbanned from room wouldyourather by Devoratrix.
+[2013-11-21T21:39:09.096Z] (wouldyourather) SSJ3 samisbeast was banned from room wouldyourather by Devoratrix. (Not this time)
+[2013-11-21T21:39:46.567Z] (wouldyourather) samisbeast was unbanned from room wouldyourather by Devoratrix.
+[2013-11-21T21:40:56.866Z] (wouldyourather) Ѕhаdow was banned from room wouldyourather by Devoratrix. (Fite me m8)
+[2013-11-21T21:41:07.173Z] (wouldyourather) Ѕhаdow was unbanned from room wouldyourather by Devoratrix.
+[2013-11-21T21:59:58.317Z] (wouldyourather) Snaquaza declared less caps
+[2013-11-21T22:00:37.385Z] (wouldyourather) Ѕhаdow was warned by Snaquaza.
+[2013-11-21T22:00:40.962Z] (wouldyourather) samisbeast was warned by Snaquaza.
+[2013-11-21T22:17:50.704Z] (lobby) kushwantiha was banned by Ѕhаdow. (118.101.203.223)
+[2013-11-21T22:45:12.766Z] (wouldyourather) Ѕhаdow was muted by Cool Sylveon for 7 minutes. (abusing caps too much)
+[2013-11-21T22:46:16.968Z] (wouldyourather) samisbeast would be muted by Cool Sylveon but was already offline. (You too sam)
+[2013-11-21T22:49:23.826Z] (wouldyourather) samisbeast was muted by Cool Sylveon for 7 minutes. (finally)
+[2013-11-21T22:50:59.073Z] (wouldyourather) samisbeast was unmuted by Cool Sylveon.
+[2013-11-21T23:05:15.782Z] (lobby) (Ѕhаdow was demoted to Voice by Snaquaza.)
+[2013-11-21T23:30:29.276Z] (lobby) Aqua Typhlosion was promoted to Driver by Snaquaza.
+[2013-11-21T23:32:58.058Z] (wouldyourather) samisbeast was warned by Cool Sylveon. (don't hate)
+[2013-11-21T23:51:47.648Z] (wouldyourather) samisbeast was warned by Cool Sylveon. (well whadya expect. this aint the main server)
+[2013-11-22T00:15:21.710Z] (wouldyourather) samisbeast was warned by Cool Sylveon. (no)
+[2013-11-22T18:01:19.508Z] (lobby) PEteyp was locked from talking by Aqua Typhlosion.
+[2013-11-22T18:01:19.509Z] (lobby) PEteyp's alts were also locked: jprocks2468, Guest 548
+[2013-11-22T18:01:37.827Z] (lobby) PEteyp was banned by SpartanMalice. (69.80.79.214)
+[2013-11-22T18:01:37.828Z] (lobby) PEteyp's alts were also banned: jprocks2468
+[2013-11-22T18:12:26.509Z] (lobby) (Aqua Typhlosion was demoted to a regular user by Snaquaza.)
+[2013-11-22T20:36:28.207Z] (wouldyourather) samisbeast was muted by Cool Sylveon for 7 minutes. (nubface)
+[2013-11-22T20:38:37.015Z] (wouldyourather) samisbeast was unmuted by Cool Sylveon.
+[2013-11-22T21:41:59.618Z] (lobby) The Pokemon of the Day was changed to Waforield by Snaquaza.
+[2013-11-22T22:36:01.503Z] (lobby) The Pokemon of the Day was changed to Wastrield by Snaquaza.
+[2013-11-23T00:14:27.238Z] (staff) PokermansCoach was promoted to Voice by Snaquaza.
+[2013-11-23T00:14:30.881Z] (staff) Aqua Typhlosion was promoted to Voice by Snaquaza.
+[2013-11-23T00:14:39.430Z] (staff) Aqua Typhlosion was redirected to room mafia by Snaquaza.
+[2013-11-23T00:14:50.330Z] (staff) Kiba-Furry was promoted to Voice by Snaquaza.
+[2013-11-23T14:59:03.126Z] (lobby) Philmiester was banned by Snaquaza. (109.76.224.209)
+[2013-11-23T14:59:40.841Z] (staff) (Cychainix was forcibly renamed to That Porn Guy by Snaquaza.)
+[2013-11-23T14:59:55.816Z] (staff) (CYchainix was forcibly renamed to That Porn Guy by Snaquaza.)
+[2013-11-23T15:00:01.219Z] (staff) (That Porn Guy was forcibly renamed to That Porn Guy by Snaquaza.)
+[2013-11-23T15:00:02.080Z] (staff) (Cychainix was forcibly renamed to That Porn Guy by Snaquaza.)
+[2013-11-23T15:00:02.901Z] (staff) (That Porn Guy was forcibly renamed to That Porn Guy by Snaquaza.)
+[2013-11-23T15:00:03.404Z] (staff) (Cychainix was forcibly renamed to That Porn Guy by Snaquaza.)
+[2013-11-23T15:00:03.907Z] (staff) (That Porn Guy was forcibly renamed to That Porn Guy by Snaquaza.)
+[2013-11-23T15:00:04.696Z] (staff) (Cychainix was forcibly renamed to That Porn Guy by Snaquaza.)
+[2013-11-23T15:00:07.898Z] (staff) (Cychainix was forcibly renamed to That Porn Guy by Snaquaza.)
+[2013-11-23T15:00:11.643Z] (staff) (Cychainix was forcibly renamed to That Porn Guy by Snaquaza.)
+[2013-11-23T15:00:15.112Z] (staff) (Cychainix was forcibly renamed to That Porn Guy by Snaquaza.)
+[2013-11-23T15:00:17.579Z] (staff) (Cychainix was forcibly renamed to That Porn Guy by Snaquaza.)
+[2013-11-23T15:00:19.720Z] (staff) (Cychainix was forcibly renamed to That Porn Guy by Snaquaza.)
+[2013-11-23T15:00:20.273Z] (staff) (That Porn Guy was forcibly renamed to That Porn Guy by Snaquaza.)
+[2013-11-23T15:00:20.857Z] (staff) (That Porn Guy was forcibly renamed to That Porn Guy by Snaquaza.)
+[2013-11-23T15:00:21.773Z] (staff) (Cychainix was forcibly renamed to That Porn Guy by Snaquaza.)
+[2013-11-23T15:00:22.275Z] (staff) (That Porn Guy was forcibly renamed to That Porn Guy by Snaquaza.)
+[2013-11-23T15:00:22.778Z] (staff) (That Porn Guy was forcibly renamed to That Porn Guy by Snaquaza.)
+[2013-11-23T15:00:23.280Z] (staff) (Cychainix was forcibly renamed to That Porn Guy by Snaquaza.)
+[2013-11-23T15:00:25.209Z] (staff) (Cychainix was forcibly renamed to That Porn Guy by Snaquaza.)
+[2013-11-23T15:00:28.571Z] (staff) (Cychainix was forcibly renamed to That Porn Guy by Snaquaza.)
+[2013-11-23T15:00:29.546Z] (staff) (That Porn Guy was forcibly renamed to That Porn Guy by Snaquaza.)
+[2013-11-23T15:00:30.152Z] (staff) (Cychainix was forcibly renamed to That Porn Guy by Snaquaza.)
+[2013-11-23T15:00:30.901Z] (staff) (That Porn Guy was forcibly renamed to That Porn Guy by Snaquaza.)
+[2013-11-23T15:00:31.403Z] (staff) (That Porn Guy was forcibly renamed to That Porn Guy by Snaquaza.)
+[2013-11-23T15:00:33.519Z] (staff) (Cychainix was forcibly renamed to That Porn Guy by Snaquaza.)
+[2013-11-23T15:00:35.529Z] (staff) (Cychainix was forcibly renamed to That Porn Guy by Snaquaza.)
+[2013-11-23T15:00:38.414Z] (staff) (Cychainix was forcibly renamed to That Porn Guy by Snaquaza.)
+[2013-11-23T15:00:39.132Z] (staff) (That Porn Guy was forcibly renamed to That Porn Guy by Snaquaza.)
+[2013-11-23T15:00:39.634Z] (staff) (Cychainix was forcibly renamed to That Porn Guy by Snaquaza.)
+[2013-11-23T15:00:39.839Z] (staff) (That Porn Guy was forcibly renamed to That Porn Guy by Snaquaza.)
+[2013-11-23T15:00:40.808Z] (staff) (Cychainix was forcibly renamed to That Porn Guy by Snaquaza.)
+[2013-11-23T15:00:41.685Z] (staff) (That Porn Guy was forcibly renamed to That Porn Guy by Snaquaza.)
+[2013-11-23T15:00:41.832Z] (staff) (That Porn Guy was forcibly renamed to That Porn Guy by Snaquaza.)
+[2013-11-23T15:00:42.456Z] (staff) (Cychainix was forcibly renamed to That Porn Guy by Snaquaza.)
+[2013-11-23T15:00:43.347Z] (staff) (That Porn Guy was forcibly renamed to That Porn Guy by Snaquaza.)
+[2013-11-23T15:00:43.850Z] (staff) (Cychainix was forcibly renamed to That Porn Guy by Snaquaza.)
+[2013-11-23T15:00:44.352Z] (staff) (That Porn Guy was forcibly renamed to That Porn Guy by Snaquaza.)
+[2013-11-23T15:00:44.854Z] (staff) (Cychainix was forcibly renamed to That Porn Guy by Snaquaza.)
+[2013-11-23T15:00:45.356Z] (staff) (Cychainix was forcibly renamed to That Porn Guy by Snaquaza.)
+[2013-11-23T15:00:45.858Z] (staff) (Cychainix was forcibly renamed to That Porn Guy by Snaquaza.)
+[2013-11-23T15:00:46.361Z] (staff) (Cychainix was forcibly renamed to That Porn Guy by Snaquaza.)
+[2013-11-23T15:00:46.894Z] (staff) (That Porn Guy was forcibly renamed to That Porn Guy by Snaquaza.)
+[2013-11-23T15:00:47.409Z] (staff) (Cychainix was forcibly renamed to That Porn Guy by Snaquaza.)
+[2013-11-23T15:00:47.451Z] (staff) (That Porn Guy was forcibly renamed to That Porn Guy by Snaquaza.)
+[2013-11-23T15:00:48.218Z] (staff) (Cychainix was forcibly renamed to That Porn Guy by Snaquaza.)
+[2013-11-23T15:01:08.888Z] (staff) (Cychainix was forcibly renamed to That Porn Guy by Snaquaza.)
+[2013-11-23T15:01:15.028Z] (staff) (That Porn Guy was forcibly renamed to That Porn Guy by Snaquaza.)
+[2013-11-23T15:01:15.562Z] (staff) (That Porn Guy was forcibly renamed to That Porn Guy by Snaquaza.)
+[2013-11-23T15:01:15.615Z] (staff) (That Porn Guy was forcibly renamed to That Porn Guy by Snaquaza.)
+[2013-11-23T15:01:16.401Z] (staff) (That Porn Guy was forcibly renamed to That Porn Guy by Snaquaza.)
+[2013-11-23T15:01:17.364Z] (staff) (That Porn Guy was forcibly renamed to That Porn Guy by Snaquaza.)
+[2013-11-23T15:01:17.865Z] (staff) (That Porn Guy was forcibly renamed to That Porn Guy by Snaquaza.)
+[2013-11-23T15:01:18.368Z] (staff) (That Porn Guy was forcibly renamed to That Porn Guy by Snaquaza.)
+[2013-11-23T15:01:18.871Z] (staff) (That Porn Guy was forcibly renamed to That Porn Guy by Snaquaza.)
+[2013-11-23T15:01:19.372Z] (staff) (That Porn Guy was forcibly renamed to That Porn Guy by Snaquaza.)
+[2013-11-23T15:01:19.874Z] (staff) (That Porn Guy was forcibly renamed to That Porn Guy by Snaquaza.)
+[2013-11-23T15:01:20.376Z] (staff) (That Porn Guy was forcibly renamed to That Porn Guy by Snaquaza.)
+[2013-11-23T15:01:20.879Z] (staff) (That Porn Guy was forcibly renamed to That Porn Guy by Snaquaza.)
+[2013-11-23T15:01:21.382Z] (staff) (Cychainix was forcibly renamed to That Porn Guy by Snaquaza.)
+[2013-11-23T15:01:21.884Z] (staff) (That Porn Guy was forcibly renamed to That Porn Guy by Snaquaza.)
+[2013-11-23T15:01:25.276Z] (staff) (Cychainix was forcibly renamed to That Porn Guy by Snaquaza.)
+[2013-11-23T15:01:26.519Z] (staff) (That Porn Guy was forcibly renamed to That Porn Guy by Snaquaza.)
+[2013-11-23T15:01:32.193Z] (staff) (Cychainix was forcibly renamed to That Porn Guy by Snaquaza.)
+[2013-11-23T15:01:45.438Z] (staff) Cychainix was warned by Snaquaza. (not pleasing staff)
+[2013-11-23T15:01:46.760Z] (staff) (Cychainix was forcibly renamed to That Porn Guy by Snaquaza.)
+[2013-11-23T15:02:00.710Z] (staff) Cychainix was warned by Snaquaza. (not pleasing staff)
+[2013-11-23T15:02:01.414Z] (staff) Cychainix was warned by Snaquaza. (not pleasing staff)
+[2013-11-23T15:02:24.425Z] (staff) Cychainix was warned by Snaquaza. (not pleasing staff)
+[2013-11-23T15:02:26.277Z] (staff) (Cychainix was forcibly renamed to That Porn Guy by Snaquaza.)
+[2013-11-23T15:50:01.210Z] (lobby) Sir Wailord was locked from talking by Snaquaza. (bad user)
+[2013-11-23T15:53:32.887Z] (staff) Sir Wailord was unlocked by Snaquaza.
+[2013-11-23T16:00:25.119Z] (lobby) Sir Wailord was muted by Snaquaza for 7 minutes.
+[2013-11-23T16:03:51.970Z] (staff) Sir Wailord was promoted to Voice by Snaquaza.
+[2013-11-23T17:44:31.187Z] (wouldyourather) Ѕhаdow The Absol was appointed to Room Voice by jdee18.
+[2013-11-23T17:44:45.300Z] (wouldyourather) EhhhN was appointed to Room Voice by jdee18.
+[2013-11-23T17:50:13.115Z] (wouldyourather) samisbeast was appointed to Room Driver by jdee18.
+[2013-11-23T17:50:34.219Z] (wouldyourather) Rohep was appointed to Room Voice by jdee18.
+[2013-11-23T17:51:07.820Z] (wouldyourather) Ѕοul Sylveon was appointed to Room Voice by jdee18.
+[2013-11-23T17:52:41.668Z] (wouldyourather) Rohep was muted by samisbeast for 60 minutes.
+[2013-11-23T17:52:55.290Z] (wouldyourather) Rohep was unmuted by samisbeast.
+[2013-11-23T17:55:08.309Z] (wouldyourather) Rohep was muted by samisbeast for 60 minutes.
+[2013-11-23T17:57:47.134Z] (wouldyourather) Ѕhаdow The Absol was muted by samisbeast for 7 minutes.
+[2013-11-23T17:58:54.412Z] (wouldyourather) Ѕhаdow The Absol was unmuted by samisbeast.
+[2013-11-23T18:00:21.351Z] (wouldyourather) Ѕhаdow The Absol was warned by samisbeast. (#rekt)
+[2013-11-23T18:00:53.914Z] (wouldyourather) EhhhN was muted by samisbeast for 7 minutes. (#rekt)
+[2013-11-23T18:02:05.185Z] (wouldyourather) poopyloop was appointed to Room Moderator by jdee18.
+[2013-11-23T18:02:39.592Z] (wouldyourather) Lunar cat was appointed to Room Moderator by jdee18.
+[2013-11-23T18:02:58.025Z] (wouldyourather) fartrell cluggins was muted by samisbeast for 60 minutes.
+[2013-11-23T18:03:36.118Z] (wouldyourather) fartrell cluggins was unmuted by samisbeast.
+[2013-11-23T18:04:17.283Z] (wouldyourather) fartrell cluggins was appointed to Room Voice by jdee18.
+[2013-11-23T18:04:26.254Z] (wouldyourather) EhhhN was unmuted by samisbeast.
+[2013-11-23T18:23:06.154Z] (wouldyourather) poopyloop was appointed Room Owner by Snaquaza.

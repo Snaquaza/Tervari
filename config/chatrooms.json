@@ -1,15 +1,15 @@
 [
-{"title":"Lobby","autojoin":true,"auth":{}},
+{"title":"Lobby","autojoin":true,"auth":{},"isOfficial":true},
 {"title":"Staff","isPrivate":true,"staffRoom":true,"staffAutojoin":true},
-{"title":"Tervari Olympics","auth":{"snaquaza":"@","hdow":"+","eneomas":"+","spartanmalice":"+","namin":"+","realpresent":"+","imunderthebed":"+","adrianmarin":"@"}},
+{"title":"Tervari Olympics","auth":{"snaquaza":"@","hdow":"+","eneomas":"+","spartanmalice":"+","namin":"+","realpresent":"+","imunderthebed":"+","adrianmarin":"@","leafshield":"+"},"desc":"The room of the amazing OM Competition named the Tervari Olympics!","isOfficial":true},
 {"title":"Tervari Game","isPrivate":true},
 {"title":"Mafia"},
 {"title":"Spammer's Paradise","isPrivate":true},
 {"title":"League Ugh","desc":"lol hdow is banned from league ugh","isPrivate":true},
-{"title":"Mence League","isPrivate":true,"auth":{"gardreigon982":"#","dragonraptor792":"#","snaquaza":"@","idreampokemon":"@","shinyzerox":"+","chaosmew161":"+","cenamderi":"@","themightymightyena":"%"}},
+{"title":"Mence League","isPrivate":true,"auth":{"gardreigon982":"#","dragonraptor792":"#","snaquaza":"@","idreampokemon":"@","shinyzerox":"+","chaosmew161":"+","cenamderi":"#","themightymightyena":"%"}},
 {"title":"Bidoof World","isPrivate":true,"auth":{"teamninjaleader":"#","haxoursking":"@","snaquaza":"%","narwhaledninja":"@","omegakiba":"%","superkillerdemon":"@"}},
 {"title":"#mawile","auth":{"cellyberry":"#","nozzle":"@","eroticllamas":"@","silvershadow234":"@","snaquaza":"@","anty208":"+","celever":"#","celaway":"#"}},
-{"title":"Trivia","auth":{"volcun":"#","teruxd":"@","crystalvibritannia":"@","supanova":"@","e4alexial":"@","derpymcderpson":"%","feraligilicious":"%"},"desc":"Rules And Tracking Sheet: http://bit.ly/1aqgma2"},
-{"title":"Would You Rather?","auth":{"leonidaswsmiley":"#","zetasniper":"+","jakfratello":"%","zekek":"%","startsphealinwitit":"+","chaossigma":"+","devoratrix":"+","coolsylveon":"+","jdee18":"#","saverdien":"%","sirtommyd":"#","b1naryb0t":"+","coronis":"%","heracrossthegreek":"%","snaquaza":"+"}},
+{"title":"Trivia","auth":{"volcun":"#","teruxd":"@","crystalvibritannia":"@","supanova":"@","e4alexial":"@","derpymcderpson":"%","feraligilicious":"%","cometstorm":"@"},"desc":"Rules And Tracking Sheet: http://bit.ly/1aqgma2"},
+{"title":"Would You Rather?","auth":{"zetasniper":"+","jakfratello":"%","zekek":"%","startsphealinwitit":"+","jdee18":"#","b1naryb0t":"@","heracrossthegreek":"%","alphagent":"#","devoratrix":"@","ghostlygengar99":"%","aquatyphlosion":"+","sadoetta":"+","shinyjoltik":"@","supremesaiyankai":"+","snaquaza":"+","realpresent":"+","coolsylveon":"%","tucci":"@","snaquasad":"%","thunerxviii":"#","selever":"+","redwoodgrovyle":"%","chaossigma":"%","crestfall":"#","samisbeast":"%","saverdien":"+","espada4ulquiorra":"+","hdow":"+","hdowtheabsol":"+","ehhhn":"+","rohep":"+","ulsylveon":"+","poopyloop":"#","lunarcat":"@","fartrellcluggins":"+"},"desc":"Welcome to WYR - Room of Hypotheticals! Rules: http://i.imgur.com/stHkleH.png"},
 {"title":"hi","isPrivate":true}
 ]

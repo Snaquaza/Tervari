@@ -4791,5 +4791,8 @@ tier: "NU"
 	},
 	vankaris:{viableMoves:{"waterfall":1,"stoneedge":1,"uturn":1,"stealthrock":1},
 		tier: "UU"
+	},
+	solebra:{viableMoves:{"sunnyday":1,"fireblast":1,"solarbeam":1,"ancientpower":1,"glare":1,"morningsun":1},
+		tier: "NU"
 	}
 };

@@ -61,5 +61,6 @@ vaerke:{learnset:{sandtomb:["5L1"],sandattack:["5L1"],tackle:["5L4"],harden:["5L
 	icanoll:{learnset:{spikes:["5L7"],toxicspikes:["5L13"],rapidspin:["5L1"],iceshard:["5L1"],iciclecrash:["5L36"],megahorn:["5L1"],stoneedge:["5M"]}},
 	desserlope:{learnset:{earthquake:["5L45"],batonpass:["5L50"],substitute:["5M"],hypnosis:["5L23"]}},
 	electursa:{learnset:{closecombat:["5E"],thunderpunch:["5L1"],firepunch:["5L1"],icepunch:["5L1"],swordsdance:["5M"],crunch:["5L36"]}},
-	vankaris:{learnset:{waterfall:["5M"],uturn:["5L54"],stoneedge:["5L55"],stealthrock:["5L35"]}}
+	vankaris:{learnset:{waterfall:["5M"],uturn:["5L54"],stoneedge:["5L55"],stealthrock:["5L35"]}},
+	solebra:{learnset:{sunnyday:["5L1"],solarbeam:["5M"],fireblast:["5L58"],morningsun:["5L41"],glare:["5L36"],ancientpower:["5E"]}}
 };

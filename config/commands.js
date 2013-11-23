@@ -1103,6 +1103,10 @@ hpb: 'holypastebin',
                 if (!this.canBroadcast()) return;
                 this.sendReplyBox('<center><b>Move:</b> Vendetta<br><b>Category:</b> Special<br><b>Typing:</b> Ghost<br><b>Base Power:</b> 120<br><b>Accuracy:</b> 80<br><b>Description:</b> Has a 20% chance on lowering the PP of the last move by 4');
                 },	
+               naruntic: function(target, room, user) {
+                if (!this.canBroadcast()) return;
+                this.sendReplyBox('<center><b>Name:</b> Naruntic<br><b>Typing:</b> Water | Ice<br><b>Abilities:</b> Benefactor<br><b>Stats:</b> 70 HP | 70 Att | 40 Def | 60 SpA | 60 SpD | 90 Spe<br><b>BST:</b> 390');
+               },
 
         potd: function(target, room, user) {
                 if (!this.can('potd')) return false;
