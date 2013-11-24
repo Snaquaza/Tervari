@@ -1032,7 +1032,7 @@ exports.Formats = [
 	{
 		name: "Type-Swap",
 		section: "Other Metagames",
-		mod: "swapmons",
+		mod: "typeswap",
 		
 		ruleset: ['Pokemon', 'Standard', 'Evasion Abilities Clause', 'Team Preview'],
 		banlist: ['Uber', 'Drizzle ++ Swift Swim', 'Soul Dew']
