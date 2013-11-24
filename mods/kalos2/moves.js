@@ -41,7 +41,7 @@ exports.BattleMovedex = {
                 pp: 20,
                 priority: 0,
                 onHit: function(target) {
-                        var moveToUse = 'earthquake';
+                        var moveToUse = 'earhquake';
                         if (this.isTerrain('electricterrain')) moveToUse = 'thunderbolt';
                         else if (this.isTerrain('grassyterrain')) moveToUse = 'energyball';
                         else if (this.isTerrain('mistyterrain')) moveToUse = 'moonblast';
