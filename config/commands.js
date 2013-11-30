@@ -740,41 +740,64 @@ var commands = exports.commands = {
 	kalos2: 'k2',
 	kalos2: function(target, room, user) {
 		if (!this.canBroadcast()) return;
-		target = toId(target);
-		var buffer = '';
-		var matched = false;
-		if (target === 'delphox') {
-			matched = true;
-			buffer += '<img src="http://i.imgur.com/tMv6TT7.png"/><br><b>Name:</b> Delphox<br><b>Typing:</b> Fire  | Psychic<br><b>Abilities:</b> Blaze  | Magic Guard | [Hidden] Magician<br><b>Stats:</b> Speed is now 108, Special attack is now 115<br><b>Movepool:</b> + Nasty Plot[EVENT- BLAZE ONLY- UNRELEASED], + Thunder, + Thunderbolt, + Moonblast';
+		
+		function getAbilities(poke) {
+			if (!poke.abilities) return;
+			var abilities = new Array();
+			for (var i in poke.abilities) {
+				if (i === 'H') {
+					abilities.push('<i>'+poke.abilities[i]+'</i>');
+				} else {
+					abilities.push(poke.abilities[i]);
+				}
+			}
+			return abilities.join(' | ');
 		}
-		if (target === 'all' || target === 'balancedhackmons' || target === 'bh') {
-			matched = true;
-			buffer += '- <a href="http://www.smogon.com/forums/threads/3463764/">Balanced Hackmons</a><br />';
+		
+		function getStats(poke) {
+			var baseStats = poke.baseStats;
+			if (!baseStats) return;
+			var text = '';
+			text += baseStats['hp'] + ' HP | ';
+			text += baseStats['atk'] + ' Att | ';
+			text += baseStats['def'] + ' Def | ';
+			text += baseStats['spa'] + ' SpA | ';
+			text += baseStats['spd'] + ' SpD | ';
+			text += baseStats['spe'] + ' Spe';
+			return text;
 		}
-		if (target === 'all' || target === 'glitchmons') {
-			matched = true;
-			buffer += '- <a href="http://www.smogon.com/forums/threads/3467120/">Glitchmons</a><br />';
+		
+		function getBST(poke) {
+			var baseStats = poke.baseStats;
+			if (!baseStats) return;
+			var BST = 0;
+			for (var i in baseStats) {
+				BST += baseStats[i];
+			}
+			return '<b>'+BST+'</b>';
 		}
-		if (target === 'all' || target === 'tiershift' || target === 'ts') {
-			matched = true;
-			buffer += '- <a href="http://www.smogon.com/forums/threads/3479358/">Tier Shift</a><br />';
+
+		var data = '';
+		var targetId = toId(target);
+		var newTargets = Tools.mod('kalos2').dataSearch(target);
+		if (newTargets && newTargets.length) {
+			for (var i = 0; i < newTargets.length; i++) {
+				if (newTargets[i].id !== targetId && !Tools.data.Aliases[targetId] && !i) {
+					data = "No Pokemon, item, move or ability named '" + target + "' was found. Showing the data of '" + newTargets[0].name + "' instead.\n";
+				}
+				if (newTargets[i].searchType === 'pokemon') {
+					if (Tools.data.Pokedex[newTargets[i].id]) {
+						data += '|c|~|/data-' + newTargets[i].searchType + ' ' + newTargets[i].name + '\n';
+					} else {
+						data += '|raw|<div class="infobox">'+ '<center><br><b>Name:</b> ' + newTargets[i].name + '<br><b>Typing:</b> ' + newTargets[i].types.join(' | ') + ' <br><b>Abilities:</b> ' + getAbilities(newTargets[i]) + '<br><b>Stats:</b> ' + getStats(newTargets[i]) + '<br><b>BST:</b> ' + getBST(newTargets[i]) + '</div>';
+					}
+				}
+			}
+		} else {
+			data = "No Pokemon, item, move or ability named '" + target + "' was found. (Check your spelling?)";
 		}
-		if (target === 'all' || target === 'seasonal') {
-			matched = true;
-			buffer += '- <a href="http://www.smogon.com/sim/seasonal">Seasonal Ladder</a><br />';
-		}
-		if (target === 'all' || target === 'stabmons') {
-			matched = true;
-			buffer += '- <a href="http://www.smogon.com/forums/threads/3484106/">STABmons</a>';
-		}
-		if (target === 'all' || target === 'omotm' || target === 'omofthemonth' || target === 'month') {
-			matched = true;
-			buffer += '- <a href="http://www.smogon.com/forums/threads/3481155/">OM of the Month</a>';
-		}
-		if (!matched) {
-			return this.sendReply('The Other Metas entry "'+target+'" was not found. Try /othermetas or /om for general help.');
-		}
-		this.sendReplyBox(buffer);
+
+		this.sendReply(data);
 	},
 	
 	rule: 'rules',
