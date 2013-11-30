@@ -48,5 +48,7 @@ exports.BattlePokedex = {
        yveltal:{num:717,species:"Yveltal",types:["Dark","Flying"],gender:"N",baseStats:{hp:126,atk:131,def:95,spa:131,spd:98,spe:99},abilities:{0:"Dark Aura"},heightm:5.8,weightkg:203,color:"",eggGroups:["No Eggs"],otherFormes:["yveltalmega"]},
        xerneasmega:{num:716,species:"Xerneas-Mega",baseSpecies:"Xerneas",forme:"Mega",formeLetter:"M",types:["Fairy","Grass"],gender:"N",baseStats:{hp:165,atk:60,def:135,spa:115,spd:165,spe:105},abilities:{0:"Natural Cure"},heightm:3,weightkg:215,color:"",eggGroups:["No Eggs"]},
        yveltalmega:{num:717,species:"Yveltal-Mega",baseSpecies:"Yveltal",forme:"Mega",formeLetter:"M",types:["Dark","Flying"],gender:"N",baseStats:{hp:105,atk:185,def:90,spa:175,spd:85,spe:115},abilities:{0:"Gale Wings"},heightm:5.8,weightkg:203,color:"",eggGroups:["No Eggs"]},
+       hoopa:{num:719,species:"Hoopa",types:["Ghost","Psychic"],baseStats:{hp:100,atk:80,def:105,spa:150,spd:70,spe:115},abilities:{0:"Levitate",H:"Magic Guard"},heightm:0.2,weightkg:0.4,color:"Red",eggGroups:["Amorphous"]},
+       diancie:{num:720,species:"Diancie",types:["Rock","Fairy"],baseStats:{hp:100,atk:70,def:80,spa:105,spd:150,spe:115},abilities:{0:"Levitate",H:"Magic Bounce"},heightm:0.2,weightkg:0.4,color:"Pink",eggGroups:["Mineral"]},
        volcanion:{num:721,species:"Volcanion",types:["Fire","Water"],baseStats:{hp:115,atk:90,def:90,spa:140,spd:150,spe:85},abilities:{0:"Regenerator",1:"Flash Fire",H:"Water Absorb"},heightm:3,weightkg:215,color:"Red",eggGroups:["Water 2","Monster"]}
 };
