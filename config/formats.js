@@ -9,6 +9,7 @@ exports.Formats = [
                 section: "Tervari Random Tiers",
 
                 mod: 'tervari',
+				column: 3,
                 canUseRandomTeam: true,
                 team: 'random',
                 ruleset: ['PotD', 'Pokemon', 'Sleep Clause Mod', 'HP Percentage Mod']
@@ -43,6 +44,7 @@ exports.Formats = [
                 section: "Tervari Tiers",
 
                 mod: 'tervari',
+				column: 3,
                 ruleset: ['Standard', 'Evasion Abilities Clause', 'Team Preview'],
                 banlist: ['Uber','Lucarionite']        
         },
@@ -109,6 +111,7 @@ exports.Formats = [
                 section: "Tervari Double Tiers",
 
                 mod: 'tervari',
+				column: 3,
                 gameType: 'doubles',
                 ruleset: ['Pokemon', 'Team Preview', 'Sleep Clause Mod', 'Species Clause', 'OHKO Clause', 'Moody Clause', 'Evasion Moves Clause', 'Evasion Abilities Clause', 'HP Percentage Mod'],
                 banlist: ['Unreleased', 'Illegal', 'Sky Drop', 'Dark Void', 'Soul Dew',
@@ -139,7 +142,8 @@ exports.Formats = [
 	{
                 name: "Tervari Balanced Hackmons",
                 section: "Tervari Other Metagames",
-		mod: 'tervari',
+				column: 3,
+				mod: 'tervari',
                 ruleset: ['Pokemon', 'OHKO Clause'],
                 banlist: ['Wonder Guard', 'Pure Power', 'Huge Power', 'Shadow Tag', 'Arena Trap']
         },
@@ -546,6 +550,7 @@ exports.Formats = [
 
                 effectType: 'Format',
                 rated: true,
+				column: 2,
                 challengeShow: true,
                 searchShow: true,
                 onBegin: function() {
@@ -756,6 +761,7 @@ exports.Formats = [
                 name: "Challenge Cup",
                 section: "Other Metagames",
 		mod: 'gen5',
+				column: 2,
                 team: 'randomCC',
                 canUseRandomTeam: true,
                 ruleset: ['PotD', 'Pokemon', 'HP Percentage Mod']
@@ -1064,8 +1070,9 @@ exports.Formats = [
         {
 		name: "Kalos 2.0 OU",
 		section: "Kalos 2.0",
+		column: 3,
 
-                mod: 'kalos2', 
+        mod: 'kalos2', 
 		ruleset: ['Kalos 2 Pokemon', 'Standard Pokebank', 'Team Preview'],
 		banlist: ['Uber', 'Soul Dew', 'Charizardite-X']
 	},
