@@ -737,68 +737,26 @@ var commands = exports.commands = {
 			'- <a href="http://pokemonshowdown.com/replay/gennextou-37900768">QwietQwilfish vs pickdenis</a>');
 	},
 
-	kalos2: 'k2',
-	kalos2: function(target, room, user) {
-		if (!this.canBroadcast()) return;
-		
-		function getAbilities(poke) {
-			if (!poke.abilities) return;
-			var abilities = new Array();
-			for (var i in poke.abilities) {
-				if (i === 'H') {
-					abilities.push('<i>'+poke.abilities[i]+'</i>');
-				} else {
-					abilities.push(poke.abilities[i]);
-				}
-			}
-			return abilities.join(' | ');
-		}
-		
-		function getStats(poke) {
-			var baseStats = poke.baseStats;
-			if (!baseStats) return;
-			var text = '';
-			text += baseStats['hp'] + ' HP | ';
-			text += baseStats['atk'] + ' Att | ';
-			text += baseStats['def'] + ' Def | ';
-			text += baseStats['spa'] + ' SpA | ';
-			text += baseStats['spd'] + ' SpD | ';
-			text += baseStats['spe'] + ' Spe';
-			return text;
-		}
-		
-		function getBST(poke) {
-			var baseStats = poke.baseStats;
-			if (!baseStats) return;
-			var BST = 0;
-			for (var i in baseStats) {
-				BST += baseStats[i];
-			}
-			return '<b>'+BST+'</b>';
-		}
+        k2: 'kalos2',
+        kalos2: function(target, room, user) {
+                if (!this.canBroadcast()) return;
 
-		var data = '';
-		var targetId = toId(target);
-		var newTargets = Tools.mod('kalos2').dataSearch(target);
-		if (newTargets && newTargets.length) {
-			for (var i = 0; i < newTargets.length; i++) {
-				if (newTargets[i].id !== targetId && !Tools.data.Aliases[targetId] && !i) {
-					data = "No Pokemon, item, move or ability named '" + target + "' was found. Showing the data of '" + newTargets[0].name + "' instead.\n";
-				}
-				if (newTargets[i].searchType === 'pokemon') {
-					if (Tools.data.Pokedex[newTargets[i].id]) {
-						data += '|c|~|/data-' + newTargets[i].searchType + ' ' + newTargets[i].name + '\n';
-					} else {
-						data += '|raw|<div class="infobox">'+ '<center><br><b>Name:</b> ' + newTargets[i].name + '<br><b>Typing:</b> ' + newTargets[i].types.join(' | ') + ' <br><b>Abilities:</b> ' + getAbilities(newTargets[i]) + '<br><b>Stats:</b> ' + getStats(newTargets[i]) + '<br><b>BST:</b> ' + getBST(newTargets[i]) + '</div>';
-					}
-				}
-			}
-		} else {
-			data = "No Pokemon, item, move or ability named '" + target + "' was found. (Check your spelling?)";
-		}
+                var data = '';
+                var targetId = toId(target);
+		var newTargets = Tools.mod('tervari').dataSearch(target);                
+                if (newTargets && newTargets.length) {
+                        for (var i = 0; i < newTargets.length; i++) {
+                                if (newTargets[i].id !== targetId && !Tools.data.Aliases[targetId] && !i) {
+                                        data = "No Pokemon, item, move or ability named '" + target + "' was found. Showing the data of '" + newTargets[0].name + "' instead.\n";
+                                }
+                                data += '|c|~|/data-' + newTargets[i].searchType + ' ' + newTargets[i].name + '\n';
+                        }
+                } else {
+                        data = "No Pokemon, item, move or ability named '" + target + "' was found. (Check your spelling?)";
+                }
 
-		this.sendReply(data);
-	},
+                this.sendReply(data);
+        },
 	
 	rule: 'rules',
 	rules: function(target, room, user) {
