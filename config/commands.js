@@ -743,7 +743,7 @@ var commands = exports.commands = {
 
                 var data = '';
                 var targetId = toId(target);
-		var newTargets = Tools.mod('tervari').dataSearch(target);                
+		var newTargets = Tools.mod('kalos2').dataSearch(target);                
                 if (newTargets && newTargets.length) {
                         for (var i = 0; i < newTargets.length; i++) {
                                 if (newTargets[i].id !== targetId && !Tools.data.Aliases[targetId] && !i) {
