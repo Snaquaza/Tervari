@@ -11,7 +11,7 @@ exports.BattleItems = {
                         } else {
                                 this.damage(pokemon.maxhp/8);
                         }
-                }
+                },
                 megaStone: "Abomasnow-Mega",
                 onTakeItem: false,
                 num: -6,

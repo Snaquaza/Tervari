@@ -1976,3 +1976,4 @@
 [2013-11-30T13:19:46.604Z] (menceleague) MegaShinyZeroX was appointed to Room Voice by DragonRaptor792.
 [2013-11-30T13:36:33.037Z] (lobby) (Ѕhаdow was demoted to Voice by Snaquaza.)
 [2013-11-30T13:36:36.518Z] (lobby) (Aqua Typhlosion was demoted to Voice by Snaquaza.)
+[2013-11-30T15:30:30.156Z] (lobby) Oiawesome was promoted to Voice by Snaquaza.
