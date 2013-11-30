@@ -5892,3 +5892,21 @@ TypeError: Cannot call method 'validateTeam' of undefined
     at ChatRoom.chat (/Users/clazinasteunenberg/Downloads/Tervari/rooms.js:1499:27)
     at User.processChatQueue (/Users/clazinasteunenberg/Downloads/Tervari/users.js:1148:13)
     at Timer.listOnTimeout [as ontimeout] (timers.js:110:15)
+
+TypeError: Cannot read property 'name' of undefined
+    at Object.tourStuff.nextRound (/Users/clazinasteunenberg/Downloads/Tervari/tour.js:305:295)
+    at Object.cmds.dq (/Users/clazinasteunenberg/Downloads/Tervari/tour.js:828:28)
+    at Object.exports.parse (/Users/clazinasteunenberg/Downloads/Tervari/command-parser.js:200:31)
+    at ChatRoom.chat (/Users/clazinasteunenberg/Downloads/Tervari/rooms.js:1499:27)
+    at User.chat (/Users/clazinasteunenberg/Downloads/Tervari/users.js:1132:9)
+    at SockJSConnection.<anonymous> (/Users/clazinasteunenberg/Downloads/Tervari/app.js:598:14)
+    at SockJSConnection.EventEmitter.emit (events.js:95:17)
+    at Session.didMessage (/Users/clazinasteunenberg/Downloads/Tervari/node_modules/sockjs/lib/transport.js:220:25)
+    at WebSocketReceiver.didMessage (/Users/clazinasteunenberg/Downloads/Tervari/node_modules/sockjs/lib/trans-websocket.js:102:40)
+    at /Users/clazinasteunenberg/Downloads/Tervari/node_modules/sockjs/lib/trans-websocket.js:75:22
+
+Additional information:
+user = hdow
+ip = 94.4.115.33
+roomid = 
+message = |/dq VoltAbsorb
