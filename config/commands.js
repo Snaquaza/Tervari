@@ -311,12 +311,10 @@ var commands = exports.commands = {
 				if (newTargets[i].id !== targetId && !Tools.data.Aliases[targetId] && !i) {
 					data = "No Pokemon, item, move or ability named '" + target + "' was found. Showing the data of '" + newTargets[0].name + "' instead.\n";
 				}
-				if (newTargets[i].searchType === 'pokemon') {
-					if (Tools.data.Pokedex[newTargets[i].id]) {
-						data += '|c|~|/data-' + newTargets[i].searchType + ' ' + newTargets[i].name + '\n';
-					} else {
-						data += '|raw|<div class="infobox">'+ '<center><br><b>Name:</b> ' + newTargets[i].name + '<br><b>Typing:</b> ' + newTargets[i].types.join(' | ') + ' <br><b>Abilities:</b> ' + getAbilities(newTargets[i]) + '<br><b>Stats:</b> ' + getStats(newTargets[i]) + '<br><b>BST:</b> ' + getBST(newTargets[i]) + '</div>';
-					}
+				if (newTargets[i].searchType === 'pokemon' && !Tools.data.Pokedex[newTargets[i].id]) {
+					data += '|raw|<div class="infobox">'+ '<center><br><b>Name:</b> ' + newTargets[i].name + '<br><b>Typing:</b> ' + newTargets[i].types.join(' | ') + ' <br><b>Abilities:</b> ' + getAbilities(newTargets[i]) + '<br><b>Stats:</b> ' + getStats(newTargets[i]) + '<br><b>BST:</b> ' + getBST(newTargets[i]) + '</div>';
+				} else {
+					data += '|c|~|/data-' + newTargets[i].searchType + ' ' + newTargets[i].name + '\n';
 				}
 			}
 		} else {
