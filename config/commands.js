@@ -522,6 +522,8 @@ var commands = exports.commands = {
 		return this.sendReplyBox(resultsStr);
 	},
 
+	klearn: 'learn',
+	tlearn: 'learn',
 	learnset: 'learn',
 	learnall: 'learn',
 	learn5: 'learn',
@@ -529,29 +531,38 @@ var commands = exports.commands = {
 		if (!target) return this.parse('/help learn');
 
 		if (!this.canBroadcast()) return;
+		
+		var mod = (cmd === 'tlearn' ? 'tervari' : (cmd === 'klearn' ? 'kalos2' : 'base'));
 
 		var lsetData = {set:{}};
 		var targets = target.split(',');
-		var template = Tools.getTemplate(targets[0]);
+		var template = Tools.mod(mod).getTemplate(targets[0]);
 		var move = {};
 		var problem;
 		var all = (cmd === 'learnall');
 		if (cmd === 'learn5') lsetData.set.level = 5;
 
 		if (!template.exists) {
-			return this.sendReply('Pokemon "'+template.id+'" not found.');
+			var template = Tools.mod('tervari').getTemplate(targets[0]);
+			if (template.exists) {
+				mod = 'tervari';
+			} else {
+				var template = Tools.mod('kalos2').getTemplate(targets[0]);
+				if (!template.exists) return this.sendReply('Pokemon "'+template.id+'" not found.');
+				mod = 'kalos2';
+			}
 		}
-
+		
 		if (targets.length < 2) {
 			return this.sendReply('You must specify at least one move.');
 		}
 
 		for (var i=1, len=targets.length; i<len; i++) {
-			move = Tools.getMove(targets[i]);
+			move = Tools.mod(mod).getMove(targets[i]);
 			if (!move.exists) {
 				return this.sendReply('Move "'+move.id+'" not found.');
 			}
-			problem = Tools.checkLearnset(move, template, lsetData);
+			problem = Tools.mod(mod).checkLearnset(move, template, lsetData);
 			if (problem) break;
 		}
 		var buffer = ''+template.name+(problem?" <span class=\"message-learn-cannotlearn\">can't</span> learn ":" <span class=\"message-learn-canlearn\">can</span> learn ")+(targets.length>2?"these moves":move.name);
