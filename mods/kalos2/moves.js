@@ -28,6 +28,30 @@ exports.BattleMovedex = {
                 target: "normal",
                 type: "Normal"
         },
+        "playaround": {
+                num: -6,
+                gen: 6,
+                accuracy: 100,
+                basePower: 120,
+                category: "Physical",
+                desc: "Deals damage to one adjacent target and lowers the user's Attack and Defense by 1 stage. Makes contact.",
+                shortDesc: "Lowers the user's Attack and Defense by 1.",
+                id: "playaround",
+                isViable: true,
+                name: "Play Around",
+                pp: 5,
+                priority: 0,
+                isContact: true,
+                self: {
+                        boosts: {
+                                atk: -1,
+                                def: -1
+                        }
+                },
+                secondary: false,
+                target: "normal",
+                type: "Fairy"
+        },
         "naturepower": {
                 num: 267,
                 accuracy: true,
