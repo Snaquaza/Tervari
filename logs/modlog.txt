@@ -1977,3 +1977,47 @@
 [2013-11-30T13:36:33.037Z] (lobby) (Ѕhаdow was demoted to Voice by Snaquaza.)
 [2013-11-30T13:36:36.518Z] (lobby) (Aqua Typhlosion was demoted to Voice by Snaquaza.)
 [2013-11-30T15:30:30.156Z] (lobby) Oiawesome was promoted to Voice by Snaquaza.
+[2013-11-30T20:02:23.734Z] (staff) (Ѕhаdow was forcibly renamed to Aquа Typhlosion by Snaquaza.)
+[2013-11-30T20:10:26.600Z] (staff) (Ѕhаdow was forcibly renamed to Aquа Typhlosion by Snaquaza.)
+[2013-11-30T20:10:49.189Z] (staff) (Ѕhаdow was forcibly renamed to Dumbаss by Snaquaza.)
+[2013-11-30T20:10:59.279Z] (staff) (PokermansCoach was forcibly renamed to Dumbass by Snaquaza.)
+[2013-11-30T20:13:20.641Z] (lobby) Ѕhаdow was muted by Snaquaza for 7 minutes.
+[2013-11-30T20:13:20.642Z] (lobby) Ѕhаdow's alts were also muted: Aquа Typhlosion
+[2013-11-30T20:14:30.421Z] (lobby) Ѕhаdow was unmuted by Snaquaza.
+[2013-11-30T20:16:35.819Z] (lobby) Ѕhаdow was warned by Snaquaza. (go back to lobby)
+[2013-11-30T20:17:14.550Z] (lobby) Snaquaza was warned by Snaquaza.
+[2013-11-30T20:28:17.523Z] (lobby) Snaquaza declared Brainstorm Server Time, how to get more users and how to execute it? This will be a good time to help with the server!
+[2013-11-30T20:44:41.009Z] (lobby) Snaquaza declared Brainstorm Server Time, how to get more users and how to execute it? This will be a good time to help with the server! **Things to think about: How are users attracted, What do users like, What lets users stay, How to do any of the previous, Does this have any consequences, What unique aspects can we have, Compare smaller servers to main what are the major differences and how can you cover them**
+[2013-11-30T20:46:33.514Z] (lobby) Snaquaza set modchat to +
+[2013-11-30T20:46:37.564Z] (lobby) SilverKill was promoted to Voice by Snaquaza.
+[2013-11-30T20:46:41.500Z] (lobby) Finny was promoted to Voice by Snaquaza.
+[2013-11-30T20:46:44.555Z] (lobby) (CH) Slayer95 was promoted to Voice by Snaquaza.
+[2013-11-30T20:46:46.630Z] (lobby) Cool Sylveon was promoted to Voice by Snaquaza.
+[2013-11-30T20:46:52.559Z] (lobby) HDGamersParadoxR was promoted to Voice by Snaquaza.
+[2013-11-30T20:46:55.350Z] (lobby) Recoded was promoted to Voice by Snaquaza.
+[2013-11-30T20:46:57.975Z] (lobby) ShowerCakez was promoted to Voice by Snaquaza.
+[2013-11-30T20:47:01.275Z] (lobby) Space Core Silver was promoted to Voice by Snaquaza.
+[2013-11-30T20:47:03.827Z] (lobby) Speedychris2 was promoted to Voice by Snaquaza.
+[2013-11-30T20:53:10.595Z] (lobby) pancakez was promoted to Voice by Snaquaza.
+[2013-11-30T20:56:07.383Z] (lobby) simsims2800 was promoted to Voice by Snaquaza.
+[2013-11-30T20:57:02.271Z] (lobby) KentrosLynxx was promoted to Voice by Snaquaza.
+[2013-11-30T21:22:09.162Z] (lobby) Empoleon XV was promoted to Voice by Snaquaza.
+[2013-11-30T22:11:25.887Z] (lobby) (Ѕhаdow was forcibly renamed to Shаdow by Snaquaza.)
+[2013-11-30T22:11:32.140Z] (lobby) (Shаdow was forcibly renamed to Ѕhadow by Snaquaza.)
+[2013-11-30T22:15:17.677Z] (lobby) (Ѕhadow was forcibly renamed to аЅЅhadow by Snaquaza.)
+[2013-11-30T22:15:25.537Z] (lobby) (аЅЅhadow was forcibly renamed to аЅЅ Ѕhadow by Snaquaza.)
+[2013-11-30T22:19:44.216Z] (lobby) mister baby was promoted to Voice by Snaquaza.
+[2013-11-30T22:28:55.959Z] (lobby) Panpawn was promoted to Voice by Snaquaza.
+[2013-11-30T22:43:17.092Z] (lobby) Snaquaza set modchat to false
+[2013-11-30T22:43:21.503Z] (lobby) (Finny was demoted to a regular user by Snaquaza.)
+[2013-11-30T22:43:26.671Z] (lobby) (HDGamersParadoxR was demoted to a regular user by Snaquaza.)
+[2013-11-30T22:43:30.546Z] (lobby) (pancakez was demoted to a regular user by Snaquaza.)
+[2013-11-30T22:43:37.518Z] (lobby) (Panpawn was demoted to a regular user by Snaquaza.)
+[2013-11-30T22:43:42.542Z] (lobby) (Recoded was demoted to a regular user by Snaquaza.)
+[2013-11-30T22:43:45.141Z] (lobby) (simsims2800 was demoted to a regular user by Snaquaza.)
+[2013-11-30T22:44:01.805Z] (lobby) (PokermansCoach was demoted to a regular user by Snaquaza.)
+[2013-11-30T22:45:56.540Z] (lobby) PokermansCoach was promoted to Voice by Snaquaza.
+[2013-12-01T00:33:41.943Z] (staff) (Ѕhаdow was forcibly renamed to Aquа Typhlosion by Snaquaza.)
+[2013-12-01T00:43:32.076Z] (lobby) (Aquа Typhlosion was forced to choose a new name by Adrian Marin: Shadow)
+[2013-12-01T00:44:44.452Z] (lobby) Ѕhаdow was warned by Snaquaza.
+[2013-12-01T15:40:59.999Z] (lobby) ((CH) Slayer95 was demoted to a regular user by Snaquaza.)
