@@ -2021,3 +2021,7 @@
 [2013-12-01T00:43:32.076Z] (lobby) (Aquа Typhlosion was forced to choose a new name by Adrian Marin: Shadow)
 [2013-12-01T00:44:44.452Z] (lobby) Ѕhаdow was warned by Snaquaza.
 [2013-12-01T15:40:59.999Z] (lobby) ((CH) Slayer95 was demoted to a regular user by Snaquaza.)
+[2013-12-01T17:20:23.956Z] (staff) ((Ѕhаdow was forcibly renamed to shdow by Snaquaza.)
+[2013-12-01T17:22:01.671Z] (staff) (Zyphirex was forcibly renamed to Zyphirșex by Snaquaza.)
+[2013-12-01T17:45:19.360Z] (lobby) The Pokemon of the Day was changed to Waherield by Snaquaza.
+[2013-12-01T17:50:47.567Z] (staff) (anty208 was forcibly renamed to anty208 Ѕê✗ by Snaquaza.)
