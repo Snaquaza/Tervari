@@ -552,6 +552,9 @@ var commands = exports.commands = {
 				mod = 'kalos2';
 			}
 		}
+		if (this.broadcasting) {
+					return this.sendReply('A search with the parameter "all" cannot be broadcast.')
+		}
 		
 		if (targets.length < 2) {
 			return this.sendReply('You must specify at least one move.');

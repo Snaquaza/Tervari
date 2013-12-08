@@ -165,6 +165,13 @@ exports.Formats = [
 		banlist: ['']
 	},
 	{
+		name: "Pokebank UU (beta)",
+		section: "XY Singles",
+
+		ruleset: ['Pokemon', 'Standard Pokebank', 'Evasion Abilities Clause', 'Team Preview'],
+		banlist: ['Uber', 'Soul Dew', 'Rotom-Wash', 'Aegislash', 'Greninja', 'Talonflame', 'Kangaskhan', 'Scizor', 'Genesect', 'Heatran', 'Excadrill', 'Dragonite', 'Gliscor', 'Ferrothorn', 'Tyranitar', 'Garchomp', 'Azumarill', 'Lucario', 'Skarmory', 'Trevenant', 'Gyarados', 'Charizard', 'Espeon', 'Togekiss', 'Alakazam', 'Klefki', 'Landorus-Therian', 'Goodra', 'Donphan', 'Volcarona', 'Clefable', 'Breloom', 'Mamoswine', 'Blissey', 'Forretress', 'Smeargle', 'Pinsir', 'Starmie', 'Cloyster', 'Venusaur', 'Latios', 'Sylveon', 'Mawile', 'Infernape', 'Galvantula', 'Conkeldurr', 'Scolipede', 'Noivern', 'Salamence', 'Jellicent', 'Tentacruel', 'Terrakion']
+	},
+	{
 		name: "Pokebank LC (beta)",
 		section: "XY Singles",
 
@@ -801,6 +808,13 @@ exports.Formats = [
                 ruleset: ['Pokemon', 'OHKO Clause'],
                 banlist: ['Pure Power','Huge Power','Wonder Guard','Shadow Tag', 'Arena Trap']
         },
+	{
+               name: "Inverse BH XY",
+                section: "Other Metagames",
+		mod: 'inverse',
+                ruleset: ['Pokemon', 'OHKO Clause'],
+                banlist: ['Pure Power','Huge Power','Wonder Guard','Shadow Tag', 'Arena Trap']
+        },
         {
                 name: "Haxmons",
                 section: "Other Metagames",
@@ -857,6 +871,34 @@ exports.Formats = [
 
                 ruleset: ['Pokemon', 'Standard', 'Same Type Clause', 'Evasion Abilities Clause', 'Team Preview'],
                 banlist: ['Uber', 'Drizzle ++ Swift Swim', 'Soul Dew']
+        },
+	{
+                name: "Inverse Battle",
+                section: "Other Metagames",
+
+                mod: 'inverse',
+                ruleset: ['Pokemon', 'Standard', 'Team Preview'],
+                banlist: [
+                        'Ho-Oh',
+                        'Kangaskhanite',
+                        'Arceus', 'Arceus-Bug', 'Arceus-Dark', 'Arceus-Dragon', 'Arceus-Electric', 'Arceus-Fairy', 'Arceus-Fighting', 'Arceus-Fire', 'Arceus-Flying', 'Arceus-Ghost', 'Arceus-Grass', 'Arceus-Ground', 'Arceus-Ice', 'Arceus-Poison', 'Arceus-Psychic', 'Arceus-Rock', 'Arceus-Steel', 'Arceus-Water',
+                        'Mewtwo', 'Mewtwo-Mega-X', 'Mewtwo-Mega-Y',
+                        'Xerneas'
+                ]
+        },
+	{
+                name: "UU Inverse Battle",
+                section: "Other Metagames",
+
+                mod: 'inverse',
+                ruleset: ['Pokemon', 'Standard', 'Team Preview'],
+                banlist: [
+                        'Ho-Oh',
+                        'Kangaskhanite',
+                        'Arceus', 'Arceus-Bug', 'Arceus-Dark', 'Arceus-Dragon', 'Arceus-Electric', 'Arceus-Fairy', 'Arceus-Fighting', 'Arceus-Fire', 'Arceus-Flying', 'Arceus-Ghost', 'Arceus-Grass', 'Arceus-Ground', 'Arceus-Ice', 'Arceus-Poison', 'Arceus-Psychic', 'Arceus-Rock', 'Arceus-Steel', 'Arceus-Water',
+                        'Mewtwo', 'Mewtwo-Mega-X', 'Mewtwo-Mega-Y',
+                        'Xerneas', 'Avalugg', 'Yveltal', 'Greninja', 'Diggersby', 'Ambipom', 'Gengar', 'Volcarona', 'Chansey', 'Cloyster', 'Dragonite', 'Breloom', 'Alakazam', 'Abomasnow', 'Snorlax', 'Staraptor', 'Exploud', 'Talonflame', 'Ditto', 'Scizor', 'Exeggutor', 'Aegislash', 'Mamoswine', 'Heracross', 'Blissey', 'Tyranitar', 'Cinccino', 'Charizard', 'Aurorus', 'Garchomp', 'Zygarde', 'Scolipede', 'Gogoat', 'Tangrowth', 'Galvantula', 'Articuno', 'Venusaur', 'Lucario', 'Gliscor', 'Noivern', 'Malamar', 'Weavile', 'Espeon', 'Gyarados', 'Smeargle',
+                ]
         },
         {
                 name: "Glitchmons",
@@ -1072,7 +1114,8 @@ exports.Formats = [
 		section: "Kalos 2.0",
 		column: 3,
 
-        mod: 'kalos2', 
+		searchShow: false,
+        mod: 'kalos2',
 		ruleset: ['Kalos 2 Pokemon', 'Standard Pokebank', 'Team Preview'],
 		banlist: ['Uber', 'Soul Dew', 'Charizardite-X']
 	},
@@ -1080,6 +1123,7 @@ exports.Formats = [
 		name: "Kalos 2.0 Uber",
 		section: "Kalos 2.0",
 
+		searchShow: false,
                 mod: 'kalos2', 
 		ruleset: ['Kalos 2 Pokemon', 'Standard Pokebank', 'Team Preview'],
 		banlist: ['Charizardite-X']
@@ -1088,6 +1132,7 @@ exports.Formats = [
                 name: "Kalos 2.0 BH",
                 section: "Kalos 2.0",
 
+		searchShow: false,
                 mod: 'kalos2', 
                 ruleset: ['OHKO Clause'],
                 banlist: ['Wonder Guard', 'Pure Power', 'Huge Power', 'Shadow Tag', 'Arena Trap']
@@ -1096,6 +1141,7 @@ exports.Formats = [
 		name: "Kalos 2.0 Doubles",
 		section: "Kalos 2.0",
 
+		searchShow: false,
                 mod: 'kalos2', 
                 gameType: 'doubles',
 		ruleset: ['Kalos 2 Pokemon', 'Standard Pokebank', 'Team Preview'],
@@ -1105,6 +1151,7 @@ exports.Formats = [
 		name: "Kalos 2.0 LC",
 		section: "Kalos 2.0",
 
+		searchShow: false,
                 mod: 'kalos2', 
 		ruleset: ['Pokemon', 'Standard Pokebank', 'Team Preview', 'Little Cup'],
 		banlist: ['Sonicboom', 'Dragon Rage', 'Scyther']
