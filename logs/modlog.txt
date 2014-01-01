@@ -2100,3 +2100,6 @@
 [2013-12-04T23:07:57.518Z] (lobby) The Pokemon of the Day was changed to Phoenova by Snaquaza.
 [2013-12-04T23:21:02.430Z] (lobby) Dat Teddy Bear was warned by Snaquaza. (stretching still)
 [2013-12-05T12:47:13.139Z] (lobby) The Pokemon of the Day was changed to Exeacon by Snaquaza.
+[2013-12-08T16:49:00.612Z] (lobby) The Pokemon of the Day was changed to Wirbaer by Snaquaza.
+[2013-12-08T16:52:37.565Z] (lobby) Hi im a Troll was warned by Adrian Marin BH. (Don't be an idiot)
+[2013-12-08T16:59:04.230Z] (lobby) Hi im a Troll was warned by Snaquaza.
